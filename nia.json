@@ -1,0 +1,692 @@
+{
+  "versions": [
+    {
+      "name": "BAIBUL",
+      "books": [
+        {
+          "name": "Nia",
+          "chapters": [
+            {
+              "number": 1,
+              "verses": [
+                {
+                  "number": 1,
+                  "text": "Man aye nyiŋ awobe pa Icrael ma yam gubino i Ejipt kacel ki Yakobo, kun ŋat"
+                },
+                {
+                  "number": 7,
+                  "text": "Ento likwayo pa Icrael gunya gumedde mapol; gunya, gudoko matek twatwal, ci"
+                },
+                {
+                  "number": 8,
+                  "text": "Ka kabaka manyen oloyo Ejipt, ma yam pe ŋeyo Yucepu,"
+                },
+                {
+                  "number": 10,
+                  "text": "Wubin wek watimugi ki ryeko, wek pe gunya twatwal; pien ka mony bipoto i"
+                },
+                {
+                  "number": 22,
+                  "text": "Parao dok ociko lwakke ducu ni, “Latin laco acel acel ma jo Ibru gunywalo"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "verses": [
+                {
+                  "number": 2,
+                  "text": "Dako-nu ogamo ic, ci onywalo latin laco. Ka dako oneno ni latinne ber twatwal,"
+                },
+                {
+                  "number": 10,
+                  "text": "Ka doŋ latin odoŋo, ci otere bot nya pa Parao, odoko wode ocako nyiŋe Moses"
+                },
+                {
+                  "number": 11,
+                  "text": "Ka Moses doŋ odoŋo, ci i niŋo mo acel en owoto bot lutugi, oneno pekogi. Ka"
+                },
+                {
+                  "number": 15,
+                  "text": "Ka Parao owinyo lok man, ci omito neko Moses. Ento Moses oriŋo olwi woko ki"
+                },
+                {
+                  "number": 24,
+                  "text": "Ka Lubaŋa owinyo cur megi, ci opo pi gicikkene ki Abraim ki Icaka, ki Yakobo."
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "verses": [
+                {
+                  "number": 2,
+                  "text": "Lamalaika pa Rwot onen bote i leb mac ma i dye caka; oneno caka tye ka lyel"
+                },
+                {
+                  "number": 13,
+                  "text": "Moses owaco bot Lubaŋa ni, “Ka acito bot jo Icrael, awaco botgi ni, ‘Lubaŋa pa"
+                },
+                {
+                  "number": 14,
+                  "text": "Ci Lubaŋa owaco ki Moses ni, “ATYE MA ATYE.” Ka dok owacci, “Wac lok man"
+                },
+                {
+                  "number": 21,
+                  "text": "Dok abimiyo jo man ginoŋo gum i nyim jo Ejipt, wek ka wubicito, pe wucit ki"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "verses": [
+                {
+                  "number": 23,
+                  "text": "ci awacci ni, Wek latinna ocit ka tic bota; ka ikwero kome ni pe ociti, nen,"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "verses": []
+            },
+            {
+              "number": 6,
+              "verses": [
+                {
+                  "number": 2,
+                  "text": "Lubaŋa owaco bot Moses ni, “An a Rwot."
+                },
+                {
+                  "number": 16,
+                  "text": "Man aye nyiŋ litino awo be pa Levi, kun lubo yalwakgi: Gercon, Kokat ki"
+                }
+              ]
+            },
+            {
+              "number": 7,
+              "verses": [
+                {
+                  "number": 3,
+                  "text": "Ento abijiŋo cwiny Parao doko nwaŋ, abimedo lwak lanyut ki taŋo i lobo Ejipt."
+                },
+                {
+                  "number": 17,
+                  "text": "Ci Rwot doŋ owaco kuman ni, Pi lok man bimiyo iŋeyo ni an a Rwot: nen,"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "verses": [
+                {
+                  "number": 19,
+                  "text": "Ci guwaco bot Parao ni, “Man lwet cin Lubaŋa.” Ento cwiny Parao obedo nwaŋ,"
+                }
+              ]
+            },
+            {
+              "number": 10,
+              "verses": [
+                {
+                  "number": 14,
+                  "text": "Ci bonyo ocorre i lobo Ejipt ducu, ci obuto, ori i lobo ducu me Ejipt, lwak bonyo"
+                },
+                {
+                  "number": 22,
+                  "text": "Ci Moses oryeyo ciŋe malo tuŋ polo, ci piny ocido woko matek licuc ma oromo"
+                }
+              ]
+            },
+            {
+              "number": 11,
+              "verses": []
+            },
+            {
+              "number": 12,
+              "verses": [
+                {
+                  "number": 1,
+                  "text": "Rwot owaco bot Moses Aron ki i lobo Ejipt ni,"
+                },
+                {
+                  "number": 14,
+                  "text": "“Nino man bibedo nino me poyo pe wiwu ma wubigwoko me bedo nino madit"
+                },
+                {
+                  "number": 23,
+                  "text": "pien Rwot bikato cito ka neko jo Ejipt. Ka en bineno remo i kom rii doggola, ki i"
+                },
+                {
+                  "number": 29,
+                  "text": "I cwiny dyewor, Rwot oneko litino kayo ducu ma i lobo Ejipt: okwoŋo ki i kom"
+                },
+                {
+                  "number": 35,
+                  "text": "Jo Icrael gutiyo kit macalo nene Moses ocikogi, gubedo ka lego atego ryal ki"
+                },
+                {
+                  "number": 40,
+                  "text": "Kare ma jo Icrael gubedo kwede i Ejipt oromo mwaka miya aŋwen ki pyeradek."
+                },
+                {
+                  "number": 46,
+                  "text": "Wubicamo ki i ot acel; pe wubikato ki riŋo mo woko nia ki i ot, cogone bene pe"
+                }
+              ]
+            },
+            {
+              "number": 13,
+              "verses": [
+                {
+                  "number": 2,
+                  "text": "“Kwer litino kayo ducu gubed mega; gin ducu ma okwoŋo yabo ic i kin jo Icrael,"
+                },
+                {
+                  "number": 12,
+                  "text": "wubi yeko litino ducu mukwoŋo yabo ic gubed pa Rwot. Litino kayo pa limwu"
+                },
+                {
+                  "number": 19,
+                  "text": "Moses okwanyo cogo pa Yucepu ocito kwede; pien yam Yucepu omiyo jo Icrael"
+                }
+              ]
+            },
+            {
+              "number": 14,
+              "verses": [
+                {
+                  "number": 22,
+                  "text": "Jo Icrael guwot o i dye nam i lobo mutwe, pii otiŋŋe odoko kicika yo tuŋ ciŋgi"
+                }
+              ]
+            },
+            {
+              "number": 15,
+              "verses": [
+                {
+                  "number": 1,
+                  "text": "Moses ki jo Icrael guwero wer man bot Rwot kun giwaci ni, “Abiwero wer bot"
+                },
+                {
+                  "number": 2,
+                  "text": "Rwot aye tekka ma akoro ki wer, en odoko Lalarra. Man aye Lubaŋana, abipako"
+                }
+              ]
+            },
+            {
+              "number": 16,
+              "verses": [
+                {
+                  "number": 4,
+                  "text": "Rwot dok owaco bot Moses ni, “Nen, abicwalo kwon cwer botwu nia ki i polo; ci"
+                },
+                {
+                  "number": 15,
+                  "text": "Ka jo Icrael guneno, ci guloko kekengi ni, “Man gin aŋo?” Pien yam peya guniaŋ"
+                },
+                {
+                  "number": 18,
+                  "text": "Ento ka guporo ki agwata moko kwon, ci ŋat ma ocoko madwoŋ pe mo odoŋ"
+                },
+                {
+                  "number": 23,
+                  "text": "en owaco botgi ni, “Rwot yam ociko kit man ni, ‘Diki en aye nino me yweyo"
+                },
+                {
+                  "number": 31,
+                  "text": "I kare meno jo me ot pa Icrael gulwoŋo nyiŋe ni manna. Onoŋo nen macalo"
+                },
+                {
+                  "number": 35,
+                  "text": "Jo Icrael gucamo manna gutyeko kwede mwaka pyeraŋwen kulu, nio ka guo i"
+                }
+              ]
+            },
+            {
+              "number": 17,
+              "verses": [
+                {
+                  "number": 14,
+                  "text": "Rwot owaco bot Moses ni, “Co lok man i buk obed me lapo wic, ci ikwan i it"
+                }
+              ]
+            },
+            {
+              "number": 18,
+              "verses": [
+                {
+                  "number": 2,
+                  "text": "Onoŋo Yecero, won dako pa Moses, ogamo Jipola dako pa Moses, i kare ma"
+                },
+                {
+                  "number": 3,
+                  "text": "kacel ki awobene aryo. Nyiŋ awobi acel Gercom, pien yam owacci, “Abedo"
+                }
+              ]
+            },
+            {
+              "number": 19,
+              "verses": [
+                {
+                  "number": 5,
+                  "text": "Pienno ka wubiworo doga, kun wumako gicikkena, ci wubibedo jona kikome i"
+                },
+                {
+                  "number": 6,
+                  "text": "Wubibedo ker ma lwakke ajwagi ma an aye aloyo, wubibedo rok maleŋ.’ Meno"
+                },
+                {
+                  "number": 12,
+                  "text": "In ibitoŋo waŋaco me poko ka ma lwak bicuŋ iye, kun itito ki lwak ni,"
+                },
+                {
+                  "number": 16,
+                  "text": "I kom nino me adekke odiko piny obedo ka mor ma noŋo lutkot wil awila, pol"
+                }
+              ]
+            },
+            {
+              "number": 20,
+              "verses": [
+                {
+                  "number": 4,
+                  "text": "“Pe iti cal apayani mo, nyo cal gin ma tye malo i polo, nyo ma tye piny i wi lobo,"
+                },
+                {
+                  "number": 5,
+                  "text": "Pe iryebbe piny i nyimgi, pe iworgi; pien an aye a Rwot Lubaŋani, an Lubaŋa ma"
+                },
+                {
+                  "number": 7,
+                  "text": "“Pe ilwoŋ nyiŋ Rwot Lubaŋani me noŋo; pien Rwot bimiyo kop loyo dano ma"
+                },
+                {
+                  "number": 8,
+                  "text": "“Po pi nino me cabit, ikwer obed maleŋ."
+                },
+                {
+                  "number": 9,
+                  "text": "Ibitic matek nino abicel, kun itiyo iye ticci ducu;"
+                },
+                {
+                  "number": 11,
+                  "text": "pien i nino abicel aye Rwot yam otiyo iye polo ki nam ki jami ducu ma tye iye,"
+                },
+                {
+                  "number": 12,
+                  "text": "“Wor woru ki meni, wek iri pi kare malac i lobo ma Rwot Lubaŋani bimiyo boti."
+                },
+                {
+                  "number": 13,
+                  "text": "“Pe ineki."
+                },
+                {
+                  "number": 14,
+                  "text": "“Pe itim abor."
+                },
+                {
+                  "number": 15,
+                  "text": "“Pe ikwal gin mo."
+                },
+                {
+                  "number": 16,
+                  "text": "“Pe ibed caden me goba i kom lawoti."
+                },
+                {
+                  "number": 17,
+                  "text": "“Cwinyi pe opukke i kom ot pa lawoti; cwinyi pe opukke i kom dako pa lawoti,"
+                },
+                {
+                  "number": 18,
+                  "text": "I kare meno ka dano guneno piny mor ki lutkot ma bedo ka wil awila, ki dwan"
+                },
+                {
+                  "number": 25,
+                  "text": "Ka ibitiyo keno tyerra ki got, pe ican ki got ma gipayo; pien ka iketo iye giticci"
+                }
+              ]
+            },
+            {
+              "number": 21,
+              "verses": [
+                {
+                  "number": 2,
+                  "text": "Ka iwilo opii ma en Laibru, en bitic boti pi mwaka abicel i mwaka me abirone"
+                },
+                {
+                  "number": 12,
+                  "text": "“Ka ŋatti mo ogoyo dano, ce oto, gibineke wako."
+                },
+                {
+                  "number": 13,
+                  "text": "Ento ka yam pe obuto okiye, ento Lubaŋa omiyo ciŋe orwatte i kome, ci"
+                },
+                {
+                  "number": 16,
+                  "text": "“Ka ŋatti mo ekwalo dano, kadi ka ocato bot ŋatti mo nyo ginoŋo bote, gibineke"
+                },
+                {
+                  "number": 17,
+                  "text": "“Ka ŋatti mo oceno wonne nyo minne gibineke woko."
+                },
+                {
+                  "number": 24,
+                  "text": "waŋ ki waŋ, lak ki lak, ciŋ ki ciŋ tyen ki tyen,"
+                }
+              ]
+            },
+            {
+              "number": 22,
+              "verses": [
+                {
+                  "number": 16,
+                  "text": "“Ka ŋatti mo obito nyako mo ma peya oŋeyo co, ma pe gitoŋo keny i kome, ce"
+                },
+                {
+                  "number": 18,
+                  "text": "“Pe iwek dako ma latal obed makwo."
+                },
+                {
+                  "number": 19,
+                  "text": "“Ŋat ma obuto ki lee ce ginek woko."
+                },
+                {
+                  "number": 20,
+                  "text": "“Ŋat ma otumo gitum bot lubaŋa mo, ma pe bot Rwot, gibidyere woko me"
+                },
+                {
+                  "number": 21,
+                  "text": "“Pe itim labedo ma bedo i kinwu marac, nyo pe iune bene, pien yam wun bene"
+                },
+                {
+                  "number": 25,
+                  "text": "“Ka imiyo danona mo ma bedo i kinwu omako limmi ma en lacan, pe ibed"
+                },
+                {
+                  "number": 28,
+                  "text": "“Pe iyet Lubaŋa, nyo pe icen ladit ma loyo wun lwak."
+                },
+                {
+                  "number": 31,
+                  "text": "“Wubibedo jo maleŋ ma gikwerogi pira: pienno pe wucam riŋo ma ŋuu"
+                }
+              ]
+            },
+            {
+              "number": 23,
+              "verses": [
+                {
+                  "number": 1,
+                  "text": "“Pe irwe lok ma iwinyo awinya ata; pe iribbe ki dano marac ka kelo lok goba me"
+                },
+                {
+                  "number": 3,
+                  "text": "kadi dworo kor lacan i pidone."
+                },
+                {
+                  "number": 4,
+                  "text": "“Ka irwatte ki twon pa lamoneni, nyo kanane, ma orwenyo, dwok bote."
+                },
+                {
+                  "number": 6,
+                  "text": "“Pe ibal te pido pa danoni ma lacan wek lok oloye."
+                },
+                {
+                  "number": 9,
+                  "text": "“Pe iun larok ma bedo i kinwu, pien wun bene wuŋeyo cwiny lubedo, pien wun"
+                },
+                {
+                  "number": 10,
+                  "text": "“Ibicoyo potoni ci icoko cam ma ocek iye pi mwaka abicel."
+                },
+                {
+                  "number": 12,
+                  "text": "“Ti ticci nino abicel, ento i kom nino me abirone ibiywe, wek twon ki kanani"
+                },
+                {
+                  "number": 16,
+                  "text": "Ibikwc ronino madito me wi mwaka, pic: mukwoŋo cek pi tic me ciŋi, i kom"
+                },
+                {
+                  "number": 19,
+                  "text": "“Cam mukwoŋo cek i potoni me wi mwaka myero ikel i ot pa Rwot Lubaŋani."
+                }
+              ]
+            },
+            {
+              "number": 24,
+              "verses": [
+                {
+                  "number": 8,
+                  "text": "Ka Moses dok otiŋo remo, ocoro i kom lwak, kun wacci, “Nen remo me gicikke"
+                },
+                {
+                  "number": 18,
+                  "text": "Ka Moses odonyo i dye pol, ocito malo i wi got; ci Moses obedo i wi got nino"
+                }
+              ]
+            },
+            {
+              "number": 25,
+              "verses": [
+                {
+                  "number": 17,
+                  "text": "Dok ibitiyo kom mekica ki jabu ma giliyo maber; borre obed futi aŋwen, ki"
+                },
+                {
+                  "number": 30,
+                  "text": "Ibicano mugati me aketa i nyima i wi meja jwijwi."
+                },
+                {
+                  "number": 40,
+                  "text": "Dok ber inen ni itimogi i kit cal ma gibenyutti ki i wi got-ti."
+                }
+              ]
+            },
+            {
+              "number": 26,
+              "verses": [
+                {
+                  "number": 33,
+                  "text": "Ŋab boŋo kicika ki jarara lagolle. Kel canduk lok me caden kunnu ki i boŋo"
+                }
+              ]
+            },
+            {
+              "number": 27,
+              "verses": []
+            },
+            {
+              "number": 28,
+              "verses": [
+                {
+                  "number": 30,
+                  "text": "I kicaa kor me ŋolo kop ibiketo iye Urim ki Tumim ; gin bene gibibedo i pal"
+                }
+              ]
+            },
+            {
+              "number": 29,
+              "verses": [
+                {
+                  "number": 18,
+                  "text": "ibiwaŋo riŋo nyok romo woko ducu ki berre i wi keno tyer; en aye gitum"
+                }
+              ]
+            },
+            {
+              "number": 30,
+              "verses": [
+                {
+                  "number": 13,
+                  "text": "Dano acel acel ka ikwano welle bimiyo gin man: nucu cekel me kabedo maleŋ"
+                },
+                {
+                  "number": 18,
+                  "text": "“Dok ibitiyo otako mola, ki tedi tere bene me mola, obed me lwok. Ibicibo cuŋ i"
+                },
+                {
+                  "number": 22,
+                  "text": "Dok Rwot omedde owaco bot Moses ni,"
+                }
+              ]
+            },
+            {
+              "number": 31,
+              "verses": [
+                {
+                  "number": 15,
+                  "text": "Wubitiyo tic nino abicel, ento nino me abiro en aye cabit me yweyo mot, nino"
+                },
+                {
+                  "number": 17,
+                  "text": "En aye lanyut matwal i kin an ki jo Icrael, ni, Rwot yam otiyo polo ki lobo nino"
+                }
+              ]
+            },
+            {
+              "number": 32,
+              "verses": [
+                {
+                  "number": 1,
+                  "text": "Ka lwak guneno ni Moses doŋ ori, pe dwogo piny ki i wi got, ci gucokke gugurre"
+                },
+                {
+                  "number": 4,
+                  "text": "En ogamo jabu ki i ciŋgi, ci oteto ki nyol me liŋo kome, ci otimo cal wod twon"
+                },
+                {
+                  "number": 6,
+                  "text": "Ci gua malo odiko con, gutyero gitum awaŋa mapol, ka gukelo tyergi me"
+                },
+                {
+                  "number": 11,
+                  "text": "Ento Moses obako doge bot Rwot Lubaŋane kun waco ni, “Ai Rwot, piŋo akemo"
+                },
+                {
+                  "number": 13,
+                  "text": "Po i kom Abraim, Icaka ki Icrael luticci, ma yam in kikomi aye, ikwonne ki nyiŋi"
+                },
+                {
+                  "number": 32,
+                  "text": "Ento koni, ka ibitimogi kica i kom balgi, ci timgi; nyo ka pe, ci alegi ni, ijwa"
+                }
+              ]
+            },
+            {
+              "number": 33,
+              "verses": [
+                {
+                  "number": 1,
+                  "text": "Rwot owaco bot Moses ni, “Wua woko ki kany, in ki lwak ducu ma yam"
+                },
+                {
+                  "number": 19,
+                  "text": "Rwot ogamo ni, “Abimiyo berra ducu kato ki i nyimi, ka dok abituco nyina ni, ‘A"
+                }
+              ]
+            },
+            {
+              "number": 34,
+              "verses": [
+                {
+                  "number": 6,
+                  "text": "Rwot okato ki i nyime kun tucce ni, “Rwot, Rwot, Lubaŋa ma lakica dok maro"
+                },
+                {
+                  "number": 13,
+                  "text": "Ento wumuk keno jogigi woko, wuret wir jogigi piny, wutoŋ yadi ma gipito ka"
+                },
+                {
+                  "number": 17,
+                  "text": "“Pe iti cal lubaŋa mo me nyonyo aliya piri keni."
+                },
+                {
+                  "number": 18,
+                  "text": "“Ibikwero nino madito me Mugati ma Tobi Pe Iye, Ibicamo mugati ma tobi pe"
+                },
+                {
+                  "number": 19,
+                  "text": "“Litino kayo ducu mega, litino twonini, litino kayo me dyaŋi ki me romi."
+                },
+                {
+                  "number": 20,
+                  "text": "Latin kayo pa kana ibikoko ki latin nyok romo, nyo ka pe ikoko, ci itur ŋute"
+                },
+                {
+                  "number": 21,
+                  "text": "“Ibitic nino abicel, ento i nino me abiro ibiywe iye; wa i kare me pur ki i kare"
+                },
+                {
+                  "number": 22,
+                  "text": "Ibibedo ki nino madit me kwero agikki cabit abiro, en aye wi mwaka me kayo"
+                },
+                {
+                  "number": 25,
+                  "text": "“Pe ityer remo me gitumma kacel ki tobi; pe giwek gitum me nino madit me"
+                },
+                {
+                  "number": 26,
+                  "text": "“Cam mukwoŋo cek i potoni me wi mwaka myero ikel i ot pa Rwot Lubaŋani."
+                },
+                {
+                  "number": 29,
+                  "text": "Ka lacen Moses olor piny ki i wi got Cinai, ma omako kidi ma apada aryo me lok"
+                }
+              ]
+            },
+            {
+              "number": 35,
+              "verses": [
+                {
+                  "number": 2,
+                  "text": "Wuti tic nino abicel, ento i nino me abirone wubed ki cabit maleŋ me yweyo"
+                }
+              ]
+            },
+            {
+              "number": 36,
+              "verses": []
+            },
+            {
+              "number": 37,
+              "verses": [
+                {
+                  "number": 29,
+                  "text": "Otiyo moo maleŋ me wir bene, ki odok eceta ma ŋwece kur ma giliyo maber,"
+                }
+              ]
+            },
+            {
+              "number": 38,
+              "verses": [
+                {
+                  "number": 25,
+                  "text": "Ki ryal ma oa ki bot lwak ma gikwano onoŋo pekke romo talanta miya acel ki"
+                },
+                {
+                  "number": 26,
+                  "text": "Onoŋo dano acel acel okelo beka acel, (en aye nucu cekel me kabedo maleŋ), pi"
+                }
+              ]
+            },
+            {
+              "number": 39,
+              "verses": []
+            },
+            {
+              "number": 40,
+              "verses": [
+                {
+                  "number": 34,
+                  "text": "Lacen pol obino, oumo wi kema me rwatte woko, ci deyo pa Rwot opoŋo i"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

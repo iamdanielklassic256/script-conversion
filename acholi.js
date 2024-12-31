@@ -10,7 +10,7 @@ function parseBibleText(text) {
         versions: [{
             name: "BAIBUL",
             books: [{
-                name: "Acakki",
+                name: "Nia",
                 chapters: []
             }]
         }]
@@ -21,7 +21,7 @@ function parseBibleText(text) {
 
     for (const line of lines) {
         // Match chapter headers like "Acakki 1"
-        const chapterMatch = line.match(/^Acakki\s+(\d+)$/);
+        const chapterMatch = line.match(/^Nia\s+(\d+)$/);
         if (chapterMatch) {
             const chapterNumber = parseInt(chapterMatch[1]);
 
@@ -59,19 +59,19 @@ function parseBibleText(text) {
 
 // Read the input file
 try {
-    const bibleText = fs.readFileSync(path.join(__dirname, 'acakki.txt'), 'utf-8');
+    const bibleText = fs.readFileSync(path.join(__dirname, 'nia.txt'), 'utf-8');
 
     // Convert to JSON
     const bibleJson = parseBibleText(bibleText);
 
     // Write to JSON file
     fs.writeFileSync(
-        'bible.json',
+        'nia.json',
         JSON.stringify(bibleJson, null, 2),
         'utf-8'
     );
 
-    console.log('Successfully converted acakki.txt to bible.json');
+    console.log('Successfully converted acakki.txt to nia.json');
 } catch (error) {
     console.error('Error processing file:', error.message);
 }
