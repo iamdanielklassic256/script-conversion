@@ -76,1846 +76,2795 @@ function formatBibleText(text) {
 }
 
 // Example usage with the provided text
-const sampleText = `Lulevi 1
-1Rwot olwoŋo Moses ci oloko kwede ki i kema me rwatte kun waco ni,
-2“Lok bot jo Icrael kun iwaco botgi ni, Ka dano mo i kinwu kelo tyer mo bot Rwot,
-wubikelo gityerwu me lim makwo ma wukwanyo ki i kin dyaŋi nyo ki i kin romi
-ki dyegi.
-3“Ka ce dano mo okwanyo gityerre me gitum awaŋa ki i kin dyaŋi, en bityero
-twon ma kome pe ki mwonyo; en bityero i doggola kema me rwatte, wek Rwot
-ogame.
-4En biketo ciŋe i wi gitum awaŋa, ci Lubaŋa bigamone pire me lakwany bal ki i
-kome.
-5En bineko twon meno i nyim Rwot ci awobe pa Aron ma gin aye ajwagi gibityero
-remo; gibicoro remo i kom keno tyer ma tye i doggola kema me rwatte kun rumo
-kome ducu.
-6En biyaŋo gitum awaŋa, biŋido woko matitino,
-7ka awobe pa ajwaka Aron gibimoko mac i wi keno tyer, kun gicano yen i mac
-kikore.
-8Ci awobe pa Aron ma gin aye ajwagi gibicano riŋo ma giŋido-ni kikore, kacel ki
-wic ki dwolo, i wi yen ma tye i mac ma i wi keno tyer;
-9ento jam iye ki tyene ducu gibilwokogi ki pii. Ajwaka biwaŋo woko ducu ki berre
-i keno tyer obed gitum awaŋa, gityer ma giwaŋo ki mac, en gin ma ŋwece kur me
-yomo cwiny Rwot.
-10“Ka ce okwanyo gityerre me gitum awaŋa ki i kin romi nyo dyegi, en bityero
-nyok ma kome pe ki mwonyo.
-11En bineko i nyim Rwot, yo tuŋ acam me keno tyer; awobe pa Aron ma gin aye
-ajwagi gibicoro remo i kom keno tyer rumo kome ducu.
-12En biŋido woko matitino, kacel ki wic ki dwolone, ci ajwaka bicanogi kikore i wi
-keno tyer;
-13ento jam iye ki tyene ducu gibilwokogi ki pii. Ajwaka bityero ducu ki berre kun
-waŋo i keno tyer; en aye gitum awaŋa, gityer ma giwaŋo ki mac, en gin ma ŋwece
-kur me yomo cwiny Rwot.
-14“Ka ce gityerre bot Rwot obedo winyo me gitum awaŋa, ci en bikelo amam nyo
-litino akuri me gityerre.
-15Ajwaka bikelone i keno tyer ci dwoyo ŋute, ka waŋo woko i wi keno tyer.
-16En bikwanyo lacukone ki yece ci onyogi i ŋet keno tyer tuŋ wokceŋ ka ma
-gionyo iye buru;
-17biyecone ki bwome, ento pe bipoko iye. Ajwaka biwaŋo i keno tyer, i wi yen ma
-tye i mac; en aye gitum awaŋa, gityer ma giwaŋo ki mac, gin ma ŋwece kur me
-yomo cwiny Rwot.
-Lulevi 2
-1“Ka ŋatti mo okelo gityer me moko kwon me atyera bot Rwot, gityer mere
-bibedo moko kwon mapwotte. En bionyo iye moo, ci keto iye odok luban,
-2ka en bikelo bot awobe pa Aron ma gin aye ajwagi. Ajwaka bijobo moko kwon
-mapwot-ti poŋ ciŋ acel, kacel ki moo ki odok luban mere ducu; ci ajwaka biwaŋo
-man i wi keno tyer obed gin me po i kome; en gityer ma giwaŋo ki mac, gin ma
-ŋwece kur me yomo cwiny Rwot.
-3Gin ma odoŋ ki i kom gityer me moko kwon bibedo pa Aron ki awobene; en aye
-gin maleŋ makato me gityer ma giwaŋo ki mac bot Rwot.
-4“Ka ityero gityer me moko kwon ma gitedo i keno, bibedo capat ma tobi pe iye
-me moko kwon mapwotte ma girubo ki moo, nyo capat marep ma tobi pe iye ma
-gireyo moo i komgi.
-5Ka ce gityer meri obedo gityer me moko kwon ma gitedo i otako nyonyo, bibedo
-moko kwon mapwotte ma tobi pe iye, ma girubo ki moo;
-6ka ocek ibiŋido iye matitino ci ionyo iye moo; en aye gityer me moko kwon.
-7Ka ce gityer meri obedo gityer me moko kwon ma gitedo i cupuriya, ibitedo ki
-moo ki moko kwon mapwotte.
-8Gityer me moko kwon ma gitimo ki jami magi ibikelo bot Rwot; ka doŋ gityero
-bot ajwaka, ci en bikelo i wi keno tyer.
-9Ki i kom gityer me moko kwon ajwaka bikwanyo iye gin me po, biwaŋo i wi
-keno tyer obed gityer ma giwaŋo ki mac, gin ma ŋwece kur me yomo cwiny Rwot.
-10Gin ma odoŋ ki i kom gityer me moko kwon bibedo pa Aron ki awobene; en aye
-gin maleŋ makato me gityer ma giwaŋo ki mac bot Rwot.
-11“Gityer me moko kwon ma gikelo bot Rwot pe wuted ki tobi; pien pe wubiwaŋo
-tobi nyo moo kic me bedo gityer ma giwaŋo ki mac bot Rwot.
-12Wutwero kelogi bot Rwot pi gityer me wi mwaka, ento pe wubityerogi i wi
-keno tyer me bedo gin ma ŋwece kur me yomo cwiny Rwot.
-13Ibiketo kado i gityer me moko kwon meri ducu; pe ibiweko kado me gicikke pa
-Lubaŋani bedo pe i gityer me moko kwon meri; myero ityer kado kacel ki gityer
-meri ducu.
-14“Ka ityero gityer me moko kwon me wi mwaka bot Rwot, ibityero wit bel
-manyen ma gicoto, gicelo ki mac.
-15Ibiketo moo ki odok luban i kome; en aye gityer me moko kwon.
-16Ajwaka biwaŋo bel mogo ma gicoto, kacel ki moo ki odok luban mere ducu,
-obed gin me po i kome; en aye gityer ma giwaŋo ki mac bot Rwot.
-Lulevi 3
-1“Ka dano mo tyero gitum me gityer lakwecwiny, ka tyero lim ma okwanyo ki i
-kin dyaŋi, ma twon nyo ma roya, en bityero i nyim Rwot ma kome pe ki mwonyo.
-2En biketo ciŋe i wi gityerre, ci bineko i doggola kema me rwatte; awobe pa Aron
-ma gin aye ajwagi gibicoro remo i kom keno tyer kun rumo kome ducu.
-3En bityero gityer ma giwaŋo ki mac bot Rwot ma okwanyo ki i kom gitum meno
-me gityer lakwecwiny, en aye dwolo ma oumo jam iye, ki dwolo ducu ma tye i
-kom jam iye,
-4ki olaŋ aryo ducu ki dwolo ma tye i komgi ma tye i pyere, ki okene ki i kom
-cwiny, ma en bi kwanyo woko kacel ki olaŋ aryo.
-5Awobe pa Aron biwaŋo i wi keno tyer i wi gitum awaŋa ma tye i wi yen ma i
-mac; en aye gityer ma giwaŋo ki mac, gin ma ŋwece kur me yomo cwiny Rwot.
-6“Ka gityerre bot Rwot me gityer lakwecwiny obedo lim ma okwanyo ki i kin
-romi, ma nyok nyo ma bwoŋ romo, en bityero ma kome pe ki mwonyo.
-7Ka en tyero latin romo me gityerre, en bityero i nyim Rwot,
-8biketo ciŋe i wi gityerre, ka doŋ neko woko i nyim kema me rwatte; ci awobe pa
-Aron gibicoro remone i kom keno tyer kun rumo kome ducu.
-9Lacen en bityero gityer ma giwaŋo ki mac bot Rwot ma okwanyo ki i kom gitum
-meno me gityer lakwecwiny, en aye dwolone, ki moo yibe oluu, kun giŋolo cok ki
-i oguro cogo ŋeye, ki dwolo ma oumo jam iye,
-10ki olaŋ aryo ducu, ki dwolo ma tye i komgi ma tye i pyere, ki okene ma i kom
-cwiny ma en bikwanyo woko kacel ki olaŋ aryo.
-11Ci ajwaka biwaŋo woko i wi keno tyer, obed cam ma gityero ki mac bot Rwot.
-12“Ka ce gityerre obedo dyel, en bityero i nyim Rwot,
+const sampleText = `Wel 1
+1 Rwot oloko ki Moses i tim Cinai; i kema me rwatte, i kom nino dwe mukwoŋo
+me dwe me aryo, i mwaka me aryone nia i kare ma doŋ gua woko ki i lobo Ejipt.
+Owacci,
+2“Kwan wel lwak jo Icrael ducu, kun ilubo doggolagi ki dog odi pa kwarogi kit ma
+Wel nyiŋgi tye kwede, kun ikwano co ducu ki acel acel,
+3cakke ki i kom jo ma ditogi romo mwaka pyeraryo dok kwede malo, jo Icrael
+ducu ma romo cito ka lweny; wubikwanogi wun ki Aron ki bucagi.
+4Dok wubibedo ki dano acel ma oa ki i kaka acel acel, ma ŋat acel acel bibedo
+ladit wi kaka ki i ot pa kwarogi.
+5Man gin aye nyiŋ jo ma gibicuŋ ka konyowu: Jo pa Reuben, Elijur wod pa
+Cedeur;
+6jo pa Cimeon, Celumiel wod pa Juricadai;
+7jo pa Juda, Nakucon wod pa Aminadab;
+8jo pa Icakar, Netanel wod pa Juar;
+9jo pa Jabulon, Eliab wod pa Kelon;
+10i awobe pa Yucepu, jo pa Epraim, Elicama wod pa Amikud, jo pa Manace,
+Gamaliel wod pa Pedajur;
+11jo pa Benjamin, Abidan wod pa Gideoni;
+12jo pa Dan, Akiejer wod pa Amicadai;
+13jo pa Acer, Pagiel wod pa Okoran;
+14jo pa Gad, Eliacap wod pa Deuel;
+15jo pa Naputali, Akira wod pa Enan.”
+16Man gin aye dano ma giyero ki i lwak, ma gin aye lutel wi kaka pa kwarogi, gin
+ludito ma i kaka pa jo Icrael.
+17Moses ki Aron gukwanyo jo meno ma doŋ gikwano nyiŋgi-ni,
+18ci i kom nino mukwoŋo me dwe me aryo gucoko lwak ducu kacel. Gin gunyuto
+watgi kun gilubo doggolagi ki dog odi pa kwarogi, kit ma wel nyiŋgi tye kwede,
+cakke ki i kom jo ma ditogi romo mwaka pyeraryo dok kwede malo, ki acel acel,
+19macalo Rwot ociko ki Moses. En okwanogi i tim Cinai kit meno, Welgi ene:
 Acoli Baibul
 © 1985, Bible Society of Uganda.
-13biketo ciŋe i wiye, ka doŋ neko woko i nyim kema me rwatte; awobe pa Aron
-gibicoro remone i kom keno tyer rumo kome ducu.
-14Lacen en bityero jami magi ma okwanyo ki i kome gubed gityer ma giwaŋo ki
-mac bot Rwot, en aye dwolo ma oumo jam iye, ki dwolo ducu ma i kom jam iye,
-15ki olaŋ aryo ducu, ki dwolo ma i komgi ma tye i pyere, ki okene ma i kom cwiny
-ma en bikwanyo woko kacel ki olaŋ aryo.
-16Ajwaka biwaŋogi i wi keno tyer obed cam ma gityero ki mac, ma ŋwece kur.
-Dwolo ducu bedo pa Rwot.
-17Bibedo cik matwal nio wa i kare pa likwayowu ducu, wa i kabedo ma wubedo
-iye ducu, ni, pe wucam dwolo nyo remo.”
-Lulevi 4
-1Rwot owaco bot Moses ni,
-2“Wac bot jo Icrael ni, Ka dano mo obalo ma pe otimo akaka, i kom gin ma yam
-Rwot ociko ni pe gitim, ce otimo acel mo i kingi,
-3ka ce ajwaka ma giwiro ki moo aye obalo, kun okelo bal i kom lwak, myero en
-otyer bot Rwot wod twon ma kome pe ki mwonyo pi bal ma en otimo, obed gitum
-me bal.
-4En bikelo wod twon i doggola kema me rwatte i nyim Rwot, biketo ciŋe i wi
-twon ci neko woko i nyim Rwot.
-5Ajwaka ma giwiro bikwanyo remo twon manok, tero i kema me rwatte;
-6ajwaka biluto lwet ciŋe i remo ci kiro remo tyen abiro i nyim Rwot, i nyim boŋo
-kicika ma umo kabedo maleŋ.
-7Ajwaka bireyo remo mukene i kom ten keno aŋwen me keno tyer me odok eceta
-ma ŋwece kur ma tye i kema me rwatte i nyim Rwot; remo twon mudoŋŋe en
-bionyo woko i te tedi keno tyer me gitum awaŋa ma tye i doggola kema me
+20Jo pa Reuben, latin kayo pa Icrael. Ka gikwano wel likwayone kun gicoyo nyiŋgi
+ki acel acel ma lubo doggolagi ki dog odi pa kwarogi, co ducu cakke ki i kom jo ma
+mwaka me ditogi romo pyeraryo dok kwede malo, jo ducu ma giromo cito ka
+lweny,
+21wel jo ma i kaka pa Reuben oromo alip pyeraŋwen wiye abicel, ki miya abic.
+22Jo pa Cimeon. Ka gikwano wel likwayone kun gicoyo nyiŋgi ki acel acel ma lubo
+doggolagi ki dog odi pa kwarogi, co ducu cakke ki i kom jo ma mwaka me ditogi
+romo pyeraryo dok kwede malo, jo ducu ma giromo cito ka lweny,
+23wel jo ma i kaka pa Cimeon oromo alip pyerabic wiye aboŋwen, ki miya adek.
+24Jo pa Gad. Ka gikwano wel likwayo ne kun gicoyo nyiŋgi ki acel acel ma lubo
+doggolagi ki dog odi pa kwarogi co ducu cakke ki i kom jo ma mwaki me ditogi
+romo pyeraryo dok kwede malo, jo ducu ma giromo cito ka lweny,
+25wel jo ma i kaka pa Gad oromo alip pyeraŋwen wiye abic, ki miya abicel ki
+pyerabic.
+26Jo pa Juda. Ka gikwano wel likwayo ne kun gicoyo nyiŋgi ki acel acel ma lubo
+doggolagi ki dog odi pa kwarogi, co ducu cakke ki i kom jo ma mwaka me ditogi
+romo pyeraryo dok kwede malo, jo ducu ma giromo cito ka lweny,
+27wel jo ma i kaka pa Juda oromo alip pyerabiro wiye aŋwen, ki miya abicel.
+28Jo pa Icakar. Ka gikwano wel likwayone kun gicoyo nyiŋgi ki acel acel ma lubo
+doggolagi ki dog odi pa kwarogi, co ducu cakke ki i kom jo ma mwaka me ditogi
+romo pyeraryo dok kwede malo, jo ducu ma giromo cito ka lweny.
+29Wel jo ma i kaka pa Icakar oromo alip pyerabic wiye aŋwen, ki miya aŋwen.
+30Jo pa Jabulon. Ka gikwano wel likwayone kun gicoyo nyiŋgi ki acel acel ma lubo
+doggolagi ki dog odi pa kwarogi, co ducu cakke ki i kom jo ma mwaka me ditogi
+romo pyeraryo dok kwede malo, jo ducu ma giromo cito ka lweny,
+31wel jo ma i kaka pa Jabulon oromo alip pyerabic wiye abiro, ki miya aŋwen.
+32Jo pa Yucepu, jo pa Epraim. Ka gikwano wel likwayone kun gicoyo nyiŋgi ki acel
+acel ma lubo doggolagi ki dog odi pa kwarogi, co ducu cakke ki i kom jo ma
+mwaka me ditogi romo pyeraryo dok kwede malo, jo ducu ma giromo cito ka
+lweny,
+33wel jo ma i kaka pa Epraim oromo alip pyeraŋwen, ki miya aŋwen.
+34Jo pa Manace. Ka gikwano wel likwayone kun gicoyo nyiŋgi ki acel acel ma lubo
+doggolagi ki dog odi pa kwarogi, co ducu cakke ki i kom jo ma mwaka me ditogi
+romo pyeraryo dok kwede malo, jo ducu ma giromo cito ka lweny,
+35wel jo ma i kaka pa Manace oromo alip pyeradek wiye aryo, ki miya aryo.
+36Jo pa Benjamin. Ka gikwano wel likwayone kun gicoyo nyiŋgi ki acel acel ma
+lubo doggolagi ki dog odi pa kwarogi, co ducu cakke ki I kom jo ma mwaka me
+ditogi romo pyeraryo dok kwede malo, jo ducu ma giromo cito ka lweny,
+37wel jo ma i kaka pa Benjamin oromo alip pyeradek wiye abic, ki miya aŋwen.
+38Jo pa Dan. Ka gikwano wel likwayone kun gicoyo nyiŋgi ki acel acel ma lubo
+doggolagi ki dog odi pa kwarogi, co ducu cakke ki i kom jo ma mwaka me ditogi
+romo pyeraryo dok kwede malo, jo ducu ma giromo cito ka lweny,
+39wel jo ma i kaka pa Dan oromo alip pyerabicel wiye aryo, ki miya abiro.
+40Jo pa Acer. Ka gikwano Wel likwayone kun gicoyo nyiŋgi ki acel acel ma lubo
+doggolagi ki dog odi pa kwarogi, co ducu cakke ki i kom jo ma mwaka me ditogi
+romo pyeraryo dok kwede malo, jo ducu ma giromo cito ka lweny,
+41wel jo ma i kaka pa Acer oromo alip pyeraŋwen wiye acel, ki miya abic.
+42Jo pa Naputali. Ka gikwano Wel likwayone kun gicoyo nyiŋgi ki acel acel ma
+lubo doggolagi ki dog odi pa kwarogi, co ducu cakke ki i kom jo ma mwaka me
+ditogi romo pyeraryo dok kwede malo, jo ducu ma giromo cito ka lweny.
+43Wel jo ma i kaka pa Naputali oromo alip pyerabic wiye adek, ki miya aŋwen.
+44Meno gin aye jo ma gikwano welgi, ma yam Moses ki Aron gukwano, kun lutel
+wi Icrael gukonyogi, jo apar wiye aryo, ma ŋat acel acel ocuŋ pi ot pa kwarogi.
+45Kit meno wel jo Icrael ducu ma gikwano kun gilubo odi pa kwarogi, nia ki i kom
+jo ma ditogi romo mwaka pyeraryo dok kwede malo, jo Icrael ducu ma romo cito
+ka lweny,
+46welgi ducu onoŋo oromo alip miya abicel ki adek, ki miya abic ki pyerabic noŋo.
+Giketo jo pa Levi ka loyo kema pa Lubaŋa
+47Ento jo pa Levi pe gikwano welgi kacel kwedgi kun gilubo kaka pa kwarogi,
+48pien onoŋo Rwot owaco ki Moses ni,
+49“Wel kaka pa Levi aye pe ikwan, pe ibikwano welgi i kin jo Icrael;
+50ento ket jo pa Levi gubed ludito ma loyo tic i kema lok me caden, gulo jamine
+ducu, wa gin ducu ma tye iye. Gin aye bitiŋo kema ki jami ma tye iye ducu, gibitic
+iye, dok gibiguro kema me butogi rumo kema pa Lubaŋa.
+51Ka kema bicako wot, ci gin Lulevi aye gibiputo woko; dok ka gibiguro kema,
+Lulevi aye gibigurone. Ka ce dano mo ata onyiko cok ki kema, gibineko woko.
+52Jo Icrael gibiguro kemagi ki dog buca monygi, dano acel acel ki dog gonygi, ki
+dano acel acel i te benderane.
+53Ento jo pa Levi gibiguro kemagi rumo kema lok me caden, wek akemo pe opot i
+kom lwak jo Icrael; jo pa Levi gibigwoko kema lok me caden.”
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+54Jo Icrael gutimo kit meno gutiyo gin ducu kit ma onoŋo Rwot ociko ki Moses.
+Wel 2
+1Rwot owaco bot Moses ki Aron ni,
+2“Jo Icrael gibiguro kemagi ŋat acel acel i te benderane, kun gitye ki lanyut me odi
+pa kwarogi; gibiguro kemagi kun doggi tiko kema me rwatte tuŋŋi ki tuŋŋi ducu.
+3Jo ma biguro kemagi yo tuŋ wokceŋ, ka ma ceŋ tuc ki iye-ni, gibibedo jo ma i te
+bendera pa Juda, kun gilubo buca monygi; latel wi jo pa Juda aye Nakucon ma
+wod pa Aminadab,
+4ma gikwano wel dano ma i buca monnye oromo alip pyerabiro wiye aŋwen, ki
+miya abicel.
+5Jo ma biguro kemagi ma cok kwede gibibedo kaka pa Icakar; latel wi jo pa Icakar
+aye Natanel ma wod pa Jura,
+6ma gikwano wel dano ma i buca monnye oromo alip pyerabic wiye aŋwen ki
+miya aŋwen.
+7Ka dok kaka pa Jabulon; latel wi jo pa Jabulon aye Eliab ma wod pa Kelon,
+8ma gikwano wel dano ma i buca monnye oromo alip pyerabic wiye abiro, ki
+miya aŋwen.
+9Wel jo ducu ma i gony pa Juda, i bucagi, oromo alip miya acel ki pyeraboro wiye
+aŋwen, ki miya aŋwen. Ka wot ocakke, gin aye gibitelo yo.
+10“Ki yo tuŋ acuc en aye bendera me gony pa jo pa Reuben bicuŋ iye, kun gilubo
+buca monygi; latel wi jo pa Reuben aye Elijur ma wod pa Cedeur,
+11ma gikwano Wel dano ma i buca monnye oromo alip pyeraŋwen wiye abicel, ki
+miya abic.
+12Jo ma biguro kemagi ma cok kwede gibibedo kaka pa Cimeon; latel wi jo pa
+Cimeon aye Celumiel ma wod pa Juricadai,
+13ma gikwano Wel dano ma i buca monnye oromo alip pyerabic wiye aboŋwen ki
+miya adek.
+14Ka dok kaka pa Gad; latel wi jo pa Gad aye Eliacap wod pa Reuel,
+15ma gikwano wel dano ma i buca monnye oromo alip pyeraŋwen wiye abic, ki
+miya abicel ki pyerabic.
+16Wel jo ducu ma i gony pa Reuben, i bucagi, oromo alip miya acel ki pyerabic
+wiye acel, ki miya aŋwen ki pyerabic. Ka wot cakke, gin aye gibimol me aryone.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+17“Lacen kema me rwatte bicako wot, kacel ki gony pa jo Levi, i dye gony ducu.
+Kit ma giguro ki kemagi gibicako wotgi kikore kit meno, kun dul acel acel tye ki
+kabedone, kun gilubbe aluba bendera ki bendera.
+18“Ki yo tuŋ potoceŋ bendera pa jo Epraim bicuŋ iye, kun gilubo buca monygi;
+latel wi jo pa Epraim aye Elicama ma wod pa Amikud,
+19ma gikwano wel dano ma i buca monnye oromo alip pyeraŋwen, ki miya
+aŋwen.
+20Jo ma biguro kemagi ma cok kwede gibibedo kaka pa Manace; latel wi jo pa
+Manace aye Gamaliel ma wod pa Pedajur,
+21ma gikwano wel dano ma i buca monnye oromo alip pyeradek wiye aryo, ki
+miya aryo.
+22Ka dok kaka pa Benjamin; latel wi jo pa Benjamin aye Abidan ma wod pa
+Gideoni,
+23ma gikwano wel dano ma i buca monnye oromo alip pyeradek wiye abic, ki
+miya aŋwen.
+24Wel jo ducu ma i gony pa Epraim, i bucagi, oromo alip miya acel ki aboro, ki
+miya acel. Gin gibimol me adekke.
+25“Ki yo tuŋ acam bendera pa jo pa Dan bicuŋ iye, kun gilubo buca monygi; latel
+wi jo pa Dan aye Akiejer ma wod pa Amicadai,
+26ma gikwano wel dano ma i buca monnye oromo alip pyerabicel wiye aryo, ki
+miya abiro.
+27Jo ma biguro kemagi ma cok kwede gibibedo kaka pa Acer; latel wi jo pa Acer
+en aye Pagiel ma wod pa Okoran,
+28ma gikwano wel dano ma i buca monnye oromo alip pyeraŋwen wiye acel, ki
+miya abic.
+29Ka dok kaka pa Naputali; latel wi jo pa Naputali aye Akira ma wod pa Enan,
+30ma gikwano wel dano ma i buca monnye oromo alip pyerabic wiye adek, ki
+miya abicel.
+31Wel jo ducu ma i gony pa Dan oromo alip miya acel ki pyerabic wiye abiro, ki
+miya abicel. Gin gibimol me agikkine, kun gilubbe aluba bendera ki bendera.”
+32Meno aye jo Icrael kit ma gikwanogi kwede, kun lubo dog odi pa kwarogi; jo
+ducu ma i gonygi ducu ma gikwanogi i buca monygi onoŋo guromo alip miya
+abicel ki adek, ki miya abic ki pyerabic noŋo.
+33Ento jo pa Levi pe gikwano i kom jo Icrael, macalo Rwot onoŋo ociko ki Moses.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+34Jo Icrael yam gutiyo kit meno. Kit ma Rwot con ociko ki Moses ducu, guguro
+kemagi kit meno i te benderagi, gucako wot bene gumol kit meno, ŋat acel acel ki
+doggolane, macalo dog odi pa kwarogi tye kwede.
+Wel 3
+1Magi aye likwayo pa Aron ki Moses i kare ma Rwot obedo ka lok ki Moses i wi
+got me Cinai.
+2 Magi aye nyiŋ awobe pa Aron: Nadab latin kayone ki Abiu, Eleajar ki Itamar;
+3meno aye nyiŋ awobe pa Aron, gin aye ajwagi ma giwirogi ki moo, ma Moses
+yam okwerogi pi tiyo tic me bedo ajwagi.
+4 Ento Nadab ki Abiu guto i nyim Rwot i kare ma gutyero mac mapat i nyim Rwot
+i tim Cinai, kit mac ma yam pe ocikogi kwede; gin pe gubedo ki litino. Mumiyo
+Eleajar ki Itamar gutiyo tic pa ajwagi i kare ma wongi pud kwo.
+5Rwot owaco bot Moses ni,
+6“Kel kaka pa Levi cok, ci iketgi i nyim ajwaka wek guti bote.
+7Gibicobo tic mapatpat pire ki pi lwak ducu i nyim kema me rwatte, dok gibitiyo
+tic pi jo Icrael kun gitiyo ticgi i kema.
+8Gin aye gibigwoko jami ducu ma i kema me rwatte, dok gibitiyo tic pi jo Icrael
+kun gitiyo ticgi i kema.
+9Ibimiyo Lulevi bot Aron ki awobene; gityeko miyogi bote matwal kun
+gikwanyogi woko ki i kin jo Icrael.
+10Ci ibiketo Aron ki awo bene, gibitiyo ticgi me bedo ajwagi; ento ka ŋat mo
+mukene onyiko cok, gibineke woko.”
+11Rwot dok owaco bot Moses ni,
+12“Nen, doŋ atyeko kwanyo jo pa Levi ki i kin jo Icrael ma ka litino kayo ducu
+mukwono yabo ic i kin jo Icrael. Jo pa Levi aye gibibedo jona,
+13 pien litino kayo ducu mera. I nino ma yam aneko iye litino kayo ducu ma i lobo
+Ejipt ca, en aye akwero iye litino kayo ducu ma i Icrael gubed mera, pa dano ki pa
+lee; gibibedo mera; an a Rwot.”
+14Rwot owaco bot Moses ki i tim Cinai ni,
+15“Kwan wel likwayo pa Levi, kun ilubo dog odi pa kwarogi, ki doggolagi;
+ibikwano co ducu cakke ki i kom jo ma ditogi romo dwe acel dok kwede malo.”
+16Kit meno Moses okwano welgi kit ma Rwot owaco-ni, macalo yam ocike-ni.
+17Magi aye awobe pa Levi ma giyeko nyiŋgi: Gercon, Kokat ki Merari.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+18Magi aye nyiŋ awobe pa Gercon kun lubo doggolagi: Libni ki Cimei.
+19Awobe pa Kokat kun lubo doggolagi gin aye Amram, Ijar, Kebron ki Ujiel.
+20Awobe pa Merari kun lubo doggolagi gin aye Makali ki Muci. Meno aye doggola
+pa Lulevi, kun lubo dog odi pa kwarogi.
+21Jo pa Gercon aye doggola pa jo pa Libni ki doggola pa jo pa Cimei; meno aye
+doggola pa jo pa Gercon.
+22Welgi ka gikwano wel co ducu cakke ki i kom jo ma ditogi romo dwe acel dok
+kwede malo oromo alip abiro, ki miya abic.
+23Doggola pa jo pa Gercon yam giguro kemagi i ŋe kema yo tuŋ potoceŋ,
+24kun Eliacap wod pa Lael obedo ladit ki i ot pa kwaro pa jo Gercon.
+25Tic pa likwayo pa Gercon i kema me rwatte obedo me gwoko kema; en aye
+kema kikome ki laum wiye, boŋo cuka laum doggola me doggola kema me rwatte,
+26boŋo cuka me aŋaba me larum dyekal, boŋo cuka laum doggola me dyekal ma
+orumo kema ki keno tyer, ki lwak tol lacikgi; dog tic ducu ma mitte pi jami magi.
+27Jo pa Kokat aye doggola pa jo pa Amram, ki doggola pa jo pa Ijar, ki doggola pa
+jo pa Kebron, ki doggola pa jo pa Ujiel; meno aye doggola pa jo pa Kokat.
+28Welgi ka gikwano Wel co ducu cakke ki i kom jo ma ditogi romo dwe acel dok
+kwede malo oromo alip aboro, ki miya abicel ma gitiyo ticgi i kabedo maleŋ.
+29Doggola pa jo pa Kokat yam giguro kemagi i ŋet kema yo tuŋ acuc,
+30kun Elijapan wod pa Ujiel obedo ladit ki i ot pa kwaro me doggola pa jo. Kokat.
+31Ticgi obedo me gwoko canduk, meja, okarmac, keno tyer, jami me kabedo
+maleŋ ma ajwagi gitiyo kwedgi ducu, ki boŋo kicika; dog tic ducu ma mitte pi
+jami magi.
+32Ladit ma loyo ludito ducu pa Lulevi obedo Eleajar wod pa ajwaka Aron. En
+onoŋo loyo jo ma gitiyo ticgi i kabedo maleŋ.
+33Jo pa Merari aye doggola pa jo pa Makali ki doggola pa jo pa Muci; meno aye
+doggola pa jo pa Merari.
+34Welgi ka gikwano Wel co ducu cakke ki i kom jo ma ditogi romo dwe acel dok
+kwede malo oromo alip abicel, ki miya aryo.
+35Ladit ki i ot pa kwarogi ma i doggola pa jo Merari obedo Juriel wod pa Abikail.
+Gin yam giguro kemagi i ŋet kema yo tun acam.
+36Tic ma gimiyo bot likwayo pa Merari obedo me gwoko lwak guti me kema, lwak
+riine, lwak wirre lwak tedi tere ki gin ma okemo ticce ducu; dog tic ducu ma
+mitte pi jami magi ducu.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+37Ka dok lwak wir ducu ma gurumo dyekal, ki tedi tergi ki lwak teke lagurgi, ki
+lwak tolle.
+38Jo ma yam giguro kemagi i nyim kema yo tuŋ wokceŋ, i nyim kema me rwatte
+ka ma cen tuc iye-ni, gin aye Moses ki Aron ki awobene. Gin onoŋo gityeko ketogi
+i dog tic ma i kabedo maleŋ, pi tiyo tic ducu ma mitte pi jo Icrael; ka ŋat mo
+mukene onyiko cok, myero ginek woko.
+39Wel jo Levi ducu ma yam gikwano, ma Moses ki Aron gukwano welgi pi lubo cik
+pa Rwot, kun lubo doggolagi, co ducu cakke ki i kom jo ma ditogi romo dwe acel
+dok kwede malo, oromo alip pyeraryo wiye aryo.
+Koko litino kayo
+40Rwot owaco bot Moses ni, “Kwan wel litino kayo ducu ma co ki i kin jo Icrael,
+cakke ki i kom jo ma ditogi romo dwe acel dok kwede malo; kwan welgi kun ilubo
+nyiŋgi.
+41An a Rwot; ibikwanyo jo pa Levi gubed mera ma ka litino kayo ducu ma i kin jo
+Icrael; dok iter lim makwo pa jo Levi ma ka litino kayo ducu ma i kin lim makwo
+pa jo Icrael.”
+42Kit meno Moses okwano Wel litino kayo ma i kin jo Icrael ducu, macalo Rwot
+ocike.
+43Litino kayo ducu ma co, macalo wel nyiŋgi tye, cakke ki i kom jo ma ditogi romo
+dwe acel dok kwede malo, ka gikwano welgi onoŋo guromo alip pyeraryo wiye
+aryo, ki miya aryo ki pyerabiro wiye adek.
+44Rwot owaco bot Moses ni
+45“Kwany jo pa Levi gubed ma ka litino kayo ducu ma i kin jo Icrael, dok iter lim
+makwo pa jo Levi ma ka limgi; jo pa Levi gibibedo jona; an a Rwot.
+46Pi koko litino kayo miya aryo ki pyerabiro wiye adek ma i kin jo Icrael ma
+gudoŋ ma wel pa jo pa Levi orem woko pigi-ni,
+47ibigamo cekel abic abic pi dano acel acel; ibigamo kun ilubo cekel me kabedo
+maleŋ, ma cekel acel romo gera pyeraryo-ni.
+48Lim meno ma gikoko kwede wel jo ma gudoŋ-ŋi ibimiyo bot Aron ki awo bene.”
+49Mumiyo Moses ogamo lim me kok ki bot jo mudoŋ, ma wel pa jo Levi orem me
+kokogi;
+50ci ogamo lim ryal ki bot litino kayo pa jo Icrael ma romo cekel alip acel, ki miya
+adek pi pyerabicel wiye abic, kun lubo cekel me kabedo maleŋ.
+51Moses omiyo lim meno me kok bot Aron ki awobene, kit ma Rwot owaco-ni,
+macalo Rwot yam ociko ki Moses.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+Wel 4
+1Rwot owaco bot Moses ki Aron ni,
+2“Kwan wellikwayo pa Kokat ma i kin likwayo pa Levi, kun ilubo doggolagi ki dog
+odi pa kwarogi,
+3cakke ki i kom jo ma ditogi romo mwaka pyeradek o wa i kom jo ma ditogi romo
+mwaka pyerabic, jo ducu ma giromo donyo i dog tic pi tiyo tic ma i kema me
 rwatte.
-8En bikwanyo dwolo ducu ki i kom twon me gitum me bal, dwolo ma oumo jam
-iye, ki dwolo ducu ma tye i kom jam iye,
-9ki olaŋ aryo ducu ki dwolo ma tye i komgi ma tye i pyere, ki okene ki i kom
-cwiny ma en bikwanyo woko kacel ki olaŋ aryo,
-10kit macalo gikwanyo ki i kom twon me gityer lakwecwiny; ci ajwaka biwaŋogi
-woko i wi keno tyer me gitum awaŋa.
-11Ento pyen twon ki riŋone ducu, kacel ki wiye ki tyene ki jam iye ki wee iye,
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-12en bitero woko ki berre wa i ŋe gony i kabedo ma olony ka ma gionyo iye buru,
-ci biwaŋo i wi yen ki mac; i kabedo ka ma gionyo iye buru en aye gibiwaŋo iye.
-13“Ka lwak jo Icrael ducu gutimo bal ma pe gutimo akaka, ce lokke pe oŋene i
-nyim kacokke, kun gitiyo gin mo acel i kom gin ducu ma yam Rwot ociko ni pe
-gitim, ci gutiŋo alii;
-14ka bal ma gutimo-ni doŋ oŋene, ci kacokke myero otyer wod twon me gitum me
-bal kun gikelo i nyim kema me rwatte.
-15Ludoŋo pa lwak gibiketo ciŋgi i wi twon i nyim Rwot, ci gibineko twon i nyim
-Rwot.
-16Ajwaka ma giwiro bitero remo twon manok i kema me rwatte:
-17ajwaka biluto lwet ciŋe i remo ci kiro tyen abiro i nyim Rwot i nyim boŋo
-kicika.
-18En bireyo remo mukene i kom ten keno aŋwen me keno tyer ma tye i kema me
-rwatte i nyim Rwot; remo mudoŋŋe en bionyo woko i te tedi keno tyer me gitum
-awaŋa ma tye i doggola kema me rwatte.
-19En bikwanyo dwolone ducu ki i kome ci wano woko i wi keno tyer.
-20En bitiyo ki twon man kit ma onoŋo otiyo ki twon me gitum me bal; ajwaka
-bitimo gin me lakwany bal ki i komgi ci Rwot biweko balgi.
-21Ci ajwaka bitero twon woko Wa i ŋe gony, biwaŋo kit macalo owaŋo ki twon
-mukwoŋo-ni; en aye gitum me bal pa lwak mucokke.
-22“Ka laloc mo aye obalo ma pe otimo akaka, kun otiyo gin mo acel i kom gin ducu
-ma yam Rwot Lubaŋane ociko ni pe gitim, ci otiŋo alii,
-23ka gimiyo en oŋeyo bal ma en otimo-ni, ci en bikelo dyel pi gityerre, nyok ma
-kome pe ki mwonyo.
-24Biketo ciŋe i wi dyel, ci neko i kabedo ma gineko iye gitum awaŋa i nyim Rwot;
-co aye gitum me bal.
-25Ajwaka bigwelo remo me gitum me bal ki lwet ciŋe, ci reyo i kom ten keno
-aŋwen me keno tyer me gitum awaŋa; remo mudoŋŋe en bionyo woko i te tedi
-keno tyer me gitum awaŋa.
-26En biwaŋo dwolone ducu i wi keno tyer, macalo dwolo me gityer lakwecwiny;
-kit meno ajwaka bitimo gin lakwany bal ki i kome pi balle, ci Rwot biweko balle.
-27 “Ka ŋat mo acel ma i kin lwak obalo ma pe otimo akaka, kun otiyo gin mo acel i
-kom gin ducu ma yam Rwot ociko ni pe gitim, ci otiŋo alii,
-28ka gimiyo en oŋeyo bal ma en otimoni, ci en bikelo dyel pi gityerre, bwonne ma
-kome pe ki mwonyo, pi balle ma en otimo-ni.
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-29En biketo ciŋe i wi gitum me bal, ci neko gitum me bal i kabedo ma gineko iye
-gitum awaŋa.
-30Ajwaka bigwelo temo ki lwet ciŋe, ci reyo i kom ten keno aŋwen me keno tyer;
-remo mudoŋŋe en bionyo woko i te tedi keno tyer.
-31En bikwanyo dwolone ducu macalo gikwanyo dwolo ki i gityer lakwecwiny,
-ajwaka biwaŋo i wi keno tyer obed gin ma ŋwece kur me yomo cwiny Rwot; kit
-meno ajwaka bitimo gin me i akwany bal ki i kome, ci Rwot biweko balle.
-32“Nyo ka en mito kelo latin romo me gityerre pi gitum me bal, en bikelo bwonne
-ma kome pe ki mwonyo.
-33Biketo ciŋe i wi gitum me bal, ci neko i kabedo ma gineko iye gitum awaŋa-ni.
-34Ajwaka bigwelo remo me gitum me bal ki lwet ciŋe, bireyo i ten keno aŋwen
-me keno tyer me gitum awaŋa; remo mudoŋŋe en bionyo woko i te tedi keno
-tyer.
-35En bikwanyo dwolone ducu macalo gikwanyo dwolo latin romo ki i gityer
-lakwecwiny, ajwaka biwaŋo i wi keno tyer i kom gityer ma giwaŋo ki mac bot
-Rwot; kit meno ajwaka bitimo gin lakwany bal ki i kome pi bal ma en otimo-ni, ci
-Rwot biweko balle.
-Lulevi 5
-1“Ka dano mo obalo kun owinyo lam ma gilamo i kom lwak ni dano myero gutuc
-lok ma giŋeyo, ma kun en caden ma oneno nyo oniaŋ lokke, ce pe otuco, bal bidok
-i wiye.
-2Nyo ka dano mo ogudo kom gin ma gikwero, kadi bed kom lee tim ma keni
-muto, ma gikwero; nyo kom lee ma paco ma keni muto, ma gikwero, nyo kom gin
-ma nya ma corre limuk ma keni muto, ma gikwero, kun pe oŋeyo, en bene odoko
-keni, noŋo otiŋo alii.
-3Nyo ka ogudo gin me kwer ma i kom dano, kit gin mo-ni makwer ma twero miyo
-dano doko keni, kun pe oŋeyo, ka doŋ oniaŋ iye, noŋo otiŋo alii.
-4Nyo ka dano mo okwono kwon laboŋo tamo tere pi timo gin mo marac nyo
-maber, kit kwon ma dano kwoŋo kun pe gitamo tere, kun pe oniaŋ iye, ka doŋ
-oniaŋ iye ci bitiŋo alii, ka otimo lok mo acel i kom magi.
-5Ka ŋat mo otiŋo alii, ka otimo lok acel mo i kom magi, ci myero otuc bal ma en
-otimo,
-6okel gitumme me tiŋo alii bot Rwot pi bal ma en otimo-ni, bwoŋ romo nyo bwoŋ
-dyel, obed gitum me bal; ci ajwaka bitimo gin lakwany bal ki i kome pi balle.
-Acoli Baibul
-7“Ento ka noŋo latin romo oloye, ci en bikelo amam aryo nyo litino akuri aryo bot
-Rwot me gitumme me tiŋo alii pi bal ma otimo; acel obed pi gitum me bal, acel pi
-gitum awaŋa.
-8Bikelogi bot ajwaka, ci ajwaka bikwoŋo tyero acel me gitum me bal. Bidwoyo
-ŋute turo woko, ento pe biputo wiye,
-9ci bikiro remo manok me gitum me bal i but keno me tyer, remo mudoŋŋe en
-bibiyo cwer i te tedi keno tyer; en aye gitum me bal.
-10Lacen bityero me aryone me gitum awaŋa macalo giciko; kit meno ajwaka
-bitimo gin lakwany bal ki i kome pi bal ma en otimo-ni, ci Rwot biweko balle.
-11“Ento ka noŋo amam aryo nyo litino akuri aryo oloye, ci bikelo agwata moko
-kwon acel me moko mapwotte me gityer mere pi bal ma otimo, obed gitum me
-bal. Pe bionyo iye moo pe biketo rye odok luban, pien obedo gitum me bal.
-12Bikelo bot ajwaka, ci ajwaka bijobo poŋ ciŋ acel obed gin me po i kome,
-biwaŋone i wi keno tyer, i wi gityer ma giwaŋo ki mac bot Rwot; en aye gitum me
-bal.
-13Kit meno ajwaka bitimo gin lakwany bal ki i kome pi bal ma otimo pi lok mo
-acel i kom magi, ci Rwot biweko balle. Mudoŋŋe bibedo pa ajwaka, macalo gitimo
-i kom gityer me moko kwon.”
-Gitum me tiŋo alii
-14Rwot owaco bot Moses ni,
-15“Ka dano mo oturo cik pa Lubaŋa kun otimo bal ma pe otimo akaka i kom mot
-mo maleŋ ma myero en omi bot Rwot, en bikelo gitumme me tiŋo alii bot Rwot,
-nyok ma kome pe ki mwonyo ma okwanyo ki i kin romi i wel ma iŋolo i cekel me
-ryal kun ilubo cekel me kabedo maleŋ, obed gitum me tiŋo alii.
-16Dok en biculo waŋ gin ma en obalo iye i kom mot maleŋ, kun medo iye acel me
-abic, ci miyo bot ajwaka. Ajwaka bitimo gin lakwany bal ki i kome ki nyok romo
-me gitum me tiŋo alii, ci Rwot biweko balle.
-17“Ka dano mo obalo kun otiyo gin mo acel i kom gin ducu ma yam Rwot ociko ni
-pe gitim, kadi bed pe oŋeyo, noŋo otiŋo alii, ci bal bidok i wiye.
-18En bikelo bot ajwaka nyok ma kome pe ki mwonyo ma okwanyo ki i kin romi, i
-wei ma iŋolo, obed gitum me tiŋo alii. Ajwaka bitimo gin lakwany bal ki i kome pi
-bal ma opoto iye ma pe me akaka, ci Rwot biweko balle.
-19En aye gitum me tiŋo alii, noŋo en otiŋo alii i nyim Rwot.”
-Lulevi 6
-2“Dano twero balo kun oturo cik pa Rwot, macalo ka obwolo lawote i kom gin ma
-con okano bote, nyo ojeŋo bote, nyo ka omayo jamine, nyo oburo lawote,
-3nyo onoŋo gin ma orwenyo ci oloko iye lok goba, kun okwoŋo iye kwoŋ me
-goba; nyo otimo gin mo acel i kom gin ducu ma dano gitimo ci gibalo kwede.
-4Ka ŋat mo obalo kumeno ce otiŋo alii, en bidwoko waŋ gin ma omayo-ni, nyo gin
-ma en otero me bura, nyo gin ma onoŋo gikano: bote, nyo gin ma orwenyo ma en
-onoŋo,
-5nyo gin mo-ni ma en okwoŋo iye kwoŋ me goba. Bidwoko ducu ki berre, dok
-bimedo acel me abic i kome, ci miyo bot won jami i nino ma en tyero iye gitumme
-me tiŋo alii.
-6En bikelo gitumme me tiŋo alii bot Rwot, nyok ma kome pe ki mwonyo ma
-okwanyo ki i kin romi, i wel ma iŋolo, wek obed gitum me tiŋo alii; bikelo bot
-ajwaka.
-7Ajwaka bitimo gin lakwany bal ki i kome i nyim Rwot, ci Rwot biweko balle i
-kom gin mo-ni i kom gin ducu ma dano twero tiyo ma miyo etiŋo alii.”
-Cik mukene i kom gityer mapatpat
-8Rwot owaco bot Moses ni,
-9“Cik Aron ki awobene ni, Man aye cik me gitum awaŋa, Gitum awaŋa bibedc i
-keno tyer dyewor benebene nio wa odiko, kun mac bedo ka lyel iye nakanaka.
-10Ajwaka biruko boŋo arukane boŋo camanini, ci ruko pali camaninine i pyere, ka
-bijobo buru ma odon ka mac doŋ owaŋo gitum awaŋa woko, ci keto i ŋet keno
-tyer.
-11Ka doŋ en bilunyo boŋŋine woko ruko boŋŋi mukene, ci tero buru woko wa i ne
-gony i kabedo ma olony.
-12Mac ma i wi keno tyer bibedo ka lyel nakanaka, pe myero oto. Ajwaka biwaŋo
-iye yen odiko ki piny ma ru, bicano gitum i wiye kikore, dok biwaŋo dwolo bene i
-wiye me gityer lakwecwiny.
-13Mac bibedo ka Lyel i wi keno tyer nakanaka, pe myero oto.
-14“Man aye cik me gityer me moko kwon. Awobe pa Aron gibityerone i nyim
-Rwot, i nyim keno me tyer,
-15ŋat acel bijobo moko kwon mapwot-ti poŋ ciŋ acel ki i gityer me moko kwon,
-kacel ki moone ki odok luban ma i kom gityer me moko kwon, ci wano i wi keno
-tyer obed gin me po i kome, gin ma ŋwece kur me yomo cwiny Rwot.
-16Ma odoŋŋe Aron ki awobene gibicamo; gibicamo ma tobi pe iye i kabedo mo
-maleŋ, i dyekal me kema me rwatte.
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-17Pe gibitedo capatte ki tobi. Atyeko miyo botgi me bedo dul megi me gityer mera
-ma giwaŋo ki mac; en gin maleŋ makato, macalo gitum me bal ki gitum me tiŋo
-alii.
-18Co ducu ma i kin likwayo pa Aron gitwero camo dul man ma gikwanyo ki i kom
-gityer ma giwaŋo ki mac bot Rwot; en cik ma bibedo matwal wa i kare pa
-likwayowu ducu. Ŋat ma ogudo bidoko maleŋ.”
-19Rwot owaco bot Moses ni,
-20“Man aye gityer ma Aron ki awobene gibityero bot Rwot i nino ma giwire iye ki
-moo: agwata moko kwon acel me moko mapwotte, obed gityer me moko kwon
-me kare ducu; bityero nucune odiko ki nucune otyeno.
-21Gibitedo ki moo i otako nyonyo; ibikelo ma doŋ girubo maber, ma noŋo iŋido
-matitino macalo gityer me moko kwon, ityer obed gin ma ŋwece kur me yomo
-cwiny Rwot.
-22Ajwaka ma oa ki i kin awobe pa Aron ma gibiwiro ki moo me leyo kakare
-bityero bot Rwot pi cik ma bibedo matwal; gibiwaŋo ducu ki berre.
-23Gityer me moko kwon pa ajwaka gibiwaŋo woko ducu ki bene; pe gibicamo.”
-24Rwot owaco bot Moses ni
-25“Wac bot Aron ki awo bene ni, Man aye cik me gitum me bal. I kabedo ma
-gineko iye gitum awaŋa-ni, en aye gibineko iye gitum me bal i nyim Rwot; en gin
+4Man aye tic ma likwayo pa Kokat gibitiyo i kema me rwatte: gibitic i kom jami
 maleŋ makato.
-26Ajwaka ma otyero pi bal en aye bicamone; gibicamo i kabedo mo maleŋ, i
-dyekal me kema me rwatte.
-27Gin ducu ma ogudo riŋone bidoko maleŋ; ka remone okir i kom ginaruka,
-ibilwoko gin ma remo okir i kome-ni i kabedo mo maleŋ.
-28Agulu lobo ma gitedo iye gibineko woko; ento ka gitedo i weer mola, ci gibirudo
-kome, gilako ki pii.
-29Co ducu ma i kin ajwagi gitwero camone; en gin maleŋ makato.
-30Ento gitum me bal pe gibicamone tekke ka remone gitero i kema me rwatte pi
-timo gin lakwany bal i kabedo maleŋ; gibiwaŋo woko awaŋa ki mac.
-Lulevi 7
-1“Man aye cik me gitum me tiŋo alii. En gin maleŋ makato;
-2i kabedo ma gineko iye gitum awaŋa-ni en aye gibineko iye gitum me tino alii, ci
-gibicoro remone i kom keno tyer rumo kome ducu.
-3Gibityero dwolone ducu, moo yibe, dwolo ma oumo jam iye,
-4olaŋ aryo ducu ki dwolo ma i komgi ma tye i pyere, ki okene ma tye i kom cwiny
-ma en bikwanyo woko kacel ki olaŋ aryo.
-5Ajwaka biwaŋogi i wi keno tyer obed gin ma giwaŋo ki mac bot Rwot; en aye
-gitum me tiŋo alii.
-6Co ducu ma i kin ajwagi gitwero camone; gibicamo i kabedo mo maleŋ; en gin
-maleŋ makato.
-7Gitum me tiŋo alii rom ki gitum me bal, cikgi tye acel; ajwaka ma otimo kwede
-gin lakwany bal, en aye biterone.
-8Dok ajwaka ma otyero gitum awaŋa pa ŋat mo bitero pyen me gitum awaŋa ma
-en otyero-ni.
-9Gityer me moko kwon ducu ma gitedo i keno, ki mukene ma gitedo i cupuriya
-nyo i otako nyonyo, bibedo pa ajwaka ma otyero-ni.
-10Gityer me moko kwon ducu, ma girubo ki moo, nyo ma noŋone, bibedo pa
-awobe pa Aron ducu; ŋat man bitero ma rom ki lawote.
-11“Man aye cik me gityer lakwecwiny ma ŋat mo bityero bot Rwot.
-12Ka en tyero pi miyo pwoc, ci bityero, kacel ki gityer me pwoc, capat ma tobi pe
-iye ma girubo ki moo, capat marep ma tobi pe iye ma gireyo moo i komgi, ki capat
-ma tobi pe iye me moko kwon mapwotte ma girubo maber ki moo.
-13En bityero bene capat me mugati ma girubo iye tobi kacel ki gitumme me gityer
-lakwecwiny.
-14I kom magi en bityero capat acel ki i kom gityer acel acel obed gityer bot Rwot;
-meno bibedo pa ajwaka ma ocoro remo me gityer lakwecwiny.
-15Riŋo me gitumme me gityer lakwecwiny pi miyo pwoc gibicamo i nino ma en
-otyero iye; en pe biweko mo doŋ nio odiko.
-16Ento ka gityerre obedo gityer me cobo kwoŋ, nyo gityer mo ma iye opwoyo,
-gibicamo i nino ma en otyero iye, dok mudoŋŋe gitwero camo orwone.
-17Ento riŋo mo me gitum mere ma odon i nino me adekke myero giwaŋ awaŋa ki
-mac.
-18Ka gicamo riŋo mo me gitum mere me gityer lakwecwiny i nino me adekke,
-Lubaŋa pe bigamo ŋat ma otyero-ni, dok pe gibikwano ni en otyero gin mo,
-Bibedo gin me kwer: ŋat ma ocamo, bal bidok i wiye.
-19“Riŋo ma ogudo kom gin mo ma gikwero pe gibicamo; gibiwaŋone awaŋa ki
-mac. Jo ducu ma olonnye gitwero camo riŋo,
-20ento ka ŋat mo ocamo riŋo me gityer lakwecwiny pa Rwot ma onoŋo en odoko
-keni, dano meno waŋe birwenyo woko ki i kin lutugi.
+5Ka gony doŋ bicako wot, Aron ki awobene bidonyo i kema ka kwanyo boŋo
+kicika, ci giumo kwede canduk lok me caden.
+6Ka dok gibiumo wiye ki laa dyel, lacen gibiyaro boŋo ma bulu i kom meno, ka
+doŋ gibirwako talle iye.
+7Gibipeto boŋo ma bulu i kom meja me mugati me aketa i nyim Rwot, ka doŋ
+gibiketo caani i wiye, ki atabo me odok eceta, ki weer, ki cupa me onyo gityer
+amata; mugati ma gicano i nyim Rwot jwijwi bene obed i wiye.
+8Lacen gibiyaro boŋo makwar i wiye, ci meno gibiumo ki laa dyel laumme, ka doŋ
+gibirwako talle iye.
+9Ka dok gibikwanyo boŋo ma bulu, ci giumo ki okarmac, kacel ki laputte, ki
+magacce, ki caanine ki atabo moone ducu ma gitiyo kwede ticce;
+10ci gibiboyo en ki jami ticce ducu ki laa dyel laumme, ka doŋ gibipyelo i wi tal
+latiŋŋe.
+11Gibiyaro boŋo ma bulu i kom keno tyer me jabu, ka dok gibiumo kome ki gin
+ma gikwoyo ki laa dyel, ka doŋ gibirwako talle iye.
+12Gibikwanyo jami tic ducu ma gitiyo kwedgi i kabedo maleŋ, gibiboyogi ducu ki
+boŋo ma bulu, ka doŋ gibiumogi ki gin ma gikwoyo ki laa dyel, ci gibipyelo i wi tal
+latingi.
+13Gibijobo buru mac ma i keno me tyer woko, gibiyaro boŋo ma lamar lamar i
+wiye;
+14ka dok gibiketo iye jami tic ducu me keno tyer, ma gitiyo kwede tic i kome,
+weer lawaŋ mac, gin lacob riŋo, akwaya latokke ki becen, jami tic ducu me keno
+tyer; ka dok gibiyaro i kome laa dyel laumme, lacen gibirwako talle.
+15Ka Aron ki awobene doŋ gutyeko umo kabedo maleŋ ki jami ma i kabedo maleŋ
+ducu i kare ma giputo gony, lacen likwayo pa Kokat doŋ gibibino ka tiŋogi, ento
 Acoli Baibul
 © 1985, Bible Society of Uganda.
-21Ka ŋat mo ogudo kom gin mo ma gikwero, kadi bed gin me kwer ma i kom
-dano, nyo lee ma gikwero, nyo kit gin mo-ni me kwer ma keni, ka dok camo
-kwede riŋo me gityer lakwecwiny pa Rwot, dano meno waŋe birwenyo woko ki i
-kin lutugi.”
-22Rwot owaco bot Moses ni,
-23“Wac bot jo Icrael ni, Pe myero wucam kit dwolo ducu, kadi me twon, kadi me
-romo nyo me dyel.
-24Dwolo geŋ lee ma oto kene, ki dwolo lee ma ŋuu omwodo gitwero tic kwede i
-yo mukene ducu, ento pe gibicamo kadi ki acel.
-25Dano ducu ma ocamo dwolo lee mo ma gityero kwede gityer ma giwaŋo ki mac
-bot Rwot, wane birwenyo woko ki i kin lutugi.
-26 Dok pe wubicamo remo gin mo ducu, kadi bed me winyo nyo me lee, ka ma
-wubedo iye ducu.
-27Dano ma ocamo remo gin mo, waŋe birwenyo woko ki i kin lutugi.”
-28Rwot owaco bot Moses ni,
-29“Wac bot jo Icrael ni, ŋat ma otyero gitumme me gityer lakwecwiny myero okel
-gityer mere ma okwanyo iye me amiya bot Rwot. Ki i kom gityer mere me
-lakwecwiny,
-30en bikelo gire ki ciŋe gityer ma giwaŋo ki mac bot Rwot; en bikelo dwolo ki gok,
-wek gikwat gok obed gityer me akwata i nyim Rwot.
-31Ajwaka biwaŋo dwolo i wi keno tyer, ento gok bibedo pa Aron ki awobene.
-32Em malacuc wubimiyo bot ajwaka obed gityer mere ma oa ki i kom gitum me
-gityer lakwecwiny;
-33ŋat ma i kin awobe pa Aron ma otyero remo me gityer lakwecwiny, ki dwolone,
-bitero em malacuc obed waŋ watte.
-34Pien gok ma gikwato, ki em ma gityero, atyeko kwanyogi woko ki bot jo Icrael
-ki i kom gityergi me lakwecwiny, amiyogi bot ajwaka Aron ki bot awobene, ma
-myero jo Icrael gumi botgi dikdik.
-35Man aye waŋ wat pa Aron ki pa awo bene ma a ki i kom gityer ma giwaŋo ki
-mac bot Rwot, ma yam gikwero obed megi i nino ma yam gikelogi wek guti bot
-Rwot macalo ajwagi.
-36Rwot yam ociko ni jo Icrael gubed ka miyo botgi i kare ma yam giwirogi ki moo;
-man bibedo waŋ watgi matwal nio wa i kare pa likwayogi ducu.”
-37Man aye cik me gitum awaŋa, me gityer me moko kwon, me gitum me bal, me
-gitum me tiŋo alii, me keto ajwaka i dog tic, ki me gitum me gityer lakwecwiny,
+pe gugud kom jami maleŋ ducu, wek pe guto. Magi aye jami me kema me rwatte
+ma likwayo pa Kokat gibitiŋo.
+16“Eleajar wod pa Aron aye biloyo moo tara, ki odok eceta ma ŋwece kur, ki
+gityer me moko kwon me nino ducu, ki moo wir, kun dok loyo kom kema ducu ki
+lwak jami ducu ma bedo iye, en aye kabedo maleŋ kikome ki jami ticce.”
+17Rwot owaco bot Moses ki Aron ni,
+18“Pe iwek doggola ducu me kaka pa jo pa Kokat guto gutum woko ki i kin jo pa
+Levi,
+19ento ber itimgi kit man wek gubed makwo, ma pe guto i kare ma gibino cok ki
+jami maleŋ makato-ni: Aron ki awobene aye bidonyo ka nyutogi tic pa ŋat acel
+acel ki yec ma gibitiŋo,
+20ento gin pe bidonyo iye ka neno kom jami maleŋ kadi matidi mo, wek pe guto.”
+21Rwot owaco bot Moses ni,
+22“Kwan wellikwayo pa Gercon bene, kun ilubo doggolagi ki dog odi pa kwarogi;
+23ibikwano welgi cakke ki i kom jo ma ditogi romo mwaka pyeradek o wa i kom
+jo ma ditogi romo mwaka pyerabic, jo ducu ma giromo donyo i dog tic pi tiyo tic i
+kom kema me rwatte.
+24Man en aye dog tic ma doggola pa Gercon ducu gibitiyo, me tiyo tic ki me tino
+yec:
+25gibitiŋo boŋo cuka me kema, ki kema me rwatte ki laum wiye, ki laa dyel ma
+giumo kwede wiye malo,
+26ki boŋo cuka me aŋaba me rumo dyekal, ki boŋo laum doggaŋ me dyekal ma
+orumo kema ki keno tyer, ki lwak tol lacikgi, ki jami tic ducu ma gitiyo kwedgi
+iye; gibitiyo tic ducu ma mitte i kom jami magi.
+27Tic pa likwayo pa Gercon ducu gibitiyo kit ma Aron ki awo bene gicikogi i kom
+jami ducu ma gibitinone, ki i kom gin ducu ma gibitiyone; dok in aye ibipoko
+yecgi ducu botgi me agwoka.
+28Man en aye tic pa doggola ducu pa likwayo pa Gercon ki i kema me rwatte; dog
+ticgi bibedo i te loc pa Itamar wod pa ajwaka Aron.
+29“Likwayo pa Merari ibikwano welgi kun ilubo doggolagi ki dog odi pa kwarogi;
+30ibikwano welgi cakke ki i kom jo ma ditogi romo mwaka pyeradek o wa i kom
+jo ma ditogi romo mwaka pyerabic, jo ducu ma giromo donyo i dog tic pi tiyo tic i
+kema me rwatte.
+31Magi aye gin ma gimiyo botgi me atiŋa, ma en aye ticgi ducu ki i kema me
+rwatte: lwak guti me kema, ki riine, ki lwak wirre ki lwak tedi tere,
 Acoli Baibul
 © 1985, Bible Society of Uganda.
-38ma yam Rwot ociko ki Moses i wi got Cinai i nino ma yam ociko iye jo Icrael ni
-gukel gityer megi bot Rwot, i tim Cinai.
-Lulevi 8
-1Rwot owaco bot Moses ni,
-2“Ter Aron kacel ki awobene, ki boŋŋi arukagi, ki moo wir, ki twon me gitum me
-bal, ki nyogi romi aryo, ki aduku me mugati ma to bi pe iye;
-3ci icok lwak ducu kacel i doggola kema me rwatte.”
-4Moses otiyo kit macalo Rwot ocike; ci lwak gucokke i doggola kema me rwatte.
-5Moses owaco bot lwak ni, “Man aye gin ma Rwot ociko ni giti.”
-6Ci Moses okelo Aron ki awobene olwokogi ki pii.
-7Oruko Aron ki kanyi, otweyo pyere ki kitambara latwe pyer, ka dok oruke ki jor,
-oketo epod i kome, otweyo pyere ki ceme me epod ma gicweyo ki diro, otweyo,
-orido kwede i kome.
-8Oketo kicaa kor i kore, ka dok oketo Urim ki Tumim i kicaa kor.
-9Odwalo kitambara me adwala i wiye, ka otweyo akwaya jabu i kom kitambara
-me wic i nyime, me bedo lalukana maleŋ: macalo yam Rwot ociko ki Moses.
-10Moses okwanyo moo wir ci owiro ki kema ki jami ducu ma, tye iye, okwerogi.
-11Okiro moo i kom keno tyer tyen abiro, ci owiro keno tyer ki jami ticce ducu ki
-moo, kacel ki otako lwok ki tedi tere, pi kwerogi.
-12Oonyo moo i wi Aron, owire kwede pi kwerone.
-13Moses dok okelo awobe pa Aron, orukogi ki kanyi, otweyo pyergi ki kitambara
-latwe pyer, ka otweyo gitok matino i wigi, macalo yam Rwot ociko ki Moses.
-14Lacen okelo twon me gitum me bal, ci Aron ki awobene guketo ciŋgi i wi twon
-me gitum me bal.
-15Moses oneko, ogwelo remone ci oreyo i kom ten keno aŋwen me keno tyer ki
-lwet ciŋe orumo kome ducu, olonyo kwede keno tyer, okwero pi kwanyo bal ki i
-kome.
-16Dok Moses okwanyo dwolo ducu ma i kom jam iye, ki okene ma i kom cwiny, ki
-olaŋ aryo ki dwologi ducu, owaŋogi i wi keno tyer.
-17Ento riŋo twon-nu ki pyenne ki wee iye owaŋo awaŋa ki mac woko wa i ŋe
-gony, macalo yam Rwot ociko ki Moses.
-18Ka man otum, okelo nyok romo me gitum awaŋa, ci Aron ki awobene guketo
-ciŋgi i wi nyok romo.
-19Moses oneko, ocoro remone i kom keno tyer kun rumo kome ducu.
-20Ka doŋ giŋido ruŋo nyok romo woko, Moses owaŋo wiye ki riŋo ma giŋido-ni ki
-dwolone.
-21Jam iye ki tyene ducu gilwoko ki pii lacen Moses owaŋo riŋo nyok romo woko
-ducu ki berre i wi keno tyer obed gitum awaŋa, gin ma ŋwece kur me yomo
-cwiny, gityer ma giwaŋo ki mac bot Rwot, macalo yam Rwot ociko ki Moses.
-22Lacen okelo nyok romo mukene, en nyok romo me keto dano i dog tic, ci Aron
-ki awobene guketo ciŋgi i wi nyok romo.
-23Moses oneko, ogwelo remone ci oreyo i ogwilo it Aron malacuc, ki i kom twon
-nyig ciŋe malacuc, ki i kom twon nyig tyene malacuc.
-24Gikelo awobe pa Aron ci Moses oreyo remo i ogwilo itgi malacuc, ki i kom twon
-nyig ciŋgi malacuc, ki i kom twon nyig tyengi malacuc; ka Moses ocoro remo i
-kom keno tyer kun rumo kome ducu.
-25Lacen okwanyo dwolo, ki moo yibe, ki dwolo ducu ma i kom jam iye, ki okene
-ma tye i kom cwiny, ki olaŋ aryo ducu kacel ki dwologi, ki em malacuc.
-26Ka okwanyo capat acel ma tobi pe iye ki i aduku me mugati ma tobi pe iye ma
-tye i nyim Rwot, ki capat acel me mugati ma girubo ki moo, ki capat acel marep,
-oketogi i wi dwolo ki i wi em malacuc.
-27Oketo magi ducu i dye cin Aron ki i dye cin awobene, okwatogi me bedo gityer
-me akwata i nyim Rwot.
-28Lacen Moses okwanyogi ki i ciŋgi, owaŋogi woko i wi keno tyer kacel ki gitum
-awaŋa, obed gityer me keto dano i dog tic, gin ma ŋwece kur me yomo cwiny,
-gityer ma giwaŋo ki mac bot Rwot.
-29Moses okwanyo gok, okwato me bedo gityer akwata i nyim Rwot; en aye obedo
-waŋ wat pa Moses ma oa ki i kom nyok romo me ketogi i dog tic, macalo yam
+32ki wir ducu ma orumo dyekal, ki tedi tergi ducu, ki lwak teke lagurgi ki tol
+lacikgi, ki lwak jami ticgi ducu ki gin ma okemo tic ducu. Ibipoko botgijami ma
+gimito ni gutiŋ kun inyuto ki nyiŋgi.
+33Man aye tic pa doggola ducu pa likwayo pa Merari, en aye dog ticgi ducu ki i
+kema me rwatte; bibedo i te loc pa Itamar wod pa ajwaka Aron.”
+34Moses ki Aron ki lutel wi lwak gukwano wel likwayo pa Kokat, kun lubo
+doggolagi ki dog odi pa kwarogi,
+35cakke ki i kom jo ma ditogi romo mwaka pyeradek o wa i kom jo ma ditogi
+romo mwaka pyerabic, jo ducu ma giromo donyo i dog tic, pi tiyo tic i kema me
+rwatte;
+36welgi ma gikwano kun lubo doggolagi oromo alip aryo, ki miya abiro ki
+pyerabic.
+37Meno aye wel doggola ducu pa jo pa Kokat, jo ducu ma gutiyo tic i kema me
+rwatte, ma Moses ki Aron gukwano welgi, macalo Rwot ociko ki i dog Moses.
+38Man wel likwayo pa Gercon ma gikwano welgi kun lubo doggolagi ki dog odi pa
+kwarogi,
+39cakke ki i kom jo ma ditogi romo mwaka pyeradek o wa i kom jo ma ditogi
+romo mwaka pyerabic, jo ducu ma giromo donyo i dog tic, pi tiyo tic i kema me
+rwatte;
+40welgi ma gikwano kun lubo doggolagi oromo alip aryo, ki miya abicel ki
+pyeradek.
+41Meno aye Wel doggola ducu pa likwayo pa Gercon, jo ducu ma gutiyo tic i kema
+me rwatte, ma Moses ki Aron gukwano welgi, macalo Rwot ociko ki i dog Moses.
+42Man wel likwayo pa Merari ma gikwano welgi kun lubo doggolagi ki dog odi pa
+kwarogi,
+43cakke ki i kom jo ma ditogi romo mwaka pyeradek o wa i kom jo ma ditogi
+romo mwaka pyerabic, jo ducu ma giromo donyo i dog tic, pi tiyo tic i kema me
+rwatte:
+44welgi ma gikwano kun lubo doggolagi oromo alip adek, ki miya aryo.
+45Meno aye jo me doggola pa likwayo pa Merari ma gikwanogi, ma Moses ki Aron
+gukwano welgi, macalo Rwot ociko ki i dog Moses.
+46Jo ducu ki i kin jo pa Levi ma gikwano welgi, ma Moses ki Aron ki lutel wi Icrael
+gukwanogi kun lubo doggolagi ki dog odi pa kwarogi
+47cakke ki i kom jo ma ditogi romo mwaka pyeradek o wa i kom jo ma ditogi
+romo mwaka pyerabic, jo ducu ma giromo donyo i dog tic pi tiyo tic mapatpat ki
+pi tiŋo yec i kema me rwatte
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+48jo ma i kingi ma gikwano welgi guromo alip aboro, ki miya abic ki pyeraboro.
+49Macalo Rwot yam ociko kun wok ki i dog Moses ci gimiyogi ticgi kit meno, ŋat
+acel acel i dog ticce me tiyo tic nyo me tiŋo yec; gikwano welgi kit meno, macalo
 Rwot ociko ki Moses.
-30Moses okwanyo moo wir ki remo man ok ma i wi keno tyer, okiro i kom Aron ki
-i kom boŋŋi arukane, ki i kom awo bene ki boŋŋi arukagi; kit meno okwero Aron
-ki boŋŋi arukane, ki awobene ki boŋŋi arukagi, gudoko maleŋ.
-31Moses owaco bot Aron ki awobene ni, “Wuted riŋo i doggola kema me rwatte,
-wucam ki kunnu, kacel ki mugati ma tye i aduku me gityer me ketowu i dog tic,
-macalo yam aciko kun awaco ni, ‘Aron ki awobene aye gibicamone.’
-32Riŋo ki mugati ma odoŋ myero wuwaŋ awaŋa ki mac.
+Wel 5
+1Rwot owaco ki Moses ni,
+2“Cik jo Icrael gucwal ludobo ducu gua woko ki i gony, ki dano acel acel ma kome
+cwer tut, ki dano acel acel ma odoko keni pi gudo kom dano muto.
+3Wubicwalo co wa ki mon bene, kun wucwalogi woko ki i gony, wek pe gubal
+gonygi ma an abedo iye-ni odok keni.”
+4Jo Icrael gutiyo kit meno, ci guryemogi woko i ŋe gony; macalo Rwot con owaco
+bot Moses, jo Icrael gutiyo kit meno.
+Cik ma mako culo waŋ jami
+5 Rwot owaco bot Moses ni,
+6“Wac ki jo Icrael ni, Ka ce laco mo nyo dako mo otimo bal mo ma dano timo kun
+giŋayo waŋ Rwot, ce otiŋo alii,
+7en bituco bal mere ma otimo-ni; ka dok en biculo waŋ gin marac ma otimo;
+bimedo iye acel me abic, ci miyo bot dano ma en otimo marac-ci.
+8Ento ka dano meno watte mo pe ma myero giculle waŋ gin marac-ci, ci giculo
+Waŋ gin marac meno bot Rwot pi ajwaka, kun gibamo i kom nyok romo me
+kwanyo bal ma gitimo kwede gin lakwany bal ki i kome.
+9Gityer ducu, nyo jami ducu maleŋ pa jo Icrael ma gikelo bot ajwaka bibedo mere.
+10Jami maleŋ ma dano acel acel okelo bibedo mere; gin ducu ma dano mo omiyo
+bot ajwaka bibedo mere.”
+Cik ma mako nyeko
+11Rwot owaco bot Moses ni,
+12“Wac ki jo Icrael ni, Ka dako pa laco mo waŋe olal, ci otimo kir i kom cware,
+13ka laco-mo obuto kwede, ce cware pe oŋeyo, ma dako ojerre kekene kun lokke
+okanne woko, dok pe tye caden mo ma moko lok kom dako-nu, pien pe ginoŋe
+iye;
+14ka cwiny me nyeko omako laco, kun nyeko omake i kom dakone ma ojerre
+kekene-ni, nyo ka cwiny me nyeko omako laco, kun nyeko omake i kom dakone,
+kadi bed dako pe ojerre kekene,
 Acoli Baibul
 © 1985, Bible Society of Uganda.
-33Pe wubikato woko ki i doggola kema me rwatte pi nino abiro, nio ka kare me
-ketowu i dog tic ocobbe kakare, pien ketowu i dog tic bitero nino abiro.
-34Gin ma gibedo ka tiyone tin, yam Rwot ociko ni gitim me lakwany bal ki i
-komwu.
-35Wun wubibedo i doggola kema me rwatte pi nino abiro, kun wulubo gin ma
-Rwot ociko, wek pe wuto; pien gicika kit meno.”
-36Aron ki awobene gutiyo gin ducu ma Rwot yam ociko ki i dog Moses.
-Lulevi 9
-1I nino me aborone Moses olwoŋo Aron ki awobene ki ludoŋo pa jo Icrael,
-2ci owaco bot Aron ni, “Kwany wod twon, pi gitum me bal, ki nyok romo pi gitum
-awaŋa, ma pe komgi ki mwonyo ducu, wek ityergi i nyim Rwot.
-3Dok iwac bot jo Icrael ni, ‘Wukwany nyok dyel pi gitum me bal, wod twon ki
-latin romo ma ditogi mwaka acel acel ma pe komgi ki mwonyo ducu, pi gitum
-awaŋa,
-4ki twon ki nyok romo pi gityer lakwecwiny, me atuma i nyim Rwot, ki gityer me
-moko kwon ma girubo ki moo; pien Rwot binen botwu tin.’ “
-5Gukelo gin ma Moses ociko i nyim kema me rwatte; ci lwak ducu gunyiko cok,
-gucuŋ i nyim Rwot.
-6Moses owaco ni, “Man aye gin ma Rwot ociko ni wuti, ci deyo pa Rwot binen
-botwu.”
-7 Moses dok owaco bot Aron ni, “Nyik cok ki keno tyer, wek ityer gitum me balli
-ki gitum awaŋani, ci itim gin lakwany bal ki i komi ki i kom lwak. Dok ikel gityer
-pa lwak itim gin lakwany bal ki i komgi macalo yam Rwot ociko.”
-8Aron ocako nyiko cok kt keno tyer ci oneko wod twon me gitum me bal ma
-onoŋo tye pire kikome.
-9Ka awobe pa Aron gumiyo remo bote, en oluto lwet ciŋe i remo ci oreyo kom ten
-keno aŋwen me keno tyer, ka oonyo remo i te tedi keno tyer.
-10Ento dwolo ki olaŋ aryo ki okene ma tye i kom cwiny ma okwanyo ki i kom
-gitum me bal en owaŋo woko i wi keno me tyer, macalo yam Rwot ociko ki
-Moses.
-11Riŋone ki pyenne en owaŋo awaŋa ki mac woko i ne gony.
-12Ka oneko gitum awaŋa, ci awobe pa Aron gumiyo remo bote, en ocoro i kom
-keno tyer kun rumo kome ducu.
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-13Ka dok gumiyo gitum awaŋa bote i kit ma giŋido kwede, kacel ki wic ci en
-owaŋogi i wi keno tyer.
-14En olwoko jam iye ki tyene ducu, ci owaŋogi i wi keno tyer kacel ki gitum
-awaŋa.
-15Ka man otum, otyero gityer pa lwak, Okwanyo dyel me gitum me bal ma onoŋo
-tye pi lwak, ci oneko, otyero pi bal, macalo gitum me bal mukwono.
-16Ka dok omiyo gitum awaŋa, otyero kun lubo cik.
-17Ka otyero gityer me moko kwon, ojobo poŋ ciŋe, owaŋo i wi keno tyer, omedo i
-kom gitum awaŋa me odiko.
-18 Oneko twon ki nyok romo bene en gitum me gityer lakwecwiny ma onoŋo tye
-pi lwak. Awobe pa Aron gumiyo remo bote, ci en ocoro i kom keno tyer kun rumo
-kome ducu.
-19Ka dok gumiye dwolo me twon ki me nyok romo, ki moo yibe, dwolo ma oumo
-jam iye, olaŋ aryo, ki okene ki i kom cwiny.
-20Guketo dwolo i wi gok, ci owaŋo dwolo i wi keno tyer,
-21ento gok ki em malacuc Aron okwato me bedo gityer akwata i nyim Rwot,
-macalo Moses ociko.
-22 Ka doŋ Aron otiŋo ciŋe malo tuŋ bot lwak, ci olamo gum i komgi, ci olor piny
-nia ki ka tyero gitum me bal ki gitum awaŋa ki gityer lakwecwiny ducu.
-23Lacen Moses ki Aron gudonyo i kema me rwatte; ka gukatti woko, ci gulamo
-gum i kom lwak, ci deyo pa Rwot onen bot lwak ducu.
-24Ka mac oa ki i nyim Rwot obino owaŋo gitum awaŋa ki dwolo ma i wi keno
-tyer, otyeko woko ducu. Ka lwak ducu oneno gudaŋŋe ki woo, gupoto piny
-aryeba ic.
-Lulevi 10
-1Nadab ki Abiu, awobe pa Aron, ŋat acel acel okwanyo atabo weerre me waŋo
-odok eceta, oketo iye mac, ka oketo iye odok eceta, ci gutyero mac mapat i nyim
-Rwot, kit mac ma yam pe ocikogi kwede.
-2Ka mac oa ki i nyim Rwot, owaŋogi woko, ci guto woko ki i nyim Rwot.
-3Ka Moses owaco bot Aron ni, “Man aye gin ma Rwot owaco, ni, ‘Abinyutte
-kekena i kin jo ma gitye cok kweda ni aleŋ, dok gibiketo deyo i koma i nyim lwak
-ducu.’ ” Ci Aron oliŋ gire mot.
-4Ka Moses olwoŋo Micael ki Elijapan, awobe pa Ujiel omin won Aron, owaco
-botgi ni, “Wunyik cok, wutiŋ omegiwu ki i nyim kabedo maleŋ, wutergi woko i ne
-gony.”
-owaco.
-5Ci gunyiko cok, gutiŋogi ki kanyigi, guterogi woko i ne gony, kit macalo Moses
-Cik ma obwoyo tic pa ajwagi ki wag watgi
-6Moses owaco bot Aron ki bot Eleajar ki Itamar ma gin awobene ni, “Pe wugony
-yer wiwu oket ata lijayi, dok pe wuyec ginarukawu, wek pe wuto, dok wek kiniga
-pe opol i kom lwak ducu, Ento utmegiwu, jo ducu me ot pa Icrael, gitwero kok pi
-to ma mac pa Rwot okelo.
-7Pe wukat woko ki i doggola ke ma me rwatte, wek pe wuto, pien moo wir pa
-Rwot tye i komwu.” Ci gutiyo kit ma Moses owaco botgi.
-8Rwot oloko ki Aron kun waco ni,
-9“Pe imat koŋo vino nyo gin ma mero dano, in kacel ki awobeni, ka onoŋo wucito
-i kema me rwatte, wek pe wuto; meno bibedo cik matwal nio wa i kare pa
-likwayowu ducu.
-10Myero wupok kin jami maleŋ ki jami ma pe leŋ, ki kin gin ma keni ki gin ma
-olony.
-11Dok wubipwonyo jo Icrael ki cik ducu ma Rwot ocikogi kwede ki i dog Moses.”
-12 Ci Moses owaco bot Aron, ki bot Eleajar ki Itamar, awobene ma yam gudoŋ, ni,
-“Wukwany gityer me moko kwon ma odoŋ ki i kom gityer ma giwaŋo ki mac bot
-Rwot, ci wucam ma to bi pe iye, i ŋet keno tyer, pien en gin maleŋ makato.
-13Myero wucam ki i kabedo mo maleŋ, pien en aye waŋ watti ki waŋ wat pa
-awobeni ma a ki i kom gityer ma giwaŋo ki mac bot Rwot; pien yam gicika kit
-meno.
-14 Ento gok ma gikwato ki em ma gityero wubicamo i kabedo mo ma olony, in ki
-awobeni ki anyirani kacel, pien gimiyogi gubed waŋ watti ki waŋ wat pa
-awobeni, ma a ki i kom gityer lakwecwiny pa jo Icrael.
-15Em ma gityero ki gok ma gikwato-ni gibikek kacel ki gityer ma giwaŋo ki mac
-ma en aye dwolo, wek gikwat i nyim Rwot me gityer akwata. Bibedo meri ki pa
-awobeni kacel kwedi; en cik ma bibedo matwal, macalo yam Rwot ociko.”
-16Ka Moses openyo mot pi dyel me gitum me bal, ci onoŋo ni doŋ giwaŋo woko.
-Akemo omake i kom Eleajar ki Itamar, awobe pa Aron ma con gudoŋŋi, owaco ni,
-17 “Piŋo pe wucamo gitum me bal ki i kabedo maleŋ? Pien en gin maleŋ makato
-ma gimiyowu wek wutiŋ bal pa lwak, pi timo gin lakwany bal ki i komgi i nyim
-Rwot.
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-18Nenu, wa remone pe gukelo i tyelo i kabedo maleŋ. Yam myero wucam ki i
-kabedo maleŋ, macalo yam aciko.”
-19Aron ogamo dog Moses ni, “Nen, tin gutyero gitum me bal ki gitum awaŋagi i
-nyim Rwot, ci gin macalo man doŋ opoto i koma, Ka kono abedo ka camo gitum
-me bal tin, kono obedo myero i waŋ Rwot?”
-20Ka Moses owinyo lok meno, ci iye okwe.
-Lulevi 11
-1Rwot owaco bot Moses ki Aron ni,
-2“Wuwac bot io Icrael ni, Man aye gin makwo ma wutwero camo ki i kin lee ducu
-ma tye i wi lobo.
-3Lee ducu ma oboŋ tyengi akara, ma kin tyengi opokke, ma nyamo omen, ma i k
-in lee ducu wutwero camone.
-4Ento lee ma nyamo omen nyo ma oboŋ tyengi akara ma pe wubicamo gin ene:
-Kinaga kadi en nyamo omen, ento oboŋ tyene pe akara; pienno bedo keni botwu,
-wubikwerone.
-5Ki oduka nyamo omen, ento oboŋ tyene pe akara; pienno bedo keni botwu,
-wubikwerone.
-6Ki apwoyo bene kadi en nyamo omen, ento oboŋ tyene pe akara; pienno bedo
-keni botwu, wubikwero.
-7Ki opego, kadi oboŋ tyene akara, kin tyene opokke, ento pe nyamo omen; pienno
-bedo keni botwu, wubikwero.
-8Pe wucam riŋogi, pe wugud wa komgi ma oto bene; gin bedo keni botwu,
-wubikwerogi.
-9“Magi aye wutwero camogi ki i kin gin ducu ma bedo i pii. Gin ducu ma bedo i pii
-ma tye ki kiŋa ŋegi ki pok komgi, ma i nam ki ma i kulu ducu, wutwero camogi.
-10Ento gin ducu ma tye i nam ki i kulu ducu ma pe ki kiŋa ŋegi ki pok komgi i kin
-gin ma corre limuk i pii ki i kin gin makwo ma bedo i pii, bedo gin me kwer
-botwu.
-11Gibibedo me kwer botwu; pe wubicamo riŋogi, dok komgi mutone bene bedo
-me kwer botwu.
-12Gin ducu ma i pii ma pe ki kiŋa ŋegi ki pok komgi bedo me kwer botwu.
-13“Magi aye gin ma bibedo me kwer botwu ki i kin winyo; pe gibicamogi, gin
-gibedo me kwer: ocur, acut, koga,
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-14okwata, ocecu ki kit kwagi ducu;
-15agak ki kit kwagi ducu;
-16udu, tebu, wetwet, olwilwit ki kit kwagi ducu;
-17tula, alwinya, adyeladyel,
-18lagweno kulu, kikuŋ, ki ocur madito,
-19acebe, ogoro ki kit kwagi ducu; ki putput, ki olik.
-20“Kwidi ducu ma tye ki bwomgi, ma giwoto ki tyengi aŋwen, bedo me kwer
-botwu.
-21Ento i kin kwidi ma tye ki bwomgi, ma giwoto ki tyengi aŋwen, wutwero camo
-gin ma tye ki tyengi mabocone ma gipye kwede i wi lobo.
-22Wutwero ca mo magi i kingi: bonyo ki kit kwagi ducu; ocenne ki kit kwagi ducu,
-labari ki kit kwagi ducu; ki otwoŋo ki i kit kwagi ducu.
-23Ento kwidi mukene ducu ma gitye ki bwomgi, ma gitye ki tyengi aŋwen, gibedo
-me kwer botwu.
-24“Magi gin ma bimiyo wudoko keni; ŋat ma ogudo kom mutone bibedo keni nio
-wa otyeno.
-25Ŋat ma ot iŋo dul komgi mo muto-ni bilwoko boŋŋine ci bibedo keni nio wa
-otyeno.
-26Lee ducu ma oboŋ tyene akara, ento kin tyene pe opokke, nyo ma pe nyamo
-omen, bedo keni botwu; ŋat ma ogudo komgi bibedo keni.
-27Ki lee ducu ma woto ki opany tyengi, i kin lee ducu ma giwoto ki tyengi aŋwen,
-bedo keni botwu. Ŋat ma ogudo kom mutone bibedo keni nio wa otyeno.
-28Dok ŋat ma ot iŋo kom mutone bilwoko boŋŋine ci bibedo keni nio wa otyeno;
-gin bedo keni botwu, wubikwerogi.
-29“Man aye gin ma bedo keni botwu ki i kin gin ma nya ma corre limuk i wi lobo:
-oculi, oyoo adeŋ, lagwe lakaka ki kit kwagi ducu,
-30laromo ot, ŋec, lagwe kweyo, ki laŋogo.
-31Man aye gin makeni botwu ki i kin gin ducu ma gicorre limuk; ŋat ma ogudo
-komgi ka guto bibedo keni nio wa otyeno.
-32Ka mo i kingi ma doŋ oto opoto i kom jami mo-ni, jami-nu bibedo keni, kadi
-weer, nyo boŋo aruka, nyo laa, nyo kicaa, jami mo keken ma gitiyo kwede pi kit
-tic mo-ni; myero giket i pii, ci bibedo keni nio wa otyeno, ka doŋ bibedo ma
-olony.
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-33Dok ka mo i kingi opoto i agulu, nyo atabo nyo kit gin mo macalo meno ma
-gicweyo ki lobo, gin ducu ma tye iye bibedo keni, agulu nyo atabo-gu wubineko
-woko.
-34Ginacama mo ma gicamo ma tye iye, ma gionyo iye pii, bibedo keni; ki ginamata
-ma gimato ki i agulu-ni nyo atabo-gu bibedo keni.
-35Jami ducu ma dul komgi mo muto-ni opoto i kome bibedo keni, kadi keno nyo
-tuk keno gibimuko woko; gin gudoko keni, ci gibibedo keni botwu.
-36Kadi bed kumeno, waŋ it nyo bur taŋi me jolo pii bibedo ma olony; ento gin
-ducu ma ogudo kom mutone bibedo keni.
-37Ka dul komgi muto-ni opoto i kom kodi mo me acoya, ma gibicoyo, kodi-nu
-bibedo ma olony;
-38ento ka onoŋo gionyo pii i kom kodinu, ce dul komgi mo muto-ni opoto i kome,
-ci bedo keni botwu.
-39“Ka lee mo ma gicamo oto woko, ŋat ma ogudo geŋŋe bibedo keni nio wa
-otyeno.
-40Ŋat ma ocamo geŋ meno bilwoko boŋŋine ci bibedo keni nio wa otyeno. Dok
-ŋat ma otiŋo geŋ-ŋu bilwoko boŋŋine, ci bibedo keni nio wa otyeno.
-41“Gin ducu ma nya ma corre limuk i wi lobo gin aye gin me kwer; pe gibicamone.
-42Gin ducu ma woto kun ywane ki iye, ki gin ducu ma woto ki tyengi aŋwen, nyo
-ma tye ki lwak tyengi mapol, gin ducu ma nya ma corre limuk i wi lobo pe
-wubicamogi, pien gin aye gin me kwer.
-43Pe wulokke wudok gin me kwer pi gin mo-ni ma nya ma corre limuk; dok pe
-wuballe wudok keni pigi.
-44 Pien an a Rwot Lubaŋawu; pi meno wulonnye kekenwu wubed maleŋ, pien an
-aleŋ. Pe wuballe wudok keni pi gin mo ma corre limuk ma lak i wi lobo.
-45Pien an aye a Rwot ma akwanyowu woko ki i lobo Ejipt, wek abed Lubaŋawu;
-mumiyo wubed jo maleŋ, pien an aleŋ.”
-46Man aye cik ma otiko lee ki winyo ki gin makwo ducu ma kwan i pii, ki gin ducu
-ma corre limuk i wi lobo,
-47wek dano gupok kin gin ma keni ki gin ma olony, ki kin gin makwo ma gitwero
-camo ki gin makwo ma pe gitwero camo.
-Lulevi 12
-1Rwot owaco bot Moses ni,
-2“Wac bot jo Icrael ni, Ka dako ogamo ic ce onywalo latin laco, en bibedo keni pi
-nino abiro; bibedo keni macalo i kare me two kwer.
-3 I nino me aborone en aye gibiliro iye del kom nyim latin me co.
-4Dako dok bimedde pi nino pyeradek wiye adek wek olonnye pi remo me
-kwerre; pe bigudo gin mo maleŋ, pe bicito i ot pa Lubaŋa, nio ka kare me
-lonnyene otum.
-5Ento ka onywalo latin nyako, en bibedo keni macalo i kare me two kwer pi cabit
-aryo; dok bimedde pi nino pyerabicel wiye abicel wek olonnye pi remo me kwer
-mere.
-6“Ka kare me lonnyene otum, ka nyo pi awobi nyo pi nyako, dako bikelo latin
-romo ma ditte romo mwaka acel bot ajwaka i doggola kema me rwatte pi gitum
-awaŋa, ki latin akuri, nyo amam, pi gitum me bal.
-7Ajwaka bityero i nyim Rwot, bitimo gin lakwany bal ki i kom dako, ci doŋ
-bilonnye ki i remone ma ocwer. Man aye cik ma mako dako ma onywalo latin laco
-nyo ma nyako.
-8 Ka noŋo latin romo oloye, en bitero amam aryo, nyo litino akuri aryo, acel pi
-gitum awaŋa, acel pi gitum me bal: ajwaka bitimo gin lakwany bal ki i kome, ci
-doŋ bedo ma olonnye.”
-Lulevi 13
-1Rwot owaco bot Moses ki Aron ni,
-2“Ka dano mo del kome okwot, nyo orugo, nyo orobo, ci odoko two me dobo i del
-kome, ci myero gikele bot ajwaka Aron, nyo bot ŋat acel i kin awobene ma gin aye
-ajwagi.
-3Ajwaka biŋiyo two ma orobo i del kome-ni; ci ka yer ma i del kome ma orobo-ni
-odoko lwar matar, dok ka twone onen ni ogolle matut ma okato del kome, ci
-meno two dobo, Ka ajwaka doŋ oŋiyo kome, ci bituco ni, kome ki keni.
-4Ento ka del kome-ni orobo matar kun nen ni pe ogolle matut okato del, dok ka
-yer ma tye iye bene pe olokke odoko lwar, ci ajwaka bitweyo dano ma latwo-ni i
-ot pi nino abiro.
-5I nino me abirone ajwaka dok biŋiyo kome, ci ka onen bote ni two doŋ ocuŋ, pe
-onya omedde i del kome, ci ajwaka bimedo tweyo dano-nu i ot pi nino abiro
-mukene.
-6I nino me abirone ajwaka dok biŋiyo kome, ci ka two ma orobo kome-ni doŋ
-ojwik woko, dok two pe on ya omedde i del kome, ci ajwaka bituco ni kome pe ki
-keni; orugo aruga noŋo. Dano-nu myero olwok boŋŋine ci bibedo ma olony.
-7Ento ka ce kome ma orugo-ni onya omedde i delkome, ma doŋ onoŋo onyutte
-kene bot ajwaka pi lonnyene, ci en myero dok obin i nyim ajwaka.
-8Ajwaka biŋiyo, ci ka onoŋo ni kome ma orugo-ni doŋ onya omedde i del kome,
-ajwaka bituco ni kome ki keni, meno two dobo.
-9“Ka dano mo two dobo omako gibikele bot ajwaka.
-10Ajwaka biŋiyo, ci ka del kome mo tye ma okwot ma okwor matar, ma otyeko
-loko yer odoko lwar, dok bur odet manyen ka ma okwot-ti,
-11meno noŋo two dobo ma yam ori i del kome. Ajwaka bituco ni kome ki keni; pe
-bitweyone i ot, pien kome ki keni.
-12Ka dobo ocorre i del kome, ma two dobo oromo del kom dano ma latwo-ni, nia i
-wiye nio wa i tyene, ma ajwaka twero neno ducu,
-13ci ajwaka biŋiyo. Ka dobo oromo kome ducu, ci ajwaka bituco ni olony i kom
-two meno; noŋo kome ducu okwor matar, kome pe ki keni.
-14Ento ka bur odet ma nen i kome, ci kome bibedo ki keni.
-15Ajwaka biŋiyo bur mudet manyen-ni, ci bituco ni kome ki keni; bur mudet
-manyen bedo keni, meno two dobo.
-16Fnto ka ce bur mudet manyen-ni dok olokke odoko matar, ci bidwogo bot
-ajwaka.
-17Ajwaka biŋiyo kome, ci ka two odoko matar, ajwaka bituco ni latwo kome pe ki
-keni; en doŋ olonnye.
-18“Ka ŋatti i mo odeke okwot i del kome, ci ocaŋ obone woko,
-19ka ce lacen dok ojer okwot i waŋ odeke-nu ma okwor matar, nyo orobo matar
-kun bedo makwarkwar, ci myero ginyut bot ajwaka.
-20Ajwaka biŋiyo, ci ka onen ni ogolle matut okato del kom, ki yer bene odoko
-lwar, ajwaka bituco ni kome ki keni: meno two dobo ma otyer i waŋ odeke.
-21Ento ka ajwaka oŋiyo, ci yer ma tye iye pe lwar, dok pe ogolle matut ma okato
-del kom, ento doŋ ojwik woko, ci ajwaka bitweyo dano-nu i ot pi nino abiro.
-22Ka onya omedde i del kome, ci ajwaka bituco ni kome ki keni, pien meno two.
-23Ento ka ce waŋe ma orobo-ni ogik i kabedo acel ma pe on ya omedde, meno po
-yo waŋ odeke keken, ci ajwaka bituco ni kome pe ki keni.
-24“Nyo ka dano mo mac owaŋo, opwaco del kome, ce bur odet manyen i waŋ ka
-ma opwac-ci, ci orobo matar kun obedo makwarkwar, nyo okwor matar,
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-25ci ajwaka biŋiyo, Ka yer ma i waŋe odoko lwar, dok onen ni ogolle matut, okato
-del kom, meno two dobo otyer i waŋ ka ma opwac-ci. Ajwaka bituco ni kome ki
-keni; meno two dobo.
-26Ento ka ajwaka oŋiyo, ci yer ma i wane ma orobo-ni pe lwar, dok pe ogolle
-matut ma okato del kom, ento ojwik woko, ci ajwaka bitweyo dano-nu i ot pi nino
-abiro.
-27I nino me abirone ajwaka biŋiyo; ka tye ka nya medde i del kome, ci ajwaka
-bituco ni kome ki keni; meno two dobo.
-28Ento ka ce waŋe ma orobo-ni ogik i kabedo acel ma pe onya omedde i del kome,
-ento ojwik woko, meno gin ma okwot i waŋ ka ma opwac keken; ajwaka bituco ni
-ko me pe ki keni, pien meno waŋ po yo ka ma mac owaŋo.
-29“Ka laco mo nyo dako mo two tye i wiye nyo i yer tike,
-30ajwaka biŋiyo twone. Ka onen ni ogolle matut okato del kom, dok yer ma tye
-iye odoko ocwakocwak, dok ojwer woko, ci ajwaka bituco ni kome ki keni; meno
-two akukuc, en dobo me wic nyo me yer tik.
-31Ka ajwaka oŋiyo two akukuc, ka onen ni ogolle matut okato del kom, kun yer
-macol pe iye, ci ajwaka bitweyo dano meno ma tye ki two akukuc i ot pi nino
-abiro.
-32I nino me abirone ajwaka bi ŋiyo twone; ka akukuc pe on ya omedde, dok pe
-tye iye yer ma obedo ocwakocwak, dok akukuc pe onen ni ogolle matut okato del
-kom,
-33ci dano-nu bilyelo wiye woko, ento pe bilyelo ka ma obedo akukuc-ci. Ajwaka
-bimedo tweyo dano meno i ot pi nino abiro mukene.
-34I nino me abirone ajwaka biŋiyo akukuc; ka akukuc pe onya omedde i del kome,
-kun nen ni pe ogolle matut okato del kom, ci ajwaka bituco ni ko me pe ki keni.
-En bilwoko boŋŋine ci bibedo ma olony.
-35Ento ka ce akukuc onya omedde i del kome i ŋe lonnyene,
-36ci ajwaka biŋiyo kome, Ka akukuc omedde i del kome, ajwaka pe dok oyeny yer
-ma obedo ocwakocwak; kome ki keni.
-37Ento ka onen bote ni akukuc doŋ ocuŋ, dok yer macol tye olot iye, akukuc doŋ
-ocaŋ woko, en doŋ olonnye; ajwaka bituco ni kome pe ki keni.
-38“Ka laco mo nyo dako mo del kome orobo, kome oonyo ma okwor matar,
-39ajwaka biŋiyo. Ka del kome orobo, kome oonyo ma pe okwor matar twatwal,
-noŋo del ko me oonyo odugo aduga keken; kome pe ki keni.
-40“Ka yer wi laco mo otal oo woko, en bedo lawiye otal, ento kome pe ki keni.
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-41Dok ka laco mo yer olwer woko ki i tur nyime nyo i teŋ wiye, en bedo ma wiye
-otal i tur nyime, ento kome pe ki keni.
-42Ento ka tye two mo i wiye nyo i tur nyime mutal-li ma orobo matar kun obedo
-makwarkwar, meno two dobo aye ma ocorre i wiye ma otal-li, nyo i tur nyime ma
-otal-li.
-43Ajwaka biŋiyo kome: ci ka two ma okwoto wiye mutal-li nyo tur nyime mutal-li
-obedo matar makwarkwar, kun nen calo two dobo ma i del kom dano,
-44en dano ma ladobo, ko me ki keni. Ajwaka myero otuc ni kome ki keni; twone
-tye i wiye.
-45“Ladobo ma tye ki two dobo myero oruk boŋŋi ma oket, bigonyo yer wiye ket
-ata lijayi, ci umo del doge mamalo woko, ka daŋŋe ni, ‘Koma ki keni, koma ki
-keni.’
-46En bibedo keni pi kare ducu me twone; kome ki keni. En bibedo i kabedone
-kene, woko i ŋe gony.
-47“Ka ce two dobo tye i kom ginaruka mo, kadi bed me boŋo yer romo nyo boŋo
-camanini,
-48i kom uci ma atirre nyo i kom uci ma ariine, nyo i kom laa, nyo i kom gin mo ma
-gitiyo ki laa,
-49ka two nen atworo-atworo nyo makwarkwar i kom boŋo, i kom uci ma atirre
-nyo i kom uci ma ariine, nyo i kom gin mo ma gitiyo ki laa, meno two dobo,
-myero ginyut bot ajwaka.
-50Ajwaka biŋiyo two meno, ci bitweyo wi jami ma two tye iye-ni pi nino abiro.
-51I nino me abirone en biŋiyo two-nu. Ka two onya omedde i ginaruka, i kom uci
-ma atirre nyo i kom uci ma ariine, nyo i kom laa, kadi bed laa ma giyubo pi kit tic
-mo, meno aye dobo ma ŋuno jami; jami-nu keni.
-52Ajwaka biwaŋo ginaruka meno, kadi bed two tye i kom uci ma atirre nyo i kom
-uci ma ariine, i boŋo yer romo nyo i boŋo camanini, nyo i kom gin mo ma gitiyo ki
-laa, pien meno two dobo ma ŋuno jami; gibiwaŋo woko awaŋa ki mac.
-53“Ka ajwaka oŋiyo, ce two pe onya omedde i ginaruka, i kom uci ma atirre nyo i
-kom uci ma ariine, nyo i kom gin mo ma gitiyo ki laa,
-54ci ajwaka biciko ni gilwok jami ma two tye iye-ni, ci bimedo tweyo wiye pi nino
-abiro mukene.
-55Dok ajwaka biŋiyo jami ma two tye iye-ni i ne lwokogi. Ka raŋi pe olokke ka ma
-two tye iye-ni, kadi bed two pe onya omedde, jami-nu keni; wubiwaŋo woko
-awaŋa ki mac, kadi bed two oŋuno tuŋ ŋeye nyo tuŋ iye.
-56“Ento ka ce ajwaka oŋiyo, ci two pe nen twatwal i ne lwokone, en biyeco dul
-meno woko ki i kom ginaruka, nyo ki i kom laa, ki i kom ucine ma atirre nyo i
-kom uci ma ariine.
-57Lacen ka two dok onen i kom ginaruka-nu, nyo i kom ucine ma atirre nyo i kom
-uci ma ariine, nyo i kom gin mo ma gitiyo ki laa, noŋo tye ka nya medde; gin ma
-two tye iye-ni wubiwaŋo woko awaŋa ki mac.
-58Ento ginaruka, kadi bed uci ma atirre nyo uci ma ariine, nyo gin mo ma gitiyo ki
-laa, ma two oa i kome ka ilwoko, myero gilwok tyen me aryo, ci bibedo ma
-olonnye.”
-59Man aye cik ma mako two dobo ma i kom ginaruka me boŋo yer romo nyo boŋo
-camanini, i kom uci ma atirre nyo i kom uci ma ariine, nyo i kom gin mo ma gitiyo
-ki laa, pi ŋolo ka olony nyo keni.
-Lulevi 14
-1Rwot owaco bot Moses ni,
-2 “Man aye bibedo cik ma mako ladobo i nino me lonnyene. Gibikele bot ajwaka,
-3ci ajwaka bikato woko i ŋe gony ka ŋiyo kome. Ka two dobo doŋ ocaŋ woko ki i
-kome,
-4ci ajwaka biciko ni gikel winyo makwo aryo ma olony, te lokke ni, winyo ma
-gitwero camogi, ki yat cedar, uci makwar, ki anyero, pi dano ma gimito lonyo-ni.
-5Ajwaka biciko ni gitwom pii ma mol, giony i otako, ci ginek winyo acel ki malo i
-wi pii meno.
-6En bimako winyo makwo kacel ki yat cedar ki uci makwar-ri ki anyero, ci lutogi
-kacel ki winyo makwo i remo winyo ma onoŋo gineko ki malo i wi pii mamol-li.
-7Bikiro remo i kom dano ma gimito lonyo i kom dobo-ni tyen abiro; lacen bituco
-ni en doŋ olonnye, ci biweko winyo makwo-ni tuk dok woko i tim.
-8Ci dano ma obino pi lonnye bilwoko boŋŋine, bilyelo yer kome ducu, ka lwoko
-kome ki pii, ci bibedo ma olonnye. I ŋe meno en doŋ cako bino i gony, ento bibuto
-woko i ne kemanepi nino abiro.
-9I nino me abirone bilyelo yer wiye ducu, dok bilyelo yer tike ki yer pyen waŋe ki
-yer kome ducu. Ka dok bilwoko boŋŋine, bilwoko kome ki pii, ci doŋ bedo ma
-olonnye.
-10“Dok i nino me aborone en bitero litino nyogi romi aryo ma komgi pe ki
-mwonyo, ki bwoŋ romo ma ditte romo mwaka acel, ki gityer me moko kwon ma
-romo agwata adek, moko mapwotte ma girubo ki moo, ki moo ma romo cupa
-acel.
-11Ajwaka ma lonyo en-ni bitero dano ma gilonyo-ni, cibo kacel ki jamine i nyim
-Rwot i doggola kema me rwatte.
-12Ajwaka bikwanyo nyok romo acel, bityero me gitum pi alii, kacel ki cupa moo
-acel-lu, ci kwatogi me bedo gityer akwata i nyim Rwot.
-13Bineko latin romo-nu i kabedo ma gineko iye gitum pi bal ki gitum awaŋa, i
-kabedo maleŋ, pien gitum me alii rom ki gitum me bal, ducu bedo pa ajwaka; en
-gin maleŋ makato.
-14Ajwaka bigwelo remo me gitum me alii, bireyo i ogwilo it dano ma gilonyo-ni,
-malacuc, ki i kom twon nyig ciŋe malacuc, ki i twon nyig tyene malacuc.
-15Ka ajwaka bikwanyo moo ma romo cupa acel-li, bitono manok i dye ciŋe
-malacam,
-16ka luto lwet ciŋe malacuc i moo ma i dye ciŋe malacam-mi, ci kiro moo ki nyig
-ciŋe tyen abiro i nyim Rwot.
-17Moo ma odon i ciŋe ajwaka bireyo i ogwilo it dano ma gilonyo-ni malacuc, ki i
-twon nyig ciŋe malacuc, ki i twon nyig tyene malacuc, i kom remo me gitum me
-alii.
-18Moo ma odoŋ i ciŋ ajwaka en bidunyo i wi dano ma gilonyo-ni, ka ajwaka
-bitimo gin lakwany bal ki i kome i nyim Rwot.
-19Ajwaka bityero gitum me bal me kwanyo bal ki; kom dano ma gimito lonyo
-keni ma i keme-ni. Lacen en bineko gitum awaŋa,
-20ci ajwaka bityero gitum awaŋa kacel ki gitum me moko kwon i wi keno tyer, Kit
-meno ajwaka bitimo gin lakwany bal ki i kome, ci doŋ bilonnye.
-21“Ento ka en lacan ma noŋo meno ducu oloye, en bikwanyo latin nyok romo acel
-obed gitum me alii me akwata, pi kwanyo bal ki i kome, ki agwata moko kwon
-acel me moko mapwotte ma girubo ki moo pi gityer me moko kwon, ki moo ma
-romo cupa acel;
-22dok amam aryo nyo litino akuri aryo, macalo en romo noŋone; acel bibedo
-gitum me bal, acel bibedo gitum awaŋa.
-23I nino me aborone en bikelo bot ajwaka pi lonnyene i doggola kema me rwatte i
-nyim Rwot.
-24Ajwaka bikwanyo latin romo me gitum me alii, kacel ki moo ma romo cupa
-acel-li, bikwatogi me bedo gityer akwata i nyim Rwot.
-25Ka dok bineko latin romo me gitum me alii; ci ajwaka bigwelo remo me gitum
-me alii, bireyo i ogwilo it dano ma gilonyo-ni malacuc, ki i twon nyig ciŋe
-malacuc, ki i twon nyig tyene malacuc.
-26Ka ajwaka bitono moo manok i dye ciŋe malacam,
-27ci bikiro moo ma i dye ciŋe malacam-mi tyen abiro i nyim Rwot ki nyig ciŋe
-malacuc.
-28Ka ajwaka bireyo moo ma i ciŋe malacuc i ogwilo it dano ma gilonyo-ni, ki i
-twon nyig ciŋe malacuc, ki i twon nyig tyene malacuc, ka ma gireyo iye remo me
-gitum me alii.
-29Moo ma odoŋ i ciŋe ajwaka bidunyo i wi dano ma gilonyo-ni, me lakwany bal ki
-i kome i nyim Rwot.
-30I kom amam nyo litino akuri ma en romo noŋone,
-31en bityero acel pi gitum me bal, acel pi gitum awaŋa, kacel ki gityer me moko
-kwon; ci ajwaka bitimo gin lakwany bal ki i kom dano ma gilonyoni, i nyim Rwot.
-32Man aye cik ma mako dano ma tye ki two dobo, ma pe romo noŋo gityer ducu
-ma giciko pi lonnyene.”
-33Rwot owaco bot Moses ki Aron ni,
-34“Ka doŋ wuo i lobo Kanaan ma abimiyowu me bedo mewu, ka ce aketo two
-dobo i ot mo i lobo ma abimiyowuni,
-35ci won ot bicito tito bot ajwaka kun waco ni, ‘I oda nen calo tye iye kit two mo.’
-36Ajwaka biciko ni gicok jami, gikel woko wek ot odoŋ ma iye nono ma noŋo peya
-en ajwaka odonyo iye ka ŋiyo two, wek pe gituc ni jami ducu ma tye i ot bedo
-keni; lacen ajwaka bidonyo ka ŋiyo ot.
-37En biŋiyo two; ka ce twone tye i kor ot kun omido ma obedo atworo atworo,
-nyo omido makwarkwar, ka nen ni odonyo wa matut i kor ot,
-38ci ajwaka bikato woko ki i ot meno, cito i doggolane, cego dog otte woko pi nino
-abiro.
-39I nino me abirone ajwaka dok dwogo ci neno. Ka two onya omedde i kor ot,
-40ci ajwaka biciko ni gimuk matafali got ma two omido iye-ni, gibolgi woko i ne
-gaŋ i kabedo ma pe olony.
-41Dok bimiyo gicwero i ot rumo woko ducu, lobo ma gicwero i kor ot-ti gibionyo
-woko i ne gaŋ i kabedo ma pe olony.
-42Ka dok gibikelo matafali got mukene, giketogi i kabedo ma gikwanyo iye godi-
-ni, ka dok gikelo lobo mukene, ci gipuyo ki ot meno.
-43“Ka two dok otuc i ot meno, ma onoŋo doŋ gityeko muko godi woko, dok
-gicwero kor ot, gipuyo odoco,
-44ci ajwaka dok bidok ka nenone. Ka two onya omedde i ot aye, meno two dobo
-ma ŋuno kor ot; ot-ti keni.
-45Gibimuko ot meno gireto woko piny, godine ki baone ki lobo ma gipuyo kwede
-ducu, gibiterogi woko i ŋe gaŋ i kabedo ma pe olony.
-46Dano ma odonyo i ot meno ma onoŋo gicego woko-ni bibedo keni nio wa
-otyeno
-47Dano ma obuto piny i ot meno bilwoko boŋŋine; dok ŋat ma ocamo i ot-tu
-bilwoko boŋŋine.
-48“Ento ka ajwaka obino, oŋiyo ot ce onoŋo two pe onya omedde nia ma gipuyo-
-ni, ci ajwaka bituco ni otte pe keni, pien twone doŋ ocaŋ.
-49Pi lonyo ot, en bikwanyo litino winyo aryo, kacel ki yat cedar ki uci makwar ki
-anyero.
-50Gibitwomo pii ma mol i otako, ci en bineko winyo acel ki malo i wi pii meno.
-51Bimako yat cedar ki anyero ki uci makwar, kacel ki winyo makwo, ci lutogi i
-remo winyo ma onoŋo gineko malo ki i wi pii mamol-li, ci kiro kom ot tyen abiro.
-52Kit meno en bilonyo ot ki remo winyo, kacel ki pii mamol-li, ki winyo makwo, ki
-yat cedar, ki anyero ki uci makwar-ri,
-53ci biweko winyo makwo tuk dok woko i tim i ne gaŋ. Kit meno en bitimo gin
-lakwany bal ki i kom ot, ci bibedo ma olony.”
-54Man aye cik ma mako two dobo ducu: pi two akukuc,
-55pi two dobo ma i kom ginaruka nyo i kom ot,
-56nyo pi gin ma okwot, nyo orugo, nyo orobo del kom dano,
-57pi nyuto ka obedo keni nyo ma olony. Man aye cik ma mako dobo.
-Lulevi 15
-1Rwot owaco bot Moses ki Aron ni,
-2“Wuwac bot jo Icrael ni, Ka laco mo kome cwer tut, cwer tutte miyo kome bedo
-ki keni.
-3Dok man aye cik ma mako dano ma kome ki keni pi cwer tut, ka nyo kome mol
-tut, nyo ka tut ma cwer i kome ocony, noŋo kome ki keni.
-4Kitanda ducu ma dano ma kome cwer tut obuto iye bibedo keni, ki gin ducu ma
-en obedo iye bibedo keni.
-5Ŋat ma ogudo kom kitandane myero olwok boŋŋine, olwok kome ki pii, ci bedo
-keni nio wa otyeno.
-6Ŋat ma obedo i kom gin ma dano ma kome cwer tut obedo iye bilwoko boŋŋine,
-lwoko kome ki pii, ci bedo keni nio wa otyeno.
-7Ŋat ma ogudo kom dano ma kome cwer tut-ti bilwoko boŋŋi ne, lwoko kome ki
-pii, ci bedo kem nio wa otyeno.
-8Ka ŋat ma kome cwer tut oŋulo laa i kom dano mo ma olony, dano-nu bilwoko
-boŋŋine, lwoko kome ki pii, ci bedo keni nio wa otyeno.
-9Kom mo me bedo i wi kinaga ma dano ma kome cwer tut obedo i wiye bibedo
-keni.
-10Ka ŋat ma ogudo gin mo ma en obedo nyo obuto iye, bibedo keni nio wa
-otyeno; ki ŋat ma otiŋo jami meno bilwoko boŋŋine, bilwoko kome ki pii, ci bedo
-keni nio wa otyeno.
-11Ka dano ma kome cwer tut ogudo kom dano mo ma onoŋo pe olako ciŋe ki pii,
-dano-nu bilwoko boŋŋine, lwoko kome ki pii, ci bedo keni nio wa otyeno.
-12Ka dano ma kome cwer tut ogudo kom agulu mo, ci agulune gibineko woko, ki
-jami macalo weer bao ducu gibilako komgi ki pii.
-13“Ka dano mo ma kome cwer tut kome doŋ olony, ci bikwano nino abiro pi
-lonnyene, ka bilwoko boŋŋine, lwoko kome i pii mamol, ci bedo ma ko me pe ki
-keni.
-14I nino me aborone en bitero amam aryo nyo litino akuri aryo, bibino i nyim
-Rwot i doggola kema me rwatte, bimiyogi bot ajwaka.
-15Ajwaka bityerogi, acel me gitum me bal, acel me gitum awaŋa; kit meno ajwaka
-bitimo gin lakwany bal ki i kome i nyim Rwot pi kome ma obedo ka cwer tut-ti.
-16“Ka laco mo kodi me co ne omol i kome, en bilwoko kome ducu ki pii, ci bedo
-keni nio wa otyeno.
-17Ginaruka nyo pyen ducu ma kodine me co omol i kome myero gilwok ki pii, ci
-bedo keni nio wa otyeno.
-18Ka laco obuto ki dako ci kodi me co odonyo i kome, gin aryo ducu gibilwoko
-komgi ki pii, ci gibibedo keni nio wa otyeno.
-19“Dako ma remo mol ki i kome i kit me nino ducu bibedo ki kwerre pi nino
-abiro; dano ducu ma ogudo kome bibedo keni nio wa otyeno.
-20Gin ducu ma en obuto iye i kare ma tye ki kwer bibedo keni, ki gin ducu ma en
-obedo iye bibedo keni.
-21Ŋat ma ogudo kitandane myero olwok boŋŋine, olwok kome ki pii, ci bedo keni
-nio wa otyeno,
-22Ŋat ma ogudo kom gin ma en obedo iye bilwoko boŋŋine, lwoko kome ki pii, ci
-bedo keni nio wa otyeno.
-23Kadi bed kitanda nyo gin mo ma en obedo iye, dano ma ogudo bibedo keni nio
-wa otyeno.
-24Ka laco mo obuto kwede, ce kwerre ogudo kome, en bibedo keni pi nino abiro,
-dok kitanda ducu ma danonu obutoiye bibedo keni.
-25“Ka dako mo remo mol ki i kome pi nino mapol, ma pe i i kare me two kwerre
-keken, nyo ka remone mol ma okato kare me two kwerre, en bimedde bedo keni
-pi kare ducu ma remone mol; en bibedo keni macalo i kare me two kwer.
-26Kitanda ducu ma en obuto iye, i kare ducu ma remone mol-li, bibedo bote
-macalo kitanda me two kwerre; dok gin ducu ma en obedo iye bibedo keni,
-macalo bedo keni i kare me two kwer.
-27Ŋat ma ogudo jami magi bibedo keni; myero olwok boŋŋine olwok kome ki pii,
-ci bedo keni nio wa otyeno.
-28Ento ka dako kome doŋ olony i kom kwerre, en bikwano nino abiro, lacen en
-bibedo ma kome pe ki keni.
-29I nino me aborone en bitero am am aryo nyo litino akuri aryo, bikelogi bot
-ajwaka i doggola kema me rwatte.
-30Ajwaka bityero acel me gitum me bal, acel me gitum awaŋa; kit meno ajwaka
-bitimo gin lakwany bal ki i kome i nyim Rwot pi remone ma omol ma omiyo en
-bedo keni.
-31“Myero wumi jo Icrael gugwokke i kom gin ma miyogi bedo keni kit meno, wek
-pe guto ma gitye keni pi balo kemana ma tye i kingi.”
-32Man aye cik ma mako laco ma kome cwer tut ki ma kodi me co omol i kome ma
-omiyo en odoko keni,
-33ki dako bene ma two two kwer; man aye cik ma mako dano ducu, laco nyo
-dako, ma kome cwer tut nyo remo, ki laco bene ma obuto ki dako ma kome ki
-keni.
-Lulevi 16
-1Rwot oloko bot Moses i kare ma doŋ awobe pa Aron aryo gutyeko to, pien onoŋo
-gunyiko cok i nyim Rwot ci guto woko.
-2 Ci Rwot owaco bot Moses ni, “Tit ki omeru Aron ni pe obed ka donyo nino ducu
-i kabedo maleŋ ma boŋo kicika oumo i nyim kom me kica ma tye i wi canduk:
-wek pe oto; pien abinen i wi kom me kica i po!.
-3 Ento Aron bidonyo i kabedo maleŋ ki gin magi: bidonyo iye ki wod twon pi
-gitum me bal, ki nyok romo pi gitum awaŋa.
-4En biruko kanyi maleŋ me boŋo camanini, biruko pali boŋo camanini i kome,
-bitweyo pyere ki kitambara boŋo camanini, ka tweyo kitambara adwala i wiye;
-man aye gin boŋŋi aruka maleŋ. En bilwoko kome ki pii, ka doŋ birukogi.
-5Dok en bigamo ki bot lwak jo Icrael nyogi dyegi aryo pi gitum me bal, ki nyok
-romo acel me gitum awaŋa.
-6“Aron bityero twon obed gitum me bal ma otiko en, kun timo gin lakwany bal ki
-i kome ki i kom jo ma i ode.
-7Dok en bikelo dyegi aryo-nu, biketogi i nyim Rwot i doggola kema me rwatte.
-8Ci Aron bibolo kwir i kom nyogi dyegi aryo-nu, kwir acel pi Rwot ki kwir
-mukene pi Ajajel.
-9Aron bikelo dyel ma kwir pa Rwot opoto i kome-ni bityero me bedo gitum me
-bal.
-10Ento dyel ma kwir pa Ajajel opoto i kome-ni gibikelo makwo i nyim Rwot pi
-timo gin lakwany bal i kome, wek gicwale woko ceŋ i tim bot Ajajel.
-11“Aron bityero twon me bedo gitum me bal ma otiko en kun timo gin lakwany
-bal ki i kome ki i kom jo ma i ode; bineko twon obed gitum me bal ma otiko eno
-12En bikwanyo atabo weer me waŋo odok eceta ma opoŋ ki lodi mac ma
-okwanyo ki i wi keno tyer ma i nyim Rwot, ki odok eceta ma ŋwece kur ma giluro
-matitino poŋ ciŋ aryo, ci bikelone i tyelo ka ma boŋo kicika oumo-ni.
-13Bionyo odok eceta ma ŋwece kur-ri i mac ma i nyim Rwot, wek yito me odok
-eceta ma ŋwece kur-ri oduny macalo pol oum kom me kica ma bedo i wi canduk
-lok me caden, wek pe oto.
-14Ka dok bikwanyo remo twon manok, ci kiro ki lwet ciŋe i kom kom me kica tuŋ
-nyime, dok bikiro remo ki lwet ciŋe tyen abiro piny i nyim kom me kica.
-15 “Ka man otum, bineko dyel me gitum me bal ma onoŋo tye pi lwak, ci kelo
-remone i tyelo ma boŋo kicika oumo-ni, ci timo remone kit ma otimo ki remo
-twon-ni; bikiro i wi kom me kica ki i nyim kom me kica.
-16En bitimo gin lakwany bal ki i kom kabedo maleŋ kit meno, pi keni pa jo Icrael,
-ki pi tim aranyigi ki balgi ducu. Dok bitimo kit meno bene ki kema me rwatte ma
-bedo kwedgi i dye keni megi ducu.
-17I kare ma en donyo i kabedo maleŋ ka timo gin lakwany bal, dano mo pe obed i
-kema me rwatte, nio ka doŋ okato woko ma otyeko timo gin lakwany bal ki i
-kome ki i kom jo ma i ode, ki i kom jo Icrael mucokke ducu.
-18Lacen en bikato woko i nyim keno me tyer ma tye i nyim Rwot, ci timo gin
-lakwany bal ki i kome. Bikwanyo remo twon, ki remo dyel, ci reyo i kom ten keno
-aŋwen me keno tyer, rumo kome ducu.
-19Ka dok bikiro remo iye ki lwet ciŋe tyen abiro kun lonyo, kwero doko maleŋ pi
-kwanyo keni pa jo Icrael ducu ki i kome.
-20“Ka doŋ otyeko timo gin lakwany bal ki i kom kabedo maleŋ, ki kema me
-rwatte, ki keno tyer, en bikelo dyel makwo.
-21Aron biketo ciŋe aryo ducu i wi dyel, kun tuco i kome bal ducu ma jo Icrael
-gutimo, ki tim aranyigi ki kwa balgi ducu, Biketogi i wi dyel-lu, ci cwale woko
-kwede i tim, kun dano mo ma doŋ giyero aye tero.
-22Dyel bitiŋo balgi ducu i kome, cito kwede wa i t im ata; ci dano-nu bigonyo dyel
-cito woko i tim.
-23 “Aron dok bidonyo i kema me rwatte, bilunyo boŋŋi camanini woko ma onoŋo
-oruko i kare ma en cito i kabedo maleŋ-ŋi, ci wekogi kunnu.
-24Ka bilwoko kome ki pii i kabedo mo maleŋ, ka ruko boŋŋine i kome, ci katti
-woko, tyero gitum awaŋane, ki gitum awaŋa pi lwak, ci timo gin lakwany bal ki i
-kome ki i kom lwak.
-25Dwolo me gitum awaŋa en biwaŋo woko i wi keno tyer.
-26Ŋat ma otero dyel, ocwalo bot Ajajel, bilwoko boŋŋine, lwoko kome ki pii, ka
-lacen bibino i gony.
-27 Twon me gitum me bal ki dyel me gitum me bal, ma onoŋo gitero remogi i
-kabedo maleŋ ka timo gin lakwany bal, gibiterogi woko wa i ŋe gony; pyengi ki
-riŋogi ki wee igi gibiwaŋo woko ki mac.
-28Ŋat ma owaŋo bilwoko boŋŋine, lwoko kome ki pii, ka lacen en bibino i gony.
-29 “Man bibedo cik matwal botwu, ni, i dwe me abiro, i nino dwe me aparre,
-wubikumo ki toncwiny. Pe wubitiyo tic mo, kadi anywalli me lobo, kadi labedo
-ma bedo i kinwu.
-30Pien i nino meno aye gibitimo iye gin lakwany bal ki i komwu me lonyowu;
-myero wubed ma wulonnye i nyim Rwot ki i kom balwu ducu.
-31En aye bedo botwu cabit me yweyo mot, ci wubikumo ki toncwiny; man aye cik
-ma bedo matwal.
-32Ajwaka ma giwiro ki moo ka giketo en i dog ticce me bedo ajwaka, kun leyo
-kaka wonne, bitimo gin lakwany bal, kun ruko boŋŋi aruka maleŋ me boŋo
-camanini.
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-33En bitimo gin lakwany bal ki i kom kabedo maleŋ, dok bitimo gin lakwany bal
-ki i kom kema me wratte ki i kom keno tyer, Ka dok bitimo gin lakwany bal ki i
-kom ajwagi, ki i kom jo ducu mucokke.
-34Man bibedo cik botwu matwal, ni, myero gitim gin lakwany bal ki i kom jo
-Icrael i mwaka acel kicel, pi balgi ducu.” Ci Moses otimo kit ma Rwot ocike
-kwede.
-Lulevi 17
-1Rwot owaco bot Moses ni,
-2“Wac bot Aron ki awobene ki bot jo Icrael ducu ni, Man aye gin ma Rwot ociko.
-3Ka dano mo me ot pa Icrael oneko twon nyo lat in romo nyo dyel ki i dye gony,
-nyo ka oneko woko ki i ne gony,
-4kun pe okelo i doggola kema me rwatte me tyerone obed mot pa Rwot i nyim
-kema pa Rwot, ci gibikwano alii me remo i wi dano meno, Pi oyo remo, waŋ dano
-meno birwenyo woko ki i kin lutugi.
-5Man giciko wek jo Icrael gukel gitumgi ma gibedo ka nekogi i dye bar; gikelgi bo!
-Rwot, bot ajwaka, i doggola kema me rwatte, ginekgi me bedo gityer lakwecwiny
-bot Rwot.
-6Ajwaka bikiro remone i wi keno tyer pa Rwot i doggola kema me rwatte, biwaŋo
-dwolo obed gin ma ŋwece kur me yomo cwiny Rwot.
-7Pe doŋ gibitumo gitumgi bot jogi ma calo nyogi oyima ma gitye ka worogi ki tim
-kwele kwele. Man bibedo cik botgi matwal wa i kare pa likwayogi ducu.
-8“Ci ibiwaco ki gin ni, Dano mo me ot pa Icrael, nyo ki i kin lubedo ma bedo i
-kingi, ma otyero gitum awaŋa, nyo gitum mo
-9ma pe okelo i doggola kema me rwatte pi tumo bot Rwot, dano meno waŋe
-birwenyo woko ki i kin lutugi.
-Pe gicam remo
-10 “Ka dano mo me ot pa Icrael, nyo ki i kin lubedo ma bedo i kingi, ocamo remo
-mo, abiketo waŋa i kom dano meno ma ocamo remo-ni, dok abimiyo waŋe
-rwenyo woko ki i kin lutugi.
-11 Pien kwo pa riŋo tye i Temo; an doŋ atyeko miyone botwu i wi keno tyer pi
-kwanyo bal ki i kom tipowu pien remo aye gin ma kwanyo bal, pi kwo ma tye iye-
-ni.
-12En mumiyo awaco bot jo Icrael ni, Dano mo i kinwu pe ocam remo.
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-13Dano mo bene ki i kin jo Icrael, nyo ki i kin lubedo ma bedo i kingi, ma omako
-lee nyo winyo mo ma gicamo, ka en owoto ka dwar, bionyo remone woko piny i
-ŋom, ci umo woko ki lobo.
-14“Pien kwo pa lee-gu ducu en aye remone; mumiyo awaco ki jo Icrael ni Pe
-wucam remo pa gin mo, pien kwo pa gin makwo ducu en remone; ŋat ma ocamo
-wane birwenyo woko.
-15Dok ka dano mo ocamo geŋ ma oto kene, nyo lee ma ŋuu omwodo, kadi
-anywalli me lobo, kadi labedo, bilwoko boŋŋine, lwoko kome ki pii, ci bedo keni
-nio wa otyeno, ka doŋ bedo ma olony.
-16Ento ka pe olwoko boŋŋine, nyo pe olwoko kome, ci bal bidok i wiye.”
-Lulevi 18
-1Rwot owaco bot Moses ni,
-2“Wac bot jo Icrael ni, An a Rwot Lubaŋawu.
-3Pe wubitimo macalo gitimo i lobo Ejipt ma yam wubedo iye-ni; pe bene
-wubitimo kit macalo gitimo i lobo Kanaan ka ma atye ka terowu iye-ni. Pe wulub
-cikgi.
-4Myero wuti gin ma aciko, wumak cikka, wulubi. An a Rwot Lubaŋawu.
-5 Pi meno, wubimako cikka ki gin ma aŋolo ducu, Pi timo k it meno dano bikwo;
-an a Rwot.
-6“Dano mo pe onyik cok ki dako ma watgi me bedo kwede, An a Rwot.
-7Pe ibibedo ki meni, pien miyo iketo lewic i kom woru; en aye meni, pe ibiketo
-lewic i kome.
-8 Pe ibibedo ki ci-woru; pe, iket lewic i kom woru kumeno.
-9 Pe ibibedo ki lameru ma nya pa woru nyo nya pa meni, kadi ma ginywalo paco
-nyo ma ginywalo ka mukene.
-10Pe ibibedo ki nya pa wodi nyo nya pa nyari, pien miyo ikelo lewic i komi keni.
-11Pe ibibedo ki nya pa ci-woru ma woru aye onywalo, pien en lameru kikome.
-12 Pe ibibedo ki wayu, pien en wat ma i ot pa woru kikome.
-13Pe ibibedo ki lamiŋ meni, pien en wat ma i ot pa meni kikome.
-14Pe ibibedo ki ci-omin woru, pe ibinyiko cok ki dakone, pien en ci-omin woru.
-15 Pe ibibedo ki ci-wodi, pien en dako pa wodi, pe ibibedo kwede.
-16Pe ibibedo ki ci-omeru, ma omeru aye bedo kwede.
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-17 Pe ibibedo ki dako mo, ka idodo ki bedo ki nyare; pe ibitero nya pa wode, nyo
-nya pa nyare, me bedo kwede.
-18Pe ibinyomo yweri obed nyek laminne, kun ibedo kwede ma laminne pud kwo.
-19 “Pe ibinyiko cok ki dako me bedo kwede i kare ma en tye ki kwer, ma peya
-olonnye.
-20 Pe ibibuto ki dako pa lawoti me bedo kwede, miyo ijerre kekeni.
-21 Pe ibityero latinni mo me awaŋa ki mac bot jok Molek, pe ibipyedo nyiŋ
-Lubaŋani kulu; an a Rwot.
-22 Pe ibibuto ki laco macalo ibuto ki dako; meno tim gwok.
-23 Pe ibibuto ki lee mo ma ipyedde kwede kekeni, kadi dako mo pe opyedde i
-kom lee mo me buta kwede; meno tim kipyeda.
-24“Pe wupyedde kekenwu i kom gin ducu, pien rok ducu ma atye ka ryemogi
-woko ki i nyimwu-ni gubedo ka pyedde kekengi i komgi;
-25mumiyo lobo opyedde woko, omiyo aketo can i kome pi balle, ci lobo oŋoko jo
-ma gibedo iye woko.
-26Ento wun myero wumak cikka ki lok ducu ma aŋolo, kun pe wutimo gin mo i
-kom kipyeda magi ducu, kadi anywalli me lobo, kadi larok mo ma bedo i kinwu.
-27Pien tim kipyeda meno ducu wegi lobo-ni gubedo ka timone, jo ma yam
-gukwoŋo nyimwu, mumiyo lobo gipyedo woko.
-28Pe wutim tim kipyeda, wek lobo pe oŋokwu woko ka wutimo tim kipyeda i
-kome, macalo con oŋoko kwede rok ma okwoŋo nyimwu-ni.
-29Pien jo ducu ma gutimo gin mo i kom kipyeda magi, jo ma gitimo-ni waŋgi
-birwenyo woko ki i kin lutugi.
-30Wumak gin ma aciko, ni, pe wunyebbe i kit me timo kipyeda macalo yam
-ginyebbe ka timone i nyimwu, pe wubed ka pyedde kekenwu ki kit tim macalo
-meno; an a Rwot Lubaŋawu.”
-Lulevi 19
-1Rwot owaco bot Moses ni,
-2 “Wac bot lwak jo Icrael ducu ni, Myero wubed jo maleŋ, pien an Rwot
-Lubaŋawu aleŋ,
-3 ŋat acel acel ma i kinwu owor minne ki wonne, doki wugwok cabitta ducu; an a
-Rwot Lubaŋawu.
-4 Pe wulokke wudok bot cal lubaŋa-gu, pe wutim lubaŋawu me nyonyo aliya
-piwu kenwu; an a Rwot Lubaŋawu.
-5“Ka wutyero gitum mewu me gityer Lakwecwiny bot Rwot, wubityero i kit ma
-miyo Lubaŋa ye gamowu.
-6Myero wucam i nino ma wutumo iye, nyo orwone; ma odoŋ nio wa i nino me
-adekke gibiwaŋo awaŋa ki mac.
-7Ka ce dok pud gicamo i nino me adekke, ci bedo gin me kwer; pe doŋ gibiye
-gamone,
-8ŋat ma ocamo-ni bal bidok i wiye, pien opyedo gin maleŋ pa Rwot; dano meno
-waŋe birwenyo woko ki i kin lutugi.
-9 “Ka wukayo cam ma ocek i lobowu, pe wuka woko ducu nio wa i ŋet potowu, pe
-dok wubed ka beko obote ma odoŋ i kare me kac.
-10Pe wupwon nyig olokwu wugwer ducu, pe bene wucok nyige ma opoto piny i
-poto olokwu; wubiwekogi pi konyo lucan ki lubedo; an a Rwot Lubaŋawu.
-11 “Pe wukwal kwo, pe wunyebbe ka bwolo dano, pe wulok lok goba i kinwu
-kekenwu.
-12 Pe wukwoŋ kwoŋ i nyina ki goba, ma miyo wupyedo nyiŋ Lubaŋawu; an a
-Rwot.
-13 “Pe ibur lawoti, pe ima jamine. Pe igalle ki mucara pa lapakaca mo dyewor kulu
-nio wa odiko.
-14 Pe iyet ladiŋit, pe iket gin mo i yo ma twomo tyen latowaŋ, ento lwor Lubaŋani;
-an a Rwot.
-15 “Pe wuŋol kop aleŋa; pe idwor kor lacan, pe idwor dano madit, ento ŋol kop
-atir i kom lawoti.
-16Pe ibed ka wirre i kin lutuwu ka kwoto nyiŋgi, pe ikel lok mo ma kelo to i kom
-lawoti; an a Rwot.
-17 “Pe ikwer omeru ki i cwinyi, ento juk lawoti ajuka, wek balle pe odok i wii.
-18Pe icul kwor, pe ibed ki akeca i kom lutuwu; ento mar lawoti macalo imarre
-keni; an a Rwot.
-19 “Wumak cikka. Pe iye limmi onywal ki kit lee mukene; pe ico kit kodi aryo
-mapatpat i poto acel; pe iruk boŋo ma gicweyo ki kit uci aryo mapatpat.
-20“Ka laco mo obuto ki dako ma aŋeca ma ŋat mukene mito nyomo, ma peya
-gikoko gigonyo woko ki i opii, gibilaro koppe. Pe gibinekogi, pien dako onoŋo pe
-lone kene.
-Acoli Baibul
-© 1985, Bible Society of Uganda.
-21Laco bikelo gitum me aliine bot Rwot i doggola kema me rwatte, nyok romo me
-gitum me tiŋo alii.
-22Ajwaka bitimo gin lakwany bal ki i kome i nyim Rwot ki nyok romo me gitum
-me tiŋo alii, pi bal ma en otimo-ni, ci Lubaŋa biweko balle.
-23“Ka doŋ wuo i lobo-nu, ce wupito iye kwa yadi ducu me acama, myero wuŋe ni
-gijuko ni nyige peya gicamo; gibijukowu camone pi mwaka adek.
-24I mwaka me aŋwenne nyige ducu bibedo maleŋ, gibityero me lapak Rwot.
-25Ento i mwaka me abicce wutwero camo nyige, wek yadiwu gunyak ki wun
-nyiggi madwoŋ; an a Rwot Lubaŋawu.
-26 “Pe wucam riŋo mo ma tye ki remo i kome. Pe wutyet tyet, pe wubed luyer
-war.
-27 Pe wuko yer te wiwu, pe wulyel teŋ yer tikwu.
-28Pe wutoŋ komwu pi kwero cola, pe wuked kedo mo i komwu; an a Rwot.
-29 “Pe imi nyari odok lapyeda pi timo kwele, weko lobo balle woko ki tim kwele,
-bimiyo lobo poŋ ki tim kipyeda.
-30 Wugwok cabitta, wuwor kabedona maleŋ; an a Rwot.
-31 “Pe wulokke wudok bot lukor tipo ki megi jogi, pe wucit ka yenyogi, miyo
-wupyedde kekenwu pi gin; an a Rwot Lubaŋawu.
-32“A malo i nyim dano ma wiye obuk lwar, wor dano ma doŋ guti, dok ilwor
-Lubaŋani: an a Rwot.
-33 “Ka labedo mo obedo: kwedi i lobowu, pe wutime marac.
-34Labedo ma obedo kwedwu bibedo macalo latin anywalli i kinwu, ibimare
-macalo imarre keni; pien wun bene yam wubedo lubedo i lobo Ejipt; an a Rwot
-Lubaŋawu.
-35 “Pe wutim rac i ŋolo kop, nyo i pimo bor me gin mo, nye pekke, nyo ditte.
-36Wubed ki mijan ma pi mo kakare, kidi lapim pek muromo kakare, aduku lapim
-bel muromo kakare ki agulu lapim moo muromo kakare; an a Rwot Lubaŋawu
-ma con akwanyowu woko ki i lobo Ejipt.
-37Wugwok cikka ki gin ma aciko ducu, wucobi; an a Rwot.”
-Lulevi 20
-1Rwot owaco bot Moses ni,
-2“Wac bot Icrael ni, Dano mo ma i kin jo Icrael, nyo labedo ma bedo i kin jo Icrael,
-ma omiyo latinne mo bot jok Molek gibineko woko; lwak gibicele woko ki got.
-3An kikoma abiketo waŋa i kom dano meno, abimiyo waŋe rwenyo woko ki i kin
-lutugi, pien omiyo latinne bot jok Molek, kun obalo kwede kabedona maleŋ, dok
-opyedo nyina maleŋ.
-4Ka lwak pe guyabo wangi i kom dano meno kun en miyo latinne mo bot Molek,
-ce pe gumedo ki neko en,
-5ci abiketo waŋa i kom dano meno ki i kom doggolane abimiyo waŋe rwenyo
-woko ki i kin lutugi, en kacel ki jo ducu ma gilube pi woro jok Molek ki tim kwele
-kwele.
-6“Ka dano mo olokke odok bot lukor tipo ki megi jogi kun lubogi pi tim kwele
-kwele, abiketo waŋa i kom dano meno, abimiyo waŋe rwenyo woko ki i kin
+15ci laco bitero dakone bot ajwaka, kun tero gityer ma gimito pi dakone, agwata
+moko kwon acel me moko cayiri; pe bionyo moo i kome, pe biketo iye odok
+luban, pien meno gityer me moko kwon me nyeko, en gityer me moko kwon me
+lapo wic, ma bimiyo gipo pi bal meno.
+16“Ajwaka bikelo dako cok, ci cibo i nyim Rwot.
+17Ka dok ajwaka bitero pii maleŋ ki otako, ci jobo apwa ma i dye ot me kema,
+onyo i pii.
+18Ka ajwaka bicibo dako i nyim Rwot, bigonyo yer wi dako wek oket ata lijayi, ci
+keto gityer me moko kwon me lapo wic i cinŋ, ma en aye gityer me moko kwon
+me nyeko. Ajwaka bimako pii makec me ceno dano i ciŋe.
+19Ka ajwaka bimiyo dako-nu kwoŋo kwoŋ, kun waco ni, ‘Ka laco mo pe obuto
+kwedi, ka pe iŋak woko, kun ijerre kekeni ma it ye i te twero pa cwari, ci gin
+marac mo pe otimi pi pii man makec me ceno dano-ni.
+20Ento ka ce waŋi olal woko, ma pud it ye i te twero pa cwari, ka ijerre kekeni, ci
+laco mo ma pe cwari obuto kwedi,
+21ci (ajwaka bimiyo dako-nu kwoŋo kwoŋ ma kelo ceno dano kun waco ki dako-
+nu ni,) Rwot omi in idok ŋat ma giceno ki dano, kun dano gikwoŋo akwoŋa ki
+nyiŋi i kin lutuwu, i kare ma Rwot bitweyo nyodoŋi woko ci miyo ii bene deŋ
+woko;
+22wek pii man me ceno dano ocit i cin ii, omi ii odeŋ, ci otwe nyodoŋi woko.’ Dako
+bigamo ni, ‘Amen, Amen.’
+23“Lacen ajwaka bicoyo lok me ceno dano-ni i karatac, ka dok lwoko vinone woko
+ki pii makec-ci,
+24ci bimiyo dakonu mato pii makec ma giceno ki dano-ni, ci pii me ceno dano
+bidonyo i iye, miyo iye mwode matek.
+25Ka dok ajwaka bikwanyo gityer me moko kwon me nyeko woko ki i cin dako-
+nu, ci kwato gityer me moko kwon i nyim Rwot, tero i keno tyer.
+26Ka ajwaka bijobo moko me gityer poŋ ciŋ acel obed gin me po i kome, biwaŋo i
+wi keno tyer; ka dok lacen en bimiyo dako-nu mato pii.
+27Ka doŋ omiyo omato pii, ka ce onoŋo en otyeko jerre kekene kun otimo kir i
+kom cware, ci pii me ceno dano bidonyo i iye, miyo iye mwode matek; iye biden
+woko, nyodone bitwene woko, dako-ni bidoko ŋat ma giceno dano ki nyiŋe i kin
 lutugi.
-7Wulonnye kekenwu wubed maleŋ, pien an a Rwot Lubaŋawu.
-8Wugwok cikka wucobgi, pien an a Rwot ma alonyowu wudoko maleŋ.
-9 Dano mo ma oceno wonne nyo minne gibineko woko; en otyeko ceno wonne
-nyo minne, remone dok i wiye.
-10 “Ka dano mo otimo abor ki dako pa lawote, laco ki dako ma gutimo abor-ri
-gibinekogi woko.
-11 Dano ma obuto ki ci-wonne, noŋo oketo lewic i kom wonne; gibineko gin aryo
-ducu, remogi dok i wigi.
-12 Ka dano mo obuto ki ci-wode, gibineko gin aryo ducu, pien gutimo k ir, remogi
-dok i wigi.
-13 Ka dano mo obuto ki laco macalo dako, gin aryo ducu gutimo gwok, gibinekogi
-woko, remogi dok i wigi.
-14 Ka dano mo onyomo dako ci ododo ki bedoki minne bene, meno kipyeda;
-gibiwaŋogi woko ki mac, en ki gin mon aryo ducu, wek kipyeda pe obed i kinwu.
-15 Ka dano mo obuto ki lee, gibineko woko, dok wubineko lee meno bene.
-16Ka dako mo onyiko cok ki lee ce obedo kwede, wubineko dako-nu ki lee meno;
-gibinekogi woko, remogi dok i wigi.
-17 “Ka dano mo otero laminne, kun nya pa wonne nyo nya pa minne, ce en oneno
-nyime, ki nyako bene oneno kome, meno lok me lewic atika, wangi birwenyo
-woko ki i kin lutugi. En obedo ki laminne, bal bidok i wiye.
+28Ento ka dako-nu pe ojerre kekene, ma bal mo pe i kome, gin marac mo pe
+bitimo, ci en binywalo litino.
 Acoli Baibul
 © 1985, Bible Society of Uganda.
-18 Ka dano mo obuto ki dako ma tye ki kwer, ci obedo kwede, noŋo en pe oworo
-remo pa dako ma cwer, dako bene lewic pe omako pi remone ma cwer-ri; gin
-aryo ducu wangi birwenyo woko ki i kin lutugi.
-19Pe ibed ki lamiŋ meni nyo lamiŋ woru, pien meno noŋo ibedo ki watti; balgi
-bidok i wigi.
-20Ka dano mo obuto ki ci-omin wonne, obedo kwede, meno no no oketo lewic i
-kom omin wonne; balgi bidok i wigi, gibito laboŋo latin mo.
-21 Ka dano mo obedo ki ci-ominne, meno otimo kir; noŋo okelo lewic i kom
-ominne; gibito laboŋo latin mo.
-22“Pi meno wumak cikka ducu, ki gin ma aŋolo ducu, wucobgi, wek lobo ma atye
-ka terowu iye-ni pe oŋokwu woko.
-23Wun pe wulub kit pa lurok ma atye ka ryemogi woko i nyimwu-ni; pien gin
-gutimo gin magi ducu, mumiyo iya okwerogi woko.
-24Ento atyeko waco botwu ni, ‘Wubileyo lobogi, abimiyo botwu me bedo mewu,
-lobo ma mol cak ki moo kic.’ An a Rwot Lubaŋawu ma apokowu woko ki i kom
-rok mukene.
-25Mumiyo myero wupok kin lee ma gilony ki lee makeni, ki i kin winyo makeni ki
-winyo ma gilony. Pe wuballe wudok gin me kwer pi lee, nyo pi winyo, nyo pi gin
-mo ma corre i wi lobo, ma an doŋ atyeko pokone woko pat, ni obed keni botwu.
-26Wubed jo maleŋ pira, pien an Rwot aleŋ, doŋ atyeko pokowu woko ki i kom rok
-mukene ducu, wek wubed jona.
-27“Laco nyo dako mo ma lakor tipo nyo ma min jok gibineko woko; gibicelo woko
-ki got, remogi bidok i wigi.”
-Lulevi 21
-1Rwot owaco bot Moses ni, “Lok ki ajwagi, awobe pa Aron, iwac botgi ni, ŋatti mo
-i kingi pe oballe odok keni pi gudo kom dano muto ma i kin lutugi,
-2kono nyo watgi keken ma cok kwede, macalo minne, wonne, wode, nyare,
-ominne,
-3nyo laminne ma peya oŋeyo co, En pud cok kwede, pien peya tye ki cware; en
-twero balle pire doko keni.
-4Kadi bed en won gaŋ i kin lutugi, myero pe oballe odok keni, miyo bedo kipyeda.
-5 Ajwagi pe gulyel wigi, pe gulyel teŋ yer t ikgi, pe guton komgi.
-6Gubed jo maleŋ pi Lubaŋagi, pe gupyed nyiŋ Lubaŋagi, pien gin aye gityero
-gityer ma giwaŋo ki mac bot Rwot, en cam pa Lubaŋagi; pienno myero gubed jo
+29“Man aye cik ma mako lok me nyeko, ka dako ma tye i te twero pa cware noŋo
+wage olal, ci ojerre kekene,
+30nyo ka cwiny me nyeko omako laco mo, kun nyeko omake i kom dakone; en
+bicibo dako i nyim Rwot, ci ajwaka bitiyo i kom dako kun lubo cik man ducu.
+31Laco pe bibedo ki bal mo, ento bal bidok i wi dako ka obalo.”
+Wel 6
+1Rwot owaco bot Moses ni,
+2“Wac bot jo Icrael ni, Ka laco mo nyo dako mo okwoŋo kwoŋ ma pire tek, kwoŋ
+me bedo ajula pa Lubaŋa , ci okone gire kene pi bedo dano pa Rwot,
+3 en bikone gire kene kun pe mato koŋo vino nyo gin ma mero dano; pe bimato
+kono mawac ma oa i kom vino nyo i kom gin mo ma mero dano; pe bimato pig
+nyig olok, kadi camo nyige madyak nyo mutwone.
+4I kare ducu ma en okone iye gire kene, pe bicamo gin mo ma oa i kom olok, kadi
+nyige matino ma i iye, wa odune.
+5“I kare ducu ma noŋo en okwoŋo pire ni ebikone gire kene, lyedi pe bigudo
+wiye; bibedo dano maleŋ o wa i kare ma en okone iye pi bedo dano pa Rwot doŋ
+otum; biweko yer wiye lot maboco ma pe giŋolo.
+6“I kare ma en okone iye gire kene pi bedo dano pa Rwot, pe binyiko cok i kom
+dano muto.
+7Pe biballe doko keni kadi pi wonne nyo minne, nyo ominne, nyo laminne ka ce
+guto, pien gin ma nyuto konene kene pi bedo dano pa Lubaŋa pud tye i wiye.
+8I kare ducu me konene kene en bibedo maleŋ pi Rwot.
+9“Ka dano mo oto atura ka ŋete, ma miyo wiye ma okwero-ni odoko keni, en
+bilyelo wiye i nino me lonnyene; bilyelo i nino me abirone.
+10I kom nino me aborone en bitero amam aryo nyo litino akuri aryo bot ajwaka i
+doggola kema me rwatte.
+11Ajwaka bityero acel pi gitum me bal ki acel pi gitum awaŋa, kun timo gin
+lakwany bal ki i kom dano-nu, pien onoŋo obalo pi gudo kom dano muto. En
+bikwero wiye i nino meno kikome,
+12ci kone gire pi bedo dano pa Rwot pi karene me kone kene, dok bikelo wod
+romo ma ditte mwaka acel obed gitum me tiŋo alii; ento kare mukwono ca noŋo
+oballe noŋo, pien yer wiye ma okwero-ni odoko keni.
+13 “Man aye cik ma mako dano ma ajula pa Lubaŋa ka karene me kone kene doŋ
+otum. Gibikele i doggola kema me rwatte,
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+14ci en bityero motte bot Rwot, wod romo acel me mwaka acel, ma kome pe ki
+mwonyo, pi gitum awaŋa, ki bwoŋ romo acel ma ditte mwaka acel ma kome pe ki
+mwonyo pi gityer lakwecwiny,
+15kacel ki aduku me mugati ma tobi pe iye, capat me moko kwon mapwotte ma
+girubo ki moo, ki capat marep ma tobi pe iye ma gireyo moo i komgi, ki gityer me
+moko kwon ki gityer amata mutikogi.
+16“Ajwaka bikelogi i nyim Rwot, ci tyero gitum me balle ki gitum me tiŋo alii.
+17Ka dok bityero nyok romo obed gityer Lakwecwiny bot Rwot, kacel ki aduku
+mugati ma tobi pe iye. Ka dok ajwaka bityero gityer me moko kwon ki gityer
+amatane.
+18Dano ma ajula pa Lubaŋa bilyelo yer wiye me kone kene i doggola kema me
+rwatte, ci bikwanyo yer wiye me bedo ajula-ni, keto i mac ma tye i te gityer
+lakwecwinynyi.
+19Ajwaka bikwanyo bat nyok romo ka doŋ gitedo, ki capat acel ma tobi pe iye, ki i
+aduku, ki capat marep acel ma tobi pe iye, biketogi i dye cin ajula, ka doŋ olyelo
+yer wiye me kone kene.
+20Ajwaka bikwatogi me bedo gityer me akwata i nyim Rwot; gin aye waŋ wat
+maleŋ pa ajwaka, kacel ki gok ma gikwato-ni ki em ma gityero; lacen ajula doŋ
+twero mato koŋo vino.
+21“Man aye cik ma mako ajula ma okwoŋo kwoŋ. Gityerre bot Rwot bibedo ma
+oporo kwoŋŋe ma okwoŋo me bedo ajula pa Lubaŋa, ma en miyo kacel ki gin ma
+en romo noŋone: wek en oti ma oporo kwoŋ ma yam okwoŋo, kun lubo cik ma
+mako konene kene me bedo ajula.”
+Lamo gum pa ajwagi
+22Rwot owaco bot Moses ni,
+23“Wac bot Aron ki awobene ni, Wubilamo gum i kom jo Icrael kit man: ibiwaco
+botgi ni,
+24Rwot omini gum, ogwoki;
+25Rwot oneni ki waŋ me kica, otimi ber
+26Rwot tiŋ waŋe i komi omini kuc.
+27Gibiketo nyiŋa i kom jo Icrael kit meno, ci an abimiyogi gum.”
+Wel 7
+1Ka Moses otyeko guro kema, owiro ki moo dok okwero kacel ki jamine ducu. Ka
+dok owiro keno tyer ki moo bene, okwero kacel ki jami ticce ducu.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+2I kare meno lutel wi Icrael, ma gin ludito kaka ki i odi pa kwarogi, lutel wi kaka
+ma giloyo wi jo ma yam gikwano welgi-ni,
+3gutyero gityer megi, gukelo i nyim Rwot. Gumiyo gadigadi abicel ma gitye ki gin
+umo wigi, ki twoni apar wiye aryo; lutel wic aryo aryo gumiyo gadigadi acel acel,
+ci ŋat acel acel omiyo twon acel; gutyerogi ki i nyim kema.
+4Rwot dok owaco ki Moses ni,
+5“Gam jami-ni woko ducu ki botgi wek giti kwedgi tic ma i kema me rwatte, ci
+imigi bot Lulevi, macalo dog tic ma ŋat acel acel tye kwede.”
+6Omiyo Moses ogamo gadigadi ducu ki twoni, ci omiyogi bot Lulevi.
+7Gadigadi aryo ki twoni aŋwen omiyo bot likwayo pa Gercon, ma oporo dog ticgi;
+8ka dok gadigadi aŋwen ki twoni aboro omiyo bot likwayo pa Merari, ma oporo
+dog ticgi, kun gitye i te loc pa Itamar wod pa ajwaka Aron.
+9Ento pe omiyo gin mo bot likwayo pa Kokat, pien yam giketogi i dog tic me
+gwoko jami maleŋ ki me tiŋogi i wi gwokgi.
+10Ci lutel wic gutyero gityer me kwero keno tyer i kom nino meno ma giwiro iye
+ki moo-ni; lutel wic gutyero gityergi i nyim keno tyer.
+11Rwot owaco bot Moses ni, “Gibityero gityergi kun latel wic acel acel tyero mere
+i ninone, pi kwero keno me tyer.”
+12Ŋat ma otyero gityerre i nino mukwoŋo en aye Nakucon wod pa Aminadab, ma
+i kaka pa Juda.
+13En otyero caani me ryal acel ma pekke romo cekel miya acel ki pyeradek, ki
+becen me ryal acel ma pekke cekel pyerabiro, ka giporo ki cekel me kabedo
+maleŋ; gin aryo ducu igi opoŋ ki moko kwon mapwotte ma girubo ki moo pi
+gityer me moko kwon.
+14Ka doki atabo me jabu acel ma pekke cekel apar ma opoŋ ki odok eceta;
+15wod twon acel, nyok romo acel, ki wod romo acel me mwaka acel pi gitum
+awaŋa;
+16nyok dyel acel pi gitum me bal;
+17ka doki pi gityer lakwecwiny otyero twoni aryo, nyogi romi abic, nyogi dyegi
+abic, ki litino nyogi romi abic ma ditogi mwaka acel acel. Man aye gityer ma
+Nakucon wod pa Aminadab otyero.
+18I nino me aryone Netanel wod pa Juar, ma en aye latel wi jo pa Icakar otyero
+gityer.
+19Pi gityerre en otyero caani me ryal acel ma pekke romo cekel miya acel ki
+pyeradek, ki becen me ryal acel ma pekke cekel pyerabiro, ka giporo ki cekel me
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+kabedo maleŋ; gin aryo ducu igi opoŋ ki moko kwon mapwotte ma girubo ki moo
+pi gityer me moko kwon.
+20Ka doki atabo me jabu acel ma pekke cekel apar ma opoŋ ki odok eceta;
+21wod twon acel, nyok romo acel, ki wod romo acel me mwaka acel pi gitum
+awaŋa:
+22nyok dyel acel pi gitum me bal;
+23ka doki pi gityer lakwecwiny otyero twoni aryo, nyogi romi abic, nyogi dyegi
+abic, ki litino nyogi romi abic ma ditogi mwaka acel acel, Man aye gityer ma
+Netanel wod pa Juar otyero.
+24I nino me adekke obedo kare pa Eliab wod pa Kelon, ma en aye latel wi jo pa
+Jabulon.
+25Pi gityerre en otyero caani me ryal acel ma pekke romo cekel miya acel ki
+pyeradek, ki becen me ryal acel ma pekke cekel pyerabiro, ka giporo ki cekel me
+kabedo maleŋ; gin aryo ducu igi opoŋ ki moko kwon mapwotte ma girubo ki moo
+pi gityer me moko kwon.
+26Ka doki atabo me jabu acel ma pekke cekel apar ma opoŋ ki o dok eceta;
+27wod twon acel, nyok romo acel, ki wod romo acel me mwaka acel pi gitum
+awaŋa;
+28nyok dyel acel pi gitum me bal;
+29ka doki pi gityer lakwecwiny otyero twoni aryo, nyogi romi abic, nyogi dyegi
+abic, ki litino nyogi romi abic ma ditogi mwaka acel acel. Man aye gityer ma Eliab
+wod pa Kelon otyero.
+30I nino me aŋwenne obedo kare pa Elijur wod pa Cedeur, ma en aye latel wi jo
+pa Reuben.
+31Pi gityerre en otyero caani me ryal acel ma pekke romo cekel miya acel ki
+pyeradek, ki becen me ryal acel ma pekke cekel pyerabiro, ka giporo ki cekel me
+kabedo maleŋ; gin aryo ducu igi opoŋ ki mo ko kwon mapwotte ma girubo ki
+moo pi gityer me moko kwon.
+32Ka doki atabo me jabu acel ma pekke cekel apar ma opoŋ ki odok eceta;
+33wod twon acel, nyok romo acel, ki wod romo acel me mwaka acel pi gitum
+awaŋa;
+34nyok dyel acel pi gitum me bal;
+35ka doki pi gityer lakwecwiny otyero twoni aryo, nyogi romi abic, nyogi dyegi
+abic, ki litino nyogi romi abic ma ditogi mwaka acel acel, Man aye gityer ma Elijur
+wod pa Cedeur otyero.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+36I nino me abicce obedo kare pa Celumiel wod pa Juricadai, ma en aye latel wi jo
+pa Cimeon.
+37Pi gityerre en otyero caani me ryal acel ma pekke romo cekel miya acel ki
+pyeradek, ki becen me ryal acel ma pekke cekel pyerabiro, ka giporo ki cekel me
+kabedo maleŋ; gin aryo ducu igi opoŋ ki moko kwon mapwotte ma girubo ki moo
+pi gityer me moko kwon.
+38Ka doki atabo me jabu acel ma pekke cekel apar ma opoŋ ki odok eceta;
+39wod twon acel, nyok romo acel, ki wod romo acel me mwaka acel pi gitum
+awaŋa;
+40nyok dyel acel pi gitum me bal;
+41ka doki pi gityer lakwecwiny otyero twoni aryo, nyogi romi abic, nyogi dyegi
+abic, ki litino nyogi romi abic ma ditogi mwaka acel acel, Man aye gityer ma
+Celumiel wod pa Juricadai otyero.
+42I nino me abicelle obedo kare pa Eliacap wod pa Deuel, ma en aye latel wi jo pa
+Gad.
+43Pi gityerre en otyero caani me ryal acel ma pekke romo cekel miya acel ki
+pyeradek, ki becen me ryal acel ma pekke cekel pyerabiro, ka giporo ki cekel me
+kabedo maleŋ; gin aryo ducu igi opoŋ ki moko kwon mapwotte ma girubo ki moo
+pi gityer me moko kwon.
+44Ka doki atabo me jabu acel ma pekke cekel apar ma opoŋ ki odok eceta;
+45wod twon acel, nyok romo acel, ki wod romo acel me mwaka acel pi gitum
+awaŋa:
+46nyok dyel acel pi gitum me bal;
+47ka doki pi gityer lakwecwiny otyero twoni aryo, nyogi romi abic, nyogi dyegi
+abic, ki litino nyogi romi abic ma ditogi mwaka acel acel, Man aye gityer ma
+Eliacap wod pa Deuel otyero.
+48I nino me abirone obedo kare pa Elicama wod pa Amikud, ma en aye latel wi jo
+pa Epraim.
+49Pi gityerre en otyero caani me ryal acel ma pekke romo cekel miya acel ki
+pyeradek, ki becen me ryal acel ma pekke cekel pyerabiro, ka giporo ki cekel me
+kabedo maleŋ; gin aryo ducu igi opoŋ ki moko kwon mapwotte ma girubo ki moo
+pi gityer me moko kwon,
+50ka doki atabo me jabu acel ma pekke cekel apar ma opoŋ ki odok eceta;
+51wod twon acel, nyok romo acel, ki wod romo acel me mwaka acel pi gitum
+awaŋa;
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+52nyok dyel acel pi gitum me bal;
+53ka doki pi gityer lakwecwiny otyero twoni aryo, nyogi romi abic, nyogi dyegi
+abic, ki litino nyogi romi abic ma ditogi mwaka acel acel. Man aye gityer ma
+Elicama wod pa Amikud otyero.
+54I nino me aborone obedo kare pa Gamaliel wod pa Pedajur, ma en aye latel wi
+jo pa Manace.
+55Pi gityerre en otyero caani me ryal acel ma pekke romo cekel miya acel ki
+pyeradek, ki becen me ryal acel ma pekke cekel pyerabiro, ka giporo ki cekel me
+kabedo maleŋ; gin aryo ducu igi opoŋ ki moko kwon mapwotte ma girubo ki moo
+pi gityer me moko kwon.
+56Ka doki atabo me jabu acel ma pekke cekel apar ma opoŋ ki odok eceta;
+57wod twon acel, nyok romo acel, ki wod romo acel me mwaka acel pi gitum
+awaŋa;
+58nyok dyel acel pi gitum me bal;
+59ka doki pi gityer lakwecwiny otyero twoni aryo, nyogi romi abic, nyogi dyegi
+abic, ki litino nyogi romi abic ma ditogi mwaka acel acel. Man aye gityer ma
+Gamaliel wod pa Pedajur otyero.
+60I nino me aboŋwenne obedo kare pa Abidan wod pa Gideoni, ma en aye latel wi
+jo pa Benjamin.
+61Pi gityerre en otyero caani me ryal acel ma pekke romo cekel miya acel ki
+pyeradek, ki becen me ryal acel ma pekke cekel pyerabiro, ka giporo ki cekel me
+kabedo maleŋ; gin aryo ducu igi opoŋ ki moko kwon mapwotte ma girubo ki moo
+pi gityer me moko kwon.
+62Ka doki atabo me jabu acel ma pekke cekel apar ma opoŋ ki odok eceta;
+63wod twon acel, nyok romo acel ki wod romo acel me mwaka acel pi gitum
+awaŋa;
+64nyok dyel acel pi gitum me bal;
+65ka doki pi gityer lakwecwiny otyero twoni aryo, nyogi romi abic, nyogi dyegi
+abic, ki litino nyogi romi abic ma ditogi mwaka acel acel. Man aye gityer ma
+Abidan wod pa Gideoni otyero.
+66I nino me aparre obedo kare pa Akiejer wod pa Amicadai, ma en aye latel wi jo
+pa Dan.
+67Pi gityerre en otyero caani me ryal acel ma pekke romo cekel miya acel ki
+pyeradek, ki becen me ryal ma pekke cekel pyerabiro, ka giporo ki cekel me
+kabedo maleŋ; gin aryo ducu igi opoŋ ki moko kwon mapwotte ma girubo ki moo
+pi gityer me moko kwon.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+68Ka doki atabo me jabu acel ma pekke cekel apar ma opoŋ ki odok eceta;
+69wod twon acel, nyok romo acel, ki wod romo acel me mwaka acel pi gitum
+awaŋa;
+70nyok dyel acel pi gitum me bal;
+71ka doki pi gityer lakwecwiny otyero twoni aryo, nyogi romi abic, nyogi dyegi
+abic, ki litino nyogi romi abic ma ditogi mwaka acel acel. Man aye gityer ma
+Akiejer wod pa Amicadai otyero.
+72I nino me apar wiye acel obedo kare pa Pagiel wod pa Okoran, ma en aye latel
+wi jo pa Acer.
+73Pi gityerre en otyero caani me ryal acel ma pekke romo cekel miya acel ki
+pyeradek, ki becen me ryal ma pekke cekel pyerabiro, ka giporo ki cekel me
+kabedo maleŋ; gin aryo ducu igi opoŋ ki moko kwon mapwotte ma girubo ki moo
+pi gityer me moko kwon.
+74Ka dok atabo me jabu acel ma pekke cekel apar ma opoŋ ki odok eceta;
+75wod twon acel, nyok romo acel, ki wod romo acel me mwaka acel pi gitum
+awaŋa;
+76nyok dyel acel pi gitum me bal;
+77ka doki pi gityer lakwecwiny otyero twoni aryo, nyogi romi abic, nyogi dyegi
+abic, ki litino nyogi romi abic ma ditogi mwaka acel acel. Man aye gityer ma
+Pagiel wod pa Okoran otyero.
+78I nino me apar wiye aryo obedo kare pa Akira wod pa Enan, ma en aye latel wi
+jo pa Naputali.
+79Pi gityerre en otyero caani me ryal acel ma pekke romo cekel miya acel ki
+pyeradek, ki becen me ryal ma pekke cekel pyerabiro, ka giporo ki cekel me
+kabedo maleŋ; gin aryo ducu igi opoŋ ki moko kwon mapwotte ma girubo ki moo
+pi gityer me moko kwon.
+80Ka dok atabo me jabu acel ma pekke cekel apar ma opoŋ ki odok eceta;
+81wod twon acel, nyok romo acel, ki wod romo acel me mwaka acel pi gitum
+awaŋa;
+82nyok dyel acel pi gitum me bal;
+83ka doki pi gityer lakwecwiny otyero twoni aryo, nyogi romi abic, nyogi dyegi
+abic, ki litino nyogi romi abic ma ditogi mwaka acel acel. Man aye gityer ma Akira
+wod pa Enan otyero.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+84Man aye obedo gityer me kwero keno tyer, ma gityero i kom nino ma giwiro iye
+ki moo, ma oa ki bot lutel wi Icrael: caani me ryal apar wiye aryo, becen me ryal
+apar wiye aryo, ki atabo me jabu apar wiye aiyo,
+85kun caani me ryal acel acel pekke romo cekel miya acel ki pyeradek, ki becen
+acel acel pekke romo cekel pyerabiro, mumiyo ryal me jami-nu ducu pekke
+oromo cekel alip aryo, ki miya aŋwen ka giporo ki cekel me kabedo maleŋ.
+86Atabo me jabu onoŋo tye apar wiye aryo, ma odok eceta opoŋo igi, kun atabo
+acel acel pekke romo cekel apar ka giporo ki cekel me kabedo maleŋ, mumiyo
+jabu me atabo ducu oromo cekel miya acel ki pyeraryo.
+87Lim makwo ducu pi gitum awaŋa giromo twoni apar wiye aryo, nyogi romi
+apar wiye aryo, ki litino nyogi romi apar wiye aryo ma ditogi mwaka acel acel,
+kacel ki gityer me moko kwon mutikogi; ki nyogi dyegi apar wiye aryo pi gitum
+me bal.
+88Lim makwo ducu pi gityer lakwecwiny giromo twoni pyeraryo wiye aŋwen,
+nyogi romi pyerabicel, nyogi dyegi pyerabicel, ki litino nyogi romi ma ditogi
+mwaka acel acel pyerabicel. Meno aye obedo gityer me kwero keno tyer, ma
+gityero ka doŋ gityeko wirone ki moo.
+89I kare ma Moses ocito i kema me rwatte ka lok iye ki Rwot, owinyo dwan ma
+tye ka lok kwede-ni ka a ki malo i wi kom me kica ma i wi canduk lok me caden-
+ni, kun winnye ki i kin lukerubi aryo, ma kun loko kwede.
+Wel 8
+1 Rwot owaco ki Moses ni,
+2“Wac bot Aron ni, Ka icibo laput malo, laput abiro-ni bimenyo kabedo ma i nyim
+okar-mac.”
+3Ci Aron otimo kit meno; ocibo mac laputte malo wek gumeny kabedo ma i nyim
+okarmac, macalo Rwot ociko ki Moses.
+4Man aye kit tic ma gitiyo kwede okar-mac, gitiyo ki jabu ma giteto ki nyol. Nia ki
+i tedi tere o kwede wa i kom cal aturene onoŋo gitiyo kun giteto ki nyol; Moses
+otiyo okar-mac kun lubo kit cal ma Rwot onoŋo onyuto bote.
+Kwero Lulevi pi tic maleŋ
+5Rwot owaco ki Moses ni,
+6“Kwany Lulevi woko ki i kin jo Icrael, ci ilonygi.
+7Ibitimogi kit man pi lonyogi: kir pii me lwoko bal i komgi, ci wek gin gulyel
+komgi woko ducu ki lyedi, gulwok boŋŋigi, gulonnye kekengi.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+8Lacen wek gin gukwany wod twon kacel ki gityer me moko kwon mutike, me
+moko kwon mapwote ma girubo ki moo, ka doki in ibikwanyo wod twon mukene
+pi gitum me bal.
+9Ka doŋ ibitero Lulevi i nyim kema me rwatte, kun icoko lwak jo Icrael ducu
+kacel.
+10Ka itero Lulevi i nyim Rwot, jo Icrael gibiketo ciŋgi i wigi,
+11ka Aron bityero Lulevi i nyim Rwot gubed gityer akwata ma oa ki bot jo Icrael,
+wek gubed ka tiyo tic pa Rwot.
+12Ka dok Lulevi gibiketo ciŋgi i wi twoni, ci ibityero acel pi gitum me bal, ki acel
+pi gitum awaŋa bot Rwot, pi kwanyo bal ki i kom Lulevi.
+13Ibitero Lulevi i nyim Aron ki awo bene, ci ibityerogi gubed gityer akwata bot
+Rwot.
+14“Ibipoko Lulevi woko ki i kin jo Icrael kit meno, ci Lulevi doŋ bibedo jona.
+15Ka doŋ lacen Lulevi gibidonyo ka tiyo tic ma i kema me rwatte, ka doŋ ityeko
+lonyogi kun ityerogi macalo gityer akwata.
+16Pien gityeko miyogi bota matwal ki i kin jo Icrael; atyeko kwanyogi pira kena
+ma ka litino ducu mukwoŋo yabo ic, ma litino kayo pa jo Icrael ducu.
+17 Pien litino kayo ducu ma i kin jo Icrael gin mera, pa dano ki pa lee bene; yam
+akwerogi gubed mera i nino ma aneko iye litino kayo ducu ma i lobo Ejipt.
+18Ci doŋ atyeko kwanyo jo pa Levi me leyo ka tyengi, gin litino kayo ducu ma i kin
+jo Icrael.
+19Dok atyeko miyo Lulevi bot Aron ki awobene me mot, kun gia woko ki i kin jo
+Icrael pi tiyo tic i kema me rwatte pi jo Icrael, dok pi kwanyo bal ki i kom jo
+Icrael, wek gemo mo pe opot i kom jo Icrael pi nyiko cok ki kabedo maleŋ.”
+20Moses ki Aron ki lwak jo Icrael ducu gutiyo kit meno i kom Lulevi; kit ducu ma
+yam Rwot ociko ki Moses i kom Lulevi-ni, jo Icrael bene gutimo i komgi kit meno.
+21Lulevi gulonnye kekengi i kom balgi; gulwoko boŋŋigi; ka Aron otyerogi macalo
+gityer akwata i nyim Rwot, ci Aron otimo gin lakwany bal ki i komgi wek gubed
+ma gulony.
+22Lacen Lulevi gudonyo ka tiyo ticgi i kema me rwatte me konyo Aron ki
+awobene; kit ma onoŋo Rwot ociko ki Moses i kom Lulevi, gitimogi kit meno.
+Kare me tic pa Lulevi
+23Rwot owaco ki Moses ni
+24“Man aye lok ma mako Lulevi: jo ma ditogi romo mwaka pyeraryo wiye abic ki
+dok kwede malo gibidonyo ka cobo dog ticgi ma gitiyo pi kema me rwatte.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+25Ka mwaka me ditogi oromo pyerabic, ci doŋ gibiweko ticgi ma gitiyo, pe doŋ
+gibitic matwal.
+26Ento gibikonyo omegigi ma i kema me rwatte wek gugwok cik ma mako ticgi,
+ento pe gibitiyo tic kikome. Ibitimo Lulevi kit meno pi lok ma dok i kom ticgi.”
+Wel 9
+1 Rwot oloko ki Moses i tim Cinai i dwe mukwoŋo me mwaka me aryone ma
+onoŋo doŋ gua woko ki i lobo Ejipt kun wacce ni,
+2“Jo Icrael myero gukwer nino madit me Kato i kare ma giciko.
+3I nino dwe apar wiye aŋwen me dwe man otyeno, i kare ma giciko, en aye
+wubikwero iye; wubikwero kun wulubo cikke ducu ki lok ducu ma giciko i
+kome.”
+4Kit meno Moses ociko jo Icrael ni gukwer nino madit me Kato.
+5Ci gukwero nino me Kato i dwe mukwono, i nino dwe apar wiye aŋwen, otyeno i
+tim Cinai; kit ducu ma yam Rwot ociko ki Moses, jo Icrael bene gutimo kit meno.
+6Onoŋo tye jo mogo ma gudoko keni pi gudo kom dano muto, mumiyo pe gitwero
+kwero nino madit me Kato i nino meno. Gucito bot Moses ki Aron i nino meno;
+7ci jo meno guwacce ni, “Wan doŋ wadoko keni pi gudo kom dano muto; piŋo
+gigenowa pe watyer gityer pa Rwot i kin jo Icrael i kare ma giciko?”
+8Moses owaco botgi ni, “Koŋ wukur wek koŋ awiny gin ma Rwot biciko i komwu.”
+9Rwot owaco bot Moses ni.
+10“Wac bot jo Icrael ni, Kadi bed ŋatti mo i kinwu, nyo i kin likwayowu, odoko
+keni pi gudo kom dano muto, nyo otiŋo wot mabor, en pud twero kwero Kato pa
+Rwot.
+11Gibikwero i dwe me aryo, i nino dwe apar wiye aŋwen, otyeno; gibicamo iye
+mugati ma tobi pe iye ki dek mogo makec.
+12 Pe gibiweko gin mo doŋ nio odiko, cogone mo pe gibituro; gibikwero kun
+gilubo cik ducu ma mako nino me Kato.
+13Ento dano ma olony, ma pe ocito ka wot mo, ento dok oweko kwero nino madit
+me Kato, dano meno waŋe birwenyo woko ki i kin lutugi, pien onoŋo pe otyero
+gityer pa Rwot i kare ma giciko; dano meno balle bidok i wiye.
+14Ka larok mo obedo i kinwu, ka en kwero Kato pa Rwot, en bitiyo kun lubo cik
+me nino me Kato ki gin ma giciko iye. Wubibedo ki cik acel pi labedo ki pi
+anywalli me lobo.”
+Pol i wi kema
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+15I kom nino ma giguro iye kema pa Lubaŋa, en aye pol obino, oboyo kom kema
+woko, en kema lok me caden; otyeno oumo wi kema ma nen macalo mac nio wa
+odiko.
+16Ci obedo kwede kit meno jwijwi; pol umo wiye dyeceŋ, ki gin macalo mac umo
+dyewor.
+17Ka ce pol owarre woko ki i kema, ci jo Icrael gicako wot anyim; i kabedo ka ma
+pol ocuŋ iye, jo Icrael giguro iye kemagi.
+18Jo Icrael gicako wot pi cik pa Rwot, dok pi cik pa Rwot giguro kemagi; ka ce pol
+pud oumo wi kema pa Rwot, ci gin bene pud gibedo i gonygi.
+19Ka pol omedde ki umo wi kema lwak nino mapol, jo Icrael bene gimedde ki
+gwoko cik ma mako tic pa Rwot kun pe gidak.
+20I kare mukene pol umo wi kema pi nino mo manok, ci pi lubo cik pa Rwot gin
+bene gibedo i gony megi-nu kit meno; dok pi lubo cik pa Rwot miyo gidak.
+21I kin mukene pol bedo cakke otyeno nio wa odiko; ka odiko pol owarre woko ki
+i wiye, ci gicako wot; nyo ka omedde ori pi nino acel ki dywor acel, kare ma pol
+owarre iye-ni, en aye gicako iye wot bene.
+22Kadi bed ori i wiye pi nino aryo, nyo dwe acel, nyo pi kare mo malac, ka ce pol
+pud omedde ki umo wi kema, kun bedo kenyo, ci jo Icrael bene koŋ gibedo i
+gonygi kun pe gidak; ento ka owarre woko, ci gin bene gicako wot.
+23Pi lubo cik pa Rwot miyo giguro kemagi, dok pi lubo cik pa Rwot miyo gidak,
+kun gigwokocik ma mako tic pa Rwot kit ma yam Rwot ociko ki i dog Moses.
+Wel 10
+1Rwot owaco bot Moses ni,
+2“Yub tum aryo me ryal ma ibitetogi ki nyol, ci ibitic kwedgi me lwoŋo lwak ki pi
+cako wot.
+3Ka gikuto tum aryo ducu, ci lwak ducu gibicokke kacel boti i doggola kema me
+rwatte.
+4Ento ka gikuto tum acel keken, ci lutel wic, ma gin ludito ma i kaka ducu pa jo
+Icrael, gibicokke kacel boti.
+5Ka wukuto okok maloŋo kicel, ci gony ma yo tun wokceŋ gibicako wot.
+6Ka wukuto okok maloŋo tyen me aryone, ci gony ducu ma yo tun acuc gibicako
+wot. Gibikuto tum kok maloŋo me cako wot anyim.
+7Ento ka wumito coko lwak kacel wubikuto, ento pe wukut okok maloŋo.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+8Awobe pa Aron, ma gin aye ajwagi, gibikuto tumo Cik me kuto tum bibedo
+botwu cik matwal nio wa i kare pa likwayowu ducu.
+9Ka wucito i mony ka lweny ki lukworwu ma gidiyowu i lobowu, ci wubimiyo
+oduru mony kok kun wukuto tum, wek Rwot Lubaŋawu opo piwu ci olarwu ki
+bot lukworwu.
+10I nino ma cwinywu yom iye bene, ki i nino madito ma gicikowu pigi, ki i kare
+me por dwe ducu, wubikuto iye tum i wi gitum awaŋa mewu, ki i wi gitum mewu
+me gityer lakwecwiny; gibikutogi wek Lubaŋa opo piwu; an a Rwot Lubaŋawu.”
+Jo Icrael gua woko ki i Cinai
+11I mwaka me aryone, i dwe me aryone, i kom nino dwe pyeraryo, pol ocako
+warre woko ki i wi kema lok me caden,
+12omiyo jo Icrael gucako wot, gua woko ki i tim Cinai kun giwoto, gikobo; ci pol
+ocito ocuŋ wa i tim Paran.
+13Gudak tyen man mukwoŋo kit ma Rwot yam ociko ki Moses.
+14Bendera me gony pa jo pa Juda aye gutelo yo ki buca monygi ducu; lawimonygi
+aye Nakucon wod pa Aminadab.
+15Lawimony me kaka pa Icakar obedo Natanel wod pa Juar,
+16ki lawimony me kaka pa Jabulon obedo Eliab wod pa Kelon.
+17Ka kema pa Rwot doŋ giputo, ci likwayo pa Gercon ki likwayo pa Merari ma
+gitiŋo kema, gucako wotgi.
+18Ki bendera me gony pa jo pa Reuben ocako wot ki buca monygi ducu;
+lawimonygi obedo Elijur wod pa Cedeur
+19Lawimony me kaka pa Cimeon obedo Celumiel wod pa Juricadai.
+20Lawimony me kaka pa Gad obedo Eliacap wod pa Deuel.
+21Dok jo pa Kokat gucako wot, kun gitiŋo jami maleŋ ducu; kema onoŋo doŋ
+giguro ocuŋ ma peya guo.
+22Ka dok bendera me gony pa jo pa Epraim ocako wot ki buca monygi ducu;
+lawimonygi obedo Elicama wod pa Amikud.
+23Lawimony me kaka pa Manace obedo Gamaliel wod pa Pedajur.
+24Lawimony me kaka pa Benjamin obedo Abidan wod pa Gideoni.
+25Lacen bendera me gony pa jo pa Dan ocako wot ki buca monygi ducu, kun
+gicoko ŋe gony ducu; lawimony megi obedo Akiejer wod pa Amicadai.
+26Lawimony me kaka pa Acer obedo Pagiel wod pa Okoran.
+27Lawimony me kaka pa Naputali obedo Akira wod pa Enan.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+28Man aye onoŋo kit wot pa jo Icrael, ma lubo buca monygi, i kare ma gimol me
+cako wot.
+29Moses owaco bot Kobab wod pa Reuel ma Lamidian, won dakone, ni, “Wan
+wacako wot wadak i kabedo ma Rwot cen owaco pire ni ebimiyowa-ni. Ber iwot
+kwedwa, ci wabitimi maber.”
+30Ento Kobab owacce ni, “An pe abicito; abidok i lobo tuwa ki bot lutuwa.”
+31Moses ogamo ni, “Alegi, pe iwekwa, pien in iŋeyo ni wabigony i tim, ci ibibedo
+botwa ma ka waŋwa.
+32Dok ka ibiwoto kwedwa, gin maber ducu ma Rwot bitimo i komwa, wan bene
+wabitimi kit meno.”
+33Gucako a woko ki i nyim got pa Rwot, ci gutiŋo wot me nino adek; ci canduk me
+gicikke pa Rwot owoto otelo yo nyimgi wot me nino adek pi yenyo kabedo me
+yweyogi,
+34kun pol pa Rwot woto lamalo ka wigi ki i dyeceŋ, i kare ducu ma gicako wot nia
+ki i gonygi.
+35 Kare ducu ka canduk cako wot, ci Moses waco ni, “Doŋ ia malo, ai Rwot imi
+lumerok meri guket woko ata; wek jo ma dagi guriŋ woko ki i nyimi.”
+36Ka doŋ ocun ka yweyo, ci en dok waco ni, “Doŋ idwog cen, ai Rwot, bot lwak
+doggola mapol mada ma i Icrael.”
+Wel 11
+1Dano gubedo ka lok ki akeca pi can ducu ma gitye iye, ci Rwot owinyo; ka Rwot
+otyeko winyone, kiniga omake, ci mac pa Rwot opoto, olyel i kingi, owaŋo kabedo
+mogo ma i ŋet gony.
+2Lwak gukok bot Moses, ci Moses olego Rwot, ka mac ocako pye.
+3Mumiyo nyiŋ kabedo meno gilwoŋo ni, Tabera , pien mac pa Rwot olyel i kingi.
+4I kare meno lwak jo a ta ma gitye i kingi cwinygi opukke matek, omiyo jo Icrael
+bene gucako koko doki, kun giwaco ni, “Lutuwa, aŋa ma bimiyowa riŋo me
+acamawa?
+5Pud wapo pi rec ma yam wacamo nono i Ejipt, ki pi okwer ki okono ki kituŋgulu
+maboco ki kituŋgulu matino ki kituŋgulu matikki;
+6ento i kare-ni kero komwa doŋ peke, dok gin mo bene doŋ peke, kono nyo
+manna man ma waneno keme-ni.”
+7 Onoŋo manna nen macalo nyig koo, dok bene nen macalo odok yat ma gilwoŋo
+bedola.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+8Dano gicito ka jobone, ka girego ki kidi nyo giodo ki pany, ka gitedo ki agulu, nyo
+gitimo ki capatine; ka gicamo, mitte rom ki mit pa capat ma gitedo ki moo.
+9 Ka toyo oluk i dye gony ki i dyewor, ci manna bene poto piny.
+Moses oyero ludoŋo pyerabiro
+10Moses owinyo ka dano gikok i doggolagi ducu, kun ŋat acel acel tye i dog
+kemane; ci kiniga omako Rwot matek, Moses bene cwinye pe obedo yom.
+11Moses owaco bot Rwot ni, “Piŋo itima marac kuman? Piŋo an pe anoŋo gum mo
+i nyimi, mumiyo in doŋ iketo peko pa lwak man ducu i koma?
+12Onoŋo an aye abedo min lwak man ducu bo? An aye yam anywalogi bo,
+mumiyo Iwaco bota ni atiggi i kora, macalo lapidi tiŋo latin ma pud dot, atergi i
+lobo ma yam ikwoŋo pire ni ibimiyo bot kwarogi?
+13Ni kono abinoŋo riŋo kwene me amiya ki lwak dano man ducu? Pien gibedo ka
+kok i nyima kun giwaco ni, ‘Miniwa riŋo wek wacam.’
+14An pe atwero tigo lwak dano man pira kena; yecce pek mukato kare.
+15Ka ibedo ka tima kit man, ci ber ineka woko magicel, ka anoŋo gum mo i nyimi,
+wek pe abed ka neno can kuman.”
+16Rwot owaco bot Moses ni, “Cokka jo pyerabiro ki i kin ludoŋo pa jo Icrael, ma
+iŋeyo ni gin ludoŋo ki i kin lwak ki ludito ma loyogi; ci ikelgi i kema me rwatte,
+wek gucuŋ kunnu kacel kwedi.
+17An abilor piny abino ka lok kwedi kunnu; ci abikwanyo cwinya mo ma tye i
+komi-ni, abiketo i komgi; miyo gibinywako tigo peko pa lwak kacel kwedi, wek in
+pe doŋ ibed ka tiŋone piri keni.
+18Wac bot lwak ni, ‘Wulonnye kekenwu wubed maleŋ pi nino ma diki, ci
+wubicamo riŋo; pien wubedo ka kok i it Rwot kun wuwaco ni, “Aŋa ma bimiyowa
+riŋo me acamawa? Pien yam onoŋo watye maber giwa i Ejipt.” Pi meno Rwot
+bimiyowu riŋo ci wubicamo.
+19Pe wubicamo pi nino acel keken, nyo nino aryo, nyo abic, nyo apar, nyo
+pyeraryo,
+20ento wubicamo pi dwe acel kulu, nio ka bikatti woko ki i umwu, nio ka ocido
+cwinywu woko, pien wutyeko kwero Rwot ma bedo i kinwu-ni kun wukok i
+nyime ki pig waŋwu, wuwaco ni, “Piŋo yam waa woko ki i Ejipt?”’”
+21Ento Moses ogamo ni, “Jo ma abedo i kingi welgi romo alip miya abicel, co ma
+giwoto ki tyengi, ci in iwaco ni, ‘Abimiyogi riŋo wek gucam pi dwe kulu!’
+22Myero ginek lwak lim makwo, romi ki dyaŋi-gu, wek oromgi? Nyo lwak rec
+ducu ma, tye i nam gibicoko kacel pigi, wek oromgi?”
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+23Rwot ogamo dog Moses ni, “Cin Rwot aye doŋ odoko cek bo? Ibineno tin ka ce
+lokka bicobbe boti kakare nyo pe.”
+Ludoŋo guloko macalo lunebi
+24Moses okato woko ka tito ki dano lok ma Rwot owaco; ci ocoko jo pyerabiro ki i
+kin ludoŋo pa jo Icrael, oketogi gurumo kema me rwatte.
+25Ka Rwot olor piny ki pol, ci oloko kwedgi, okwanyo cwinye mo ma tye i kom
+Moses, oketo i kom ludoŋo pyerabiro. Ka cwiny pa Lubaŋa opoto i komgi, ci
+gucako lok macalo lunebi. Ento pe dok gumedde ki timo kit meno.
+26Onoŋo jo aryo gudoŋ cen i gony, acel nyiŋe Eldad ki mukene nyiŋe Medad, ci
+cwiny pa Lubaŋa opoto i komgi. Onoŋo gitye i kin jo ma yam gicoyo nyiŋgi-ni,
+ento pe gukato woko gucito i kema me rwatte, mumiyo gubedo ka lok macalo
+lunebi i dye gony.
+27Latin awobi mo oriŋo otito bot Moses ni, “Eldad ki Medad gitye ka lok macalo
+lunebi i dye gony.”
+28Ci Yocwa wod pa Nun, ma onoŋo obedo lakeny pa Moses cakke wa i tinone,
+owacci, “Moses, laditta, jukgi woko.”
+29Ento Moses owaco bote ni, “In nyeko omaki pira ce? Kono jo pa Rwot ducu
+gubedo lunebi, kono ber mada, wek Rwot oony cwiny mere i komgi!”
+30Ci Moses ki ludoŋo pa jo Icrael gudok i gony.
+Rwot ocwalo aluru
+31Ka Rwot omiyo yamo okodo, ci okelo lwak aluru nia ki i nam, ci gupoto piny i
+ŋet gony. Lacce romo wot me nino acel ki tuŋcel, dok ki tuŋ mukene bene lacce
+romo wot me nino acel ma orumo gony ducu, opoŋo piny ma romo futi adek kulu.
+32Dano gutwarre ka cokogi i nino meno dyeceŋ ki dyewor benebene, ki orwone
+bene. Jo ma gucoko manok keken gucoko muromo guniya pyeradek; ci gucako
+moyone murumo gony.
+33I kare ma riŋone pud omoko i kin lakgi, ma peya gucamo otum, kiniga omako
+Rwot i kom dano, ci opwodo lwak ki two gemo mapek.
+34Mumiyo nyiŋ kabedo meno gulwoŋo ni, Kibrot-atava , pien jo ma kecgi dwoŋ
+giyikogi kunnu.
+35Nia ki i Kibrotatava lwak gutiŋo wot me cito Kajerot, ci gutiro gubedo kunnu.
+Wel 12
+1Onoŋo Moses onyomo dako mo ma nya jo Kuc, ci Miriam ki Aron gucako loko lok
+akeca i kom Moses pi dako-nu.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+2Gubedo ka waco ni, “Rwot obedo ka lok ki dog Moses kene bo? Pe obedo ka lok
+ki dogwa bene?” Ci Rwot owinyo yo.
+3Moses onoŋo yam mwol matek, mwol makato dano ducu ma onoŋo yam gitye i
+wi lobo-ni.
+4Cutcut Rwot owaco bot Moses ki Aron ki Miriam ni, “Wukat woko, wun adek
+ducu, wubin i kema me rwatte.” Gin adek ducu gukato woko.
+5Ci Rwot olor piny ki wir me pol, ocuŋ i dog kema me rwatte, ka olwoŋo Aron ki
+Miriam. Gin aryo ducu gukato anyim.
+6Ci owacci, “Wuwiny lokka. Ka ce tye lanebi mo i kinwu, an Rwot aweko en ŋeya
+ki i ginanyuta, aloko kwede ki i waŋ lek.
+7 Ento bot laticca Moses pe bedo kit meno; pien atyeko keto oda ducu i ciŋe.
+8Abedo ka lok kwede waŋ ki waŋ, ka maleŋ atyer, pe agoŋo lok; en neno kit ma
+Rwot cal kwede, Piŋo pe wulworo loko lok akeca i kom laticca Moses?”
+9Kiniga omako Rwot i komgi, ci ocito woko.
+10Ka pol owarre woko ki i wi kema me rwatte, ci nen, kom Miriam orugo woko
+cut, okwor matar macalo pee. Ka Aron olokke yo tuŋ bot Miriam, oneno kome
+orugo woko matar
+11ci owaco bot Moses ni, “Ai, laditta, pe iket can i komwa pien watimo lok me
+miŋo, doŋ wabalo.
+12Pe iwek en obed macalo latin ma ginywalo ma doŋ oto, ma riŋo kome nucune
+doŋ oballe woko ma pud oa aaya ki i minne.”
+13Moses okok bot Rwot ni, “Caŋe ba, ai Lubaŋa, abako doga boti do.”
+14 Ento Rwot owaco bot Moses ni, “Ka nene wonne aye onoŋo oŋulo laa i waŋe
+keken, kono pe en obedo ki lewic pi nino abiro? Wek koŋ gitweye woko i ŋe gony
+pi nino abiro, ka lacen gibikele doŋ i gony.”
+15Kit meno gitweyo Miriam woko i ne gony pi nino abiro; ci lwak pe gumedo ki
+dak ka mo nio waŋ ma gimiyo Miriam odwogo woko i gony.
+16Ka doŋ lacen dano gucako wot nia ki i Kajerot, ci gugony i tim Paran gubedo iye.
+Wel 13
+1Rwot owaco bot Moses ni,
+2“Cwal dano gucit gurot lobo Kanaan ma abimiyo bot jo Icrael. Cwal dano acel ki i
+kaka acel acel pa kwarogi, kun dano acel acel bedo latel wic i kingi.”
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+3Moses ocwalogi ki i tim me Paran, kit macalo Rwot ociko; gin ducu onoŋo gin
+ludito i kin jo Icrael.
+4Nyiŋi ene; i kaka pa Reuben Camua wod pa Jakur;
+5i kaka pa Cimeon Capat wod pa Kori;
+6i kaka pa Juda Kaleb wod pa Jepune;
+7i kaka pa Icakar Igal wod pa Yucepu;
+8i kaka pa Epraim Kocea wod pa Nun;
+9i kaka pa Benjamin Palti wod pa Rapu;
+10i kaka pa Jabulon Gadiel wod pa Codi;
+11i kaka pa Yucepu, en aye kaka pa Manace, Gadi wod pa Cuci;
+12i kaka pa Dan Amiel wod pa Gemali;
+13i kaka pa Acer Cetur wod pa Mikael;
+14i kaka pa Naputali Nabi wod pa Vopci;
+15i kaka pa Gad Geuel wod pa Maki.
+16Meno aye nyiŋ jo ma Moses ocwalogi ka roto lobo. Moses ocako nyiŋ Kocea
+wod pa Nun ni Yocwa.
+17Moses ocwalogi ka roto lobo Kanaan kun waco botgi ni, “Wucit i Negeb kuca ca,
+wuit malo wa i lobo godi,
+18wek wunen kit ma lobo-nu tye kwede, ka ce jo ma bedo iye jo matego nyo jo
+magoro, ka ce ginok nyo gipol,
+19ka ce lobo ma gibedo iye-ni ber nyo rac, ka ce gaŋi ma gibedo iye tye apero nyo
+girumo ki cel matego,
+20ka ce lobone ceko cam nyo pe ceko, ka ce yadi tye i lo bone nyo pe. Wucam co ki
+i cwinywu, ci wudwog ki nyig yadi mogo mucek i lobo kunnu.” Kare ma gin gucito
+onoŋo obedo kare ma nyig olok cako cek iye.
+21Kit meno gucito ka roto piny nia ki i tim Jin o wa i Rekob, ma cok ki yo ma
+donyo i Kamat.
+22Gucito nio wa i Negeb ka guo kwede i Kebron; ci Akiman, Cecai ki Talmai
+likwayo pa Anak onoŋo gitye kunnu, (Kebron onoŋo gigero ori mwaka abiro ma
+peya gigero Joan ma i Ejipt.)
+23Lurot piny guo wa i nota me Ecikol, ci guŋolo jaŋ tuga nyig olok acel ma olugo,
+gutiŋo ki tal mabor kun jo aryo aye gulebo, dok gukelo ki nyig okwer pomegranat
+ki nyig oduru.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+24Kabedo meno yam gilwoŋo ni nota me Ecikol , pien jo Icrael guŋolo iye jaŋ tuga
+nyig olok.
+25I ŋe nino pyeraŋwen gudwogo ki ka roto piny ma i lobo-nu.
+26Gudwogo bot Moses ki Aron ki lwak jo Icrael ducu ma i tim Paran, i Kadec;
+gukelo lok ki kunnu botgi ki bot lwak ducu, dok gunyuto botgi gin mucek i lo bo-
+nu.
+27Gutito ki Moses ni, “Wacito i lobo ma icwalowa iye; lobone mol cak ki moo kic,
+man aye nyig yadine ma wakelo-ni.
+28Kun kono jo ma gibedo i lobo-nu jo matego, gaŋgi bene gigoyo ki cel matego,
+dok gidito twatwal; medo ki meno, waneno iye likwayo pa Anak.
+29Jo Amalek gibedo megi i lobo ma i Negeb; jo Kit, jo Jebuc ki jo Amor gibedo i
+lobo godi; jo Kanaan gibedo i lobo murabo dog nam, ki murabo dog Jordan.”
+30Kaleb ojuko dano guliŋ woko i nyim Moses ci owacci, “Wan watugi cito kunnu
+magicel, wek wacamu woko; pien wan waromo loyogi.”
+31Ento dano ma yam gunywako kwede wot kunnu guwacci, “Wan pe waromo ette
+me cito i kom jo meno, pien gitego, gikatowa woko.”
+32Ci gukelo lok marac ma obalo cwiny jo Icrael woko i kom lobo ma guroto-ni,
+kun giwacci, “Lobo ma wawoto wabaro iye-ni, waroto ducu, lobone camo jo ma
+gibedo iye woko; dok jo ducu ma wanenogi iye kunnu jo ma komgi pek madito.
+33 Dok waneno twoni oluma kunnu, likwayo pa Anak ma kwarogi ducu twoni
+oluma. Wan giwa watino warom ki otwoŋo mamwa, dok myero wanen kumeno
+ki tun botgi.”
+Wel 14
+1Lwak ducu gucako daŋŋe matek, ci dano gukok ki pig wangi dyewor benebene.
+2Jo Icrael ducu gubedo ka ŋur i kom Moses ki Aron, ci lwakgi ducu guwaco botgi
+ni, “Kono nene wato giwa ki i Ejipt, kono ber! Nyo kono nene wato ki i tim kany!
+3Piŋo Rwot okelowa i lobo man wek ginekwa woko ki pala lucwan? Monwa ki
+litinowa gibiyakogi woko bene; kono nene pe obedo ber ka wadok giwa cen i
+Ejipt?”
+4Ci gucako lok kekengi ni, “Wek wayeru laditwa mo, wek wadoku cen i Ejipt.”
+5Moses ki Aron gupoto piny aryeba ic i nyim lwak jo Icrael ma gucokke ducu.
+6Ci Yocwa wod pa Nun ki Kaleb wod pa Jepune ma yam gitye i kin jo ma guroto
+lobo-nu guyeco boŋŋigi kekengi pien cwinygi ocwer.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+7Guwa, bot lwak jo Icrael ducu ni, “Lobo ma yam wawoto wabaro iye, waroto,
+wanoŋo ni lobone ber makato ducu.
+8Ka i Rwot obedo yom i komwa, en biterowa i lobo-nu, ci miyo i ciŋwa, en aye
+lobo ma mol cak ki moo kic.
+9 Ento pe wujem i kom Rwot; dok pe wulwor wegi lobo-nu, pien gin kwon me
+acamawa mere. Gin mo ma geŋo ŋegi doŋ pe, dok Rwot tye tuŋ botwa; pe
+wulworgi.”
+10Ento lwak ducu guwacci, gicelgi acela ki got. Ka dok deyo pa Rwot onen i kema
+me rwatte i nyim jo Icrael ducu.
+11Ci Rwot owaco bot Moses ni, “Jo man gibicaya pi kare ma rom mene? Gibikwero
+ye an pi kare ma rom mene, kadi bed atiyo lwak lanyut ducu ma rom man i kingi?
+12Abipwodogi ki two gemo, abitwonogi lobo ma nene myero obed me aleyagi,
+dok abimiyo in idoko rok madit mada ki matek makatogi.”
+13 Ento Moses owaco bot Rwot ni, “Jo Ejipt dok gibiwinyo pire bene, pien in aye
+yam itiŋo jo man ki tekki ikwanyogi woko ki i kingi,
+14dok gibitito bot jo ma gibedo i lobo man, Doŋ gityeko winyo ni in Rwot it ye i
+dye jo man, dok ni in Rwot aye gibedo ka neni waŋ ki waŋ, ki pol meri obedo ka
+cuŋ ka wigi, dok ibedo ka wot i nyimgi i wir pol dyeceŋ ki i wir mac dyewor.
+15Ka ineko jo man woko lawaŋe acel, ci lurok ma giwinyo ywekani gibiwacci,
+16‘Onoŋo tero jo man i lobo ma yam okwoŋo pire ni ebimiyo botgi-ni doŋ oloyo
+Rwot woko, en mumiyo onekogi woko i dye tim-mi.’
+17Kombeddi alegi ni, wek tek pa Rwot obed madit kit macalo yam iciko kun
+iwacci,
+18 ‘Rwot kiniga pe mako oyot, mar mere ma pe lokke dwoŋ; en weko bal ki tim
+aranyi pa dano, ento pe kwanyo kop i kom lubalo. En keto can i kom likwayo ki i
+kom Likwayo pa likwayogi pi bal pa kwarogi nio i yalwak me adek ki me aŋwen.’
+19Alegi ni itim kica ki joni man pi rocgi, macalo in marri ma pe lokke dwoŋ
+twatwal-li, kit ma ibedo ka weko balgi cakke wa ki i Ejipt nio koni.”
+Can ma Lubaŋa oketo i kom jo Icrael
+(Nwo 1.34-40)
+20Rwot ogamo ni, “Doŋ atimo kica botgi kit macalo iwaco-ni.
+21 Ento ada, macalo atye kwo-ni, dok macalo deyo pa Rwot bipoŋo lobo ducu-ni,
+akwoŋo ni,
+22i kom jo ma guneno deyona ki lwak lanyut ma yam atiyo i Ejipt ki i tim, ento ma
+gubedo ka omo iya ma doŋ odoko tyen apar kulu, ma pe guwinyo doga bene, pe
+tye ŋat mo i kingi
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+23ma bineno lobo ma yam akwoŋo pire bot kwarogi ni abimiyogini; pe tye ŋat mo
+i kin jo ma gicaya ma bineno.
+24 Ento laticca Kaleb abitero i lobo ma yam ocito iye-ni, ci Likwaye bicamo, pien
+en tye ki cwiny mapat, dok en tye ka lubo gin ma amito ducu kakare atir.
+25Jo Amalek ki jo Kanaan gibedo i nota ducu; pi meno wun diki wulokke wucak
+wot wudok tun tim i yo ma kemo Nam Makwar.”
+26Rwot dok owaco bot Moses ki bot Aron ni,
+27“Lwak man marac-ci gibiweko ŋuro i koma awene? Doŋ atyeko winyo lwak
+ŋuro ma jo Icrael gitye ka ŋuro kwede i koma.
+28Wac botgi ni an Rwot awacci, ‘Macalo atye makwo-ni, gin ma doŋ wuwaco ma
+awinyo ki ita abitiyo botwu.
+29 Komwu muto biradde piny i dye tim man. I kin jo ma gikwanogi-ni, ma yam
+gikwano welgi cakke ki i kom jo ma ditogi romo mwaka pyeraryo dok kwede
+malo, ma gubedo ka ŋur i koma-ni,
+30pe acel mo bio i lobo ma yam akwoŋo pire ni abimiyogi bedo iye; kono Kaleb
+wod pa Jepune ki Yocwa wod pa Nun keken aye gibio.
+31Ento litinowu ma wuwacci gibiyakogi wokoni, gin aye abiterogi kunnu, gin aye
+gibiŋeyo lobo ma wun wucayo-ru.
+32Wun aye komwu muto biradde piny i dye tim man.
+33 Litinowu gibibedo lukwat i tim mwaka pyeraŋwen kun gineno can pi
+tarwaŋwu atata, nio ka kom danowu ma oto me agikkine obuto i dye tim.
+34Wubineno can pi balwu mwaka pyeraŋwen, muporo wel nino ma yam wuroto
+ki lobo-ni, nino pyeraŋwen, mwaka acel pi nino acel acel, ci wubiŋeyo ni iya oarre
+woko i komwu.’
+35An a Rwot ma doŋ aloko; ada abitiyo man i kom lwak man marac-ci ducu ma
+guribbe me pyem kweda; gibitum woko i dye tim kany, gibito megi kunnu.”
+36Jo ma yam Moses ocwalo ka roto lobo-ni, ma yam gudwogo ci gumiyo lwak
+ducu guŋur i kom Rwot pi lok marac ma gutito i kom lobo-nu,
+37jo-nu guto woko ki two gemo i nyim Rwot.
+38Ento Yocwa wod pa Nun ki Kaleb wod pa Jepune aye gudoŋ ma gikwo ki i kin
+lwak dano ma gucito ka roto lobo-ni.
+Jo Icrael giloyogi i Korma
+(Nwo 1.41-46)
+39Moses otito lok meno ducu bot jo Icrael, ci dano gukok matek.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+40Ci gua malo odiko con, gucito guito malo wa i lacol me lobo godi, kun giwaco ni,
+“Nen, wan doŋ watye kany co do, doŋ wabicito wa i kabedo ma Rwot ociko pire;
+pien doŋ wabalo.”
+41Ento Moses owaco botgi ni, “Piŋo wun koni wuturo cik ma Rwot oketo? Pien
+meno pe bitwerre wacel.
+42Pe wucit kunnu, wek pe lumerokwu guradwu woko piny, pien Rwot pe tye i
+kinwu.
+43Jo Amalek ki jo Kanaan gitye i nyimwu kunnu, pala lucwangi bityekowu woko;
+pien wun wukwero lubo kor Rwot, miyo Rwot pe bibedo kwedwu.”
+44Ento gin guette ni gimito ito malo wa i lacol lobo godi ca, kadi bed canduk me
+gicikke pa Rwot, ki Moses bene, pe gua woko ki i gony.
+45Ci jo Amalek ki jo Kanaan ma gibedo i lobo godi kunnu gulor piny, guloyogi, ci
+guryemogi nio wa i Korma.
+Wel 15
+1Rwot owaco bot Moses ni,
+2“Wac ki jo Icrael ni, Ka doŋ wuo i lobo ma wubibedo iye, ma abimiyowu-ni,
+3ce wutyero dyaŋ nyo romo bot Rwot obed gityer ma giwaŋo ki mac, nyo gitum
+awaŋa, nyo kit gitum mukene, nyo gityer me cobo kwoŋ, nyo gityer ma ic
+opwoyo, nyo ka tyero i ninowu madito ma giciko wek obed gin ma ŋwece kur me
+yomo cwiny Rwot,
+4ci ŋat ma okelo gityerre myero otyer bot Rwot bene moko kwon mapwotte ma
+romo agwata acel ma girubo ki moo ma romo cupa aryo ki nucu, obed gityer me
+moko kwon.
+5Dok wubikelo yino me gityer amata pi gitum awaŋa nyo gitum mukene ducu ma
+romo cupa aryo ki nucu pi romo acel acel.
+6Nyo ka pi nyok romo wubikelo moko kwon mapwotte ma romo agwata aryo ma
+girubo ki moo ma romo cupa adek pi gityer me moko kwon.
+7Pi gityer: amata wubikelo yino ma romo cupa adek obed gin ma ŋwece kur me
+yomo cwiny Rwot.
+8Ka wuyubo twon pi gitum awaŋa, nyo pi gitum mukene, nyo pi cobo kwon, nyo
+pi gityer lakwecwiny ma wutyero bot Rwot,
+9ci myero wutyer kacel ki twon moko kwon mapwotte ma romo agwata adek ma
+girubo ki moo ma romo cupa abic obed gityer me moko kwon.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+10Pi gityer amata wubityero koŋo vino ma romo cupa abic obed gityer ma giwaŋo
+ki mac, gin ma ŋwece kur meyomo cwiny Rwot.
+11“Gibitiyo kit meno pi twon acel acel, nyo pi nyok romo acel acel, nyo pi wod
+romo nyo latin nyok dyel acel acel.
+12Ducu bilubo Wel lim ma wukelo me atyera; wubitiyo kit meno i komgi acel acel
+macalo welgi, tye.
+13Anywalli ducu me lobowu gibitiyo kit meno ka gityero gityer ma giwaŋo ki mac
+obed gin ma ŋwece kur me yomo cwiny Rwot.
+14Ka larok mo odoko labedo i kinwu, nyo: ŋat mo ma bibedo i kinwu wa i kare pa
+likwayowu ducu, ka en mito tyero gityer ma giwaŋo ki mac obed gin ma ŋwece
+kurme yomo cwiny Rwot, en bene bitime kit ma wun wutimo-ni.
+15Pi lwak mucokke cik bibedo acel piwu ki pi larok ma odoko labedo i kinwu;
+meno bibedo cik matwal nio wa i kare pa likwayowu ducu; labedo bibedo ma
+rom ki wun i nyim Rwot.
+16 Cik bibedo acel ki ŋolo kop bene acel pi wun ki pi lurok ma gibedo i kinwu.”
+17Rwot owaco bot Moses ni,
+18“Wac bot jo Icrael ni, Ka doŋ wuo i lobo ma atye ka terowu iye-ni,
+19ka wucamo cam ma ocek i lobe-nu, wubityero gityer bot Rwot.
+20I kom moko kwon me kal manyen mukwoŋo cek wubityero capat lakoto obed
+gityer; wubityero macalo wutyero gityer ma wukwanyo ki i kom kal ma wudino.
+21Wubimiyo gityer bot Rwot ki i kom moko kwoti me kal manyen mukwoŋo cek
+nio wa i kare pa likwayowu ducu.
+22“Ento ka ce wuroco, kuli pe wumako cik magi ducu ma Rwot yam ociko ki
+Moses,
+23ki gin ducu ma Rwot ocikowu kwede ki i dog Moses, nia wa i nino ma yam Rwot
+okwoŋo miyo iye cik, medde kwede wa i kare pa likwayowu ducu;
+24ka ce dano guroco ma pe gubalo akaka, kun lwak pe ŋeyo gin mo iye, ci lwak
+ducu bityero wod twon acel me gitum awaŋa obed gin ma ŋwece kur me yomo
+cwiny Rwot, ki gityer me moko kwon ki gityer amata mutike macalo cik tye, kacel
+ki nyok dyel acel pi gitum me bal.
+25Ajwaka bitimo gin lakwany bal ki i kom lwak jo Icrael ducu, ci Rwot biweko
+balgi; pien onoŋo pe gubalo akaka dok gukelo gityergi, gityer ma giwaŋo ki mac
+bot Rwot, ki gitumgi me bal, i nyim Rwot pi balgi ma pe gutimo akaka.
+26Gibiweko bal pa lwak jo Icrael ducu, kacel ki pa lurok ma gibedo i kingi, pien
+onoŋo bal meno omako lwak ducu.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+27 “Ka ce dano acel mo aye obalo ma pe otimo akaka, ci en bityero bwoŋ dyel ma
+ditte romo mwaka acel pi gitum me bal.
+28Ci ajwaka bitimo gin lakwany bal i nyim Rwot pi dano-nu ma opoto i bal ma pe
+otimo akaka, pi kwanyo bal ki i kome, ci Rwot biweko balle.
+29Wubibedo ki cik acel pi dano ma obalo ma pe otimo akaka, kadi bed en anywalli
+pa jo Icrael nyo labedo ma bedo i kingi.
+30Ento ka dano mo otimo bal mo me tekwic, kadi bed anywalli me lobo nyo
+labedo, noŋo doŋ ocayo Rwot; dano meno waŋe birwenyo woko ki i kin lutugi.
+31Noŋo ocayo lok pa Rwot, oturo cikke, pi meno dano meno wane birwenyo woko
+magicel; balle bidok i wiye.”
+Dano ma pe ogwoko cabit
+32I kare ma jo Icrael gitye i tim, ci gunoŋo dano mo ma coko yen riddo i ceŋ cabit.
+33Jo ma gunoŋe ka en coko yen riddo-ni gukele bot Moses ki Aron ki bot lwak
+ducu.
+34Gukete i ot kol, pien peya ginyuto botgi gin ma myero gutim i kome.
+35Ci Rwot owaco bot Moses ni, “Dano meno gibineke woko. Lwak ducu gibicele ki
+got woko i ŋe gony.”
+36Lwak ducu gukele woko i ŋe gony, gucele ki got guneke woko, kit macalo Rwot
+onoŋo ociko ki Moses.
+Keto jira i dog boŋo
+37Rwot owaco bot Moses ni,
+38 “Lok ki jo Icrael ci icikgi ni gukwo jira i twok dog boŋŋigi, wa i kare pa
+likwayogi ducu, dok i kom jira ma i twok dog boŋo acel acel guket iye tol ma bulu.
+39Bibedo botwu jira dog boŋo ma wuneno kome wek wupo cik pa Rwot ducu,
+wulubgi, kun pe wulubo tamwu kenwu ki gin ma wuneno, ma wumaro lubo pi
+mitiwu kenwu.
+40Kit meno miyo wubipo cikka ducu, wubicobo, miyo wubibedo jo maleŋ pi
+Lubaŋawu.
+41An a Rwot Lubaŋawu ma yam akwanyowu ki i lobo Ejipt wek abed Lubaŋawu;
+an a Rwot Lubaŋawu.”
+Wel 16
+1 Kora wod pa Ijar, ma wod pa Kokat, wod pa Levi, kacel ki Datan ki Abiram
+awobe pa Eliab ki On wod pa Pelet, ma gin adek ducu gubedo likwayo pa Reuben,
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+2gutero dano ci gucito kwedgi i kom Moses, kacel ki lwak dano ma i kin jo Icrael,
+lutel wi lwak miya aryo ki pyerabic ma giyero ki i kin lwak mucokke, jo ma
+giŋene mada.
+3Gucokke kacel i kom Moses ki Aron ci guwaco botgi ni, “Mewu doŋ okato kare!
+Pien jo magi ducu gin lwak maleŋ, gin ducu ki acel acel Rwot bene tye i kingi. Ci
+piŋo wun wukette kenwu malo twatwal makato lwak pa Rwot ducu?”
+4Ka Moses owinyo, opoto aryeba ic.
+5Ci owaco bot Kora ki lwakke ducu ni, “Diki odiko Rwot aye binyuto danone ki
+ŋat maleŋ i kinwa, ci bimiyo en nyiko cok bote; ŋat ma en oyero aye en bimiyo
+nyiko cok.
+6Doŋ wutim kit man: wukwany weer me waŋo odok eceta, Kora ki lwakke ducu.
+7Diki wuket mac iye, ci wuket iye odok eceta i nyim Rwot, ci dano ma Rwot oyero
+aye bibedo maleŋ, Wun mewu dok okato kare, wun likwayo pa Levi!”
+8Moses dok owaco bot Kora ni, “Doŋ koŋ wuwiny ya, wun likwayo pa Levi.
+9Wun wubwono man ni gin matidi mo, ma Lubaŋa pa Icrael aye opokowu woko
+ki i kom lwak jo Icrael ci okelowu cok bote pi tiyo tic i kema pa Rwot, kun wun
+aye wucuŋ i nyim lwak ka tic pigi?
+10En doŋ okelowu ka ma cok kwede wun kacel ki utmegiwu ducu ma gin likwayo
+pa Levi, ci dok pud wuyenyo yo me doko ajwagi aye?
+11Wun wubedo ka jemo i kom Rwot, mumiyo wun ki lwakwu ducu wucokke
+kacel-li. Aron kono gin aŋo mumiyo wuŋur i kome-ni?”
+12Moses dok ocwalo dano pi lwoŋo Datan ki Abiram ma awobe pa Eliab; ento gin
+guwacci, “Pe wabicito kunnu.
+13Pud ibwono man ni gin matidi mo, ma ikwanyowa woko ki i lobo ma mol cak ki
+moo kic-ci, ma it ye ka nekowa kwede i tim-mi? Myero in dok ikette keni me bedo
+laker ma loyowa?
+14Dok bene peya ikelowa i lobo mo ma mol cak ki moo kic, peya imiyowa potti
+mogo ma waleyo, nyo potti olok, ci kombeddi doŋ imito umo waŋwa woko. Wan
+pe wabicito kunnu.”
+15Kiniga omako Moses matek ci owaco bot Rwot ni, “Pe iye gityergi. An peya
+akwanyo kadi kanagi acel mo ki botgi, pe atimo gin marac i kom ŋat mo i kingi.”
+16Lacen Moses owaco bot Kora ni, “In ki lwakki wubed tye i nyim Rwot diki, in ki
+gin ki Aron,
+17kun noŋo ŋat acel acel i kinwu omako atabo weerre me waŋo odok eceta.
+Wuket iye odok eceta, ci ŋat acel acel okel atabo weerre i nyim Rwot, atabo weer
+miya aryo ki pyerabic; in bene ki Aron, ŋat man ki atabo weerre.”
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+18Ŋat acel acel ocako kwanyo atabo weerre, ci guketo mac i igi, ka guketo odok
+eceta iye, ci gucuŋ i dog kema me rwatte, kacel ki Moses ki Aron.
+19Kora ocoko lwak jo ducu ci gucuŋ ma gukemme ki Moses ki Aron i doggola
+kema me rwatte. Ci deyo pa Rwot onen bot lwak ducu.
+20Rwot owaco bot Moses ki Aron ni,
+21“Wun wupokke kenwu ki i kin lwak man, wek anekgi atyekgi woko kombeddi.”
+22Ento gin gupoto piny aryeba ic ci guwacci, “Ai Lubaŋa, Lubaŋa ma won tipo
+kom jo ducu, pi bal pa dano acel keken miyo kiniga maki i kom lwak ducu?”
+23Rwot owaco bot Moses ni,
+24“Cik lwak ni gua woko ki ka ma jo pa Kora, Datan ki Abiram gibedo iye.”
+25Moses oa ocito bot Datan ki Abiram, ci ludoŋo pa jo Icrael gulubo kore.
+26Owaco bot lwak ni, “Alegowu ni, wua wupokke ki i ŋet kema pa jo magi ma
+giraco-ni, pe wugud kom jamigi mo, wek pe gijwerwu woko kacel kwedgi pi bal
+megi ducu.”
+27Omiyo dano gua woko ki i ŋet kema pa Kora, Datan ki Abiram; ci Datan ki
+Abiram gukatti woko gucuŋ i dog kemagi kacel ki mongi ki awobegi ki litinogi
+matino.
+28Moses owacci, “Man aye gin ma bimiyo wuŋeyo ni Rwot onoŋo ocwala ka tiyo
+tic man ducu, pe abedo ka tiyone pira kena.
+29Ka ce jo man gibito i kit ma dano gito kwede jwijwi-ni, nyo kit keckom ma poto
+i kom dano ducu en aye bipoto i komgi, ci pe noŋo Rwot aye ma ocwala.
+30Ento ka Rwot oketo gin mo manyen, ce lobo oŋamo doge omwonyogi woko
+ducu, lwakgi ki jamigi ducu, miyo gilor piny i bur Lyel ma pud gikwo, ci wubiŋeyo
+ni, jo ma gubedo ka cayo Rwot.”
+31Ka otyeko waco lok meno ducu, ci nom ma gucuŋ iye obar oyabbe woko,
+32lobo oŋamo doge omwonyogi woko, kacel ki jo me odigi, ki lwak jo pa Kora
+ducu ki jamigi ducu liweŋ.
+33Kit meno gin ki lwakgi ki jamigi ducu gulor piny i bur Lyel ma gikwo; ci lobo
+oumo wigi woko gurwenyo woko ki i kin lwak.
+34Jo Icrael ducu ma gurumogi-ni guriŋo woko ka guwinyo kokogi kun giwacci,
+“Wek lobo pe dok omwonywa bene!”
+35Ka dok mac bene oa ki bot Rwot, owaŋo jo meno miya aryo ki pyerabic ma
+gubedo ka tyero odok eceta-ni, otyekogi woko.
+36Ka Rwot dok owaco bot Moses ni,
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+37“Cik Eleajar wod pa ajwaka Aron ni okwany atabo weer me waŋo odok eceta
+woko ducu ki i mac ma Lyel-li, oony mac ma i igi-ni ka mabor, pien gin jami
 maleŋ.
-7Pe gunyom dako ma lakwele, nyo ma doŋ tye ki meye, Gin pe gunyom dako ma
-cware oryemo pien ajwaka en dano maleŋ bot Lubaŋane.
-8Wubigwoke obed maleŋ pi ticce, pien en tyero cam pa Lubaŋawu; en bibedo
-maleŋ botwu, pien an a Rwot ma alonyowu wubed maleŋ, an bene aleŋ.
-9Ka nya pa ajwaka mo odoko lapyeda pi timo kwele, noŋo opyedo wonne;
-gibiwane woko ki mac.
-10“Ajwaka madit i kin omege, ma en aye gionyo moo wir i wiye, ma onoŋo
-gikwere wek oruk boŋŋi aruka me ticce, myero pe ogony yer wiye oket ata lijayi,
-pe oyec ginarukane;
-11pe odony i ot ka ma kom dano muto tye iye, pe oballe odok keni, kadi bed pi
-wonne nyo minne.
-12Pe okat woko nia ki i kabedo maleŋ, wek pe opyed kabedo maleŋ pa Lubaŋane,
-pien moo wir ma yam gikwere kwede bot Lubaŋane tye i kome; an a Rwot.
-13En myero onyom nyako ma peya oŋeyo co.
-14Pe onyom daa-to, nyo dako ma cware oryemo, nyo dako ma doŋ tye ki meye,
-nyo dako ma lakwele; en onyom anyira tugi ma peya oŋeyo co,
-15wek pe opyedde i kom litinone i kin lutugi; pien an a Rwot ma alonye obed
-maleŋ.”
-16Rwot owaco bot Moses ni
-17“Wac bot Aron ni, i kare pa likwayo wu ducu, lakwaru mo ma kome ki mwonyo
-pe onyik cok ka tyero cam pa Lubaŋane.
-18Pien dano ma ko me ki mwonyo pe binyiko cok bota, macalo dano ma latowaŋ,
-nyo laŋolo, nyo ŋat ma waŋe ki poyo, nyo ma tyene nyo bade tuŋcel laŋabu,
-19nyo ŋat ma tyene otur, nyo ma bade otur,
-20nyo dano ma kore oruŋŋe, nyo dano muran, nyo ma waŋe ocor, nyo ma twoyo
-gwenyo nyo nyac, nyo ma gidino mane.
-21Dano mo i kin likwayo pa ajwaka Aron ma kome ki mwonyo pe onyik cok ka
-tyero gityer ma giwaŋo ki mac bot Rwot; tekke kome ki mwonyo, pe binyiko cok
-ka tyero cam pa Lubaŋane.
-22En twero camo cam pa Lubaŋane, jami maleŋ makato, ki jami maleŋŋe;
+38Atabo weer pa jo meno ma balgi okelo can me to i komgi-ni myero gipadgi
+woko malac ki nyol gudok laum wi keno tyer; pien onoŋo yam doŋ gityerogi wo
+ko i nyim Rwot mumiyo pud gin jami maleŋ. Ci gibibedo lanyut bot jo Icrael.”
+39Kit meno Eleajar okwanyo atabo weer me mola ma yam jo ma mac owanogi-ni
+gutyero, ci gipadogi gudoko laum wi keno tyer,
+40wek obed gin me poyo wi jo Icrael, wek ŋat mo ma pe ajwaka, ma pe lakwar
+Aron, pe onyik cok ka wano odok eceta i nyim Rwot, wek pe odok macalo Kora ki
+lwakke, kit ma Rwot owaco bot Eleajar ki i dog Moses.
+Aron olaro lwak
+41Ento orwone lwak jo Icrael ducu dok gucako ŋur i kom Moses ki i kom Aron
+kun giwaco ni, “Wun aye wuneko jo pa Rwot woko.”
+42Ka lwak gu tyeko cokke i kom Moses ki Aron, gulokke tuŋ kema me rwatte; ci,
+nen, pol oumo ko me woko, deyo pa, Rwot ocako nen.
+43Moses ki Aron gucito i nyim kema me rwatte,
+44ci Rwot owaco bot Moses ni,
+45“Wua woko ki i kin lwak man wek atyekgi woko kombeddi.” Gupoto piny
+aryeba cwiny,
+46ci Moses owaco bot Aron ni, “Kwany atabo, weerri me waŋo odok eceta, iket iye
+mac ma itoko ki i keno tyer, ci iket iye odok eceta, itiŋ iter bot lwak oyotoyot, icit
+itim gin lakwany bal ki i komgi, pien kiniga doŋ ocako bino kun oa ki bot Rwot,
+two gemo doŋ bicakke.”
+47Aron okwanyo atabo weer kit ma Moses owaco, cut, oriŋo kwede i dye lwak; ci,
+nen, two gemo onoŋo doŋ ocakke i kin dano. Oketo odok eceta i atabo weer,
+ocako timo gin lakwany bal ki i kom lwak.
+48Ocuŋ i kin jo muto ki jo makwo, ci two gemo ogik woko.
+49Jo ma two gemo onekogi guromo alip apar wiye aŋwen ki miya abiro, kun pe
+giribo iye jo ma guto i alii pa Kora.
+50Aron odok cen bot Moses i dog kema me rwatte ka two gemo doŋ ogik woko.
+Wel 17
+1Rwot owaco bot Moses ni,
 Acoli Baibul
 © 1985, Bible Society of Uganda.
-23ento pe binyiko cok ki boŋo kicika, pe bibino cok ki keno tyer, pien kome ki
-mwonyo, wek pe opyed kabedona ducu maleŋ-ŋi, pien an a Rwot ma alonyogi
-gubed maleŋ.”
-24Moses oloko kit meno bot Aron ki awo bene ki bot jo Icrael ducu.
-Lulevi 22
-1Rwot dok owaco bot Moses ni,
-2“Tit ki Aron ki awobene ni gugwokke i kom gin maleŋ pa jo Icrael ma gudyero
-bota, wek pe gupyed nyina maleŋ-ŋi; an a Rwot.
-3Wac botgi ni, ‘I kare pa likwayowu ducu, ka ŋatti mo ma i kin likwayowu onyiko
-cok ki gin maleŋ ma jo Icrael gudyero bot Rwot-ti ma kun kome ki keni, dano
-meno waŋe birwenyo woko ki i nyima; an a Rwot.
-4Dano mo i kin likwayo pa Aron ma ladobo, nyo ma kome cwer tut, pe ocam gin
-maleŋ nio ka ko me olony. Ŋatti mo ma ogudo kom gin ma odoko keni pi gudo
-kom dano muto, nyo dano ma kodi me co mere omol i kome,
-5nyo dano ma ogudo gin ma lak alaka ma twero miyo en doko keni, nyo ma ogudo
-dano ma kenine twero kobo i kome, nyo kwa gin mo ma twero miyo en doko
-keni;
-6dano ma ogudo gin macalo meno bibedo keni nio wa otyeno, dok pe bicamo gin
-maleŋ ka peya olwoko kome ki pii.
-7Ka ceŋ doŋ opoto, ci bibedo ma olony, lacen en twero camo gin maleŋ, pien en
-aye camme.
-8En pe ocam geŋ lee ma oto kene, nyo lee ma ŋuu omwodo, wek pe oballe kwede
-odok keni; an a Rwot.’
-9Gumak gin ma aciko, wek bal pe odok i wigi, ma miyo gibito ka gipyedde i kom
-gin ma aciko; an a Rwot ma alonyogi gubed maleŋ.
-10“Dano ata pe ocam gin maleŋ. Dano ma labedo bot ajwaka, nyo lapakaca, pe
-ocam gin mo maleŋ.
-11Ento ka ajwaka owilo opii ki lim, ma odoko calo gipinnye, en twero camo, ki
-opii ma ginywalogi i ode bene gitwero camo camme.
-12Ka dano mo mukene onyomo nya pa ajwaka, nyare-nu aye pe doŋ bicamo gin
-maleŋ ma gityero.
-13Ento ka nya pa ajwaka odoko daa-to, nyo cware oryemo, kun pe tye ki latin mo,
-ci odwogo i ot pa wonne macalo yam obedo iye ma pud tidi, twero camo cam pa
-wonne; ento dano ata pe ocam.
-14Ka dano mo ocamo gin mo maleŋ ma pe ocamo akaka, en bimedo acel me abic i
-kom welle, ci culo waŋ gin meno maleŋ bot ajwaka.
-15Ajwagi pe gupyed jami maleŋ pa jo Icrael ma gityero bot Rwot,
-16wek bal ki alii pe odok i wigi pi camo jamigi maleŋ; pien an a Rwot ma alonyogi
-gubed maleŋ.”
-17Rwot owaco bot Moses ni
-18“Wac bot Aron ki awo bene ki bot jo Icrael ducu ni, Ka ŋat mo ma i ot pa Icrael,
-nyo labedo mo ma i Icrael, miyo gityer mere, kadi obed me cobo kwoŋ, nyo gityer
-ma iye opwoyo ma otyero bot Rwot me gitum awaŋa,
-19ka wubikelo wod twon, nyo nyok romo, nyo nyok dyel ma kome pe ki mwonyo,
-Lubaŋa biye gamone.
-20 Ento pe wutyer gin mo ma kome ki mwonyo, pien pe gibiye gamone piwu.
-21Ka dano mo okelo gityer lakwecwiny bot Rwot, pi cobo kwoŋ nyo pi gityer ma
-iye opwoyo, ma okwanyo ki i kin dyaŋi nyo i kin romi nyo dyegi, gibigamo ma
-komgi becone; komgi pe obed ki mwonyo mo.
-22Lee ma wane oto, nyo ma tyene otur, nyo ma oŋol, nyo ma kome cwer tut, nyo
-ma aŋoli omako, nyo kit two macalo meno, pe wutyer bot Rwot, pe wumigi me
-bedo gityer ma giwaŋo ki mac bot Rwot i wi keno tyer.
-23Wutwero kelo twon nyo nyok romo ma kome obedo alwaya nyo ma aduno
-obed gityer ma iwu opwoyo, ento pe gibigamone pi cobo kwoŋ.
-24Pe wutyer bot Rwot lee mo ma gidino mane, nyo ginyoto woko, nyo gikayo, nyo
-gikwanyo woko, pe wutum lee ma kit meno i lobowu.
-25Dok pe wutyer lee mo macalo meno ma wuwilo ki bot larok obed cam pa
-Lubaŋawu, Pe gibigamogi piwu, pien komgi ki mwonyo pi bal ma tye i komgi-ni.”
-26Rwot owaco bot Moses ni,
-27“Ka ginywalo wod twon nyo romo nyo dyel, koŋ obed bot minne pi nino abiro;
-nia i nino me aborone gibiye gamone me bedo gityer ma giwaŋo ki mac bot Rwot.
-28Kadi bed minne min dyaŋ nyo min romo, pe gibir omo neko minne ki latinne i
-nino acel.
-29Ka ce wutumo gityer me pwoc bot Rwot wutum i kit ma miyo giye gamowu.
-30Gicam i nino meno kikome; pe wuwek mo odoŋ nio wa odiko; an a Rwot.
-31“Kit meno wugwok cikka ducu, wucobgi; an a Rwot.
-32Pe wupyed nyiŋa maleŋ, ento jo Icrael myero guŋe ni an aleŋ; an a Rwot ma
-alonyowu wubed maleŋ,
-33ma ceŋ akwanyowu woko ki i lobo Ejipt wek abed Lubaŋawu; an a Rwot.”
-Lulevi 23
-1Rwot owaco bot Moses ni,
-2“Wac bot jo Icrael ni, Nino madito ma Rwot ocikogi, ma wubituco pigi ni gubed
-gurre maleŋ, nino madito ma an aciko, gin ene.
-3 Wubitiyo tic nino abicel, ento i nino me abirone en ceŋ cabit me yweyo mot, en
-aye gurre maleŋ, Pe wuti iye tic mo; en aye ceŋ cabit pa Rwot ka ma wubibedo
-iye ducu.
-Kato (Paska) ki nino madito me Mugati ma Tobi Pe Iye
-(Wel 28.16-25)
-4“Magi aye nino madito ma Rwot ociko, gin gurre maleŋ ma wubituco pigi i kare
-ma Rwot ociko pigi.
-5 I dwe mukwono i nino dwe apar wiye aŋwen otyeno, en aye Kato (Paska) pa
+2“Lok ki jo Icrael ci igam odoo ki botgi, odoo acel pi dog ot pa kwarogi acel acel.
+Gam ki bot lutel wigi ducu, ma oporo dog odi pa kwarogi, odoo ducu apar wiye
+aryo. Co nyiŋ dano acel acel i kom odoone,
+3ci ico nyiŋ Aron i kom odoo pa likwayo pa Levi; pien ludito wi kaka ki i dog odi
+pa kwarogi gibibedo ki odoogi acel acel.
+4Ibicibogi i kema me rwatte i nyim canduk lok me caden ka ma arwatte iye
+kwedwu-ni.
+5Ci odoo pa dano ma abiyero en aye bilot. Meno aye abinoŋo iye yo me juko jo
+Icrael ma gibedo ka ŋur i koma-ni.”
+6Moses oloko ki jo Icrael, ci lutel wigi ducu gukelo odoo bote, odoo acel pi lutel
+wigi acel acel, ma oporo wel odi pa kwarogi, odoo apar wiye aryo; odoo pa Aron
+bene onoŋo tye i kin odoogi.
+7Ci Moses ocibo odoo ducu i nyim Rwot i kema lok me caden.
+8 Orwone Moses odonyo i kema lok me caden; ci, nen, odoo pa Aron ma ocuŋ pi
+dog ot pa Levi-ni aye olot woko, ocako kico bolo olaŋ, ci oturo ture onyako nyig
+yaa mucek.
+9Ka Moses okelo odoo ducu nia ki i nyim Rwot, otero bot jo Icrael ducu, guneno,
+ci dano acel acel okwanyo odoone.
+10Rwot owaco bot Moses ni, “Dwok odoo pa Aron i nyim canduk lok me caden
+kakare, wek gigwok obed lanyut pi jo mujemo, wek ijuk ki nurgi atata i koma,
+ogik woko, wek pe to opot i komgi.”
+11Moses otimo kit ma Rwot ocike kwede.
+12Ci jo Icrael guwaco bot Moses ni, “Nen ba, watum woko do, keckom opoto i
+komwa omiyo wato, wato woko.
+13Jo ducu ma gibino cok, ma gibino cok ki kema pa Rwot, gito woko. Wan ducu
+myero wato woko bo?”
+Wel 18
+1Ci Rwot owaco bot Aron ni, “In ki awobeni kacel ki jo me ot pa kwarowu
+wubitiŋo alii me bal pi kabedo maleŋ, dok in kacel ki awobeni wubitiŋo alii me
+bal pi ticwu me bedo ajwagi.
+2In ibikelo utmegini ma i kaka, pa Levi cok kacel kwedi, ma en aye kaka pa woru,
+wek guribbe kwedi, gukonyi ma noŋo in ki awobeni wutye ka tic i nyim kema lok
+me caden.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+3Gin gibibedo kwedwu i dog ticwu, dok gibitiyo tic ducu ma miite i kema; ento pe
+gibicito cok i kom jami ducu ma i kabedo maleŋ, pe gibinyiko cok ki keno tyer,
+wek pe to opot i kom gin ki wun.
+4Gibinywako tic kwedwu i kema me rwatte pi tic ducu ma i kema; pe ŋat mukene
+mo bibino botwu cok.
+5Wun wubitiyo tic ma i kabedo maleŋ, ki tic i kom keno tyer, wek kiniga pe dok
+opot i kom jo Icrael.
+6Nen, doŋ akwanyo utmegiwu, gin Lulevi, ki i kin jo Icrael; gin gitye macalo mot
+ma gimiyowu, gin aye jo ma gimiyo bot Rwot pi tiyo tic i kema me rwatte.
+7In ki awobeni keken wubitiyo ticwu me bedo ajwagi i lok ducu ma kemo kom
+keno tyer nyo ma tye i tyelo ma boŋo kicika oumo-ni. Amiyowu tic me bedo
+ajwagina macalo mot ma amiyo botwu; ka ŋat mo ata obino cok, gibineke woko.”
+Cam pa ajwagi
+8Rwot dok owaco bot Aron ni, “Nen, doŋ atyeko miyo i ciŋi gityer ducu ma gimiyo
+bota, jami maleŋ ducu ma jo Icrael gikelo. Atyeko miyogi gubed waŋ wat ma tuŋ
+boti, ki bot awobeni me bedo waŋ wat ma myero gimi botgi dikdik.
+9Magi aye gibibedo meri ki i kom jami maleŋ maka to ma pe giwaŋo ki mac:
+gityer ducu ma jo Icrael gimiyo bota, gityer me moko kwon ducu gitum me bal
+ducu, gitum me tino alii ducu; gibibedo maleŋ makato piri ki pi awobeni.
+10Wubicamo i kabedo mo maleŋ makato; cowu ducu gitwero camo; tye maleŋ
+piwu.
+11Man bene mewu: gin ducu ma gikwanyo ki i kom motgi me bedo gityer akwata;
+atyeko miyogi botwu ki bot awobewu ki anyirawu obed waŋ watwu me dikdik. Jo
+ducu ma i odi ma gulonnye gitwero camo.
+12Moo mabecone ducu, yino mabecone ducu ki bel maberre ducu, mot ducu ma
+gimiyo bot Rwot me wi mwaka doŋ amiyo botwu.
+13Cam ducu mukwoŋo cek i lobogi ma gikelo bot Rwot bibedo mewu; dano ducu
+ma i odi ma olonnye twero camo.
+14 “Gin ducu ma i Icrael ma gidyero i cin Rwot bibedo mewu.
+15“Litino ducu ma, gikwoŋo nywalogi, kadi bed dano nyo lee, ma gityero bot Rwot
+bibedo mewu, Ento litino kayo ducu pa dano gibikokogi akoka ki lim, ki litino
+kaye pa lee ma keni ma pe gicamo bene gibikokogi akoka.
+16Gibikokogi ka ditogi romo dwe acel. Wel me kokogi ibimoko ni obed cekel me
+ryal abic, kun lubo cekel me kabedo maleŋ ma romo gera pyeraryo.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+17Ento latin kayo pa dyaŋ nyo pa romo nyo pa dyel pe gibikoko; gin gileŋ. Ibikiro
+remogi i kom keno tyer, dok ibiwaŋo dwologi obed gityer ma giwaŋo ki mac, gin
+ma ŋwece kur me yomo cwiny Rwot.
+18Riŋogi bibedo mewu, macalo gok ma gik Wato ki em malacuc bene mewu.
+19Gityer maleŋ ducu ma jo Icrael gimiyo bot Rwot doŋ amiyo botwu ki bot
+awobewu ki anyirawu obed waŋ: watwu me dikdik. Man aye gicikke ma gimoko
+ki kado i nyim Rwot matwal piri ki pi likwayu.”
+20Rwot dok owaco bot Aron ni, “Pe wubilimo ginaleya mo nyo dul lobo mo i kin jo
+Icrael; an ki koma aye abedo ginaleyawu.
+Cam pa Lulevi
+21 “Bot Lulevi atyeko miyogi dul acel me apar i kom jami pa jo Icrael me bedo
+megi pi culo ticgi ma gitiyo, ticgi ma i kema me rwatte.
+22Dok nia tin jo Icrael pe gibinyiko cok ki kema me rwatte, wek pe gunoŋ bal ma
+kelogi to.
+23Ento Lulevi keken aye gibitiyo tic ma i kema me rwatte, gin aye gibibedo lubalo
+ka gin mo orocce iye. Bibedo cik matwal nio wa i kare pa likwayowu ducu; dok pe
+gibileyo dul lobo mo i kin jo Icrael.
+24Pien dul acel me apar ma a ki bot jo Icrael, ma gimiyo obed gityer bot Rwot,
+atyeko mi yo bot Lulevi me ginaleyagi; mumi yo aloko i komgi ni, pe gibibedo ki
+dul lobo mo me aleyagi i kin jo Icrael.”
+Dul acel me apar
+25Rwot owaco bot Moses ni,
+26“Dok iwac bot Lulevi ni, ‘Ka wugamo dul acel me apar ki bot jo Icrael, ma atyeko
+miyo botwu obed mewu, wun dok wubimiyo gityer ma a ki iye bot Rwot, dul acel
+me apar ki i kom dul acel me apar ma gikelo botwu.
+27Gityerwu man gibikwano piwu macalo wumiyo ki i kom bel ma wudino ki i
+kom koŋo olok ma oa ki i nyig olokwu ma wubiyo.
+28Kit meno wun bene wubimiyo gityer bot Rwot ki i kom dul acel me apar ducu
+ma wubigamo ki bot jo Icrael; wubikwanyo gityer pa Rwot ki i kome, wumiyo bot
+ajwaka Aron.
+29Mot ducu ma gimiyo botwu en aye wubikwanyo iye gityer ducu ma myero bot
+Rwot, ki i kom mabecone ducu, ci bedo gin ma gikwero wek obed maleŋ.’
+30Mumiyo ibiwaco bot Lulevi ni, ‘Ka doŋ wutyero mabecone woko, ci mudoŋŋe
+bibedo mewu macalo oa ki i laro dino belwu nyo i ka biyo nyig olokwu.
+31Wutwero camo i kabedo ducu, wun ki jo ma i odiwu; pien en aye giculowu
+kwede pi ticwu i kema me rwatte.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+32Pe wubinoŋo iye bal mo, tekke wutyeko kwanyo mabecone pi gityer. Ento pe
+wupyed jami maleŋ ma jo Icrael gimiyo, wek pe wuto.’ ”
+Wel 19
+1Rwot owaco bot Moses ki Aron ni,
+2“Man en cik ma an Rwot aye aciko: Cik jo Icrael ni gukel boti roya makwar
+maberre ma kome pe ki mwonyo, ma peya gitiyo kwede me pur.
+3Ibimiyo bot ajwaka Eleajar ci gibitero woko i ŋe gony, ka doŋ gibineko i nyim
+Eleajar.
+4Ajwaka Eleajar bigwelo remone ki lwet ciŋe, ci kiro remone tyen abiro mukemo
+nyim kema me rwatte.
+5Gibiwaŋo kom roya woko ma kun en neno; pyene ki riŋone ki remone ki cete,
+gibiwaŋone ducu.
+6Dok ajwaka bikwanyo yat cedar ki anyero ki uci makwar ci bibologi i dye mac
+ma waŋo riŋo roya-ni.
+7Ka dok ajwaka bilwoko boŋŋine ki pii, lwoko kome ki pii, ka doŋ lacen bidok i
+gony; ci ajwaka bibedo keni nio wa otyeno.
+8Ŋat ma onoŋo owaŋo roya-ni bene bilwoko boŋŋine, lwoko kome ki pii, ci
+bibedo keni nio wa otyeno.
+9 Ci dano mo ma olony, ma pe kome ki keni aye bijobo buru roya-ni, ci biketo i
+kabedo mo ma olony, woko ki i ŋe gony, Gibikano pi lwak jo Icrael pi yubo pii me
+lwoko kwer; meno gitimo pi kwanyo bal.
+10Ŋat ma ojobo buru bene bilwoko boŋŋine ci bedo keni nio wa otyeno. Man
+bibedo cik matwal bot jo Icrael ki bot Lurok ma bedo i kingi.
+Ŋat ma odoko keni pi gudo kom dano muto
+11“Ŋat ma ogudo kom dano mo ma oto bibedo keni pi nino abiro.
+12Bilonynye kekene i ki pii me lwoko kwer i nino me adekke ki i nino me abiro
+miyo bibedo ma olony. Ento ka pe olonnye kekene i nino me adekke ki i nino me
+abiro, ci pe doŋ bibedo ma olony.
+13Dano mo-ni ma ogudo kom dano muto, ce pe olonnye kekene, noŋo obalo kema
+pa Rwot, omiyo odoko keni. Dano meno waŋe birwenyo woko ki i kin jo Icrael. En
+bedo keni pien pii me lwoko kwer peya gionyo i kome, miyo keni mere pud tye i
+kome.
+14“Ka dano oto i kemawu mo cik tye kit man: dano acel acel ma donyo i kema
+meno, ki dano ducu ma gubedo iye ka dano-nu oto, gibibedo keni pi nino abiro.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+15Dok agulu nyo atabo-gu ducu ma i kema ma pe giumo wigi bedo keni.
+16Dano mo ka tye i tim ce ogudo kom dano ma gineko ki pala Lucwan, nyo kom
+dano mo ma oto kene, nyo cogo dano mo, nyo lyel ma giyiko iye dano, bibedo
+keni pi nino abiro.
+17Pi lonyo dano ma odoko keni kit meno gibikwanyo buru mo i kom buru roya
+ma yam gineko me kwanyo bal, gibiketo i otako, ci gimedo iye pii ma mol.
+18Dano mo ma olony bikwanyo anyero ci luto i pii-nu, kiro i kom kema ki i kom
+jami ducu ma tye iye, ki i kom dano ducu ma onoŋo gitye kenyo. Gibitimo
+kumeno bene pi ŋat ma ogudo cogo-ni nyo ma ogudo kom dano ma gineko nyo
+ma oto kene, nyo ma ogudo lyel ma giyiko iye dano.
+19Dano ma olony bikiro pii meno i kom dano ma keni i nino me adekke ki i nino
+me abiro, En bilonyo dano ma keni-ni i nino me abirone, dok dano-nu bilwoko
+boŋŋine, lwoko kome ki pii, ci otyeno noŋo en doŋ olony.
+20“Ento ka dano mo onoŋo tye keni, ce pe olonnye kekene, dano meno waŋe
+birwenyo woko ki i dye lwak pa Lubaŋa, pien noŋo obalo kabedo maleŋ pa Rwot
+omiyo odoko keni, En bedo keni pien pii me lwoko kwer noŋo pe gionyo i kome.
+21Meno bibedo cik botwu matwal. Ŋat ma okiro pii me lwoko kwer bilwoko
+boŋŋine; ki ŋat mo ma ogudo pii me lwoko kwer bibedo keni nio wa otyeno.
+22Gin ducu ma dano ma keni-ni ogudo bibedo keni; ŋat ma ogudo jami-nu bene
+bibedo keni nio wa otyeno.”
+Wel 20
+1Jo Icrael ki lwakgi ducu guo i tim Jin i dwe mukwoŋo, ci gutiro i Kadec, gubedo
+iye. Miriam oto kenyo, giyike bene kenyo.
+2Pii onoŋo pe tye me amata pa lwak, ci gucokke kacel i kom Moses ki Aron.
+3Gukeco i kom Moses kun giwacci, “Kono yam wato woko i kare ma utmegiwa
+guto i nyim Rwot-ti, kono ber.
+4Piŋo nene ikelo lwak pa Rwot i tim ata kany, wek wato woko, wan kacel ki
+limwa?
+5Piŋo nene imiyo waa woko ki i Ejipt, ikelowa i kabedo man marac-ci? Pe kabedo
+ma ceko bel, kadi wa oduro nyo olok nyo okwer pomegranat; pii mo bene pe me
+amata.”
+6Moses ki Aron gua woko ki i nyim lwak, gucito doggola kema me rwatte, gupoto
+piny iryeba cwiny. Ci deyo pa Rwot onen botgi.
+7Rwot owaco ki Moses ni,
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+8“Kwany odoo ki i nyim canduk lok le caden, ci igur lwak kacel, wun ki meru
+Aron, ci iwac ki pata got ki i nyim lwak ni owek piine okatti woko. Kit meno
+ibikelo pii pigi nia ki i pata got wek lwak gumati, ki limgi bene.”
+9Moses okwanyo odoo woko ki i nyim Rwot kit macalo ocike kwede.
+10Moses ki Aron gucoko lwak kacel i nyim pata got, ci Moses owaco botgi ni, “Doŋ
+wuwiny ba, wun lujemo-ni. Wumito ni wan wakel pii nia ki i pata got man piwu?”
+11Ci Moses otiŋo ciŋe malo, ogoyo pata got ki odoone tyen aryo kulu; ci pii ocorre
+limayi, lwak gumato, ki limgi makwo bene.
+12Ento Rwot owaco bot Moses ki Aron ni, “Pien wun pe wuye an, kun pe wunyuto
+ki i nyim jo Icrael ni an aleŋ, pi meno wun pe doŋ wubitero lwak man i lobo ma
+abimiyogi-ni.”
+13Man en aye pii me Meriba , ka ma jo Icrael gukeco iye i kom Rwot ci en onyutte
+kene ni eleŋ i kingi-ni.
+Jo Edom gukwero ni jo Icrael pe guwok ki i lobogi
+14Moses ocwalo lukwena ma gicito bot kabaka me Edom nia ki i Kadec ci guwacci,
+“Omeru Icrael owaco kuman ni, In iŋeyo can madito ducu ma opoto i komwa:
+15kit ma yam kwarowa guwoto kwede i Ejipt, ma wabedo i Ejipt pi kare malac, ci
+jo Ejipt gutimowa magwa, wan ki kwarowa ducu.
+16Ka yam wakok bot Rwot, en owinyo dwanwa, ocwalo lamalaika, okwanyowa
+woko ki i Ejipt. Ci kombeddi watye doŋ i Kadec, i gaŋ ma doŋ cok ki waŋ lobowu.
+17Ber wuwek wawok ki i lobowu. Pe wabiŋak wawok ki i poto mo, nyo i poto
+olok, pe wabimato pii ma i waŋ it, Wabimol ma walubo gudo madit-ti pa Kabaka,
+pe wabiŋak wadok yo tun acuc nyo tuŋ acam, nio ka wawok wakato waŋ
+lobowu.”
+18Ento jo Edom guwaco ni, “Pe wubiwok ki i lobowa, mi yo wan aye wabino i
+komwu ki pala lucwan.”
+19Jo Icrael gugamo ni, “Wabiwok i gudo madit keken. Ka wamato piiwu mo, wan
+nyo limwa makwo, wabiculo wane. Wek wawok wakat ki tyenwa keken, lok mo
+mukene pe.”
+20Jo Edom dok guwacci, “Pe wubiwok ki i lobowa.” Ci jo Edom gubino ka lweny i
+komgi ki lwak co mapol ki mony matek.
+21Kit meno jo Edom gukwero miyo jo Icrael kato kun giwok ki i lobogi; omiyo jo
+Icrael gua gulokke, guceyo yo mukene.
+Aron oto i wi got Kor
+22Lwak jo Icrael ducu gua ki i Kadec, gubino i te got Kor.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+23Rwot owaco bot Moses-ki Aron i te got Kor, i waŋ lobo Edom, ni,
+24“Aron aye doŋ bito, bidok bot lutugi; en pe bidonyo i lobo ma amiyo bot jo
+Icrael, pien yam wujemo i kom cikka i dog pii me Meriba.
+25Ter Aron ki wode Eleajar, icit kwedgi malo i wi got Kor,
+26iluny boŋo tic pa Aron ducu ki i kome, ci iruk ki wode Eleajar, pien Aron doŋ
+bidok bot lutugi, en bito ki kunnu.”
+27Moses otiyo kit ma Rwot ocike kwede. Guito malo i wi got Kor kun lwak ducu
+gineno.
+28 Moses olunyo bone tic pa Aron woko ducu, ci oruko kwede wode Eleajar, Aron
+oto woko ki kunnu i wi got. Lacen Moses ki Eleajar gulor woko piny ki i wi got.
+29Ka lwak jo Icrael ducu guneno ni Aron doŋ oto, ci gukoke nino pyeradek.
+Wel 21
+1 Ka kabaka me Arad, ma en Lakanaan ma bedo i Negeb, owinyo ni jo Icrael
+gibibino ki i yo Atarim, ci olwenyo komgi, oyako jo mogo woko ki i kingi.
+2Ci jo Icrael gukwoŋo kwoŋ bot Rwot kun giwaco ni, “Ka ibimiyo jo man i ciŋwa
+ada, ci wan wabidyerogi i ciŋi, wabijwero gaŋigi woko liweŋ.”
+3Rwot owinyo lega pa jo Icrael, omiyo guloyo Lukanaan, ci gin gudyerogi i cin
+Rwot kacel ki gaŋigi, gujwero woko; mumiyo nyiŋ kabedo meno gilwoŋo ni
+Korma .
+Twol ma giteto ki mola
+4 Jo Icrael gua ki i te got Kor, gucako lubo yo ma cito i Nam Makwar, kun girabo
+lobo Edom. Ci cwiny dano oballe woko ma gitye iyo,
+5 gucako loko lok akeca i kom Lubaŋa ki, i kom Moses kun giwaco ni, “Piŋo
+wukwanyowa woko ki i Ejipt wek wato i tim? Cam pe, pii bene pe, owinywa ocido
+woko ki cam ma konnye pe-ni.”
+6Rwot ocwalo twol ma kwirgi kec i kom lwak, ci gucako toŋo dano; jo Icrael guto
+mapol.
+7Dano gubino bot Moses, guwaco ni, “Doŋ watyeko balo, pien waloko lok akeca i
+kom Rwot ki i komi. Leg Rwot wek okwany twol woko ki i kinwa.” Ci Moses olego
+pi lwak.
+8Rwot owaco ki Moses ni, “Tet cal twol ma kwirre kec-ci, iket iŋab malo i kom tal;
+ci dano ducu ma twol otoŋo, ka oneno kome, ci bedo kwo.”
+9 Kumeno Moses oteto twol mola, oŋabo malo i wi tal; ci ka twol otoŋo dano mo
+en neno kom twol mola, ci kwo.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+Jo Icrael gurabo lobo Moab
+10Jo Icrael gucako wot, ci gugony i Obot.
+11Dok gua woko ki i Obot, gugony i Iye-abarim, i tim ma okemo Moab, yo tuŋ
+wokceŋ.
+12Dok gua ki kunnu, gumedo wot, gugony i nota me Jered.
+13Gua ki kunnu, gumedo wot, gugony loka kulu Amon, ma tye i dye tim, ma oa wa
+i waŋ lobo pa jo Amor, Amon en aye waŋ lobo pa jo Moab, ma i kin Moab ki jo
+Amor.
+14En aye ka ma giwaco i Buk me Lweny pa Rwot ni, “Waeb ma i Cupa, ki nota me
+Amon ducu,
+15ki luŋ me nota mapol ma oyarre nio wa i kabedo ma gilwoŋo ni Ar, ojeŋŋe wa i
+waŋ lobo me Moab.”
+16Gua ki kunnu, gubino i Beer . En aye waŋ it ma yam Rwot owaco iye bot Moses
+ni, “Cok lwak kacel, wek ami pii botgi.”
+17I kare meno jo Icrael guwero wer man ni, “Gunnye malo, in waŋ it! Wakoro ki
+wer!
+18Man waŋ it ma luker gukwinyo, ma twoni ma i lwak gugolo matut ki tal ker ki
+odoogi.” Ka dok gua i dye tim, gucito i Matana
+19Nia i Matana gucito Nakaliel, ki nia ki kunnu gucito Bamot.
+20Nia ki kunnu gucito i nota ma otoŋŋe i lobo Moab, i te lacol got Piciga, ma neno
+piny tuŋ tim aroo.
+Jo Icrael guloyo Cikon kabaka pa jo Amor
+(Nwo 2.26-37)
+21Jo Icrael gucwalo lukwena bot Cikon, kabaka pa jo Amor, ma giwaco ni,
+22“Ber iwek wawok ki i lobowu, Pe wabiŋak wawok ki i poto mo, nyo i poto olok,
+pe wabimato pii ma i waŋ it. Wabimol ma walubo gudo pa Kabaka madit-ti nio ka
+wawok wakato waŋ lobowu.”
+23Ento Cikon pe oye ni jo Icrael guwok ki i lobone. Ocoko jone ducu, ogurogi
+kacel, ci ocito ka lweny i kom jo Icrael i tim. Ka oo i Jakaj, ocako lweny i kom jo
+Icrael.
+24Ento jo Icrael guneko jone mapol ki pala lucwan, ci gucamo lobogi cakke ki i
+kulu Amon o kwede wa i Jajer ma tye i waŋ lobo pa jo Ammon.
+25Jo Icrael gumako gaŋi ducu pa jo Amor, gucako bedo iye, i Kecbon ki i gaŋi
+matino ducu ma i ŋete.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+26Kecbon onoŋo obedo gaŋ kai pa Cikon kabaka pa jo Amor. Cikon yam con koŋ
+olwenyo i kom kabaka pa jo Moab ci okwanyo lobone woko ducu ki i ciŋe nio wa i
+Amon.
+27Mumiyo lurot wer giwaco ni, “Wubin i Kecbon, gaŋ kai pa Cikon! Wek giger
+odoco, giyub ocuŋ matek.
+28 Pien mac yam oa ki i Kecbon, olyel matek kun oa ki i gaŋ kal pa Cikon. Owaŋo
+gaŋ Ar pa jo Moab, ma gin rwodi me wi godi me Amon.
+29Can madwoŋ opoto i komi, in Moab! Wuto wutum woko do, wun lwak pa
+Kemoc! Jok Kemoc omiyo awobene guriŋo gularo komgi, oweko anyirane giyako
+gitero i ciŋ Cikon kabaka pa jo Amor.
+30Kit meno likwayogi gityeko woko nia ki i Kecbon nio wa i Dibon. Wajwero piny
+woko nio ka mac oryeyo piny wa i Medeba.”
+Jo Icrael guloyo Og kabaka me Bacan
+(Nwo 3.1-11)
+31Kit meno jo Icrael gubedo i lobo pa jo Amor.
+32Ka dok Moses ocwalo dano ka roto Jajer. Gumako gaŋi matino ma i ŋete, ci
+guryemo jo Amor ma gibedo kunnu.
+33Ka gulokke, gudok yo tuŋ Bacan. Ci Og kabaka me Bacan ocorre ka lweny i
+komgi, en ki lwakke ducu, ci lweny ogeto i Edrei.
+34Ento Rwot owaco bot Moses ni, “Pe ilwore; pien atyeko miye i ciŋi, en ki lwakke
+ducu, ki lobogi bene. Ibitimo en kit ma itimo i kom Cikon kabaka pa jo Amor ma
+yam obedo Kecbon.”
+35Kit meno jo Icrael guneko Og ki awobene ducu, gujwero lwakke ducu nid waŋ
+ma ŋat acel mo pe odoŋ mubwot makwo; ci gucamo lobogi woko.
+Wel 22
+1Jo Icrael dok gucako wot ci guguro kemagi i lobo aroo me Moab loka Jordan
+mukemo Jeriko.
+2Balak wod pa Jipor oneno gin ducu ma jo Icrael gutimo i kom jo Amor.
+3En kacel ki jo Moab gubedo ki lworo madwoŋ i kom jo Icrael, pien gipol mada,
+mumiyo lworo oloco kom jo Moab woko.
+4Ci jo Moab guwaco ki ludoŋo pa jo Midian ni, “Lwak jo man gibijwerowa woko ki
+gin ma orumowa ducu, macalo twon dyaŋ ma camo lum ki i bar tyeko woko.”
+Pienno Balak wod pa Jipor ma onoŋo obedo kabaka me Moab i kare meno,
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+5 ocwalo lukwena bot Balaam wod pa Beor i Petor ma cok ki kulu Euprate i lobo
+Amau ka Lwoŋe kun giwaco ni, “Nen, rok mo gubino ma gua ki i Ejipt, guumo
+lobo woko lipuk; kombeddi doŋ gubedo ma gukemo lobowa.
+6Tim ber ibin wek icen jo-ni woko pira, pien gitek gikata woko. Gwok nyo miyo
+abitwero loyogi, aryemogi woko ki i lobo kany; pien aŋeyo ni ŋat ma ilego gum
+kome, kome bedo gum, ki ŋat ma iceno doŋ giceno.”
+7Kit meno ludoŋo me Moab ki ludoŋo me Midian gucako wot ki lim me tyet i
+ciŋgi, Gucito bot Balaam, gutitte lok me kwena ma Balak ocwalo.
+8En owaco ki gin ni, “Tin wubut kany, ci abidwoko lok botwu kit ma Rwot biloko
+bota.” Kit meno ludito pa jo Moab gubedo bot Balaam.
+9Ci Lubaŋa obino bot Balaam, owaco ni, “Jo mene ma gitye boti-ni?”
+10Balaam owaco ki Lubaŋa ni, “Balak wod pa Jipor, ma kabaka me Moab, en aye
+ocwalla kwena ma kun waco ni,
+11‘Nen, rok mo gubino ma gua ki i Ejipt, ci guumo lobo woko lipuk. Tim ber ibin
+wek icen jo-ni woko pira; miyo gwok nyo abitwero lweny kwedgi ci aryemogi
+woko.’ “
+12Lubaŋa owaco ki Balaam ni, “In pe ibiwot kwedgi; pe ibiceno jo meno, pien gin
+jo ma gimiyogi gum con.”
+13Ka Balaam oa malo odiko, ci owaco ki ludito pa Balak ni, “Wudok giwu i
+lobowu; pien Rwot otyeko kwero ni pe acit kwedwu.”
+14Mumiyo ludito pa jo Moab gua gudok bot Balak, guwaco ni, “Balaam okwero
+bino kwedwa woko.”
+15Balak dok omedde ki cwalo ludito jo mapol makato gin ca, ki dano ma giŋene
+makato jo ma gukwoŋo ca.
+16Gin gucito bot Balaam, guwaco bote ni, “Balak wod pa Jipor owaco kuman ni,
+‘Pe iwek gin mo ogeŋi bino bota;
+17pien ada abiketti deyo madit, dok gin ducu ma ibiwacca abitiyo.’ “
+18Ento Balaam odok iye ki lutic pa Balak ni, “Kadi bed Balak onoŋo omiya ryal ki
+jabu ducu ma i ode, pe atwero kalo wi cik pa Rwot Lubaŋana pi tiyo gin mo
+matidi nyo madit.
+19Doŋ alegowu ni wun bene tin wubed kany wek aŋe gin ma Rwot dok biwacca.”
+20Ci Lubaŋa obino bot Balaam i dyewor meno owaco bote ni, “Ka jo meno gubino
+ka lwoŋi, ci ia malo icit kwedgii ento gin ma aciko boti aye ibitiyone.”
+Balaam ki kanane
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+21Kit meno Balaam oa malo odiko con, otweyo del kom kanane, ocito ki ludito pa
+jo Moab.
+22Ento kiniga omako Lubaŋa pi citone; ci lamalaika pa Rwot ocuŋ woko i yo
+macalo lamerokke. Balaam onoŋo oito i wi kana, ki luticce aryo onoŋo gitye
+kwede.
+23Ci kana oneno lamalaika pa Rwot kun ocuŋ i dye gudo, kun noŋo owoto pala
+lucwanne, omako i ciŋe, Kana olokke, oa woko ki i gudo, ocito i poto. Balaam
+ogoyo kana omiyo odok woko i yo gudo.
+24Ci lamalaika dok ocuŋ i yo ka mo madiŋ ma i kin poto olok ma gigeŋo ki cel got
+tuŋŋi ki tuŋŋi.
+25Ka dok kana oneno lamalaika pa Rwot, ci oyokke ki cel got, odiyo tyen Balaam i
+kom cel, omiyo en dok ogoye aye.
+26Ka dok lamalaika pa Rwot omedde ki wot anyim ci ocuŋ tuŋ lacuc nyo tuŋ
+acam
+27Ka kana oneno lamalaika pa Rwot, obuto woko piny ka tyen Balaam, ci kiniga
+omako Balaam, ogoyo kana ki odoone.
+28Ka doŋ Rwot oyabo dog kana ci owaco bot Balaam ni, “An atimo gin aŋo i komi
+mumiyo igoya tyen adek kulu-ni?”
+29Ci Balaam owaco ki kana ni, “Pien ibedo ka nywara. Kono atye ki pala i ciŋa,
+kono aneki kwede woko.”
+30Ci kana owaco ki Balaam ni, “An pe a kanani ma ibedo i koma kare me kwoni
+ducu nio wa onyoo? Onoŋo yam koŋ anyebbe ka timo kit man i komi?” En ogamo
+ni, “Pe.”
+31Lacen Rwot oyabo waŋ Balaam, ci oneno lamalaika pa Rwot ka ocun i dye yo
+ma omako pala lucwan i ciŋe; ci Balaam okulo wiye piny, opoto piny aryeba
+cwiny.
+32Lamalaika pa Rwot owaco bote ni, “Piŋo igoyo kanani tyen adek kulu? Nen, an
+abino anyim ka juki, pien wotti akaka-ni pe oyomo cwinya.
+33Kana onena ci olokke aa woko ki i nyima tyen adek kulu. Kono en pe onoŋo
+olokke oa woko ki bota, kono onoŋo doŋ aneki woko tin ada, kun aweko en
+makwo.”
+34Ci Balaam owaco bot lamalaika pa Rwot ni, “Doŋ abalo, pien onoŋo pe aŋeyo ni
+icuŋ i yo pi lweny i koma. Mumiyo ka ce otimme marac ma pe ipwoyo, ci abidok
+cen ki ŋeya.”
+35Ento lamalaika pa Rwot ogamo dog Balaam ni, “In doŋ icit ki jo meno; ento gin
+ma aciki aye ibiloko.” Pienno Balaam omedde ki wot kacel ki ludito pa Balak.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+Balak ojolo Balaam
+36Ka Balak owinyo ni Balaam doŋ obino, ci ocito ka romo kwede i gaŋ me Moab
+ma i waŋ lobo ma kulu Amon opoko, wa i waŋ lobo kikome.
+37Ka Balak owaco bot Balaam ni. “An yam pe acwalo kwena ka lwoŋi? Piŋo pe
+nene ibino bota? An pe atwero keto deyo i komi?”
+38Balaam ogamo ni, “Nen doŋ abino boti. Kombeddi an atye ki twero me loko gin
+mo boti? Lok ma Rwot biketo i doga, en aye myero aloki.”
+39Balaam ocito gin ki Balak, ci gucito i Kiriat-kujot.
+40Ka Balak ocako tumo twoni ki romi opoko riŋo ocwalo bot Balaam ki ludito ma
+yam gitye kwede.
+Balaam olamo gum i kom jo Icrael
+41Orwone Balak otero Balaam ocito kwede malo wa i Bamot-baal, ci Balaam
+oneno jo Icrael ma gitye cok ki kunnu.
+Wel 23
+1Balaam owaco bot Balak ni, “Ber icanna keno tyer abiro kany, ci ikella twoni
+abiro ki romi bene abiro.”
+2Balak otiyo kit ma Balaam ociko-ni; ci Balak ki Balaam gubedo ka tyero twon
+acel ki nyok romo acel i wi keno tyer acel acel.
+3Ci Balaam owaco bot Balak ni, “Cuŋ kany i ŋet gitum awaŋani-ni, ci an abicito
+kunnu. Gwok nyo Rwot bibino ka rwatte kweda, ci gin ducu ma en binyutta
+abititti.” Ci ocito malo i wi got ka ma yadi pe iye.
+4Ci Lubaŋa orwatte ki Balaam. Balaam owaco bote ni, “Doŋ atyeko yubo keno
+tyer abiro, dok atyero twon acel ki nyok romo acel i wi keno tyer acel acel.”
+5Ci Rwot oketo lokke i dog Balaam kun waco bote ni, “Dok cen bot Balak ci iwac
+kit man.”
+6Odok cen ci onoŋo Balak pud ocuŋ ka ŋet gitum awaŋane kacel ki ludito pa jo
+Moab ducu.
+7Balaam ocako lokke kun loko macalo lanebi. Owacci, “Balak okela ki i Aram,
+kabaka me Moab ooma ki i wi godi ma tye yo tuŋ wokceŋ: ‘Bin wek icenna jo pa
+Yakobo. Bin ikec i kom jo Icrael!’
+8Abiceno niŋniŋ ka Lubaŋa pe oceno? Akeco i kome niŋniŋ ka Rwot pe okeco i
+kome?
+9Anenogi ki i wi pata got mabor, abedo ka nenogi ki i wi cere. Nen, gin lwak ma
+gibedo ka kengi, pe guribbe kacel ki rok mu kene ducu.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+10Aŋa ma kwano jo pa Yakobo ma gipol macalo apwa-ni? Aŋa ma kwano jo Icrael
+ma gipol mada kuman? Wek an ato kit to pa jo-ni ma kitgi atir-ri! Agikki kwona
+obed macalo megi!”
+11Ci Balak owaco ki Balaam ni, “Gin aŋo ma doŋ itimo tuŋ bota? Akeli kany ka
+ceno lumerokka, ci nen, in ilamo gum komgi keken.”
+12Odok iye ni, “Myero agwokke ka loko gin ma Rwot oketo i doga.”
+Lok me aryo ma Balaam owaco
+13Balak dok owaco bote ni, “Bin doŋ kweda i kabedo mukene ka ma iromo nenogi
+iye. Ibineno jo ma gitye cok keken, pe ibinenogi ducu; ci icengi pira ki kunnu.”
+14Ci otere i poto pa Jopim wa i lacol got Piciga. Ocano keno tyer abiro kunnu, ci
+otyero twon acel ki nyok romo acel i wi keno tyer acel acel.
+15Ci Balaam owaco bot Balak ni, “cuŋ kany ka ŋet gitum awaŋani, kun an arwatte
+ki Rwot kuca.”
+16Ci Rwot orwatte ki Balaam, oketo lok i doge kun waco ni, “Dok cen bot Balak, ci
+iwac kit man.”
+17Odok bote ci onoŋo Balak pud ocuŋ ka ŋet gitum awaŋane ki ludito pa jo Moab
+kacel kwede. Balak openye ni, “Rwot doŋ oloko niŋo?”
+18Balaam ocako lokke kun loko macalo lanebi. Owacci, “A malo, Balak, ci iwiny;
+winy an ya, in wod pa Jipor.
+19Lubaŋa pe dano, ma twero loko goba; en I pe wod pa dano, ma myero onen ki
+tamme. Ka doŋ owaco lok mo, ci pe bitiyone? Ka onoŋo oloko, ci pe cobo kakare?
+20Nen ya, alimo cik me miyo gum; ka Lubaŋa omiyo gum, pe atwero dwokone
+cen.
+21Pe aneno can mo ma bipoto i kom Yakobo; pe aneno aroma mo ma bibedo bol
+jo Icrael. Rwot Lubaŋagi tye kwedgi, awinyo ka gidaŋŋe gijolo kabakagi.
+22Lubaŋa okwanyogi ki i Ejipt, kerone calo kero pa jubi.
+23Lugaga mo pe ma loko can i kom Yakobo, gi-tyet mo pe ma mako kom Icrael
+Koni doŋ gibiwaco lok i kom Yakobo ki Icrael ni, ‘Lubaŋa otimo gin madit
+kuman!’
+24Nen lwak meno! Gia malo macalo min labwor, gitiŋŋe macalo labwor ma pe
+buto piny nio ka emwodo lee ma omako, ci mato remo pa dano ma onekogi.”
+25Ci Balak owaco bot Balaam ni, “Ka pe iye cenogi, myero pe dok ilam gum komgi
+aye.”
+26Ento Balaam odok iye ki Balak ni, “Yam pe awaco boti ni, ‘Gin ducu ma Rwot
+ocika kwede, meno aye myero ati’?”.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+27Ci Balak owaco bot Balaam ni, “Koni doŋ ibin, abiteri i kabedo mukene; gwok
+Lubaŋa biye ni icengi ki kunnu.”
+28Balak dok otero Balaam i wi lacol got Peor ma neno piny tuŋ tim aroo.
+29Ci Balaam owaco bot Balak ni, “Canna bene keno tyer abiro kany, ikella twoni
+abiro ki nyogi romi abiro.”
+30Balak otiyo kit ma Balaam owaco-ni, ci otyero twon acel ki nyok romo acel i wi
+keno tyer acel acel.
+Wel 24
+1Balaam, onoŋo doŋ oniaŋ ni Rwot mito miyo gum kom jo Icrael, mumiyo pe dok
+ocito ka yenyo tyet kit ma onoŋo ocito i kare mukeneni, ento oloko waŋe oneno
+yo tuŋ tim.
+2Ka Balaam otiŋo waŋe malo, ci oneno jo Icrael ma guguro kemagi kaka man pat,
+kaka man pat. Cwiny pa Lubaŋa obino i kome,
+3ci ocako lokke kun loko macalo lanebi. Owacci, “Man lok pa Balaam wod pa Beor,
+lok pa twon laco ma wane doŋ giyabo,
+4lok pa ŋat ma winyo gin ma Lubaŋa owaco, ki ma neno gin ma Won Twer Ducu
+nyuto bote, kun opoto piny ento waŋe bedo twolo.
+5Kemawu nen maber kuman, wun jo pa Yakobo, gonywu ber kuman, wuti jo
+Icrael!
+6Nen calo nota ma oryene mabor, macalo pott i ma gipuro i ŋet kulu; cal ki yadi
+ma ŋwece kur ma Rwot opito, nyo yadi cedar ma obakke i ŋet pii.
+7Pii bipoŋ libic i agulugi kare ducu, likwayogi bibedo rom ki pii ma mol madwoŋ;
+kabakagi bibedo dit makato Agag, gibiketo deyo mamalo mada i kom kerre.
+8Lubaŋa ma kerone calo kero pa jubi okwanyogi woko ki i Ejipt. Icrael bicamo
+lurok ma lukworre, bituro cogogi, biŋido matinotino; bicelogi pil ki aterone.
+9 Onyoŋo piny, obuto calo labwor, macalo min labwor; aŋa ma bituge? Gum obed
+i kom jo ducu ma bilamo gum i kom Icrael, cen opot i kom dano ducu ma bicene.”
+10Kiniga omako Balak matek i kom Balaam, Odoŋo ciŋe ci owaco bot Balaam ni,
+“Alwoiji ka ceno lumerokka, ci nen, ni doŋ ilego gum komgi odoko tyen adek
+kulu.
+11Pi meno in doŋ iriŋ woko oyot idok doŋ gaŋ, Yam awacci abiketo deyo i komi
+ada, ento Rwot doŋ ogeŋi woko ki i limo deyo mo ki bota.”
+12Balaam ogamo dog Balak, owacci, “Yam atito ki lukwenani ma yam icwalogi
+bota ni,
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+13‘Kadi bed Balak omiya-ryal ki jabu ducu ma i ode, pe atwero turo cik pa Rwot pi
+timo gin mo kadi ber kadi rac kit ma an aye amito; gin ma Rwot biwaco keken
+aye abiwaco.’ ”
+Lok pa Balaam me agikkine
+14Lacen Balaam owaco bot Balak ni, “Kombeddi, nen, an doŋ abidok woko bot
+lutuwa. Bin wek koŋ ami iŋe gin ma jo me rok man bitimo i kom joni i kare ma
+tye anyim.”
+15Ci ocako lokke kiin loko macalo lanebi, Owacci, “Man lok pa Balaam wod pa
+Beor, lok pa twon laco ma waŋe doŋ giyabo,
+16lok pa ŋat ma winyo gin ma Lubaŋa owaco, ŋat ma tye ki ŋec mua ki but En
+Mamalo Twal, ma neno gin ma Won Twer Ducu nyuto bote, kun opoto piny ento
+waŋe bedo twolo:
+17Anene, ento pe kombeddi, anene, ento pe tye cok. Lakalatwe bibino kun a ki bot
+Yakobo, odoo ker bia ki i Icrael; bityero tur nyim jo Moab, bituro wi jo ducu ma
+gimaro woo me lweny.
+18En bimayo lobo pa jo Edom. Jo Ceir ma lukworre en bimayo lobo ki botgi, kun jo
+Icrael gitye ka lweny ki tek.
+19Jo pa Yakobo gibiloyo loc; jo mubwot i gaŋ pa jo Moab gibinekogi woko liweŋ.”
+20Ka dok oneno tuŋ not jo Amalek, oloko macalo lanebi kun waco ni, “Jo Amalek
+yam gutelo wi rok mukene ducu, ento i agikki gibityekogi woko matwal.”
+21Dok oneno tuŋ bot jo Keni, oloko macalo lanebi kun waco ni, “Kabedowu biri
+nakanaka, ka-larrewu gigero i pata got;
+22ento wun jo Kain gibiyakowu, wubitum woko. Jo Aciria gibiterowu i opii pi kare
+ma rom mene?”
+23Dok oloko macalo lanebi kun waco ni, “Magi dok jo mene do ma gucokke yo tuŋ
+acam?
+24Lukwaŋ mel gibibino ma gua ki yo tuŋ Caiprac, gibiyelo jo Aciria ki jo Eber
+matek; gin bene gibinekogi gityekogi woko matwal.”
+25Lacen Balaam oa malo odok cen ka ma en bedo iye; ki Balak bene ocito woko.
+Wel 25
+1I kare ma jo Icrael gubedo i Citim, gucako timo abor i kom anyira Moab.
+2Anyira Moab gubedo ka lwoŋo jo Icrael ka ma gitumo iye gitum bot jogigi, ci jo
+Icrael gucamo riŋo ma gityero dok guryebbe i nyim jogigi.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+3Kit meno jo Icrael guribbe kengi ki jok Baal me Peor, cikiniga omako Rwot i
+komgi.
+4Rwot owaco bot Moses ni, “Kwany ludito ducu ma i kin lwak, idegi i wi yat malo i
+dyeceŋ i nyim Rwot, wek kiniga pa Rwot mager-ri oa woko i kom jo Icrael.”
+5Mumiyo Moses owaco ki luŋolkop pa jo Icrael ni, “ŋat acel acel ma i kinwu onek
+jo me kakane ma guribbe kekengi ki jok Baal me Peor.”
+6Dano mo i kin jo Icrael obino ki nya jo Midian otero i gaŋgi, kun Moses ki lwak jo
+Icrael ducu gineno, kun onoŋo gitye ka koko i nyim doggola kema me rwatte.
+7Ka Finekaci wod pa Eleajar ma wod pa ajwaka Aron oneno, en oa malo, oweko
+lwak, omako toŋ,
+8ocito olubo kor Laicrael wa i kicika ma i tyelo, ci ocobo gin aryo ducu, Laicrael ki
+dako-nu, ocobo igi pii. Kit meno omiyo two gemo oa woko ki i kom jo Icrael.
+9Ento onoŋo jo ma two gemo onekogi guromo alip pyeraryo wiye aŋwen.
+10Ci Rwot owaco bot Moses ni,
+11“Finekaci wod pa Eleajar ma wod pa ajwakana Aron otyeko doŋ dwoko
+akecana cen ki i kom jo Icrael, pien nyeko ma omaka omako wa en bene ki i kingi,
+omiyo nene pe atyeko jo Icrael woko pi nyekona.
+12Pi meno in iwac bote ni, atyeko miyo bote gicikkena me kuc.
+13En kacel ki Likwaye ma bilube gibibedo i tic me bedo ajwakana matwal pi
+gicikke man ma aketo kwedgi, pien nene nyeko omake pi Lubaŋane, ci otimo gin
+lakwany bal ki i kom Jo Icrael.”
+14Nyiŋ Laicrael ma gineko kacel ki nya jo Midian obedo Jimri wod pa Calu, ma
+ladit wi kaka i ot pa kwarogi i kin jo pa Cimeon.
+15Nyiŋ dako ma nya jo Midian ma gineko-ni Kojibi nya pa Jur ma yam ladit wi
+kaka i ot pa kwarogi i kin jo Midian.
+16Ci Rwot owaco bot Moses ni,
+17“Cit doŋ magwa i kom jo Midian, ilweny i komgi;
+18pien gin gupoto i komwu magwa pi bwolowu kun gimiyo wupoto i bal i lok pa
+jok me Peor, ki i lok pa Kojibi nya pa rwot ma i kin jo Midian ma lamingi i kare ma
+two gemo opoto pi lok pa jok me Peor.”
+Wel 26
+1 I ŋe two gemo Rwot owaco bot Moses ki ajwaka Eleajar wod pa Aron ni,
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+2“Kwan Wel jo Icrael ducu, cakke ki i kom jo ma ditogi romo mwaka pyeraryo
+dok kwede malo, kun ilubo dog odi pa kwarogi, jo Icrael ducu ma romo cito ka
+lweny.”
+3-4Ci Moses ki ajwaka Eleajar guloko ki ludito i lobo aroo me Moab i ŋet Jordan
+ma cok ki Jeriko ni, “Wukwan Wel dano cakke ki i kom jo ma ditogi romo mwaka
+pyeraryo dok kwede malo,” macalo Rwot ociko ki Moses. Jo Icrael ma yam gua ki
+i lobo Ejipt gubedo jo magi:
+5Jo me kaka pa Reuben ma obedo latin kayo pa Yakobo ma nyiŋe mukene Icrael-li
+gin ene: Likwayo pa Kanok, Pallu.
+6Kejeron ki Karmi.
+7Meno aye doggola pa jo pa Reuben; welgi ducu oromo alip pyeraŋwen wiye
+adek, ki miya abiro ki pyeradek.
+8Likwayo pa Pallu gin aye Eliab,
+9ki awobene Nemuel, Datan ki Abiram, Magi aye Datan ki Abiram ma lwak guyero
+ma gupyem ki Moses ki Aron kun gibedo i kin lwak pa Kora i kare ma gujem i
+kom Rwot.
+10Lobo oŋamo doge omwonyogi woko ci guto kacel ki Kora i kare ma mac owaŋo
+dano miya aryo ki pyerabic, otyekogi woko, ci nyiŋgi odoko lok aboka me juko
+dano.
+11Ento awobe pa Kora pe guto.
+12Jo me kaka pa Cimeon gin ene: likwayo pa Nemuel, Jamin, Jakin,
+13Jera ki Caul.
+14Meno aye doggola pa jo pa Cimeon; welgi ducu oromo alip pyeraryo wiye aryo,
+ki miya aryo.
+15Jo me kaka pa Gad gin ene: likwayo pa Jepon, Kagi, Cuni,
+16Ojini, Eri,
+17Arod ki Areli.
+18Meno aye doggola pa jo pa Gad; welgi ducu oromo alip pyeraŋwen, ki miya abic.
+19Kaka pa Juda, Er ki On an ma awobe pa Juda yam guto con i lobo Kanaan.
+20Doŋ jo me kaka pa Juda gin ene: Likwayo pa Cela, Perej ki Jera,
+21ki pa Kejeron ki Kamul ma awobe pa Perej.
+22Meno aye doggola pa jo pa Juda; welgi ducu oromo alip pyerabiro wiye abicel ki
+miya abic.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+23Jo me kaka pa Icakar gin ene: likwayo pa Tola, Puwa,
+24Jacub ki Cimron.
+25Meno aye doggola pa jo pa Icakar; welgi ducu oromo alip pyerabicel wiye
+aŋwen, ki miya adek.
+26Jo me kaka pa Jabulon gin ene: likwayo pa Cered, Elon ki Jaleel.
+27Meno aye doggola pa jo pa Jabulon; welgi ducu oromo alip pyerabicel, ki miya
+abic.
+28Jo me kaka pa Yucepu gin aye likwayo pa Manace ki Epraim.
+29Kaka pa Manace. Makir wod pa Manace onywalo Gilead.
+30Jo pa Gilead gin ene; likwayo pa Iejer, Kelek
+31Aciriel, Cekem,
+32Cemida ki Keper.
+33Jelopekad wod pa Keper onywalo anyira keken, awo bene pe, Nyiŋ anyirane
+Makala, Noa, Kogla, Mirika ki Tiŋa.
+34Meno aye doggola pa jo pa Manace; welgi ducu oromo alip pyerabic wiye aryo,
+ki miya abiro.
+35Jo me kaka pa Epraim gin ene: likwayo pa Cutela, Beker, Takan,
+36ki pa Eran ma wod pa Cutela.
+37Meno aye doggola pa jo pa Epraim; welgi oromo alip pyeradek wiye aryo, ki
+miya abic. Meno ducu gubedo Likwayo pa Yucepu.
+38Jo me kaka pa Benjamin gin ene: likwayo pa Bela, Acibel, Akiram,
+39Cepupam, Kupam,
+40ki pa Arud ki Naaman ma awobe pa Bela.
+41Meno aye doggola pa jo pa Benjamin; welgi ducu oromo alip pyeraŋwen wiye
+abic, ki miya abicel.
+42Jo me kaka pa Dan gin ene: likwayo pa Cukam.
+43Doggola ducu pa likwayo pa Cukam Wel danogi oromo alip pyerabicel wiye
+aŋwen, ki miya aŋwen.
+44Jo me kaka pa Acer gin ene: likwayo pa Imna, Icivi ki Beria,
+45ki pa Keber ki Malkiel ma awobe pa Beria.
+46Nya pa Acer nyiŋe obedo Cera.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+47Meno aye doggola pa jo pa Acer; welgi ducu oromo alip pyerabic wiye adek, ki
+miya aŋwen.
+48Jo me kaka pa Naputali gin ene: likwayo pa Jajeel, Guni,
+49Jejer ki Cilem.
+50Meno aye doggola pa jo pa Naputali; welgi ducu oromo alip pyeraŋwen wiye
+abic, ki miya aŋwen.
+51Wel jo Icrael ducu oromo alip miya abicel ki acel, ki miya abiro ki pyeradek.
+52 Ci Rwot owaco bot Moses ni,
+53“Ibipoko lobo i kin kaka magi obed me aleyagi kun ilubo wel nyiŋgi ma gicoyo.
+54Ibimiyo dul lobo malac bot kaka maditone ki dul lobo manok bot kaka matino;
+dul lobo me aleyagi gibipoko ma oporo wel dano ma i kaka mo-ni.
+55Lobo gibipoko ki bolo kwir kun lubo kaka pa kwarogi.
+56Gibilimo lobo me aleyagi muporo dit pa kaka acel acel kun lubo kit ma kwir
+opoto kwede.”
+Kaka pa Levi
+57Jo me kaka pa Levi gin aye doggola pa Gercon, Kokat ki Merari,
+58kacel ki likwayo pa Libni, Kebron, Makali, Muci ki Kora, Kokat onywalo Amram,
+59ma dakone obedo Yokobedi nya pa Levi ma onywalo i Ejipt. Yokobedi onywalo
+Aron ki Moses ki lam ingi Miriam ki Amram.
+60 Aron onywalo Nadab, Abiu, Eleajar ki Itamar,
+61 ento Nadab ki Abiu guto woko i kare ma gutyero mac mapat i nyim Rwot, kit
+mac ma yam pe ocikogi kwede.
+62Gikwano wel jo Levi ducu ma co, cakke i kom jo ma ditogi romo dwe acel dok
+kwede malo, Welgi oromo alip pyeraryo wiye adek: ento welgi yam pe gikwano i
+kin jo Icrael, pien pe gipoko botgi dul lobo mo me aleyagi i kin jo Icrael.
+Kaleb ki Yocwa aye gudog makwo
+63Meno gin aye jo ma Moses ki ajwaka Eleajar gukwanogi i lobo aroo me Moab i
+ŋet Jordan, ma cok ki Jeriko.
+64Ento pe tye ŋat mo acel i kingi ki i kin jo ma yam Moses ki ajwaka Aron
+gukwanogi i kare ma gukwano wel jo Icrael i tim me Cinai ca.
+65 Onoŋo yam Rwot owaco pigi bot Moses ni, “Gibito woko i tim,” ci dano mo pe
+odoŋ ki i kingi, kono nyo Kaleb wod pa Jepune ki Yocwa wod pa Nun keken aye
+gudoŋ.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+Wel 27
+1I kare meno anyira pa Jelopekad gubino bot Moses. Jelope kad obedo wod pa
+Keper, wod pa Gilead, ma wod pa Makir, wod pa Manace; gin aye jo me doggola
+pa Manace wod pa Yucepu. Nyiŋ anyiranu Makala, Noa, Kogla, Mirika ki Tiŋa.
+2Gin gubino gucuŋ i nyim Moses ki ajwaka Eleajar, ki i nyim lutel wic ki lwak jo
+Icrael ducu i doggola kema me rwatte, ci guwacci,
+3“Wonwa yam oto woko i tim, En yam pe tye i kin lwak jo ca ma gujemo i kom
+Rwot, i lwak pa Kora, ento oto mere pi balle kene gire; yam pe onywalo awobe.
+4Pi lok aŋo miyo gikwanyo nyiŋ wonwa woko ki i kin doggolane? Ni pi litino co
+ma pe onywalo-ni bo? Wuminiwa walim dul lobo mo i kin omegi wonwa.”
+5Moses otero lok me kokogi i nyim Rwot.
+6Ci Rwot owaco ki Moses ni.
+7 “Lok pa anyira pa Jelopekad tye atir. Ibipoko lobo botgi i kin omego pa wongi
+obed me aleyagi, wek gule dul lobo ma myero obed pa wongi.
+8Dok iwac bot jo Icrael ni, ‘Ka laco mo oto ma pe onywalo wode mo, ci wubimiyo
+ginaleyane bot nyare.
+9Ka nyare mo pe, ci wubimiyo bot omegine.
+10Ka ominne mo pe, ci wubimiyo bot omegi wonne.
+11Ka omin wonne mo pe ci wubimiyo ginaleyane bot watgi macok ma i doggolagi,
+ci bidoko mere. Man aye bibedo cik bot jo Icrael, ki lok ma doŋ giŋolo, macalo
+Rwot ociko ki Moses.’ ”
+Giyero Yocwa me leyo ka tyen Moses
+(Nwo 31.1-8)
+12 Rwot owaco bot Moses ni, “Cit malo i wi got man me Abarim, icinen lobo ma
+abimiyo bot jo Icrael.
+13Ka doŋ ineno, ci in bene doŋ ibito, idok bot lutuwu, macalo yam omeru Aron
+odok botgi-ni;
+14pien yam wujemo i kom lokka i tim Jin i kare ma lwak okeco i koma ca, kun pe
+wunyuto ni an aleŋ i nyimgi, i waŋ pii kunnu.” (Man aye pii me Meriba ma cok ki
+Kadec i tim Jin.)
+15Moses olego Rwot kun wacci,
+16“Ai Rwot Lubaŋa ma loyo tipo kom jo ducu, tim ber iket dano mo me loyo lwak,
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+17 wek owirre i kingi macalo laditgi, dok otel nyimgi ka ma gibicito iye ducu, wek
+lwakki pe gubed macalo romi ma lakwatgi pe.”
+18 Ci Rwot owaco bot Moses ni, “Kwany Yocwa wod pa Nun, dano ma tye ki
+cwiny, en aye iket ciŋi i kome.
+19I mi en ocuŋ i nyim ajwaka Eleajar ki i nyim lwak ducu, ci ibicike pi ticce i
+nyimgi ducu.
+20Dok imine twerri mogo, wek lwak jo Icrael ducu gubed ka woro doge.
+21 En bicuŋ i nyim ajwaka Eleajar ma en aye bipenyo lok ma Rwot oŋolo kun tiyo
+ki Urim i nyim Rwot; kit meno en kacel ki lwak Jo Icrael ducu gibitiyo gin ducu
+kun gilubo lok pa Eleajar.”.
+22Moses otiyo kit ma Rwot ocike kwede; okwanyo Yocwa, omiyo ocuŋ i nyim
+ajwaka Eleajar i nyim lwak ducu,
+23 ci oketo ciŋe i wiye, ocike pi ticce, macalo Rwot ocike kwede.
+Wel 28
+1Rwot owaco not Moses ni,
+2“Cik jo Icrael kun iwaco botgi ni, ‘Myero wunen ni wukelo bota gityerra i kare
+ma giciko, en aye camma me gityer ma giwaŋo ki mac me bedo gin ma ŋwece kur
+ma yomo cwinya.’ ”
+3“Dok iwac botgi ni, Man aye gityer ma giwaŋo ki mac ma wubityero bot Rwot:
+litino nyogi romi aryo ma ditogi mwaka acel acel ma komgi pe ki mwonyo, i nino
+acel acel, obed gitum awaŋa me nino ducu.
+4Wubityero latin romo acel odiko, ki latin romo mukene wubityero otyeno,
+5kacel ki moko kwon mapwotte ma romo agwata acel ma girubo ki moo nyig
+jeituni ma giodo aoda ma romo cupa aryo ki nucu pi gityer me moko kwon.
+6Meno aye gitum me nino ducu ma yam giciko pire i wi got Cinai obed gin ma
+ŋwece kur, gityer ma giwaŋo ki mac bot Rwot.
+7Gityer amata mutike bibedo koŋo vino ma romo cupa aryo ki nucu pi latin romo
+acel acel; wubiliyo koŋo vino makec me gityer amata i kabedo maleŋ i nyim
 Rwot.
-6 I kom nino dwe apar wiye abic me dwe acel-lu en nino madit pa Rwot me
-Mugati ma Tobi Pe tye; wubicamo mugati ma tobi pe iye pi nino abiro.
-7I kom nino mukwoŋone wubibedo iye ki gurre maleŋ; pe wuti iye tic mo matek.
-8Ento wubityero gityer ma giwaŋo ki mac bot Rwot pi nino abiro; i nino me
-abirone wubibedo ki gurre maleŋ, pe wuti iye tic mo matek.”
-Larita bel me akwata
-9Rwot dok owaco bot Moses ni,
-10“Wac bot jo Icrael ni, Ka doŋ wuo i lobo ma abimiyowu, ka wukayo iye kac, ci
-wubikelo wic larita cam me wi mwaka bot ajwaka.
-11En bikwato wic larita cam i nyim Rwot, wek oye gamowu; ajwaka bikwato i
-nino ma lubo cabit.
-12I nino ma wubikwato iye wic larita-ni, en aye wubityero iye latin nyok romo ma
-ditte romo mwaka acel, ma kome pe ki mwonyo, obed gitum awaŋa bot Rwot.
-13Gityer me moko kwon ma wutyero kacel kwede bibedo moko kwon mapwotte
-ma romo agwata aryo, ma girubo ki moo, ma gibityero kun giwaŋo ki mac bot
-Rwot obed gin ma ŋwece kur me yomo cwiny. Gityer amatane bibedo vino ma
-romo cupa aryo kt nucu.
-14Pe wucam mugati, pe wumwod nyig bel ma gicelo nyo manumo, nio wa i nino
-meno kikome, waŋ ma wukelo gityer pa Lubaŋawu; meno bibedo cik matwal wa i
-kare pa likwayowu ducu, ikabedo ducu ma wubibedo iye.
-Pwoyo kac
-(Wel 28.26-31)
-15 “Ka doki wubikwano cabit abiro kulu kun wucako ki nino ma lubo cabit, en aye
-nino ma wutyero iye wic larita cam me gityer akwata.
-16Wukwan nino pyerabic nio i nino ma lubo cabit me abirone, ka doŋ wucak kelo
-gityer me moko kwon kai manyen bot Rwot.
-17Wubikelo ki i kabedowu mugati aryo me akwata ma gitedo ki moko ma romo
-agwata aryo; gibitedogi ki moko mapwotte ma onoŋo girubo iye tobi, gubed wi
-mwaka ma gityero bot Rwot.
-18Dok wubikelo litino romi abiro kacel ki mugati meno ma ditogi mwaka acel
-acel, ma komgi pe ki mwonyo, ki wod twon acel ki nyogi romi aryo. Gibibedo
-gitum awaŋa bot Rwot, kacel ki gityer me moko kwon ki gityer amata mutikogi;
-gin gityer ma giwaŋo ki mac, gin ma ŋwece kur me yomo cwiny Rwot.
-19Dok wubityero nyok dyel acel obed gitum me bal, ki litino nyogi romi aryo ma
-ditogi mwaka acel acel gubed gityer Lakwecwiny.
-20Ajwaka bikwatogi kacel ki mugati me wi mwaka gubed gityer akwata i nyim
-Rwot, kacel ki litino nyogi romi aryo-nu; gibibedo maleŋ bot Rwot, pi ajwaka.
-21I nino meno kikome wubibedo ki gurre maleŋ ma wutito pire ka maleŋ; pe wuti
-iye tic mo matek. Meno bibedo cik matwal wa i kare pa likwayowu ducu, i kabedo
-ducu ma wubibedo iye.
-22 “Ka wukayo cam ma ocek i lobowu, pe wuka woko ducu nio wa i ŋet potowu,
-pe dok wubed ka beko obote ma odoŋ i kare me kac. Wubiwekogi pi konyo lucan
-ki lubedo; an a Rwot Lubaŋawu.”
-23Rwot owaco bot Moses ni
-24“Wac bot jo Icrael ni, I dwe me abiro, i nino dwe acel, wubikwero iye nino me
-yweyo mot, nino me po ma gituco pire ki koko gwara, nino me gurre maleŋ.
-25Pe wuti iye tic mo matek, dok wubityero iye gityer ma giwaŋo ki mac bot
-Rwot.”
-26 Rwot dok owaco bot Moses ni,
-27“I nino dwe apar me dwe man me abiro-ni en aye bedo nino me Kwanyo Bal.
-Bibedo botwu nino me gurre maleŋ; wubikumo ki toncwiny, dok wubityero
+8Latin romo mukene wubityero otyeno kacel ki gityer me moko kwon ki gityer
+amata kit macalo wutimo ki gityer me odiko; bibedo gityer ma giwaŋo ki mac, gin
+ma ŋwece kur me yo mo cwiny Rwot.
+Gityer me nino me cabit
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+9“I kom nino me cabit wubityero nyogi romi aryo ma ditogi mwaka acel acel, ma
+komgi pe ki mwonyo, ki moko kwon mapwotte ma romo agwata aryo, ma girubo
+ki moo pi gityer me moko kwon, ki gityer amata mutike.
+10Man aye gitum awaŋa me nino me cabit acel acel ma wubimedo i kom gitum
+awaŋa me nino ducu ki gityer amata mutike.
+Gityer me por dwe
+11“I acakki dwe ducu en aye wubityero iye gitum awaŋa bot Rwot: litino twoni
+aryo, nyok romo acel ki litino nyogi romi abiro ma ditogi mwaka acel acel, ma
+komgi pe ki mwonyo;
+12kacel ki moko kwon mapwotte ma girubo ki moo ma romo agwata adek pi twon
+acel acel, agwata aryo pi nyok romo acel-li
+13ki agwata acel pi latin romo acel acel; bibedo gitum awaŋa ma ŋwece kur me yo
+mo cwiny, gityer ma giwaŋo ki mac bot Rwot.
+14Gityer amata mutikogi bibedo koŋo vino ma romo cupa abic pi twon, cupa adek
+pi nyok romo, ki cupa aryo ki nucu pi latin romo. Man aye gitum awaŋa me dwe
+acel acel tyeko kwede dwe ducu ma i mwaka.
+15Dok bene wubityero nyok dyel acel bot Rwot pi gitum me bal; wubimedo i kom
+gitum awaŋa me nino ducu ki gityer amatane.
+Gityer me nino madito me Mugati ma Tobi Pe Iye
+(Levi 23.5-14)
+16 “I nino dwe apar wiye aŋwen me dwe mukwoŋo en aye nino madit me Kato
+(Paska) pa Rwot.
+17 Dok i kom nino dwe apar wiye abic me dwe acel-lu en aye nino madit;
+wubicamo mugati ma tobi pe iye pi nino abiro.
+18I kom nino mukwoŋone wubibedo iye ki gurre maleŋ; pe wuti iye tic mo matek.
+19Ento wubityero iye gityer ma giwaŋo ki mac, gitum awaŋa bot Rwot: litino
+twoni aryo, nyok romo acel, ki litino nyogi romi abiro ma ditogi mwaka acel acel;
+wunen ni komgi pe ki mwonyo.
+20Wubityero bene gityer me moko kwon mapwotte ma girubo ki moo. Wumi ma
+romo agwata adek pi twon acel acel, agwata aryo pi nyok romo,
+21ki agwata acel pi latin romo acel acel.
+22Wubityero bene nyok dyel acel bot Rwot pi gitum me bal me kwanyo bal ki i
+komwu.
+23Wubityero gitum magi kun wumedo ki gitum awaŋa me odiko, ma en gitum
+awaŋa me nino ducu.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+24Wubityero cam me gityer ma giwaŋo ki mac, gin ma ŋwece kur me yo mo cwiny
+Rwot, kit meno pi nino abiro ki piny maru; wubityero kun wumedo ki gitum
+awaŋa me nino ducu ki gityer amata mutike.
+25I nino me abirone wubibedo ki gurre maleŋ: pe wuti iye tic mo matek.
+Gityer me nino madit me pwoyo kac
+(Levi 23.15-22)
+26 “I kom nino me tyero cam me wi mwaka, ma wukelo iye gityer me moko kwon
+kai manyen bot Rwot i ninowu madit me kwero agikki cabit abiro, wubibedo iye
+ki gurre maleŋ. Pe wuti iye tic mo matek,
+27ento wutyer iye gitum awaŋa, gin ma ŋwece kur me yo mo cwiny Rwot: litino
+twoni aryo, nyok romo acel, ki litino nyogi romi abiro ma ditogi mwaka acel acel;
+28kacel ki gityer me moko kwon mapwotte ma girubo ki moo. Wumi ma romo
+agwata adek pi twon acel acel, agwata aryo pi nyok romo,
+29ki agwata acel pi latin romo acel acel.
+30Wubityero bene nyok dyel acel pi kwanyo bal ki i komwu.
+31Wubityerogi kacel ki gityer amata mutikogi kun wumedo ki gitum awaŋa me
+nino ducu. Wunen ni komgi pe ki mwonyo.
+Wel 29
+1“I nino dwe acel me dwe me abiro wubibedo iye ki gurre maleŋ; pe wuti iye tic
+mo matek. En aye nino ma wubimiyo gwara kok iye,
+2dok wubityero iye gitum awaŋa, gin ma ŋwece kur me yomo cwiny Rwot: wod
+twon acel, nyok romo acel ki litino nyogi romi abiro ma ditogi mwaka acel acel,
+ma komgi pe ki mwonyo;
+3kacel ki gityer me moko mapwotte ma girubo ki moo mutikogi, agwata adek pi
+wod twon, agwata aryo pi nyok romo
+4ki agwata acel pi latin romo acel acel.
+5Wubityero bene nyok dyel acel pi gitum me bal me kwanyo bal ki i komwu.
+6Meno ducu wubityero kun wumedo ki gitum awaŋa me por dwe ki gityer me
+moko kwon mutike, ki gitum awaŋa me nino ducu ki gityerre me moko kwon, ki
+gityer amatagi kit ma cikgi tye. Gibibedo gin ma ŋwece kur ma yomo cwiny,
 gityer ma giwaŋo ki mac bot Rwot.
-28Pe wuti tic mo i nino meno, pien en aye nino me kwanyo bal, pi timo gin
-lakwany bal ki i komwu i nyim Rwot Lubaŋawu.
-29Ŋat ma pe okumo ki toncwiny i nino meno wane birwenyo woko ki i kin lutugi.
-30Ŋat ma otiyo tic mo i nino meno abineko woko wek pe obed i kin lutugi.
-31Pe wuti iye tic mo; meno bibedo cik matwal wa i kare pa likwayowu ducu, i
-kabedo ducu ma wubibedo iye.
-32En aye bibedo botwu cabit me yweyo mot, ci wubikumo iye ki toncwiny, i nino
-dwe aboŋwen cakke otyeno nio wa orwone otyeno en aye wubiywe mot.”
-33 Rwot dok owaco bot Moses ni,
-34“Wac bot jo Icrael ni, I nino dwe apar wiye abic me dwe man me abiro-ni en aye
-bibedo acakki me nino madito pa Rwot, kare me Bolo, ci tyeko nino abiro.
-35I kom nino mukwoŋo wubibedo iye ki gurre maleŋ; pe wuti iye tic mo matek.
-36Wubityero gityer ma giwaŋo ki mac bot Rwot pi nino abiro. I nino me aborone
-wubibedo iye ki gurre maleŋ, ma wubityero iye gityer ma giwaŋo ki mac bot
-Rwot; meno cokke madit me woro Lubaŋa, pe wuti iye tic mo matek.
-37“Magi aye nino madito ma Rwot ociko, ma wubitito ki lwak ni gin aye kare me
-gurre maleŋ, pi tyero bot Rwot gityer ma giwaŋo ki mac, gitum awaŋa, gityer me
-moko kwon, gitum mukene, ki gityer amata, kun acel acel bedo ki ninone ma
-otike,
-38kun wumedogi i kom ceŋ cabit pa Rwot me kare ducu, ki i kom mot mewu, i
-kom gityer mewu ducu me cobo kwoŋ, ki i kom gityerwu ducu ma iwu opwoyo
-ma wumiyo bot Rwot.
-39“I kom nino dwe apar wiye abic me dwe me abiro, ka doŋ wucoko cam ma ocek
-i lobo, wubikwero nino madito pa Rwot pi nino abiro; nino mukwoŋo bibedo
-nino me yweyo mot, ki nino me aborone bene bibedo nino me yweyo mot.
-40I nino mukwoŋo wubicoko iye nyig yat mabecone, ki jaŋ otit, ki jaŋ yat muluk,
-ki yat oget ma i ŋet kulu; ci wubibedo ki yomcwiny i nyim Rwot Lubaŋawu pi
-nino abiro.
-41Wubikwero nino madito man pa Rwot pi nino abiro mwaka ki mwaka; meno
-bibedo cik matwal wa i kare pa likwayowu ducu; wubikwerone i dwe me abiro.
-42Wubibedo i bolo pi nino abiro; litino anywalli ducu ma i Icrael bibedo i bolo,
-43wek likwayowu guŋe ni, yam amiyo jo Icrael gubedo i bolo i kare ma akwanyogi
-woko ki i lobo Ejipt; an a Rwot Lubaŋawu.”
-44Kit meno Moses otito bot jo Icrael pi nino madito ducu ma Rwot ociko pigi.
-Lulevi 24
+Gityer pi nino madit me Kwanyo Bal
+(Levi 23.26-32)
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+7 “I nino dwe apar me dwe me abiro wubibedo ki gurre maleŋ, kun wukumo iye
+ki toncwiny; pe wuti iye tic mo,
+8ento wutyer gitum awaŋa bot Rwot, gin ma ŋwece kur me yomo cwinye: wod
+twon acel, nyok romo acel ki litino nyogi romi abiro ma ditogi mwaka acel acel;
+wunen ni komgi pe ki mwonyo.
+9Wumi bene gityer me moko kwon mapwotte ma girubo ki moo, agwata adek pi
+wod twon, agwata aryo pi nyok romo,
+10ki agwata acel pi latin romo acel acel.
+11Wubityero bene nyok dyel acel pi gitum me bal ma gimedo ki gitum me bal me
+lakwany bal, ki gitum awaŋa me nino ducu, ki gityer mere me moko kwon, ki
+gityer amata mutikogi ducu.
+Gityer pi nino madito me Bolo
+(Levi 23.33-44)
+12“I nino dwe apar wiye abic me dwe me abiro wubibedo ki gurre maleŋ; pe wuti
+iye tic mo matek. Wubikwero nino madito me woro Rwot pi nino abiro.
+13Wubityero gitum awaŋa i nino man mukwoŋo-ni, gityer ma giwaŋo ki mac wek
+obed gin ma ŋwece kur me yomo cwiny Rwot: litino twoni apar wiye adek, nyogi
+romi aryo ki litino nyogi romi apar wiye aŋwen ma ditogi mwaka acel acel; gubed
+ma komgi pe ki mwonyo.
+14Wubimiyo gityer me moko kwon mutikogi, moko mapwotte ma girubo ki moo
+ma romo agwata adek pi twoni apar wiye adek ki acel acel, agwata aryo pi nyogi
+romi aryo pi acel acel,
+15ki agwata acel pi litino romi apar wiye aŋwen pi acel acel.
+16Wubityero bene nyok dyel acel pi gitum me bal ma gimedo ki gitum awaŋa me
+nino ducu, ki gityer me moko kwon ki gityer amata mutike.
+17“I nino me aryone wubimiyo litino twoni apar wiye aryo, nyogi romi aryo ki
+litino nyogi romi apar wiye aŋwen ma ditogi mwaka acel acel, ma komgi pe ki
+mwonyo,
+18kacel ki gityer me moko kwon ki gityer amata pi twoni ki nyogi romi ki litino
+romi ma lubo welgi, macalo cik tye.
+19Wubityero bene nyok dyel acel pi gitum me bal ma gimedo ki gitum awaŋa me
+nino ducu, ki gityer me moko kwon mere ki gityer amata mutikogi ducu.
+20“I nino me adekke wubimiyo litino twoni apar wiye acel, nyogi romi aryo ki
+litino nyogi romi apar wiye aŋwen ma ditogi mwaka acel acel, ma komgi pe ki
+mwonyo,
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+21kacel ki gityer me moko kwon ki gityer amata pi twoni ki nyogi romi ki litino
+romi ma lubo welgi, macalo cik tye.
+22Wubityero bene nyok dyel acel pi gitum me bal ma gimedo ki gitum awaŋa me
+nino ducu, ki gityer me moko kwon ki gityer amata mutike.
+23“I nino me aŋwenne wubimiyo litino twoni apar, nyogi romi aryo ki litino nyogi
+romi apar wiye aŋwen ma ditogi mwaka acel acel, ma komgi pe ki mwonyo,
+24kacel ki gityer me moko kwon ki gityer amata pi twoni ki nyogi romi ki litino
+romi ma lubo welgi, macalo cik tye.
+25Wubityero bene nyok dyel acel pi gitum me bal ma gimedo ki gitum awaŋa me
+nino ducu, ki gityer me moko kwon ki gityer amata mutike.
+26“I nino me abicce wubimiyo litino twoni aboŋwen, nyogi romi aryo ki litino
+nyogi romi apar wiye aŋwen ma ditogi mwaka acel acel, ma komgi pe ki mwonyo,
+27kacel ki gityer me moko kwon ki gityer amata pi twoni ki nyogi romi ki litino
+romi ma lubo welgi, macalo cik tye.
+28Wubityero bene nyok dyel acel pi gitum me bal ma gimedo ki gitum awaŋa me
+nino ducu, ki gityer me moko kwon ki gityer amata mutike.
+29“I nino me abicel wubimiyo litino twoni aboro, nyogi romi aryo ki litino nyogi
+romi apar wi ye aŋwen ma ditogi mwaka acel acel ma komgi pe ki mwonyo,
+30kacel pi gityer me moko kwon ki gityer amata pi twoni ki nyogi romi ki litino
+romi ma lubo welgi, macalo cik tye.
+31Wubityero bene nyok dyel acel pi gitum me bal ma gimedo ki gitum awaŋa me
+nino ducu, ki gityer me moko kwon ki gityer amata mutike.
+32“I nino me abiro wubimiyo litino twoni abiro, nyogi romi aryo ki litino nyogi
+romi apar wiye aŋwen ma ditogi mwaka acel acel, ma komgi pe ki mwonyo,
+33kacel ki gityer me moko kwon ki gityer amata pi twoni ki nyogi romi ki litino
+romi ma lubo welgi, macalo cik tye.
+34Wubityero bene nyok dyel acel pi gitum me bal ma gimedo ki gitum awaŋa me
+nino ducu, ki gityer me moko kwon ki gityer amata mutike.
+35“I nino me aborone wubibedo iye ki cokke madit me woro Lubaŋa; pe wuti iye
+tic mo matek,
+36ento wutyer iye gitum awaŋa, gityer ma giwaŋo ki mac wek obed gin ma ŋwece
+kur me yomo cwiny Rwot: twon acel, nyok romo acel ki litino nyogi romi abiro
+ma ditogi mwaka acel acel, ma komgi pe ki mwonyo,
+37kacel ki gityer me moko kwon ki gityer amata pi twon ki nyok romo ki litino
+romi ma lubo welgi, macalo cik tye.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+38Wubityero bene nyok dyel acel pi gitum me bal ma gimedo ki gitum awaŋa me
+nino ducu, ki gityer me moko kwon ki gityer amata mutike.
+39“Meno aye gin ma wubityero bot Rwot i ninowu madito ma giciko, kun wumedo
+iye gityerwu me cobo kwon ki gityer mu kene ma iwu opwoyo, pi gitumwu me
+awaŋa, gityer me moko kwon ki me amata, dok pi gityerwu me lakwecwiny.”
+40Moses otito ki jo Icrael lok ducu ma Rwot ocike kwede.
+Wel 30
+1Moses owaco bot ludito wi kaka pa jo Icrael ni, “Man gin ma Rwot ociko,
+2 ni, Ka laco mo okwoŋo kwoŋ mo bot Rwot, nyoocikke pi lok mo kun olamme
+kekene otwene kene ki cikke me timo gin mo-ni, myero pe otur cikkene, ento
+myero ocob kakare kit ma owaco kwede.
+3“Nyo ka nyako mo okwoŋo kwoŋ mo bot Rwot, otwene kwede ki cikke me timo
+gin mo-ni ma kun tye i paco pa wonne i kare ma pud tidi.
+4Ce wonne owinyo pi kwoŋŋe ki cikke ma otwene kwede kekene, ci pe omedo ki
+waco iye lok mo bote, ci kwon ducu ma en okwono ki cikke ducu ma otwene
+kwede kekene bimoko i kome matwal.
+5Ento ka ce wonne ojuke woko i nino ma owinyo iye lokke-ni, ci kwoŋ pa nyako-
+nu ki lok ma otwene kwede ke kene pe bimoko i kome; Rwot bene bitimme kica,
+pien onoŋo wonne ogeŋo woko.
+6“Ka ce ginyomo nyako mo ma noŋo okwoŋo kwon nyo otwene kekene ki cikke
+kun oloko laboŋo tamo tere,
+7ce cware owinyo pire, ci pe omedo ki waco iye lok mo bote i nino ma owinyo
+iye-ni, ci kwoŋŋe ki cikke ma otwene kwede kekene bimoko i kome matwal.
+8Ento ka ce cware ojuke woko i nino ma owinyo iye lokke-ni, ci cware bikwanyo
+kwoŋ meno woko ki i kome, nyo lok mo ma onoŋo otwene kwede kekene kun
+oloko laboŋo tamo tere; Rwot bene bitimme kica.
+9“Ka ce daa-to nyo dako ma cware oryemo okwoŋo kwoŋ, ci lok ducu ma en
+otwene kwede kekene bimoko i kome.
+10“Ka dako mo okwoŋo kwoŋ nyo otwene kekene ki cikke ma doŋ ginyomo woko,
+11ce cware owinyo pire ci pe omedo ki waco iye lok mo bote, dok pe ojuke, ci
+kwoŋ ducu ma en okwoŋo, ki cikke ducu ma otwene kwede, bimoko i kome.
+12Ento ka ce cware ogeŋo woko i nino ma owinyo pire-ni, ci lok ducu ma dako-nu
+oloko ma mako kwoŋ ma okwoŋo nyo cikke ma otwene kwede pe bimoko, pien
+cware doŋ ogeŋo woko: Rwot bene bitimme kica iye.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+13Kwoŋ ducu ma dako okwoŋo nyo ma otwene kwede me keto aroma i kome
+kekene, cware twero moko, dok cware twero geŋo woko.
+14Ento ka cware pe owaco lok mo bote, obedo ka liŋ aliŋa nino ducu, miyo en
+moko kwede kwoŋ pa dakone ducu ki cikke ducu ma otwene kwede kekene, pien
+pe owaco lok mo bote i nino ma owinyo iye pire-ni.
+15Ento ka ori ma pe ogeŋo woko oyotoyot, ci bal pa dakone bidok i wiye ka pe
+ocobo.”
+16Meno aye cik ma Rwot ociko ki Moses ma mako Laco ki dakone ka okwono
+kwon, ki won nyako ki nyare ka okwoŋo kwoŋ i kare ma en pud tidi, ma noŋo
+pud tye i paco pa wonne.
+Wel 31
 1Rwot owaco bot Moses ni,
-2“Cik jo Icrael gukel boti moo me nyig jeituni ma giodo aoda, giliyo maber, me
-mac tara, wek giket mac laput obed ka lyel nino ducu ma pe to.
-3Aron myero ocaŋ mac olyel jwijwi i nyim Rwot nia otyeno nio odiko, ki woko i
-ŋe boŋo kicika ma umo canduk lok me caden, i kema me rwatte; meno bibedo cik
-matwal wa i kare pa likwayowu ducu.
-4En bicano laput kakare i wi okar-mac me jabu ma giliyo maber i nyim Rwot
-jwijwi.
-Mugati me aketa i nyim Rwot
-5 “Dok ibikwanyo moko mapwotte, ibitedo kwede capat apar wiye aryo, kun i
-capat acel acel bedo iye agwata moko aryo.
-6Ibicanogi latyeŋ aryo kun iryeyogi abicel abicel i wi meja me jabu ma giliyo
-maber-ri.
-7I kom tyen acel acel ibiketo iye odok luban ma giliyo maten, wek obed gin me po
-i kom mug ati-nu, gityer ma giwaŋo ki mac bot Rwot.
-8I ceŋ cabit ducu Aron biryeyogi jwijwi i nyim Rwot kun gamo ki bot jo Icrael; en
-gicikke ma bedo matwal.
-9 Bibedo pi Aron ki awobene: gibicamo i kabedo mo maleŋ, pien en gin maleŋ
-makato ma gimiye ki i kin gityer ma giwaŋo ki mac bot Rwot ma myero gimi bote
-dikdik.”
-Yeto nyiŋ Lubaŋa ki cik ma mako culo waŋ bal
-10Ceŋ mo wod pa nya jo Icrael mo ma wonne onoŋo Laejipt, okato woko i kin jo
-Icrael, ci ocako lwenyo ki dano mo ma Laicrael i gony.
-11Wod pa nya jo Icrael meno ocako yeto nyiŋ Lubaŋa kun ceno bene, ci gitere bot
-Moses. Nyiŋ minne Celomit, nya pa Dibri, ma i kaka pa Dan.
-12Ci gikete i ot kol, nio ka Rwot binyuto botgi gin ma en mito.
-13Rwot owaco bot Moses ni,
-14“Kel ŋat ma oceno cen woko i ŋe gony, jo ducu ma guwinyo lokke guket ciŋgi i
-wiye, ci wek lwak ducu gucele woko ki got.
-15Ka dok iwac ki jo Icrael ni, ŋat ma oceno Lubaŋane, balle bidok i wiye.
-16Ŋat ma oyeto nyiŋ Rwot gibineko woko; lwak ducu gibicele woko ki got; labedo
-kacel ki anywalli me lobo, ka oyeto Nyiŋ meno gibineke woko.
-17 Ŋat ma oneko dano gibineke bene.
-18Ŋat ma oneko lee biculo acula; kwo giculo ki kwo.
-19Ka ŋat mo oketo ŋolo i kom lawote, en bene gibitime kit meno;
-20 turo cogo giculo ki turo cogo, waŋ giculo ki waŋ, lak giculo ki lak; kit macalo
-oketo ŋolo i kom dano mo-ni, en bene gibiketo ŋolo i kome.
-21Ŋat ma oneko lee biculo acula; ŋat ma oneko dano gibineke woko.
-22 Cik bibedo acel pi labedo ki pi anywalli me lobo; pien an a Rwot Lubaŋawu.”
-23Moses ocako lok ki jo Icrael, ci gutero dano ma oceno cen woko i ŋe gony,
-gucele woko ki got. Kit meno jo Icrael gutiyo kit ma Rwot ociko ki Moses.
-Lulevi 25
-1 Rwot owaco bot Moses i wi got Cinai ni,
-2“Wac bot jo Icrael ni, Ka doŋ wuo i lobo ma abimiyowu-ni, lobo bigwoko cabit pa
+2“Doŋ icul kwor pa jo Icrael i kom jo Midian; lacen doŋ ibito, idok bot lutuwu.”
+3Ci Moses owaco ki lwak ni, “Wumi lumony ma gitye i kinwu gurukke ki jami
+lwenygi, wek gucit ka lweny i kom jo Midian, gucul kwor pa Rwot i komgi.
+4Wucwal dano alip acel mua ki i kaka acel acel ma i Icrael gucit i lweny.”
+5Kit meno ginoŋo dano alip apar wiye aryo ma gurukke pi lweny mua ki i lwak
+doggola mapol mada ma i Icrael, dano alip acel mua ki i kaka acel acel.
+6Moses ocwalogi woko ka lweny, kacel ki Finekaci wod pa ajwaka Eleajar ma
+omako jami maleŋ pa Lubaŋa ki tum me goyo oduru.
+7Gulwenyo i kom jo Midian macalo Rwot ociko ki Moses, ci guneko co megi ducu.
+8Luker abic pa jo Midian onoŋo tye i kin dano ma ginekogi; nyiŋgi Evi, Rekem,
+Jur, Kur ki Reba. Dok guneko Balaam wod pa Beor bene ki pala lucwan.
+9Jo Icrael guyako mon ki litino pa jo Midian, gutero woko; dok gumayo limgi
+makwo madito ki matino ducu, ki jamigi ducu.
+10Gaŋigi ducu i kabedo mapatpat ma gin gibedo iye, ki gonygi ducu, guwaŋo
+woko ki mac,
+11ci gutero jami ducu ma guyako nyo gumayo, dano wa ki lee-gu, gucito kwede,
+12gukelo bot Moses ki ajwaka Eleajar ki bot lwak jo Icrael, i gonygi ma i lobo aroo
+me Moab i ŋet Jordan, ma cok ki Jeriko.
+Lonyo jami ma giyako
+13Moses ki ajwaka Eleajar ki lutel wi lwak ducu gucito woko ka rwatte kwedgi i
+ŋe gony.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+14Ci kiniga omako Moses i kom ludito me mony, i kom lulo dano alip ki lulo dano
+miya ma gudwogo ki ka tero dano i mony.
+15Moses owaco botgi ni, “Man wuweko mon ducu gudoŋ makwo piŋo?
+16 Nen, mon-ni aye yam gulubo tam pa Balaam ci gumiyo jo Icrael guŋayo waŋ
+Rwot i lok i kom jok Peor ca, mumiyo two gemo opoto i kom lwak pa Rwot.
+17Kombeddi doŋ wunek litino co woko ducu ma i kin litinogi, dok wunek mon
+ducu ma doŋ otyeko ŋene ki co.
+18Ento litino anyira ducu ma peya gubuto ki co wugwokgi makwo gubed mewu.
+19Koŋ wubut woko i ne gony pi nino abiro. Jo ducu ma i kinwu ma guneko dano,
+ki jo ducu ma gugudo kom dano muto myero wulonnye kekenwu, kacel ki dano
+ma wuyakogi, i nino me adekke ki i nino me abirone.
+20Wulony boŋŋi aruka ducu, gin ducu ma gitiyo ki laa, nyo ma gicweyo ki yer
+dyegi, ki jami ducu ma gitiyo ki bao nyo ki yat.”
+21Ajwaka Eleajar owaco bot lulweny ma onoŋo gucito i mony ni, “Man aye cik ma
+giketo, ma yam Rwot ociko ki Moses:
+22Jami ma obedo jabu, nyo ryal, nyo mola, nyo nyonyo, nyo koc, nyo racac keken,
+23gin ducu ma mac pe balo, wubimiyo wok kato ki i mac ci bilony woko. Ento kadi
+bed kumeno, pud dok gibilonyo ki pii me lwoko kwer; ci gin ducu ma mac balo
+woko wubimiyo wok kato ki i pii.
+24Myero wulwok bonniwu i nino me abirone, ci doŋ wubibedo ma wulony; ka
+lacen wubibino i gony.”
+Poko jami ma giyako i mony
+25Rwot owaco ki Moses ni,
+26“Doŋ ikwan wel jami ma giyako ki i mony, dano ki lee bene; wukwan ki ajwaka
+Eleajar ki ludito kaka ma i ot pa kwarogi ma i kin lwak.
+27Ci ipok jami ma giyako i mony i dul aryo, tuŋ cel pi lulweny ma gucito i mony,
+tuŋ cel pi lwak ducu.
+28Dok ijog ajog pa Rwot ki bot lulweny ma gucito i mony kun ikwanyo acel i kom
+miya abic ki i kom dano, ki twoni, ki kana, ki romi ki dyegi.
+29Kwany ki i kom nucu ma megi, ci imi bot ajwaka Eleajar obed gityer bot Rwot.
+30I kom nucu ma tuŋ bot jo Icrael ibikwanyo iye acel i kom pyerabic ki kom dano,
+ki twoni, ki kana, ki romi nyo dyegi, ki i kom lim makwo ducu, ci imi bot Lulevi
+ma gigwoko kema pa Rwot.”
+31Ci Moses ki Eleajar gutiyo kit ma Rwot ociko ki Moses.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+32Jami ma lulweny guyako, ma odoŋ, onoŋo obedo romi alip miya abicel ki
+pyerabiro wiye abic,
+33dyaŋi alip pyerabiro wiye aryo,
+34kana alip pyerabicel wiye acel,
+35ki dano alip pyeradek wiye aryo ma gin ducu aye anyira ma peya gubuto ki co.
+36Nucune ma gipoko bot jo ma gucito i mony obedo romi alip miya adek ki
+pyeradek wiye abiro, ki miya abic;
+37romi ma gijogo pi Rwot guromo miya abicel ki pyerabiro wiye abic.
+38Dyaŋi guromo alip pyeradek wiye abicel; dyaŋi ma gijogo pi Rwot guromo
+pyerabiro wiye aryo.
+39Kana gubedo alip pyeradek, ki miya abic; gin ma gijogo pi Rwot guromo
+pyerabicel wiye acel.
+40Dano guromo alip apar wiye abicel; dano ma gijogo pi Rwot guromo pyeradek
+wiye aryo.
+41Moses omiyo dul ma gijogo me gityer pa Rwot bot ajwaka Eleajar, macalo Rwot
+ocike.
+42Nucu ma gipoko ki jo Icrael, ma Moses opoko pat ki maca pa jo ma yam gucito i
+mony,
+43wek obed pi lwak, obedo romi alip miya adek ki pyeradek wiye abiro, ki miya
+abic,
+44dyaŋi alip pyeradek wiye abicel,
+45kana alip pyeradek, ki miya abic,
+46ki dano alip apar wiye abice!
+47I kom nucu man ma obedo pi lwak Moses okwanyo iye acel ki i kom pyerabic, i
+kom dano ki i kom lee, ci omiyogi bot Lulevi ma gigwoko kema pa Rwot, macalo
+Rwot ocike kwede.
+48Ka doŋ ludito ma giloyo lumony ducu, lulo dano alip ki lulo dano miya, gubino
+bot Moses.
+49Guwacci, “Wan luticci watyeko kwano Wel lumony ma gitye i te locwa, ci onen
+ni pe tye dano acel mo ma orwenyo ki i kingi.
+50Ci doŋ wakelo gityerwa bot Rwot, gin ma dano acel acel onoŋo i lweny, jami me
+jabu, mola bad, atego ŋut ciŋ, agit ciŋ ki tiko ŋut, pi kwanyo bal ki i komwa i nyim
+Rwot.”
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+51Moses ki ajwaka Eleajar gugamo jabu meno ki botgi; gin ducu obedo jami me
+deyo kom ma gitiyo ki diro
+52Jabu ducu ma lulo dano alip ki lulo dano miya gutyero bot Rwot pekke oromo
+makato ratili miya aŋwen.
+53Onoŋo lulweny ducu guyako jami, ŋat acel acel pire kene.
+54Moses ki ajwaka gugamo jabu ki bot ludito wi mony, gutero i kema me rwatte
+obed gin me poyo wi Rwot i kom jo Icrael.
+Wel 32
+1Jo me kaka pa Reuben ki pa Gad gubedo ki lwak lim makwo mapol twatwal. Ka
+guneno lobo Jajer ki lobo Gilead obedo lobo maber twatwal me kwat,
+2ci gucito bot Moses ki ajwaka Eleajar ki bot lutel wi lwak, guwaco ni,
+3“Gaŋi magi, Atarot, Dibon, Jajer, Nimra, Kecbon, Eleale, Cebam, Nebo ki Beon
+4ma i lobo ma yam Rwot oloyo i nyim lwak jo Icrael, lobogi ber twatwal me kwat;
+ci wan luticwu-ni watye ki lim madwoŋ.
+5Ka in bene ipwoyo tamwa-ni, ci iye lobo man gimi botwa obed mewa, pe doŋ
+iterwa waŋol loka Jordan.”
+6Ento Moses owaco bot jo pa Gad ki pa Reuben ni, “Omegiwu gibicito ka lweny
+kun wun wubedo kany bo?
+7Piŋo wumito balo cwiny jo Icrael, ni pe gucit loka ca i lobo ma yam Rwot omiyo
+botgi?
+8 Kwarowu bene yam koŋ gutimo kit meno i kare ma acwalogi ki i Kadec-barnea
+pi neno lobo.
+9Pien ka gucito malo wa i nota me Ecikol, ka guneno lobo, ci gubalo cwiny jo
+Icrael woko, ni pe gucit i lobo ma Rwot doŋ otyeko miyo botgi.
+10 Ci kiniga omako Rwot i komgi i nino maca. Okwono kwon kun waco ni,
+11‘Ada, pe tye ŋat mo ki i kin jo ma yam gua ki i Ejipt, cakke ki i kom jo ma ditogi
+romo mwaka pyeraryo dok kwede malo ma bineno lobo ma yam akwoŋo pire ni
+abimiyo bot Abraim ki Icaka ki Yakobo, pien pe gubedo ka lubo gin ma amito
+ducu kakare.
+12Pe tye ŋat mo ma bineno, kono nyo Kaleb wod pa Jepune ma jo Keniji, ki Yocwa
+wod pa Nun, pien gin aye gubedo ka lubo gin ma amito ducu kakare.’
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+13Kiniga omako Rwot i kom jo Icrael i kare ca, ci omiyo gubedo ka wirre i tim
+atata gutyeko mwaka pyeraŋwen kulu, nio ka yalwak ma yam gutimo rac i nyim
+Rwot gutum woko.
+14Ci nen, wun bene dok wua malo kun wuleyo ka wegiwu, wun litino pa lubalo,
+miyo wubimedo dok kiniga pa Rwot doko mager t kom jo Icrael!
+15Pien ka wuweko luba gin ma en mito kombeddi, ci en dok bitenyo lwak man
+woko i tim ata; kit meno wubimiyo lwak man ducu to tum woko.”
+16Ka gin dok gubino bote kun giwaco ni, “Wabigero dwol ma wagero ki gweŋ pi
+romiwa, ki gaŋi pi mon ki litinowa.
+17Ento wan wabiruko jami Iwenywa, kun wayubbe pi telo wi jo Icrael anyim, nio
+ka wabiterogi i kabedogi, kun noŋo monwa ki litinowa gibedo i gaŋi gogo ma
+wacelo matek pi dano ma gibedo i lobo-ni.
+18Pe wabidwogo i pacowa nio waŋ ma jo Icrael gutyeko noŋo ginaleyagi ki acel
+acel ducu.
+19Wan pe wabinywako leyo lobo kacel kwedgi i ne kulu Jordan ki tuŋ kunnu
+ducu, pien ginaleya ma me wa doŋ watyeko noŋone i loka Jordan kany ma tuŋ
+wokceŋ.”
+20Omiyo Moses dok owaco botgi ni, “Ka ce wubitimo kit meno, ka ce wubiruko
+jami Lwenywu wucito anyim ka lweny i nyim Rwot,
+21kun dano acel acel i kinwu ma romo lweny kato loka Jordan i nyim Rwot, nio ka
+Rwot otyeko ryemo lumerokke woko ki i nyime, ci ber.
+22Ka Rwot doŋ otyeko loyo lobo-nu, ci lacen wubidwogo giwu kun banya mo pe i
+komwu bot Rwot nyo bot jo Icrael, ci lobo man wubicamo bedo mewu i nyim
 Rwot.
-3Wubicoyo pottiwu mwaka abicel, wubiŋolo kin jaŋ olokwu mwaka abicel,
-wubicoko nyige;
-4ento mwaka me abirone en aye bibedo cabit me yweyo mot pi lobo, en cabit pa
-Rwot; pe wubicoyo pottiwu, pe wubiŋolo kin jaŋ olokwu.
-5Gin ma otwi kene i okaŋ pe wubikayo, pe wubicoko nyig olokwu ma pe wuŋolo
-kin jaŋe; bibedo mwaka me yweyo mot pi lobo.
-6Cabit man me lobo bimiyowu cam, in ki opiini ki aŋecani ki lapakacani ki labedo
-ma bedo boti.
-7Pi lim mewu makwo bene, ki pi lee ducu ma gitye i lobowu, gin ma cek iye ducu
-bedo me acamagi.
-8“Dok ibikwano cabit abiro me mwaka bene, mwaka abiro tyen abiro; kare meno
-me cabit abiro me mwaka bibedo mwaka pyeraŋwen wiye aboŋwen.
-9I mwaka meno ibimiyo gwara kok maloŋo i kom nino dwe apar me dwe me
-abiro; i nino me kwanyo bal en aye wubimiyo gwara kok romo lobowu ducu.
-10Wubikwero mwaka me pyerabic obed maleŋ, kun wutito i lobowu ducu ni kuc
-tye pi jo ducu ma bedo iye, En aye bibedo kare me jubili mewu, ma noŋo ŋat acel
-acel i kinwu dok gire i dul lobone, dok ŋat acel acel i kinwu bidok i doggolagi.
-11Mwaka me pyerabicce aye bibedo jubili mewu; pe wubicoyo iye kodi, pe
-wubikayo gin ma otwi kene, pe wubicoko nyig olok ma pe wuŋolo kin jaŋe.
-12Pien obedo jubili, bibedo maleŋ botwu; wubicamo gin ma oa ki i poto.
-13“I mwaka man me jubili-ni ŋat acel acel i kinwu bidok i dul lobone.
-14Ka icato lobo mo bot lawoti, nyo iwilo lobo mo ki bote, pe wubed ka bune
-kekenwu.
-15Ka iwilo ki bot lawoti, welle biporo wel mwaka mulubo jubili; en bicato boti
-kun poro wel mwaka ma ibinoŋo iye cam.
-16Ka mwaka pud odoŋ mapol, ibimedo wel ma iculo, ka mwaka doŋ odoŋ manok,
-ci ibidwoko welle piny, pien gin ma en tye ka cato boti en aye mwaka me cam ma
-bia iye.
-17Pe wubune kekenwu, ento wulwor Lubaŋawu; pien an a Rwot Lubaŋawu.
-18“Pi meno wubilubo cikka, wubigwoko gin ma aŋolo, wubicobone, wek wubed
-ma lobo okwe mot.
-19Pien lobo biceko cam, wubicamo, wubiyeŋ kwede, ci wubibedo ma piny okwe
-mot.
-20Ka ce wuwacci, ‘Wabicamo mono gin aŋo i mwaka me abiro-nu, ka ce pe
-wacoyo kodi, dok pe wacoko camwa ma a iye?’
-21An abiciko gumma poto i komwu i mwaka me abicelle, wek onyak nyige ma
-romo pi mwaka adek kulu.
-22Ka wucoyo potowu i mwaka me aborone, noŋo pud wutye ka camo cam macon
-ca; nio wa i mwaka me aboŋwen i kare ma cam doŋ ocek, gikayo, noŋo pud
-wucamo en macon ca.
-23Lobo pe gibicato me atera woko matwal, pien lobona gira; pien wun wuwelo,
-dok wun lubedona.
-24I lobo ducu ma bibedo mewu wubiye ni giwar lobo.
-25“Ka ce omeru odoko lacan, ce ocato lobone mo ci watgi macok aye bibino ka
-waro lobo meno ma ominne ocato woko-ni.
-26Ka dano meno pe tye ki watgi mo ma twero warone, ce en kikome odoko
-lalonyo, ka onoŋo gin ma romo warone,
-27wek en okwan wel mwaka nia i kare ma ocato, ocul bot dano ma owilo-nu wel
-ma pud odon, ci potone bidok i ciŋe.
-28Ento ka pe tye ki lim ma romo dwokone i ciŋe, ci poto ma ocato-nu bidoŋ i cin
-lawilone nio ka mwaka me jubili oromo; gibidwoko potone i kare me jubili, bidok
-i ciŋe.
-29“Ka dano mo ocato ode ma tye i gaŋ madit ma gicelo ki cel, en twero warone ma
-peya mwaka acel oromo; bibedo ki twer me warone kadi pi mwaka kulu.
-30Ka pe giwaro ma peya mwaka acel oromo, ci ot meno ma tye i gaŋ madit ma
-gicelo-ni gibimoko ni doŋ bedo pa ŋat muwilo-ni matwal, wa i kare pa likwayone
-ducu; pe gibidwoko i kare me jubili.
-31Ento odi ma i caro ata ma pe gicelo ki cel ma orumogi gibikwanogi kacel ki potti
-ma i caro; gitwero warogi, dok gibidwokogi ceŋ i kare me jubili.
-32“I gaŋi pa Lulevi odi ma i gaŋi ma gimiyogi me bedo megi-ni Lulevi gitwero
-warogi i kare ducu.
-33Ka ce ŋat mo i kin Lulevi pe owaro, ci ot ma gicato i gaŋ mo ma omiyogi obed
-megi bidok bot rwode i kare me jubili, pien odi ma i gaŋ pa Lulevi meno jami
-megi ma gimiyogi i kin jo Icrael.
-34Ento olet ma orumo gaŋi megi pe gicato; meno lobogi matwal.
-35 “Ka ce omeru ma bedo ka ŋeti odoko lacan ma pe twero konnye kekene, in
-ibikonye; en bibedo boti macalo weloni nyo labedo.
-36Pe igam lim mo me magoba ki bote nyo pe imed wiye, ento lwor Lubaŋani, wek
-omeru obed kwo ki ka ŋeti.
-37 Pe ibimiyo en mako banya boti wek inoŋ iye magoba, pe imiye cam wek odwok
-boti kun omedo wiye.
-38An a Rwot Lubaŋawu ma yam akwanyowu ki i lobo Ejipt wek amiwu lobo
-Kanaan, abed Lubaŋawu.
-39 “Ka omeru ma bedo ka ŋeti odoko lacan, ci ocatte boti kekene, pe ibimiyo en
-tiyo boti macalo opii;
-40en bibedo boti macalo lapakaca nyo labedo. En bitic boti nio wa i mwaka me
-jubili;
-41ka lacen en bia woko ki boti, en kacel ki litinone bene. Bidok cen i doggolane,
-bidok i lobo pa kwarogi.
-42Pien gin luticca ma yam akwanyogi woko ki i lobo Ejipt; pe gibicatogi me bedo
-opii.
-43Pe ibiloyo en ki loc magwa, ento ibilworo Lubaŋani.
-44“Lok i kom opiini ki aŋecani ma ibibedo kwedgi; itwero wilo opii ki aŋeca ki bot
-lurok ma orumo ka ŋetwuni.
+23Ento ka pe wutimo kit meno, ci nen, noŋo wutimo bal i kom Rwot. Myero wuŋe
+ni, balwu bimiyo wutiŋo alii ma bidwarowu.
+24Wuger gaŋi pi mon ki Litinowu, ki dwol pi romiwu; ento wucob gin ma
+wuwaco-ni.”
+25Jo Gad ki jo Reuben gudok iye bot Moses ni, “Wan aye luticci; wabitiyo kit
+macalo in laditwa iciko ducu.
+26Litinowa ki monwa ki romiwa ki limwa makwo ducu gibidoŋ kany i gaŋi ma i
+Gilead.
+27Ento wan ducu ma waruko jami lweny wabikato waŋolo loka ca ka lweny i
+nyim Rwot kit macalo in laditwa iciko-ni.”
+28 Kit meno Moses omiyo cik ma makogi bot ajwaka Eleajar ki bot Yocwa wod pa
+Nun, ki bot ludito ki i odi pa kwarogi ma i kaka ducu pa jo Icrael.
 Acoli Baibul
 © 1985, Bible Society of Uganda.
-45Wutwero wilo ki i kin lubedo ma bedo botwu, dok ki i kin doggolagi ma bedo
-botwu, ma ginywalogi i lobowu; gibidoko limwu.
-46Wutwero miyogi bot litino awobewu ma bilubowu, gubed ginaleyagi matwal.
-Wutwero miyogi gibedo opiiwu, ento omegiwu ma jo Icrael pe wubiloyogi kit
-meno kun ŋat man loyo wadi ki loc magwa.
-47“Ka welo mo nyo labedo mo ma tye boti odoko lalonyo, kun omeru ma tye ka
-ŋete odoko lacan, ci ocatte kekene bot welo nyo labedo ma tye boti-ni, nyo ocatte
-bot wat ma i doggola pa welo meno,
-48ka doŋ otyeko catte, ci gitwero koko; ŋat mo ma i kin omege twero koke woko.
-49Nyo omin wonne nyo latin pa omin wonne twero koke, nyo watgi mo ma i
-doggolagi twero koke; nyo ka en odoko lalonyo, ci kokke gire kene.
-50En bikwano wel kacel ki ŋat ma con owile-nu, kun cako i mwaka ma yam owile
-iye nio wa i jubili, Wel me gonye bibedo ma poro wel mwaka; kare ma en obedo
-kwede bot rwode gibikwano macalo kare pa lapakaca.
-51Ka ce mwaka pud odoŋ mapol, en biculo lim me koke ma oporo ki wel mwaka,
-kun kwanyo ki i kom wel lim ma yam giwile kwede.
-52Ka pud odoŋ mwaka manok mo i mwaka me jubili, en bikwano wel ki dano ma
-owile-nu; ci biculo lim me koke ma oporo wel mwaka me ticce ma pud odon.
-53En bibedo bot rwode macalo lapakaca ma giculo mwaka ki mwaka; pe gibiloye
-ki loc magwa kun in ineno.
-54Ka ce pe gikoke i kit yo meno, ci gibigonye i mwaka me jubili, en kacel ki
-litinone bene.
-55Pien jo Icrael gin aye lutic ma tuŋ ciŋa; gin aye luticca ma yam akwanyogi woko
-ki i lobo Ejipt; an a Rwot Lubaŋawu.
-Lulevi 26
-1 “Pe wutim piwu kenwu cal lubaŋa mo, pe wucib cal apaya nyo wir jok mo, pe
-wucib got mo ma gigoro cal i kome ocuŋ i lobowu pi ryebbe i nyime, pien an a
-Rwot Lubaŋawu.
-2Wubigwoko cabitta dok wubiworo ot mera maleŋ; an a Rwot.
-3 “Ka wubilubo cikka kun wugwoko gin ma aciko ducu, wucobo kakare,
-4an abimiyowu kot ma cwer i karene, lobo biceko cam, yadi ma i poto binyako
-nyiggi.
-5Kare me dino kalwu bidikke olo wa i kare me pwono otok, pwono olok bene
-bidikke nio wa i kare me coyo kodi. Wubicamo cam ma romowu, doŋ, ci
-wubibedo i lobowu ma piny okwe mot.
-6Abimiyo kuc bedoi lobo, wubibuto piny, dano ma miyowu lworo bibedo pe.
-Abikwanyo ŋuu woko ki i lobo, pala lucwan pe biwok ki i lobowu.
-7Wubiryemo lumerok mewu, gibito i nyimwu ki palawu.
-8Jo abic ki i komwu gibiryemo jo miya kulu, jo miya ki i komwu biryemo jo alip
-apar; lumerokwu gibito i nyimwu ki palawu.
-9Abiparo piwu, abimiyo wunywal, wunya, dok abimoko gicikkena kwedwu.
-10Wubicamo cam macon i derowu pi kare malac, wubionyo maconne woko wek
-kabedo odoŋ pi manyenne.
-11Abiyubo kabedona i kinwu, tipo koma pe bikwerowu.
-12 Abibedo ka wot i kinwu, abibedo Lubaŋawu, wun bene wubibedo jona.
-13An a Rwot Lubaŋawu ma yam akwanyowu ki i lobo Ejipt wek pe wubed opiigi;
-aturo rii okol ma giriyo i ŋutwu, amiyowu wutirre, wuwot atir.
-Can ma bino pi balo cik
-(Nwo 28.15-68)
-14“Ento ka pe wubiwinya, ka pe wubilubo cik magi ma aketo ducu,
-15ka ce wucayo cikka, ka iwu okworo gin ma aŋolo, ma miyo pe wubicobo gin ma
-aciko ducu, ento wuturo gicikkena,
-16ci abitimowu kit man: abimiyo lworo poto i komwu atura, ki aona opiyo, ki
-aburu ma coro waŋwu kun balo komwu woko. Dok wubicoyo kodiwu noŋo, pien
-lumerok gibicamo.
-17Abiketo waŋa i komwu, merok bigoyowu ki i nyimgi; jo ma gidagwu aye
-gibiloyowu; dok wubiriŋo ata ma kun ŋat mo pe ma ryemo korwu.
-18Ka pe wuwinyo lokka kadi bed atimo kumeno, ci abimedde ki keto can i komwu
-tyen abiro pi balwu.
-19Abituro tek me wakkewu woko, abimiyo polo bedo tek macalo nyonyo, ki
-lobowu bene bedo tek macalo mola.
-20Wubityeko tek komwu nono pien lobowu pe biceko cam, ki yadi bene pe
-gibinyako nyiggi.
-21“Ka wun wukemo an marac, ma pe wuwinyo lokka, ci abimedde ki kelo two
-mapek i komwu, ma romo lwak balwu tyen abiro.
-22Dok abicwalo ŋuu me tim i kinwu, ma bimako litinowu, ma bityeko lim makwo
-ma i ciŋwu, ci bijwikowu wudoko jo manok, wa yowu birido woko.
+29Owaco botgi ni, “Ka jo Gad ki jo Reuben ma doŋ gurukke pi lweny i nyim Rwot
+gibikato giŋolo kwedwu loka Jordan, dok ka wun wuloyo lobonu woko, ci
+wubimiyo botgi lobo Gilead obed megi.
+30Ento ka pe bigikato loka ca kacel kwedwu kun gurukke me lweny, ci
+gibinywako camo lobo Kanaan kacel kwedwu.”
+31Jo pa Gad ki pa Reuben gudok iye ni, “Wabitimo kit ma Rwot doŋ oloko botwa,
+ladit.
+32Wabikato Loka ca i nyim Rwot, wacito i lobo Kanaan kun warukke me lweny,
+miyo lobo ma loka Jordan kany bidoŋ i ciŋwa ci bedo me aleyawa.”
+33Mumiyo Moses omiyo bot jo Gad ki jo Reuben ki bot nucu kaka pa Manace wod
+pa Yucepu lobo ma yam obedo pa Cikon kabaka pa jo Amor ki Og kabaka me
+Bacan, lobo ducu ma gin yam guloyo, kacel ki gaŋi ducu ma i lobo-nu ki lobo ma i
+ŋetgi ducu.
+34Jo Gad gugero Dibon, Atarot, Aroer,
+35Atarot-copan, Jajer, Jogbea,
+36Bet-nimra ki Bet-aran, gin ducu gaŋi ma gicelo ki cel gogo, ki dwol pi romigi.
+37Jo Reuben gugero Kecbon, Eleala, Kiriataim,
+38Nebo ki Baal-meon (magi giloko nyiŋgi woko) ki Cibma; ci gucako nyiŋ mukene
+pi gaŋi ma gugero-ni.
+39Jo pa Makir wod pa Manace gucito i lobo Gilead, gumako gumayo woko ki bot jo
+Amor ma onoŋo gitye kunnu.
+40Ci Moses omiyo Gilead bot jo pa Makir wod pa Manace, gucako bedo iye.
+41Jair me kaka pa Manace ocito omako gaŋi matino mapol, ocako nyiŋgi ni, Kavot-
+jair.
+42Dok Noba ocito omako Kenat ki gaŋi matino ma i ŋete, ci ocako nyiŋe Noba,
+macalo nyiŋe kikome.
+Wel 33
+1Jo Icrael yam guwoto kun gikobo ki wotgi kit man, i kare ma gua woko ki i lobo
+Ejipt ki bucagi kun Moses ki Aron gitelo wigi.
+2Yam Moses obedo ka coyo nyiŋ kabedo acel acel i kare ma gua ki iye, macalo
+Rwot ociko, Nyiŋ kabedo ki kit ma gukobo ki wotgi en ene:
 Acoli Baibul
 © 1985, Bible Society of Uganda.
-23“Ka pe wujukke, wudwogo bota pi kit can meno, kun pud wukemo an marac
-aye,
-24an bene abikemowu marac, ci an ki koma abipwodowu tyen abiro pi balwu.
-25Abikelo pala lucwan i komwu me lacul kwor me balo gicikkena, Ka wugurre i
-gaŋwu, abicwalo two gemo magwa i kinwu, ci gibimiyowu i ciŋ lumerokwu.
-26Ka abikwanyo cam ma wukwo kwede woko, ci mon apar gibitedo mugatiwu i
-keno acel, dok gibipokowu mugati kun gipimowu apima; ka wubicamo; pe
-biyeŋowu.
-27“Ka pe wuwinyo lokka kadi bed atimo kumene, ento pud wukemo an marac,
-28ci an bene abikemowu malyet, kun an kikoma aketo can i komwu tyen abiro pi
-balwu.
-29Wubicamo riŋo kom litino awobewu ki riŋo kom anyirawu.
-30Abituro waŋ jogiwu ma i wi godi, abitoŋo keno tyerwu me odok eceta, kun
-abolo komwu ma oto i kom kom muto me cal lubaŋawu, ci tipo koma bikwerowu
-woko.
-31Abijwero gaŋwu woko ducu, abimiyo kabedowu ducu maleŋ doŋ noŋo, pe dok
-abiŋweyo ginwu ma ŋwece kur me yomo cwiny.
-32Abineko lobowu woko, wek lumerokwu ma bibedo iye gubed ki ur pire.
-33Abikeyowu i kin lurok, ci abiwoto pala lucwan ki i akura me lubo korwu, miyo
-lobowu bidoŋ noŋo cut, ki gaŋiwu bene gibidoŋ obur.
-34“I kare meno lobo bikwero cabitte pi kare ducu ma noŋo pud giweko ata-ni,
-kun wun pud wutye i lobo pa lumerokwu. I kare meno lobo biywe, kun noŋo tye
-ka kwero karene me yweyo mot macalo i ceŋ cabit.
-35Pi kare ma pud giweko ata-ni koŋ biywe, ki yweyo ma naka yam en pe onoŋo i
-cabitwu i kare ma onoŋo wun wubedo iye.
-36Jo ma i kinwu ma bidoŋ abicwalo lworo i cwinygi i lobo pa lumerokgi, miyo
-gibiriŋo dwan pot oboke keken ma yamo yeŋo. Gibiriŋo macalo ŋat ma riŋo pala
-lucwan, ci gibipoto piny kun ŋat mo pe ma ryemo korgi.
-37Gibiyokke kekengi ŋat man i kom lawote, macalo giriŋo lak pala lucwan, kadi
-bed ŋat mo pe ma ryemo korgi: pe wubibedo ki twero me cun i nyim lumerokwu.
-38Wubitum woko ki i kin lurok, lobo pa lumerokwu bicamo komwu woko ducu.
-39Jo ma i kinwu ma bidoŋ, komgi bilwal woko i lobo pa lumerokwu pi bal megi;
-dok pi bal pa kwarogi bene komgi bilwal woko macalo gin.
-40“Ento ka gibituco balgi ki bal pa kwarogi pi tim roro ma gutimo i koma, dok pi
-kemo an marac,
+3Jo Icrael gua woko ki i Ramcec i nino dwe apar wiye abic me dwe mukwoŋo, i
+nino ma lubo nino madit me Kato (Paska), Gua gucito woko ki wayu kun jo Ejipt
+ducu gineno.
+4Noŋo jo Ejipt gitye ka yiko litino kayogi ma onoŋo Rwot ogoyo oneko woko,
+ocobo kwede kop ma oŋolo i kom lubaŋa ducu pa jo Ejipt.
+5Kit meno jo Icrael gua ki i Ramcec, gugony i Cukot.
+6Gua ki i Cukot, gugony i Etam ma tye i dog tim.
+7Gua ki i Etam, ci gulokke gudok cen i Piakirot ma yo tuŋ wokceŋ me Baal-jepon;
+ci gugony i nyim Migdol.
+8Gua ki i Pi-akirot guwok gukato i dye nam, guo i tim. Guwoto wot me nino adek i
+dye tim me Etam, ci gugony i Mara.
+9Gua ki i Mara, gubino i Elim. I Elim yam tye iye waŋ it apar wiye aryo, ki otit
+pyerabiro; ci gugony kunnu.
+10Gua ki i Elim, gugony i ŋet Nam Makwar.
+11Gua ki i ŋet Nam Makwar, gugony i tim Cin.
+12Gua ki i tim Cin, gugony i Dopka.
+13Gua ki i Dopka, gugony i Aluc.
+14Gua ki i Aluc, gugony i Repidim ka ma pii amata pa dano obedo pe.
+15Gua ki i Repidim gucito wa i te got Kor. Ka pud gitye i yo me cito kunnu gugony
+i kabedo magi: tim Cinai,
+16Kibrot-atava,
+17Kajerot,
+18Ritma,
+19Rimmon-perej,
+20Libna,
+21Rica,
+22Keelata,
+23got Ceper,
+24Karada,
+25Makelot
+26Takat
 Acoli Baibul
 © 1985, Bible Society of Uganda.
-41ma omiyo an bene akemogi marac kun aterogi i lobo pa lumerokgi; ka gibedo jo
-ma gulirre i cwinygi, pe i komgi keken, ci gidoko mwol ma giculo ka waŋ balgi,
-42ka doŋ abipo pi gicikkena ma acikke ki Yakobo, abipo pi gicikkena ki Icaka ki
-gicikkena ki Abraim, dok abipo pi lobogi.
-43Ento lobo bidoŋ ma gin jona pe iye, bigwoko cabitte ducu ma kun noŋo pud
-giweko woko ata ma dano pe iye. Ci gibiculo ka waŋ balgi, pien gubedo ka cayo
-gin ma aciko, dok tipo komgi okwero cikka.
-44Ento kadi bed kumeno, ka pud noŋo gitye i lobo pa lumerokgi, pe abicayogi,
-tipo koma pe bikwerogi ma romo miyo atyekogi woko liweŋ kun aturo gicikkena
-kwedgi, pien an a Rwot Lubaŋagi.
-45Pi gin weko abipo pi gicikkena ma acikke ki kwarogi ma yam akwanyogi woko
-ki i lobo Ejipt ma rok ducu gineno, wek abed Lubaŋagi; an a Rwot.”
-46Magi aye cik ki gin ma Rwot oŋolo, ki cik ma en oketo i kin en ki jo Icrael i wi
-got Cinai ki i dog Moses.
-Lulevi 27
+27Tera
+28Mitka
+29Kacimona,
+30Mocerot,
+31Bene-jaa-kan,
+32Kor-agidgad.
+33Jotibata,
+34Abrona,
+35Ejion-geber,
+36tim me Jin, en aye Kadec
+37lacen gugony i te got Kor, i dog waŋ lobo me Edom.
+38 Ajwaka Aron oito malo i wi got Kor kit ma Rwot ociko, ci oto woko kunnu, i
+mwaka me pyeraŋwenne nia ma jo Icrael gua ki i lobo Ejipt, i nino mukwoŋo me
+dwe me abic,
+39onoŋo Aron doŋ tye ki mwaka me ditte miya acel ki pyeraryo wiye adek i kare
+ma en oto ki i wi got.
+40 Ci kabaka me Arad, ma en Lakanaan ma bedo i Negeb i lobo owinyo pi bino pa
+jo Icrael.
+41Ka gua ki i te got Kor gugony i kabedo magi: Jalmona,
+42Punon,
+43Obot,
+44Iye-abarim ma i lobo Moab,
+45Dibon-gad,
+46Almon-Diblataim.
+47Gua ki i Almon-diblataim gugony i dye godi Abarim, i nyim got Nebo.
+48Gua ki kunnu, gugony i lobo aroo me Moab i ŋet Jordan ma cok ki Jeriko.
+49Guguro kemagi i ŋet Jordan cakke i Bet-jecimot o kwede wa Abelcitim i bar
+aroo me Moab.
+Lubaŋa ociko jo Icrael ma peya guŋolo Jordan
+50I lobo aroo me Moab i ŋet Jordan ma cok ki Jeriko Rwot owaco bot Moses ni,
+51“Cik jo Icrael ni, Ka wuŋolo kulu Jordan wukato i lobo Kanaan,
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+52ci wubiryemo jo ma gibedo i lobo meno woko ducu ki i nyimwu; wubibalo got
+megi ducu ma gigoro cal i komgi, ki cal jogigi me nyonyo ma giliyo aliya, dok
+wubimuko waŋ jogigi ma i wi godi.
+53Wubicamo lobo-nu, wubibedo iye, pien atyeko miyo botwu ni obed mewu.
+54 Wubilimo lobo me aleyawu kun gipoko ki bolo kwir ma lubo kit ma doggolawu
+tye kwede, Wubimiyo dul lobo malac bot kaka maditone ki dul lobo manok bot
+kaka matino. Ka ma kwir opoto iye i kom dano mo, en aye bedo mere; wubilimo
+lobo me aleyawu kun lubo kaka pa kwarowu.
+55Ento ka pe wuryemo jo ma gibedo i lobo-nu woko ki i nyimwu, ci gin jo meno
+ma wuwekogi gudoŋŋi gibibedo macalo atero mabit me cobo waŋwu ki okuto me
+cobo lakŋetwu, ci gibiyelowu i lobo ka ma wubibedo iye-ni.
+56Ci abitimo i komwu kit ma onoŋo atamo ni abitimo i komgi.”
+Wel 34
 1Rwot owaco bot Moses ni,
-2“Wac bot jo Icrael ni, Ka dano mo okwoŋo kwoŋ ma pire tek ma otiko kom dano
-bot Rwot, ma myero in iŋol welle,
-3ci wel ma iŋolo pi laco ma mwaka me ditte romo pyeraryo o-wa i pyerabicel
-bibedo cekel me ryal pyerabic, ma giporo ki cekel me kabedo maleŋ.
-4Ka ce dano meno ma kwon otiko obedo dako, ci ibiŋolo wel me cekel pyeradek.
-5Ka mwaka me ditte romo abic o wa i pyeraryo, ibiŋolo pi laco cekel pyeraryo, pi
-dako cekel apar.
-6Ka ce ditte romo dwe acel o wa i mwaka abic, ibiŋolo cekel me ryal abic pi laco,
-cekel me ryal adek pi nyako.
-7Ka mwaka me ditte romo pyerabicel nyo makato, ibiŋolo cekel apar wiye abic pi
-laco, pi dako apar.
-8Ka ce dano mo lacan twatwal, ma pe twero miyo wel ma iŋolle, ci en bitero dano
-ma gikwoŋo pire-ni i nyim ajwaka ci ajwaka aye biŋolle wel, kun lubo gin ma
-dano ma okwoŋo kwoŋ-ŋu twero noŋone.
-9“Ka ce kwoŋ otiko lee mo ma gityero me bedo gityer bot Rwot, lee ducu ma kit
-meno ma dano miyo bot Rwot bedo maleŋ.
-10En pe bilokone woko ki gin mukene, nyo gwenyo loko ki wadi mo, maberre ki
-maracce, nyo maracce ki maberre; nyo ka en oloko lee mo ki lee wadi, ci gin aryo
-ducu ma gilokogi-ni gibibedo maleŋ.
-11Ka ce obedo lee mo ma keni, ma pe gityero me bedo gityer bot Rwot, ci dano
-meno bitero lee-nu i nyim ajwaka.
-12Ajwaka biŋolo welle, kadi lee-nu ber kadi rac; macalo in ajwaka iŋolo welle, ci
-bicuŋ kit meno.
-13Ento ka en mito kokone woko, en bimedo acel me abic i kom welle.
-14“Ka dano mo onyero ode obed maleŋ bot Rwot, ci ajwaka biŋolo welle, ka ber
-ka rac; ka ajwaka oŋolo welle, ci bicuŋ kit meno.
-15Ka ce ŋat ma odyero ode-ni mito warone woko, en bimedo acel me abic i kom
-welle ci bidok bote.
-16“Ka dano mo odyero but lobone bot Rwot ki i kom lobo ma oleyo ki bot
-kwarone, ci ibiŋolo welle kun poro kodi ma gitwero coyo iye; ka romo coyo iye
-kodi cayiri guniya adek, Gibiŋolo iye cekel me ryal pyerabic.
-17Ka en odyero potone i mwaka me jubili, ci bicuŋ i wel kikome ma iŋolo.
-18Ento ka odyero potone lacen i ŋe jubili, ajwaka biŋolo wel-lim ma myero gicul
-iye kun poro wel mwaka ma pud odoŋ nio i mwaka me jubili, ci wel ma yam
-iŋolo-ni gibidwoko piny.
-19Ka ce dano ma odyero peto-ni mito warone woko, en bimedo acel me abic i
-kom welle, ci bidoŋ i ciŋe.
-20Ento ka en pe mito waro po to-nu, nyo ka otyeko cato poto woko bot dano
-mukene, pe doŋ gibiwarone matwal.
-21Poto meno ka gigonyo i jubili bibedo maleŋ pi Rwot, macalo poto ma gikwero
-matwal; ci ajwaka aye doŋ bibedo rwode.
-22“Ka odyero bot Rwot poto mo ma owilo awila, ma pe dul lobo ma oleyo ki bot
-kwarone,
-23ajwaka biŋolo wene nio i mwaka me jubili, ci dano-nu bimiyo wel ma giŋolo i
-nino meno wek obed maleŋ pi Rwot.
-24Ci i mwaka me jubili poto bidok i ciŋ ŋat ma yam giwilo ki bote-ni, en ŋat ma
-poto-nu obedo mere kun oleyo ki bot kwarone.
-25Wel ducu ma giŋolo bilubo cekel me kabedo maleŋ, kun cekel acel romo
-gera pyeraryo.
-26“Ento litino kayo pa lee dano pe twero dyero, pien litino kayo ducu gibedo pa
-Rwot; kadi bed twon nyo romo, meno pa Rwot gire.
-27Ka lee ma keni, en biwilone ki boti i wel ma iŋolo, kun medo acel me abic i wiye;
-nyo ka pe gikoko, gibicatone acata i wel ma iŋolo.
-28 “Ento gin ducu ma onoŋo gidyero i ciŋ Rwot matwal, ma dano mo odyero i ciŋ
-Rwot matwal ki i kin gin ma tye bote, kadi dano nyo lee nyo poto ma oleyo ki bot
-kwarone, pe gibicato kadi ki warone; gin ducu ma gidyero iciŋ Rwot matwal bedo
-gin maleŋ makato pi Rwot.
-29Dano mo-ni ma gidyero iciŋ Rwot matwal, ma myero ginek woko ki i kin dano,
-pe gitwero kokone; gibineke woko aneka.
-30 “Acel me apar ducu mua i lobo, kadi bed kodi ma ocek i poto nyo nyig yat ma
-onyak, meno jami pa Rwot gire, gin maleŋ pa Rwot.
-31Ka dano mo mito koko gin mo i kom gin me aparre, en bimedo dul acel me abic
-i wiye.
-32Dul acel me apar pa dyaŋi ki romi nyo dyegi ducu, lee me aparre ducu i kin lim
-ducu ma kato i te odoo pa lakwat, meno bibedo maleŋ pi Rwot.
-33Rwode pe bipenyo ka ber nyo rac, dok pe bi koko kun gwenyo ki wadi mo; ka
-giloko, ci gin aryo ducuma gilokogi-ni gibibedo maleŋ; pe gibikokogi akoka.”
-34Magi aye cik ma yam Rwot ociko ki Moses pi jo Icrael ki i wi got Cinai.`;
+2“Cik jo Icrael kun iwaco botgi ni, Ka wudonyo i lobo Kanaan, ma en aye lobo ma
+gibimiyowu obed mewu me aleyawu, waŋ apokki me lobowu bibedo k it man:
+3Wan lobowu yo tuŋ acuc bicakke i tim me Jin ci rabo ŋet lobo Edom. Bia ki tuŋ
+agikki nam me Kado ma tuŋ wokceŋ,
+4ka doŋ bilokke dok tuŋ acuc ka ma giito iye malo i Akrabim, ka dok kato kwede
+wa i Jin, ki agikkine bibedo i ŋet Kadec-barnea yo tuŋ acuc, Ka dok bicito medde
+kwede nio wa i Kajar-adar, ka kato cito kwede i Ajimon.
+5Ka waŋ lobo cako lokke ki i Ajimon cito wa i nota ora me Ejipt; ci wane bigik i
+dog nam.
+6“Waŋ lobo ma yo tuŋ potoceŋ bibedo Nam Madit; dog namme bibedo waŋ
+lobowu ma yo tuŋ potoceŋ.
+7“Man aye bibedo waŋ lobowu ma yo tuŋ acam: bia ki i Nam Madit ci bicito atir o
+wa i kom got Kor.
+8Nia ki i kom got Kor bicito atir wa i yo ma donyo i Kamat, ci cito wa i Jedad;
+9ka dok bimedde cito wa i Jipron, ka bigik i Kajar-enan, Man aye bibedo waŋ
+lobowu ma yo tuŋ acam.
+10“Waŋ lobowu ma yo tuŋ wokceŋ bicakke ki i Kajar-enan cito atir o wa i Cepam.
+11Ka waŋ lobo bilor dok tuŋ piny nia ki i Cepam o kwede wa i Ribla ma i ŋet Ain
+yo tuŋ wokceŋ. Ka dok bilor piny cito o kwede i kor got me nam me Kineret yo
+tuŋ wokceŋ.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+12Ka dok bilor piny wa i Jordan, ka bigik i nam me Kado, Meno aye bibedo
+lobowu, ki waŋ apokkine ma orumo ducu.”
+13 Moses dok ociko jo Icrael kun waco ni, “Man aye lobo ma wubileyo kun gipoko
+ki bolo kwir, ma yam Rwot ociko ni gimi bot kakawu aboŋwen ki nucu;
+14pien kaka pa Reuben ki kaka pa Gad gutyeko gamo ginaleyagi kun lubo dog odi
+pa kwarogi, kacel ki nucu kaka pa Manace bene.
+15Gutyeko gamo lobogi loka Jordan mukemo Jeriko, yo tuŋ wokceŋ, ka ma ceŋ tuc
+ki iye-ni.”
+16Rwot owaco bot Moses ni,
+17“Man aye nyiŋ dano ma gibipoko botwu lobo me ginaleyawu: ajwaka Eleajar ki
+Yocwa wod pa Nun.
+18Dok wubikwanyo latel wic acel ki i kaka acel acel wek gupok lobo me aleyawu.
+19Magi aye nyiŋ lutel; pi kaka pa Juda, Kaleb wod pa Jepune.
+20Pi kaka pa Cimeon, Cemuel wod pa Amikud.
+21Pi kaka pa Benjamin, Elidad wod pa Kicion.
+22Pi kaka pa Dan, Buki wod pa Jogli.
+23Pi likwayo pa Yucepu, pi kaka pa Manace, Kaniel wod pa Epod;
+24ki i kaka pa Epraim, Kemuel wod pa Ciptan.
+25Pi kaka pa Jabulon, Elijapan wod pa Pamak.
+26Pi kaka pa Icakar, Paltiel wod pa Ajan.
+27Pi kaka pa Acer, Akiud wod pa Celomi.
+28Pi kaka pa Naputali, Pedael wod pa Amikud.
+29Magi aye dano ma Rwot ociko ni gupok lobo me aleya pa jo Icrael ki i lobo
+Kanaan.”
+Wel 35
+1 I lobo aroo me Moab ma i ŋet Jordan mukemo Jeriko Rwot owaco bot Moses ni,
+2“Cik jo Icrael ni gumi ki Lulevi gaŋi me bedogi ki i koni lobo ma gibilimo me
+aleyagi; dok myero wumi botgi lobo ma orumo gaŋi-nu obed me oletgi.
+3Gaŋi-nu bibedo pa Lulevi me bedogi, ki olet ma i ŋetgi bibedo pi kwayo dyaŋigi
+ki limgi makwo ducu.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+4Lobo ma wubimiyo bot jo Levi pi oletgi lacce biromo yadi miya abic cakke ki i cel
+me gaŋ tuŋŋi ki tuŋŋi kun rumo gaŋ ducu.
+5Wubipimo dul lobo ma latwoke aŋwen ma romrom; bor me twoke acel acel
+bibedo yadi alip acel, kun gaŋ bedo i dyere.
+6Wubimiyo bot Lulevi gaŋi abicel me laro lunek dano ka ma wubiweko lunek riŋo
+iye, dok wubimiyo botgi gaŋi mukene pyera ŋwen wiye aryo wumedo i kom
+meno.
+7Kit meno gaŋi ducu ma wubimiyo bot Lulevi biromo pyeraŋwen wiye aboro,
+kacel ki oletgi.
+8Gaŋigi wubimiyo botgi kuti wukwanyo ki i kom lobo ma jo Icrael gibigamo;
+wubikwanyo mabup ki bot kaka madito, dok ki bot kaka matinone wubikwanyo
+manok, kun kaka acel acel miyo gaŋine mogo bot Lulevi muporo lobo ma ogamo
+me ginaleyane.”
+Gaŋi me laro lunek dane
+(Nwo 19.1-13; Yoc 20.1-9)
+9Rwot owaco bot Moses ni,
+10“Wac bot jo Icrael ni, Ka doŋ wuŋolo kulu Jordan, wukato i lobo Kanaan,
+11ci wubiyero gaŋi mogo wek gubed gaŋi me laro lunek dano, wek dano ma pe
+guneko dano akaka guriŋ gular iye komgi.
+12Gaŋi magi bibedo me laro lanek dano ki bot lacul kwor, wek lanek dano mo pe
+oto nio ka ocuŋ i nyim lwak wek giŋol koppe.
+13Wubiyero gaŋiwu abicel,
+14adek loka Jordan tuŋ wokceŋ ki adek i lobo Kanaan, gubed gaŋi me laro lunek
+dano.
+15Gaŋi magi abicel-li gibibedo me laro kom pi jo Icrael ki pi welowu ki pi lubedo
+ma gibedo i kinwu, wek ka ŋat mo oneko dano kun pe oneko akaka oriŋ olar iye
+kome.
+16“Ento ka ogoyo dano ki nyonyo mo oreto piny ci oto woko, meno en lanek;
+gibineke woko.
+17Ka ce ocelo dano ki kidi ma omako i ciŋe, ma romo neko dano, ci ocelo oto
+woko, meno aye lanek; gibineke woko.
+18Nyo ka ogoyo ki yat ma omako i ciŋe, ma romo neko dano, ci oto woko, meno en
+lanek; gibineke woko.
+19Wat macok pa lato kikome aye bineko lanek dano woko; ka oromo kwede, ci
+neke woko.
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+20Ka ŋat mo obako dano ocobo pil pi mone, nyo otokke i kome ci obayo ocobo
+woko, kun noŋo okiye akiya, ci oto woko,
+21nyo ka odoŋe ki ciŋe pi mone ma tye i kingi ci oto woko, ŋat ma ocobe nyo ma
+odoŋe-ni gibineko woko; meno en lanek. Wat macok ki Lato kikome aye bineko
+lanek dano woko, ka oromo kwede.
+22“Ento ka ce obako ci ocobe oyotoyot ma tyen mone mo pe, nyo otokke i kome ci
+obayo ocobo ma pe okiye akiya,
+23nyo ocele ki kidi ma romo neko dano ma noŋo pe onene, ci oto woko kadi yam
+pe en lamerokke, dok onoŋo pe opiro timo en marac,
+24ci lwak myero oŋol kop i kin lanek ki wat pa lato ma lacul kwor remo kun lubo
+cik magi.
+25Lwak myero olar lanek dano ki i cin wat pa lato ma lacul kwor remo-ni, ci
+dwoko lanek i gaŋ me laro lunek dano ka ma yam oriŋo olaro-ni. En bibedo
+kunnu matwal, nio ka ajwaka madit ma giwiro ki moo maleŋ i kare-nu otyeko to
+woko.
+26Ento ka i kare mo lanek dano ocito okato woko i ŋe waŋ apokki me gaŋ me laro
+kome ka ma yam oriŋo iye-ni,
+27ci lacul kwor remo pa lato onoŋo kome owec, kun tye woko i ŋe waŋ apokki me
+gaŋ me laro kome, ce lacul kwor remo pa lato oneko lanek-ki, pe gibikwano alii
+me remo i wiye.
+28Pien dano meno myero obed i gaŋ me laro kom nio i kare ma ajwaka madit bito
+iye; ento i ŋe to pa ajwaka madit lanek dano twero dok cen i pacone.
+29Meno ducu bibedo cik botwu wa i kare pa likwayowu ducu, i kabedo ducu ma
+wubibedo iye.
+Cik ma mako lucaden ki lim me kok
+30 “Ka ce dano mo oneko dano, ci gibineko lanek woko pi lok pa lucaden; ento pe
+gibineko dano mo pi lok ma lacaden acel keken otito.
+31Dok pe wubigamo lim me koko kwo pa lanek dano mo ma balle romo to;
+gibineke aneka.
+32Dok pe wugam lim me kok mo pi dano ma oriŋo olaro gaŋ me laro lunek dano,
+wek giyene odwog obed i lobone ma noŋo ajwaka madit peya oto.
+33Pe wubinyobo lobo ma wubibedo iye-ni; pien remo nyobo lobo woko, dok pe
+tye gin mo ma twero kwanyo bal ki i lobo pi remo ma oo iye-ni, kono remo pa
+lanek dano meno kek en aye kwanyo.
+34Pe wubimiyo lobo ma wubedo iye, ma an bene abedo iye i dyewuni, odok keni;
+pien an a Rwot ma abedo i kin jo Icrael.”
+Acoli Baibul
+© 1985, Bible Society of Uganda.
+Wel 36
+1Ludito kaka pa kwarogi ma i doggola pa Gilead wod pa Makir ma wod pa
+Manace ma i doggola pa Yucepu gubino cok, ci guloko i nyim Moses ki ludito kaka
+mukene.
+2Guwaco ni, “Laditwa, Rwot yam ociki ni imi lobo me aleya bot jo Icrael kun
+gibolo kwir; ci yam ociki ni imi ginaleya pa ominwa Lyel Jelopekad bot anyirane.
+3Ento ka ce awobe ma i kaka mukene gunyomogi ki i kin jo Icrael ata, ci miyo
+lobogi gi bi kwanyo woko ki i kom ginaleya pa kwarogi, gimedo i kom lobo pa
+kaka ma anyirane doŋ tye iyeni; meno miyo gibijwiko lobowa woko ma yam
+gipoko botwa ki kwir.
+4Dok ka kare me jubili pa jo Icrael oromo, ci lobogi gibimedo i kom lobo pa kaka
+ma anyira gitye iye-ni matwal, ci miyo lobowa me aleya bijwik woko.”
+5Moses ociko jo Icrael kit man, kun cikke oa ki bot Rwot, ni, “Lok me kaka pa
+likwayo pa Yucepu tye atir.
+6Doŋ man aye cik ma Rwot omiyo ma okemo kom anyira pa Lyel Jelopekad, ni,
+‘Wek gin gunyomme ki dano ma gitamo ni ber, tekke ka ginyomogi i doggola mo
+ma i kaka pa kwarogi.
+7Lobo ma gimiyo bot jo Icrael me aleyagi pe gibilokone nia i kaka man dok i kaka
+mukene; pien dano acel acel ma i kin jo Icrael bimoko matwal i kom ginaleya ma i
+kaka pa kwarogi.
+8Dok ka nyako mo oleyo dul lobo mo ma i kaka mo ma i kin jo Icrael, ci en
+binyomme ki dano mo ma i doggola mo ma i kaka pa kwarogi, wek dano acel acel
+ma i kin jo Icrael obed ki lobone ma oleyo ki bot kwarone.
+9Kumeno, pe gibiloko ginaleya mo nia ki i kaka mo-ni dok i kaka mukene, ento
+kaka acel acel pa jo Icrael bimoko gire i lobo me ginaleyane kikome.’ ”
+10Anyira pa Jelopekad gutimo kit ma Moses ocikogi kwede.
+11Makala, Tiŋa, Kogla, Mirika ki Noa, ma gin aye anyira pa Jelopekad, gunyomme
+ki awobe pa omegi wongi.
+12Ginyomogi i doggola pa jo pa Manace wod pa Yucepu, omiyo lobo me aleyagi
+obedo i kaka me doggola pa wongi, pe gikobo woko.
+13Meno ducu aye gin lok ma Rwot ociko ki ma oŋolo ki i dog Moses bot jo Icrael i
+lobo aroo me Moab i ŋet kutu Jordan ma okemo Jeriko.`;
 
 // Format the text and save to file
 const formattedText = formatBibleText(sampleText);
-fs.writeFileSync('lulevi.txt', formattedText, 'utf8');
+fs.writeFileSync('wel.txt', formattedText, 'utf8');
 
 console.log('Formatted text has been saved to formatted_bible.txt');

@@ -2,28 +2,40 @@ const fs = require('fs');
 const path = require('path');
 
 function parseBibleText(text) {
-    // Split into lines and filter out empty lines
-    const lines = text.split('\n')
-        .map(line => line.trim())
-        .filter(line => line);
+    // Split into lines and normalize line endings
+    let lines = text.split(/\r?\n/).map(line => line.trim()).filter(line => line);
     
-    // Initialize the JSON structure
     const bibleJson = {
         versions: [{
-            name: "BAIBUL",  // Ensure version name matches your expected output
+            name: "BAIBUL",
             books: []
         }]
     };
     
     let currentBook = null;
     let currentBookObj = null;
+    let currentChapter = null;
+    let currentVerse = null;
+    let hasMultipleLines = false;
     
-    for (const line of lines) {
-        // Adjust the regular expression to handle space between components
-        const match = line.match(/^(\w+)\s+(\d+):(\d+)\s+(.+)$/);  // Match with space instead of tab
+    console.log('\nVerses with multiple lines:');
+    console.log('-------------------------');
+    
+    for (let i = 0; i < lines.length; i++) {
+        const currentLine = lines[i].trim();
         
-        if (match) {
-            const [_, book, chapter, verse, verseText] = match;
+        // Check if current line starts with a verse reference
+        const verseMatch = currentLine.match(/^(\w+)\s+(\d+):(\d+)\s+(.+)$/);
+        
+        if (verseMatch) {
+            // If we had a multi-line verse, log it before moving to the next verse
+            if (currentVerse && hasMultipleLines) {
+                console.log(`${currentBook} ${currentChapter.number}:${currentVerse.number}`);
+                console.log(`Text: ${currentVerse.text}`);
+                console.log('-------------------------');
+            }
+            
+            const [_, book, chapter, verse, verseText] = verseMatch;
             
             // If we encounter a new book
             if (currentBook !== book) {
@@ -36,46 +48,87 @@ function parseBibleText(text) {
             }
             
             // Find or create the chapter
-            let chapterObj = currentBookObj.chapters.find(
+            currentChapter = currentBookObj.chapters.find(
                 ch => ch.number === parseInt(chapter)
             );
             
-            if (!chapterObj) {
-                chapterObj = {
+            if (!currentChapter) {
+                currentChapter = {
                     number: parseInt(chapter),
                     verses: []
                 };
-                currentBookObj.chapters.push(chapterObj);
+                currentBookObj.chapters.push(currentChapter);
             }
             
-            // Add verse with both number and text
-            chapterObj.verses.push({
+            // Create new verse
+            currentVerse = {
                 number: parseInt(verse),
                 text: verseText
-            });
+            };
+            currentChapter.verses.push(currentVerse);
+            hasMultipleLines = false;
+            
         } else {
-            console.log(`Skipped invalid line: ${line}`);  // Log invalid lines for debugging
+            // This line doesn't start with a verse reference
+            // Treat it as a continuation of the previous verse
+            if (currentVerse) {
+                // Remove any quotes if they exist at the start or end
+                const cleanedLine = currentLine.replace(/^["']|["']$/g, '');
+                currentVerse.text += ' ' + cleanedLine;
+                hasMultipleLines = true;
+            }
         }
     }
     
-    // Sort verses by number within each chapter
+    // Check for the last verse if it was multi-line
+    if (currentVerse && hasMultipleLines) {
+        console.log(`${currentBook} ${currentChapter.number}:${currentVerse.number}`);
+        console.log(`Text: ${currentVerse.text}`);
+        console.log('-------------------------');
+    }
+    
+    // Post-processing: clean up and validate
     for (const book of bibleJson.versions[0].books) {
         for (const chapter of book.chapters) {
+            // Sort verses by number
             chapter.verses.sort((a, b) => a.number - b.number);
+            
+            // Clean up verse text: normalize spaces and punctuation
+            chapter.verses.forEach(verse => {
+                verse.text = verse.text
+                    .replace(/\s+/g, ' ')  // normalize spaces
+                    .replace(/\s+([.,;:!?])/g, '$1')  // fix punctuation spacing
+                    .replace(/\s*"\s*/g, '"')  // normalize quote spacing
+                    .replace(/\s*'\s*/g, "'")  // normalize apostrophe spacing
+                    .trim();
+            });
         }
     }
     
     return bibleJson;
 }
 
-// Read the input file
+// Add validation function to check the structure
+function validateVerse(book, chapter, verse, text) {
+    const issues = [];
+    
+    if (!verse.match(/^\d+$/)) {
+        issues.push(`Invalid verse number format: ${verse}`);
+    }
+    
+    if (!chapter.match(/^\d+$/)) {
+        issues.push(`Invalid chapter number format: ${chapter}`);
+    }
+    
+    if (!text.trim()) {
+        issues.push(`Empty verse text for ${book} ${chapter}:${verse}`);
+    }
+    
+    return issues;
+}
+
 try {
     const bibleText = fs.readFileSync(path.join(__dirname, 'baibul.txt'), 'utf-8');
-    
-    // Log the first few lines to ensure it's being read correctly
-    console.log('First 5 lines of the text file:', bibleText.split('\n').slice(0, 5));
-
-    // Convert to JSON
     const bibleJson = parseBibleText(bibleText);
     
     // Write to JSON file
@@ -85,7 +138,7 @@ try {
         'utf-8'
     );
     
-    console.log('Successfully converted bible.txt to bible.json');
+    console.log('\nSuccessfully converted bible.txt to bible.json');
 } catch (error) {
     console.error('Error processing file:', error.message);
 }
