@@ -24,8 +24,12 @@ function parseBibleText(text) {
     for (let i = 0; i < lines.length; i++) {
         const currentLine = lines[i].trim();
         
-        // Check if current line starts with a verse reference
-        const verseMatch = currentLine.match(/^(\w+)\s+(\d+):(\d+)\s+(.+)$/);
+        // Updated regex to handle complex book names
+        // This will match patterns like:
+        // - "Wel 1:1"
+        // - "Nwoyo Cik 1:1"
+        // - "Yocwa 1:1"
+        const verseMatch = currentLine.match(/^((?:\d+\s+)?[A-Za-z]+(?:\s+[A-Za-z]+)*)\s+(\d+):(\d+)\s+(.+)$/);
         
         if (verseMatch) {
             // If we had a multi-line verse, log it before moving to the next verse
@@ -108,10 +112,27 @@ function parseBibleText(text) {
     return bibleJson;
 }
 
+// Add a helper function to test the parser with sample Baibul verses
+function testBaibulParsing() {
+    const sampleVerses = [
+        "Wel 1:1 Rwot oloko ki Moses i tim",
+        "Nwoyo Cik 1:1 Man gin lok ma",
+        "Yocwa 1:1 Ka Moses latic pa Rwot"
+    ].join('\n');
+    
+    console.log('\nTesting Baibul book name parsing:');
+    console.log('-------------------------');
+    const result = parseBibleText(sampleVerses);
+    console.log('Parsed books:', result.versions[0].books.map(b => b.name));
+    return result;
+}
 
 try {
     const bibleText = fs.readFileSync(path.join(__dirname, 'baibul.txt'), 'utf-8');
     const bibleJson = parseBibleText(bibleText);
+    
+    // Optional: Run test to verify parsing
+    // testBaibulParsing();
     
     // Write to JSON file
     fs.writeFileSync(
@@ -120,7 +141,7 @@ try {
         'utf-8'
     );
     
-    console.log('\nSuccessfully converted bible.txt to bible.json');
+    console.log('\nSuccessfully converted baibul.txt to bible.json');
 } catch (error) {
     console.error('Error processing file:', error.message);
 }
