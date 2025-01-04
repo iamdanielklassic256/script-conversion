@@ -1,84 +1,4 @@
-const fs = require('fs');
-
-function formatBibleText(text) {
-    /**
-     * Convert Bible text into a numbered verse format.
-     * Handles both single-word and two-word book names.
-     * Removes copyright notice and specific header text.
-     * Only treats lines starting with numbers as new verses.
-     */
-    
-    // Remove the specific text and copyright notice
-    text = text.replace(/Acoli Baibul/g, '')
-              .replace(/© 1985, Bible Society of Uganda\./g, '')
-              .replace(/©/g, ''); // Remove any remaining copyright symbols
-    
-    // Split the text into lines
-    const lines = text.trim().split('\n');
-    
-    const formattedVerses = [];
-    let currentBook = '';
-    let currentChapter = '';
-    let currentVerseText = '';
-    
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i].trim();
-        
-        // Skip empty lines
-        if (!line) {
-            // If we have accumulated verse text, save it before the blank line
-            if (currentVerseText) {
-                formattedVerses.push(currentVerseText);
-                currentVerseText = '';
-            }
-            continue;
-        }
-        
-        // Check if this is a chapter heading with either one or two words
-        // Examples: "Wel 1" or "Nwoyo Cik 1"
-        const chapterMatch = line.match(/^(\w+(?:\s+\w+)?)\s+(\d+)$/);
-        if (chapterMatch) {
-            // Save any accumulated verse text before starting new chapter
-            if (currentVerseText) {
-                formattedVerses.push(currentVerseText);
-                currentVerseText = '';
-            }
-            
-            // Start new chapter
-            currentBook = chapterMatch[1];
-            currentChapter = chapterMatch[2];
-            continue;
-        }
-        
-        // Check if line starts with a verse number
-        const verseMatch = line.match(/^(\d+)(.*)/);
-        if (verseMatch && currentBook && currentChapter) {
-            // Save any previous verse text
-            if (currentVerseText) {
-                formattedVerses.push(currentVerseText);
-            }
-            
-            // Start new verse
-            const verseNumber = verseMatch[1];
-            const verseContent = verseMatch[2].trim();
-            currentVerseText = `${currentBook} ${currentChapter}:${verseNumber} ${verseContent}`;
-        } else if (currentVerseText) {
-            // This is a continuation of the current verse
-            currentVerseText += ' ' + line;
-        }
-    }
-    
-    // Don't forget to add the last verse if there is one
-    if (currentVerseText) {
-        formattedVerses.push(currentVerseText);
-    }
-    
-    // Join all verses with newlines
-    return formattedVerses.join('\n');
-}
-
-// Example usage with both single and double word book names
-const sampleText = `Nwoyo Cik 1
+Nwoyo Cik 1
 Moses otito pi lok ma Rwot ociko bot jo Icrael i Koreb
 1Man aye lok ma yam Moses oloko bot jo Icrael ducu ki i loka Jordan i dye tim, i
 Araba mukemo Cup, i kin Paran ki Topel, Laban, Kajerot ki Di-jabu.
@@ -2362,10 +2282,4 @@ Rwot ocwale kwede i lobo Ejipt, ma otiyo i kom Parao ki luticce ducu ki lobone
 ducu.
 12Pe tye lanebi mo mukene ma obedo ki twer madwoŋ ma rom ki mere pi tiyo kit
 tic madito ki ma kelo lworo madwoŋ kit ma yam Moses obedo ka tiyone ki i nyim
-jo Icrael ducu-ni.`;
-
-// Format the text and save to file
-const formattedText = formatBibleText(sampleText);
-fs.writeFileSync('nwoyo-cik.txt', formattedText, 'utf8');
-
-console.log('Formatted text has been saved to nwoyo-cik.txt');
+jo Icrael ducu-ni.
