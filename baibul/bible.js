@@ -108,24 +108,6 @@ function parseBibleText(text) {
     return bibleJson;
 }
 
-// Add validation function to check the structure
-function validateVerse(book, chapter, verse, text) {
-    const issues = [];
-    
-    if (!verse.match(/^\d+$/)) {
-        issues.push(`Invalid verse number format: ${verse}`);
-    }
-    
-    if (!chapter.match(/^\d+$/)) {
-        issues.push(`Invalid chapter number format: ${chapter}`);
-    }
-    
-    if (!text.trim()) {
-        issues.push(`Empty verse text for ${book} ${chapter}:${verse}`);
-    }
-    
-    return issues;
-}
 
 try {
     const bibleText = fs.readFileSync(path.join(__dirname, 'baibul.txt'), 'utf-8');
