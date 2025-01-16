@@ -8,9 +8,9 @@ const fs = require('fs');
  */
 function convertToVersionFormat(
     inputJson, 
-    outputPath = 'NKJV.json', 
-    version = 'NKJV', 
-    full_name = 'New King James Version'
+    outputPath = 'NLT.json', 
+    version = 'NLT', 
+    full_name = 'The New Living Translation'
 ) {
     try {
         const output = {
@@ -77,7 +77,7 @@ function convertToVersionFormat(
 //         }
 //     }
 // };
-const inputJson = require('./NKJV_bible.json');
+const inputJson = require('./NLT_bible.json');
 
 try {
 
